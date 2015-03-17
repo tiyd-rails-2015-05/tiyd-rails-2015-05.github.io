@@ -20,8 +20,9 @@ You'll need to complete all of these steps before May 4th.  If you have ANY ques
 
 * [Get a Mac!](/before/mac_specs.html)
 * [Set up your Mac](/before/setup.html)
-* [Do the technical exercises](/before/exercises.html)
 * [Sign up for accounts](/before/accounts.html)
+
+* [Work through the prework exercises and readings](/before/exercises.html)
 
 ### During
 
