@@ -22,7 +22,7 @@ You'll need to complete all of these steps before May 4th.  If you have ANY ques
 * [Set up your Mac](/before/setup.html)
 * [Sign up for accounts](/before/accounts.html)
 
-* [Work through the prework exercises and readings](/before/exercises.html)
+* [PREWORK!](/before/exercises.html)
 
 ### During
 
