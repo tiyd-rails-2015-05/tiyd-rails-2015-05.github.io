@@ -10,135 +10,96 @@ Mason F. Matthews
 
 mason.matthews@theironyard.com
 
+Slack: `@mason.matthews`
+
 Cell: (919) 302-5139 (Only call after 5 PM for emergencies)
 
 ## Schedule
 
-Class runs from January 12th to April 3rd.
+Class runs from May 4th to July 24th.
 
-Lecture is from 9 AM to 12:30 PM Monday-Thursday, with breaks during that time.
-Depending on the topic, we may end early.
+Lecture is from 9 AM to 12:30 PM Monday-Thursday, with breaks during that time. Depending on the topic, we may end early.
 
-Lab is from 1 PM to 5 PM Monday-Thursday and 9 AM - 5 PM on Friday.
+Lab is from 1:30 PM to 5 PM Monday-Thursday and 9 AM to 5 PM on Friday.  On Fridays, some time will be taken for campus meetings such as the Weekly Huddle.
 
 ### Office hours and one-on-one instruction
 
-A teacher or TA will be available Monday-Friday from 9 AM to 5 PM at minimum.
-During lab time, you can schedule one-on-one time with either of us. After hours,
-we may be available in the classroom or in HipChat, which we use for group
-communication.
+A teacher or TA will be available during lab times, at a minimum.  You can schedule one-on-one time with either of us. After hours, we may be available in the classroom or in Slack, which we use for group communication.
 
 ### Holidays
 
-We will take January 19th off for Martin Luther King Day.
+No holidays occur on weekdays during this cohort.
 
 ## Topics
 
-These topics are listed week-by-week. However, this list is not definitive and
-we will reorder things based off how the class is going.
+These topics are listed week-by-week. However, this list is not definitive and we will reorder things based off how the class is going.
 
-Each list of topics is a list of things students should be comfortable with at
-the end of that week.
+Each list of topics is a list of things students should be comfortable with at the end of that week.
 
 ### Week 1
 
-* Computational Thinking
-* Agile Software Development
-* Object Oriented Principles
-* Ruby Basics
-* Data Structures
-* Debugging Basics
-* Git and Github
+* TBD
 
-### Week 2 (Ruby and Static Web)
+### Week 2
 
-* Ruby (cont'd)
-* Object Oriented Programming (cont'd)
-* Test-Driven Development
-* Unit Testing
-* Package Management
-* HTML
-* CSS
+* TBD
 
-### Week 3 (Rails)
+### Week 3
 
-* Camping
-* MVC Architecture
-* Rails
-* Rake
-* Relational Database Basics
-* Migrations
+* TBD
 
-### Week 4 (Rails: Database and Models)
+### Week 4
 
-* Data Structure Design
-* ActiveRecord
-* AREL
-* Proper Model Design
+* TBD
 
-### Week 5 (Rails: Controllers and Views)
+### Week 5
 
-* Rails and MVC (cont'd)
-* Authentication
-* Params and Session
-* Controller and Integration Testing
-* REST
-* Deploying to Heroku
+* TBD
 
-### Week 6 (Rails: JavaScript)
+### Week 6
 
-* Rails and MVC (cont'd)
-* Asset Pipeline
-* JavaScript
-* JQuery
-* JSON
+* TBD
 
-### Week 7 (Common Web App Functionality)
+### Week 7
 
-* Sending e-mails
-* File uploads
-* Pagination
-* Search/Reporting
-* Tags/Favorites
-* Background Processing
+* TBD
 
-### Week 8 (Integrations and Data Sources)
+### Week 8
 
-* OAuth
-* Single sign-on
-* APIs
-* Public Data Sets
-* NoSQL Options
+* TBD
 
 ### Week 9
 
 This week will mainly be a review of previous weeks, and provide an opportunity
 to catch any spillover that may have occurred.  If we have time, we'll discuss:
 
+* TBD
 * Project Management
 * Developing on VMs
-* Basic Sysadmin
-* More NoSQL Options
+* NoSQL
+* Pitching
 
-### Week 10
+Friday of this week will be Pitch Day.  You will pitch your project ideas to the entire cohort (all the classes will be together) and then vote on your preferences.  We will assign you to teams based on your preferences, and you can start work as soon as Friday evening.
 
-During this week, you will be pitching your final project ideas, forming groups,
-and getting feedback. In ad hoc discussions, we will discuss software development
-principles. You should be comfortable with:
+### Weeks 10-12
+
+During these weeks, final projects will be in full swing. Ad hoc lectures may occur, but they will be optional. You should be comfortable with:
 
 * Breaking up features into distinct tasks
 * Estimating the size of programming tasks
 * Using Agile development to run a project
-
-### Weeks 11-12
-
-You will be working on your final project and presentation during this time.
+* Shipping early and often
+* Pitching your work to others
 
 ## Assignments
 
-### In-lecture exercises
+### In-lecture Exercises
 
-During breaks in the lecture, you will be given exercises for practicing the content you've just learned.  Sometimes I'll give you a set of tests, and you'll be asked to write code to make them pass.  Other times you'll be given a blank slate to start from.  In most cases, you won't have time to finish the exercises before I ask you to stop and throw away what you've done.  This is normal (if not disconcerting) and will be somewhat liberating by the end.
+During breaks in the lecture during the first half of the course, you will be given exercises for practicing the content you've just learned.  Sometimes I'll give you a set of tests, and you'll be asked to write code to make them pass.  Other times you'll be given a blank slate to start from.  In most cases, you won't have time to finish the exercises before I ask you to stop and throw away what you've done.  This is normal (if not disconcerting) and will be somewhat liberating a few weeks in.
+
+### In-lecture Challenges
+
+During the second half of the course, we'll have reached a point where the knowledge we accumulated in the first few weeks risks being crowded out by new content.  In order to combat this (and to actively prepare for interview questions), lecture will include challenges that cover fundamental Ruby topics.  You will have approximately 20 minutes to work on each of these challenges, and you'll do so individually.
 
 ### Nightly Assignments
 
@@ -150,52 +111,33 @@ After classes on Thursdays, you'll be given a substantially longer assignment.  
 
 ### Final Project
 
-During the last three weeks of the course, you will be working on your capstone
-project, putting all you've learned into practice. You will be working with a
-group of 2-4 people on your project, and these groups CAN include students from
-the other two courses. Projects that span multiple courses typically turn out
-the best.
+During the last three weeks of the course, you will be working on your capstone project, putting all you've learned into practice. You will be working with a group of 2-5 people on your project, and these groups CAN include students from the other two courses. Projects that span multiple courses typically turn out the best.
 
-During week 10, you'll present your idea for a final project and get feedback,
-helping you scope the project. During weeks 11 and 12, you'll spend all of your
-time working on this project. We will have occasional lecture time, but it will
-be tailored to what you need to know for your project and will be optional.
+During weeks 10, 11, and 12, you'll spend all of your time working on this project (minus some field trips and guest speakers). We will potentially have occasional lecture time, but it will be tailored to what you need to know for your project and will be optional.
 
-This project must use Rails. If you are not planning to spend much time on the
-visual user interface, I _highly_ suggest working with someone from another
-class to make your project visually appealing.
+This project must use Rails in some fashion, although it will inevitably involve additional technologies. If you are not planning to spend much time on the visual user interface, I _highly_ suggest working with someone from another class to make your project visually appealing.
 
 ## Policies
 
-### Absence policy
+### Absence Policy
 
-You can miss up to 4 lectures; after that, your enrollment in the job placement
-program is forfeit. I don't recommend missing any lectures, as we will be moving very
-fast.
+You can miss up to 4 lectures; after that, your enrollment in the job placement program is forfeit. I don't recommend missing any lectures, as we will be moving very fast.
 
-### Late homework policy
+### Late Homework Policy
 
-Your homework is due by 6 AM on the day it is due. After that, it is late.  If
-you regularly turn in your assignments late, your enrollment in the job placement
-program is forfeit.
+Your homework is due by 8 AM on the day it is due. After that, it is late.  If you regularly turn in your assignments late, your enrollment in the job placement program is forfeit.
 
-I would rather see a solid incomplete attempt on time than a complete assignment
-late. Solid incomplete attempts turned in on time are not considered late.
+We would rather see a solid incomplete attempt on time than a complete assignment late. Solid incomplete attempts turned in on time are not considered late.
 
 ### Honor code
 
-You are expected to do your own work. You should use all resources available to
-you, including open-source code, but copy-pasting open-source code is
-prohibited: you should use it only for inspiration or as a library in a bigger
-project.
+You are expected to do your own work. You should use all resources available to you, including open-source code, but if you copy and paste anything, MUST understand every line of that code.
 
-Copying homework is taken very seriously and can result in forfeiting job
-placement or explusion.
+Copying homework is taken very seriously and can result in forfeiting job placement or explusion.
 
 ## Code of Conduct
 
-Like the technical community as a whole, classes at The Iron Yard are made up of
-a mixture of people from all different backgrounds.
+Like the technical community as a whole, classes at The Iron Yard are made up of a mixture of people from all different backgrounds.
 
 Diversity is one of our huge strengths, but it can also lead to communication
 issues. To that end, we have a few ground rules that we ask people to adhere
@@ -206,8 +148,8 @@ This isn't an exhaustive list of things that you can't do. Rather, take it in
 the spirit in which it's intended - a guide to make it easier to enrich all of
 us, the technical communities in which we participate.
 
-This code of conduct applies to all communication: this includes in class,
-HipChat, email, and other forums such as Skype, Google+ Hangouts, etc.
+This code of conduct applies to all communication: this includes in-class discussions,
+Slack, Teamwork, email, and other forums.
 
 If you believe someone is violating the code of conduct, we ask that you report
 it by talking to your teacher. If you do not feel comfortable talking to your
