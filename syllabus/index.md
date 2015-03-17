@@ -174,15 +174,13 @@ people outside the Iron Yard community.
 or put down other people. Behave professionally. Remember that harassment and
 sexist, racist, or exclusionary behavior are not appropriate for this class.
 This includes, but is not limited to:
-
-* Violent threats or language directed against another person.
-* Sexist, racist, or otherwise discriminatory jokes and language.
-* Posting sexually explicit or violent material.
-* Personal insults, especially those using racist or sexist terms.
-* Unwelcome sexual attention.
-* Advocating for, or encouraging, any of the above behavior.
-* <p>Repeated harassment of others.
-In general, if someone asks you to stop, then stop.</p>
+  * Violent threats or language directed against another person.
+  * Sexist, racist, or otherwise discriminatory jokes and language.
+  * Posting sexually explicit or violent material.
+  * Personal insults, especially those using racist or sexist terms.
+  * Unwelcome sexual attention.
+  * Advocating for, or encouraging, any of the above behavior.
+  * Repeated harassment of others. In general, if someone asks you to stop, then stop.
 
 * **When we disagree, we try to understand why.** Disagreements, both social
 and technical, happen all the time and The Iron Yard is no exception. It is
