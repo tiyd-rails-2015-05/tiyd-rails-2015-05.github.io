@@ -18,11 +18,11 @@ The remainder of this site gets down to brass tacks.  Here you'll find reference
 
 You'll need to complete all of these steps before May 4th.  If you have ANY questions at all, please reach out to me at mason.matthews@theironyard.com.
 
-* [Get a Mac!](/before/mac_specs.html)
+* [Get a Mac](/before/mac_specs.html)
 * [Set up your Mac](/before/setup.html)
 * [Sign up for accounts](/before/accounts.html)
 
-* [PREWORK!](/before/exercises.html)
+* [Do the PREWORK!](/before/exercises.html)
 
 ### During
 
