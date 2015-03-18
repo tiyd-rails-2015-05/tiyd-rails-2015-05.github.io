@@ -38,5 +38,5 @@ You'll need to complete all of these steps before May 4th.  If you have ANY ques
 
 ### After
 
-* [Software development resources](/resources/)
+* [Software development resources](/after/)
 * [HUGE list of free coding books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
