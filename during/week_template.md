@@ -8,14 +8,18 @@ Students should be comfortable with the following at the end of this week:
 
 *
 
+## Important Links
+
+* [Challenge Submission Form]()
+* [Homework Submission Form]()
+
+
 ## Monday
 
 #### Lecture
 
 * Project Review
-* Human Learning:
-  *
-* Diagram:
+*
 
 #### Reading
 
@@ -24,12 +28,16 @@ Students should be comfortable with the following at the end of this week:
 #### Assignment
 
 *
+
 
 ## Tuesday
 
 #### Lecture
 
 * Assignment Review
+* Human Learning
+  *
+  * Diagram:
 
 #### Reading
 
@@ -38,6 +46,7 @@ Students should be comfortable with the following at the end of this week:
 #### Assignment
 
 *
+
 
 ## Wednesday
 
@@ -53,10 +62,12 @@ Students should be comfortable with the following at the end of this week:
 
 *
 
+
 ## Thursday
 
 #### Lecture
 
 * Assignment Review
+
 
 ## Weekend Assignment - As Pairs
