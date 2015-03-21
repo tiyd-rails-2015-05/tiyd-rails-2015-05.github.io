@@ -6,6 +6,7 @@ layout: default
 
 We don't believe you can really learn to program by watching a few videos and answering some questions (and if you believed that, you probably wouldn't be coming to The Iron Yard). However, skill acquisition takes a long time, and this work will help introduce you to some of the ideas and skills that will form the foundation of your in-person learning experience.
 
+
 ### Objectives
 
 The following are the learning objectives for the prework. Although only a subset are technically "programming" skills, they are crucially important to success both during the class and on the job.
@@ -20,6 +21,7 @@ The prework should assure us that you can:
 
 Not surprisingly, you will continue to work towards these objectives throughout the course.
 
+
 ### Topic 1: Your Brain
 
 * [Fixed vs. Growth: The Two Basic Mindsets That Shape Our Lives](http://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
@@ -30,6 +32,7 @@ After reading these articles, please fill out the following survey:
 
 * [Prework Survey 1](https://docs.google.com/forms/d/1E3lffSuuTDCRZmBoYgW51_EVSfrXeAEZIou9t31unCo/viewform?usp=send_form)
 
+
 ### Topic 2: Programming (in general)
 
 Before we dive into Ruby proper, let's get a primer on some fundamental programming concepts.  We're going to read the first few chapters in a book on JavaScript (sadly, no similarly awesome introduction exists in a book on Ruby).  The last chapter you'll be reading has a bit of JavaScript syntax, so I apologize for the differences that you'll be seeing soon.
@@ -39,6 +42,7 @@ Before we dive into Ruby proper, let's get a primer on some fundamental programm
   * No need to buy the book; just scroll down a bit and you'll see links to the chapters.
   * No need to do the exercises; just read.
 
+
 ### Topic 3: Ruby
 
 Okay, great.  Now that some fundamentals are out of the way, let's look at Ruby syntax a bit.
@@ -46,7 +50,6 @@ Okay, great.  Now that some fundamentals are out of the way, let's look at Ruby 
 * Complete the first four levels of [Try Ruby](http://tryruby.org/).
 * Complete [Codecademy's Ruby track](http://www.codecademy.com/tracks/ruby) through "Arrays and Hashes."
 
-Optionally, if you want to, you can keep going on Codecademy's.  My opinion is that it is not very helpful past the basics.  Once the concepts get harder, we tend to just make type what they want us to rather than really getting the concepts.  I think our immersive class is better for that.
 
 ### Topic 4: The Command Line
 
@@ -67,7 +70,7 @@ In order to complete some of these tasks, you will need to register for an accou
 
 ### Topic 5: Git and GitHub
 
-Okay.  Now you know how to make files, folders, etc,
+Okay.  Now you know how to access and work with files, folders, etc,  We have to take it a bit further.  In our business, we don't just need to access the current version of our code.  We may have made mistakes along the way, made messes for ourselves, and want to access older versions of our code for this reason (and for making working in teams easier), we use version control systems.
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It is a command line tool that we will be using for every project we do in class. Again, the objective is not to become an expert before the class, but just to start to get comfortable.
 
@@ -80,29 +83,40 @@ Git is a free and open source distributed version control system designed to han
   * Forking Projects
   * Mastering Markdown
 
+
 ### Topic 6: HTML/CSS
 
-HTML and CSS are the foundation of all the content of a webpage or web app. However, we will only be spending about a week on HTML and CSS, so you should have a basic foundation before the class starts.
+Almost done.  Although we're not going to talk about them in the first few weeks of class, HTML and CSS are the foundation of all the content of a webpage or web app. This will help get you primed so that we can keep our momentum when we shift from pure Ruby to Ruby on Rails.
 
-Complete the Codecademy course at http://www.codecademy.com/en/tracks/web. This should take you approximately 7 hours, depending on your prior experience.
+* Complete the [Codecademy Web track](http://www.codecademy.com/en/tracks/web).
 
-Then, start working through http://learn.shayhowe.com/, if you have time.  
-
-# Typing
-Believe it or not, *a lot* of time in the first weeks of programming is spent fixing simple typing errors. It would not be ridiculous to suggest that many of you will spend 12-24 hours (or more) fixing typing errors during class.
-
-If you don't know how to touch type (i.e. type without looking at the keyboard), try to spend some time each day working on touch typing (you can try http://www.keybr.com/). If you already know how to touch type, I would highly recommend working through the JavaScript lessons on http://typing.io. Typing for programming is actually a good bit different than everyday typing, so getting some practice in could potentially save you a ton of time the first few weeks of class.
 
 ### Conclusion
 
-Once you have finished the prework given above,
+Once you have finished the prework given above, complete the following survey:
 
-* Send in second survey
+* [Prework Survey 2](https://docs.google.com/forms/d/1TYPQ78OGxnnvOclXlKl3LVeXORcUH1LQQSrYaLw66aI/viewform?usp=send_form)
+
+Whew, you did it.  Now, your only remaining assignment is to get some sleep before class starts.  You're going to need it!
 
 
 ### Optional Material
 
 The following exercises are not required! However, if you have more time you'd like to spend before class, here are some further resources.
 
-* [Rubeque](http://www.rubeque.com/)
-* [the Rails Tutorial](http://www.railstutorial.com) by Michael Hartl. Although it doesn't go into depth on too many topics, it's a great overview, it gets you coding, and the book is free to read online. Please note, though, that he uses a few different development tools in the book than we'll use in the class (he uses Cloud9 for writing code while we'll use Atom; he uses Bitbucket for source code while we'll use GitHub).  If possible, use the tools we've asked you to install on the [Mac Setup page](setup.html). If this causes confusion, let me know and I'll assist.
+
+#### Typing
+
+Believe it or not, *a lot* of time in the first weeks of programming is spent fixing simple typing errors.If you don't know how to touch type (i.e. type without looking at the keyboard), try to spend some time each day working on touch typing (you can try [Keybr](http://www.keybr.com/)). If you already know how to touch type, I would still recommend working through the Ruby on Rails lessons on [Typing.io](http://typing.io). Typing for programming is actually a good bit different than everyday typing, so getting some practice in could potentially save you a ton of time the first few weeks of class.
+
+
+#### More Ruby
+
+* The rest of [Codecademy's Ruby track](http://www.codecademy.com/tracks/ruby).  I recommend this with hesitation, since my opinion is that it is not very helpful past the basics.  Once the concepts get harder, we tend to just type what they want us to rather than really getting the concepts.  However, it could be nice for some people.
+* [Rubeque](http://www.rubeque.com/).  This is a fun site for solving problems in Ruby.  You get points when you solve them, and they're all rated from easy to ridiculous.
+* [Michael Hartl's Rails Tutorial](http://www.railstutorial.com) by Michael Hartl. Although it doesn't go into depth on too many topics, it's a great overview, it gets you coding, and the book is free to read online. Please note, though, that he uses a few different development tools in the book than we'll use in the class (he uses Cloud9 for writing code while we'll use Atom; he uses Bitbucket for source code while we'll use GitHub).  If possible, use the tools we've asked you to install on the [Mac Setup page](setup.html). If this causes confusion, let me know and I'll assist.
+
+
+#### More HTML
+
+* [Shay Howe's HTML/CSS Tutorial](http://learn.shayhowe.com/).  Only if you really have extra time.
