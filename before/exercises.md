@@ -102,6 +102,6 @@ Once you have finished the prework given above, complete the following survey:
 Whew, you did it.  Now, your only remaining assignment is to get some sleep before class starts.  You're going to need it!
 
 
-#### Optional Material
+### Optional Material
 
 If you find yourself with way more time and want to dig deeper, check out the [optional exercises](optional_exercises.html).
