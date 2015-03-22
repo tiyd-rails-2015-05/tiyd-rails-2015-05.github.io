@@ -104,4 +104,4 @@ Whew, you did it.  Now, your only remaining assignment is to get some sleep befo
 
 #### Optional Material
 
-If you find yourself with way more time and want to dig deeper, check out the [optional exercises](optional.html).
+If you find yourself with way more time and want to dig deeper, check out the [optional exercises](optional_exercises.html).
