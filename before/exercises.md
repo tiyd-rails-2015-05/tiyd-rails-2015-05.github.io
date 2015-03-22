@@ -50,10 +50,12 @@ Okay, great.  Now that some fundamentals are out of the way, let's look at Ruby 
 * Complete the first four levels of [Try Ruby](http://tryruby.org/).
 * Complete [Codecademy's Ruby track](http://www.codecademy.com/tracks/ruby) through "Arrays and Hashes."
 
+You guessed it.  There's WAY more to Ruby than this, and if you've done other tutorials, that's great.  We just want to make sure that you have some exposure in advance.
+
 
 ### Topic 4: The Command Line
 
-It's time now to go beyond the work of programming and talk about the tools that make it possible for us to program.  I apologize, but although this is fundamental to what we do, it's going to get a bit more technical.
+It's time now to go beyond the work of programming and talk about the tools that make it possible for us to program.
 
 The command line is an interface to the internals of your computer, as opposed to the graphical user interface (GUI) that we commonly use. We will be using the command line extensively in our class, but the point of this prework is not to be an expert, just to start to get comfortable.
 
@@ -62,9 +64,9 @@ Especially if you've never used the command line before, you may want to go thro
 In order to complete some of these tasks, you will need to register for an account with Treehouse. Treehouse is free for 14 days (which should be more than enough to finish the required courses), and is $25/month after the trial.
 
 1. Read [this article](http://skillcrush.com/2012/12/03/command-line-2/)
-1. Go through the Treehouse course on [Getting Started with the Console](http://teamtreehouse.com/library/console-foundations#getting-started-with-t...)
-1. Go through the Treehouse course on [Users and Permissions](http://teamtreehouse.com/library/console-foundations#users-and-permissions)
-1. Go through the Treehouse course on [Environment and Redirection](http://teamtreehouse.com/library/programming/console-foundations#environmen...)
+1. Go through the Treehouse course on [Getting Started with the Console](http://teamtreehouse.com/library/console-foundations)
+1. Go through the Treehouse course on [Users and Permissions](http://teamtreehouse.com/library/console-foundations)
+1. Go through the Treehouse course on [Environment and Redirection](http://teamtreehouse.com/library/console-foundations)
 1. Read and practice with [A Command Line Primer for Beginners](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-li...)
 
 
@@ -104,7 +106,6 @@ Whew, you did it.  Now, your only remaining assignment is to get some sleep befo
 
 The following exercises are not required! However, if you have more time you'd like to spend before class, here are some further resources.
 
-
 #### Typing
 
 Believe it or not, *a lot* of time in the first weeks of programming is spent fixing simple typing errors.If you don't know how to touch type (i.e. type without looking at the keyboard), try to spend some time each day working on touch typing (you can try [Keybr](http://www.keybr.com/)). If you already know how to touch type, I would still recommend working through the Ruby on Rails lessons on [Typing.io](http://typing.io). Typing for programming is actually a good bit different than everyday typing, so getting some practice in could potentially save you a ton of time the first few weeks of class.
@@ -120,3 +121,4 @@ Believe it or not, *a lot* of time in the first weeks of programming is spent fi
 #### More HTML
 
 * [Shay Howe's HTML/CSS Tutorial](http://learn.shayhowe.com/).  Only if you really have extra time.
+* [UX Myths](http://uxmyths.com/).  We're not going to go into many UX design principles during our class, but it's sort of a fun world (and quite big).  This is a set of fun articles if you geek out over what you should and shouldn't do with your user interfaces.
