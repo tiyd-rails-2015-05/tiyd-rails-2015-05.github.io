@@ -8,7 +8,7 @@ Welcome to the The Iron Yard in Durham!  Congratulations on being accepted, and 
 
 You're probably wondering what you're in for (or are at least wondering something about me), and while I can't answer all of your questions in this format, I think we'll cover a lot.  Your first task, though, is to:
 
-* [Read the Syllabus!](/syllabus/)
+* [Read the Syllabus](/syllabus/)
 
 If you want to know some of the "why" of my teaching style, feel free to read [some broad, hand-wavy thoughts](/syllabus/values.html).  
 
@@ -22,7 +22,7 @@ You'll need to complete all of these steps before May 4th.  If you have ANY ques
 * [Set up your Mac](/before/setup.html)
 * [Sign up for accounts](/before/accounts.html)
 
-* [Do the PREWORK!](/before/exercises.html)
+* [Do the PREWORK](/before/exercises.html) - Complete this through the "Conclusion" survey by April 27th, one week before class begins.  This timing is both so that I can review and so that you can rest before class starts.
 
 ### During
 
