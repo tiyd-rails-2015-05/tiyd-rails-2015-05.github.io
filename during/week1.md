@@ -49,6 +49,7 @@ This is a short lecture day.  Much of the day will be taken up by administrative
   * Concepts of and and or
   * == vs =
 * Markdown
+* Maybe not so short...?
 
 #### Notes
 
