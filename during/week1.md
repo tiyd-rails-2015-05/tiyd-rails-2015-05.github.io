@@ -55,6 +55,7 @@ Motivating Problem: Peanut Butter and Jelly.
   * Floats
   * Dates
   * Datetimes
+* gets and puts
 * Markdown
 
 
@@ -63,18 +64,17 @@ Motivating Problem: Peanut Butter and Jelly.
 * Write code which adds up the numbers a user enters.
 * Hard: and an average.
 * Nightmare: and a standard deviation.
-
+* Give it to me in a gist.
 
 ## Tuesday
 
 #### Lecture
 
-Motivating Problem: XXX
+Motivating Problem: Write code to sing the "5 little monkeys song."
 
 * Assignment Review
 * Terminal
-* Mac file system
-* gets
+  * Mac file system
 * Methods
   * Return values vs side effects (including puts)
 * Example: [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
@@ -82,7 +82,7 @@ Motivating Problem: XXX
 * Data Structures
   * Arrays
   * .each
-* Blocks
+  * Blocks
 * Git
   * Versions over time
   * git clone
