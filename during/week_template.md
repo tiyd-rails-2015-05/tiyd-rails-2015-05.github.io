@@ -18,6 +18,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+Motivating Problem: XXX
+
 * Project Review
 *
 
@@ -33,6 +35,8 @@ Students should be comfortable with the following at the end of this week:
 ## Tuesday
 
 #### Lecture
+
+Motivating Problem: XXX
 
 * Assignment Review
 * Human Learning
@@ -52,6 +56,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+Motivating Problem: XXX
+
 * Assignment Review
 
 #### Reading
@@ -66,6 +72,8 @@ Students should be comfortable with the following at the end of this week:
 ## Thursday
 
 #### Lecture
+
+Motivating Problem: XXX
 
 * Assignment Review
 

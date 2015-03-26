@@ -69,6 +69,8 @@ Motivating Problem: Peanut Butter and Jelly.
 
 #### Lecture
 
+Motivating Problem: XXX
+
 * Assignment Review
 * Terminal
 * Mac file system
@@ -102,6 +104,8 @@ Motivating Problem: Peanut Butter and Jelly.
 
 #### Lecture
 
+Motivating Problem: XXX
+
 * Assignment Review
 
 #### Reading
@@ -116,6 +120,8 @@ Motivating Problem: Peanut Butter and Jelly.
 ## Thursday
 
 #### Lecture
+
+Motivating Problem: XXX
 
 * Assignment Review
 
