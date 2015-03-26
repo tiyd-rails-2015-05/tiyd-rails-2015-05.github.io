@@ -28,7 +28,7 @@ A teacher or TA will be available during lab times, at a minimum.  You can sched
 
 ### Holidays
 
-No holidays occur on weekdays during this cohort.
+No classes will be held on Memorial Day: Monday, May 25th.  Instructors will not be present for lab day on Friday, July 3rd.  Students will be welcomed to continue to use the campus on both days.
 
 ## Topics
 
