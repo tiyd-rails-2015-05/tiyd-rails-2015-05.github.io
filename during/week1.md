@@ -7,7 +7,6 @@ layout: default
 Students should be comfortable with the following at the end of this week:
 
 * Computational Thinking
-* Agile Software Development
 * Ruby Basics
 * Data Structures
 * Object Oriented Principles
@@ -15,7 +14,7 @@ Students should be comfortable with the following at the end of this week:
 
 ## Important Links
 
-* [Homework Submission Form]()
+* [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
 ## Monday (short day)
