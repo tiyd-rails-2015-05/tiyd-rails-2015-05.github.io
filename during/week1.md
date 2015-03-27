@@ -114,7 +114,7 @@ Motivating Problem: XXX
 
 #### Assignment
 
-*
+* [Begin Battleship]
 
 
 ## Thursday
@@ -127,3 +127,5 @@ Motivating Problem: XXX
 
 
 ## Weekend Assignment - As Pairs
+
+[Battleship!!](https://github.com/tiyd-rails-2015-05/battleship)
