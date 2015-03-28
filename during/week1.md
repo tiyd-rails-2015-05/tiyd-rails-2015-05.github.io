@@ -107,6 +107,15 @@ Motivating Problem: Write code to sing the "5 little monkeys song."
 Motivating Problem: XXX
 
 * Assignment Review
+  * Control Flow: next, break, return, and exit (change the assignment to not lose a turn if you guess the same thing twice)
+  * Ranges and how they were used in the assignment
+* Example: Keep track of all the names in class.  Then get rid of duplicates.
+* .each
+* Set
+* Hashes
+* Example: Collect information like first name and last name for all students, then just display first name.
+* Using data structures inside data structures (e.g. an array of hashes)
+
 
 #### Reading
 
