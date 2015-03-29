@@ -133,8 +133,7 @@ Motivating Problem: XXX
 Motivating Problem: XXX
 
 * Assignment Review
+* Object Oriented Programming
 
 
 ## Weekend Assignment - As Pairs
-
-[Battleship!!](https://github.com/tiyd-rails-2015-05/battleship)

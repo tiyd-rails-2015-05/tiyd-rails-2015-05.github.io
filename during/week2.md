@@ -8,7 +8,7 @@ Students should be comfortable with the following at the end of this week:
 
 * Agile Software Development
 * Classes
-* 
+*
 
 ## Important Links
 
@@ -30,7 +30,7 @@ Motivating Problem: XXX
 
 #### Assignment
 
-*
+* [Battleship!!](https://github.com/tiyd-rails-2015-05/battleship)
 
 
 ## Tuesday
