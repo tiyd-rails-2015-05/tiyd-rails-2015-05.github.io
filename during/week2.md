@@ -7,7 +7,6 @@ layout: default
 Students should be comfortable with the following at the end of this week:
 
 * Agile Software Development
-* Classes
 *
 
 ## Important Links
