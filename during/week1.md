@@ -134,6 +134,27 @@ Motivating Problem: XXX
 
 * Assignment Review
 * Object Oriented Programming
+  * What are objects?
+    * State and behavior
+    * State = instance variables
+    * Behavior = methods
+  * What are classes?
+    * Blueprints for objects
+* Example: Humans and cell phones.  See files in notes below.
+* Encapsulation
+* Duck typing
+* require
+* Example: [Albums and Artists](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/albums_and_artists)
+* Default parameters
+
+#### Notes
+
+* [Screenshot of three files at once](w1-3/screenshot.png)
+* Files from class:
+  * [Human class](w1-3/human.rb)
+  * [Phone class](w1-3/phone.rb)
+  * [Code that makes humans and phones](w1-3/w1wb.rb)
+  * [Artists and Albums](w1-3/artists_and_albums.rb)
 
 
 ## Weekend Assignment - As Pairs
