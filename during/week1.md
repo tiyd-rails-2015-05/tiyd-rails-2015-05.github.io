@@ -58,6 +58,10 @@ Motivating Problem: Peanut Butter and Jelly.
 * gets and puts
 * Markdown
 
+#### Links
+
+* [Whitespace Language](http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29#Sample_code)
+* [Hodor-lang](http://www.hodor-lang.org/)
 
 #### Assignment
 
@@ -82,7 +86,7 @@ Motivating Problem: Write code to sing the "5 little monkeys song."
 * Data Structures
   * Arrays
   * .each
-  * Blocks
+* Blocks
 * Git
   * Versions over time
   * git clone
@@ -104,7 +108,7 @@ Motivating Problem: Write code to sing the "5 little monkeys song."
 
 #### Lecture
 
-Motivating Problem: XXX
+Motivating Problem: The first non-mathematical use of CS principles - monks writing concordances.
 
 * Assignment Review
   * Control Flow: next, break, return, and exit (change the assignment to not lose a turn if you guess the same thing twice)

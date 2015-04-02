@@ -28,6 +28,7 @@
 * James' ActiveRecord-only assignment: https://github.com/TIY-DC-ROR-2015-Jan/model-skeleton
   * Also, have an exercise where they close a Github issue from the command line.
 * Review "Work" photos on phone to see if diagrams or notes help.
+* I'd like some better real-world examples about code which takes up too much memory, leakes, invokes garbage collection, etc.  jeg2 said he can do it "easily."  Maybe a search will give a starting point.
 
 Other assignment ideas:
 
