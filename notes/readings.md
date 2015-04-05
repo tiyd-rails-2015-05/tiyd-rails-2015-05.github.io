@@ -21,7 +21,7 @@ Ruby Rogues
 039 - Programming Language Fundamentals (at the end of class)
 ...
 101 ??? - Diversity
-107 ??? - Impostor Syndrome
+107 - Impostor Syndrome
 ...
 159 - Hacking Education (about code schools)
 162 ??? - Scaling Rails
