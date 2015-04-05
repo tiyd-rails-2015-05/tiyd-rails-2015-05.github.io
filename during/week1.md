@@ -17,7 +17,7 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday (short day)
+## Monday - Control Flow and Variables
 
 #### Lecture
 
@@ -70,7 +70,7 @@ Motivating Problem: Peanut Butter and Jelly.
 * Nightmare: and a standard deviation.
 * Give it to me in a gist.
 
-## Tuesday
+## Tuesday - Methods and Arrays
 
 #### Lecture
 
@@ -104,7 +104,7 @@ Motivating Problem: Write code to sing the "5 little monkeys song."
 * [Number Guessing Game](https://github.com/tiyd-rails-2015-05/number_guessing)
 
 
-## Wednesday
+## Wednesday - Hashes and Nested Data Structures
 
 #### Lecture
 
@@ -130,7 +130,7 @@ Motivating Problem: The first non-mathematical use of CS principles - monks writ
 * [Begin Battleship]
 
 
-## Thursday
+## Thursday - Classes
 
 #### Lecture
 
