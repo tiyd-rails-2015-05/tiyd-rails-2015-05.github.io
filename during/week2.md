@@ -2,80 +2,92 @@
 layout: default
 ---
 
-## Week XXX - Overview
+## Week 2 - Overview
 
 Students should be comfortable with the following at the end of this week:
 
-* Agile Software Development
 *
+
 
 ## Important Links
 
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday
+## Monday - XXX
 
 #### Lecture
 
-Motivating Problem: XXX
+**Problem of the Day:** XXX
 
-* Project Review
 *
 
-#### Reading
+#### Lecture Notes/Links
+
+*
+
+#### Evening Reading
 
 *
 
 #### Assignment
 
-* [Battleship!!](https://github.com/tiyd-rails-2015-05/battleship)
 
 
-## Tuesday
+
+## Tuesday - XXX
 
 #### Lecture
 
-Motivating Problem: XXX
+**Problem of the Day:** XXX
 
-* Assignment Review
-* Human Learning
-  *
-  * Diagram:
+*
 
-#### Reading
+#### Lecture Notes/Links
+
+*
+
+#### Evening Reading
 
 *
 
 #### Assignment
 
-*
 
 
-## Wednesday
+
+## Wednesday - XXX
 
 #### Lecture
 
-Motivating Problem: XXX
+**Problem of the Day:** XXX
 
-* Assignment Review
+*
 
-#### Reading
+#### Lecture Notes/Links
+
+*
+
+#### Evening Reading
 
 *
 
 #### Assignment
 
-*
 
 
-## Thursday
+
+## Thursday - XXX
 
 #### Lecture
 
-Motivating Problem: XXX
+**Problem of the Day:** XXX
 
-* Assignment Review
+*
+
+#### Lecture Notes/Links
+
+*
 
 
 ## Weekend Assignment - As Pairs

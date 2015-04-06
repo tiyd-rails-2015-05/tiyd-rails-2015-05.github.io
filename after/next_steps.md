@@ -4,7 +4,7 @@ layout: default
 
 # Next Steps
 
-The inevitable question after class is "what do I do next?"  Obviously, working on a portfolio, cleaning up your GitHub repos, and working on job search tasks like resumes and networking are at the top of the list.  Beyond that, though, it's important to think about what you want to learn next.
+The inevitable question after class is "what do I do next?"  Obviously, working on a portfolio ([this](http://html5up.net/) might help, by the way), cleaning up your GitHub repos, and working on job search tasks like resumes and networking are at the top of the list.  Beyond that, though, it's important to think about what you want to learn next.
 
 Although one option is "more about Ruby," I don't think that's the right choice (unless you feel like you want to review the things we've already covered to equip yourself for interviews).  Instead, you'll be better off in future positions (and even in interviews if you get to this in time) if you have experience in more than one language.  Here are the candidates I'd suggest:
 

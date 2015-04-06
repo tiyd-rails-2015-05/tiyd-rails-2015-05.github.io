@@ -6,11 +6,8 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
-* Computational Thinking
-* Ruby Basics
-* Data Structures
-* Object Oriented Principles
-* Git and Github
+*
+
 
 ## Important Links
 
@@ -21,7 +18,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-Motivating Problem: Peanut Butter and Jelly.
+**Problem of the Day:** Peanut Butter and Jelly.
 
 * Human Learning
   * Comfort, Learning, and Panic Zones
@@ -58,10 +55,14 @@ Motivating Problem: Peanut Butter and Jelly.
 * gets and puts
 * Markdown
 
-#### Links
+#### Lecture Notes/Links
 
 * [Whitespace Language](http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29#Sample_code)
 * [Hodor-lang](http://www.hodor-lang.org/)
+
+#### Evening Reading
+
+*
 
 #### Assignment
 
@@ -74,7 +75,7 @@ Motivating Problem: Peanut Butter and Jelly.
 
 #### Lecture
 
-Motivating Problem: Write code to sing the "5 little monkeys song."
+**Problem of the Day:** Write code to sing the "5 little monkeys song."
 
 * Assignment Review
 * Terminal
@@ -95,20 +96,24 @@ Motivating Problem: Write code to sing the "5 little monkeys song."
   * git push
 * Editors (and pros and cons of the default vim)
 
-#### Reading
+#### Lecture Notes/Links
+
+*
+
+#### Evening Reading
 
 *
 
 #### Assignment
 
-* [Number Guessing Game](https://github.com/tiyd-rails-2015-05/number_guessing)
+[Number Guessing Game](https://github.com/tiyd-rails-2015-05/number_guessing)
 
 
 ## Wednesday - Hashes and Nested Data Structures
 
 #### Lecture
 
-Motivating Problem: The first non-mathematical use of CS principles - monks writing concordances.
+**Problem of the Day:** The first non-mathematical use of CS principles - monks writing concordances.
 
 * Assignment Review
   * Control Flow: next, break, return, and exit (change the assignment to not lose a turn if you guess the same thing twice)
@@ -120,21 +125,23 @@ Motivating Problem: The first non-mathematical use of CS principles - monks writ
 * Example: Collect information like first name and last name for all students, then just display first name.
 * Using data structures inside data structures (e.g. an array of hashes)
 
+#### Lecture Notes/Links
 
-#### Reading
+*
+
+#### Evening Reading
 
 *
 
 #### Assignment
 
-* 
 
 
 ## Thursday - Classes
 
 #### Lecture
 
-Motivating Problem: XXX
+**Problem of the Day:** XXX
 
 * Assignment Review
 * Object Oriented Programming
@@ -151,7 +158,7 @@ Motivating Problem: XXX
 * Example: [Albums and Artists](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/albums_and_artists)
 * Default parameters
 
-#### Notes
+#### Lecture Notes/Links
 
 * [Screenshot of three files at once](w1-3/screenshot.png)
 * Files from class:
