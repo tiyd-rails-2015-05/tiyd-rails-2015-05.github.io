@@ -127,7 +127,7 @@ Motivating Problem: The first non-mathematical use of CS principles - monks writ
 
 #### Assignment
 
-* [Begin Battleship]
+* 
 
 
 ## Thursday - Classes
