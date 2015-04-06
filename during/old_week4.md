@@ -100,6 +100,7 @@ Students should be comfortable with the following at the end of this week:
 * Sessions
 * Exercise: Add (in your menu app) the ability to choose the one thing that you're eating.  Show it on the top of every page.
 * Access vs. Authentication vs. Authorization
+* URI capture and redirect after logging in
 
 <!-- It was suggested by students that the second half of this morning wasn't useful, and that it would have been better to do a build-it-together day like Thursday turned out to be. -->
 
