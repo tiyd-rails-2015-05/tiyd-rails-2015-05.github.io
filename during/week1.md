@@ -6,7 +6,12 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
-*
+* Ruby Basics
+* Control Flow
+* Variables
+* Methods
+* Arrays and Hashes
+* Objects and Classes
 
 
 ## Important Links

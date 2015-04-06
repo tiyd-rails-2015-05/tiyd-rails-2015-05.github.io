@@ -2,32 +2,26 @@
 layout: default
 ---
 
-## Week 2 - Overview
+## Week 9 - Overview
 
 Students should be comfortable with the following at the end of this week:
 
-* Agile Development
-* Testing and TDD
-* Enumerables
-* Exceptions
-* Inheritance
-* Composition
-* Modules
+*
 
 
 ## Important Links
 
+* [Challenge Submission Form](http://goo.gl/forms/OzzXZL6iEF)
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - Testing
+## Monday - XXX
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-* Testing
-* Exceptions
+*
 
 #### Lecture Notes/Links
 
@@ -42,14 +36,13 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Tuesday - Enumerable and Inheritance
+## Tuesday - XXX
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-* Enumerable
-* Inheritance
+*
 
 #### Lecture Notes/Links
 
@@ -64,14 +57,13 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Wednesday - Composition and Modules
+## Wednesday - XXX
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-* Composition
-* Modules
+*
 
 #### Lecture Notes/Links
 
@@ -86,14 +78,13 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Thursday - Test-Driven Development
+## Thursday - XXX
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-* Gemfiles
-* TDD
+*
 
 #### Lecture Notes/Links
 

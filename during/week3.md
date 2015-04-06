@@ -2,32 +2,32 @@
 layout: default
 ---
 
-## Week 2 - Overview
+## Week 3 - Overview
 
 Students should be comfortable with the following at the end of this week:
 
-* Agile Development
-* Testing and TDD
-* Enumerables
-* Exceptions
-* Inheritance
-* Composition
-* Modules
-
+* Database Basics
+* Migrations
+* ActiveRecord
+* Unit Testing and Efficiency
+* Associations
+* Consuming APIs
 
 ## Important Links
 
+* [Challenge Submission Form](http://goo.gl/forms/OzzXZL6iEF)
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - Testing
+## Monday - Databases and Migrations
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-* Testing
-* Exceptions
+* Databases
+* Entity-Relationship Diagrams (ERDs)
+* Migrations
 
 #### Lecture Notes/Links
 
@@ -42,14 +42,17 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Tuesday - Enumerable and Inheritance
+## Tuesday - ActiveRecord and Efficiency
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-* Enumerable
-* Inheritance
+* ActiveRecord
+* Unit Testing
+* Fixtures
+* Efficiency
+
 
 #### Lecture Notes/Links
 
@@ -64,14 +67,16 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Wednesday - Composition and Modules
+## Wednesday - Associations and Validations
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-* Composition
-* Modules
+* Associations
+* Validations
+* Seeds
+* Faker
 
 #### Lecture Notes/Links
 
@@ -86,14 +91,13 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Thursday - Test-Driven Development
+## Thursday - APIs
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-* Gemfiles
-* TDD
+* APIs
 
 #### Lecture Notes/Links
 
