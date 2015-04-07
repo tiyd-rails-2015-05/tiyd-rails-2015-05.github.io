@@ -50,6 +50,13 @@ Students should be comfortable with the following at the end of this week:
 
 * Enumerable
 * Inheritance
+* Exploration: Start with Float object.  Explore superclasses and classes.
+* Exercise: [National Expressions](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/national_expressions)
+* Surprise: everything in Ruby is an object!
+  * All functions are actually methods on classes
+* Early returns
+* Raising exceptions
+
 
 #### Lecture Notes/Links
 
@@ -71,6 +78,7 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * Composition
+* Exercise: [OddArray](https://github.com/tiyd-rails-2015-01/odd_array)
 * Modules
 
 #### Lecture Notes/Links

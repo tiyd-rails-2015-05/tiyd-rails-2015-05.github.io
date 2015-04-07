@@ -1,31 +1,8 @@
-
-#### Notes
-
-* [Screenshot of three files at once](w1-3/screenshot.png)
-* Files from class:
-  * [Human class](w1-3/human.rb)
-  * [Phone class](w1-3/phone.rb)
-  * [Code that makes humans and phones](w1-3/w1wb.rb)
-  * [Artists and Albums](w1-3/artists_and_albums.rb)
-
 ## Thursday
 
 #### Lecture
 
-* Homework review
-* Run code often, ideally after every change
-* Quality READMEs
-* Mac spaces
-* Inheritance <!-- Need additional example here for next time -->
-* Exploration: Start with Float object.  Explore superclasses and classes.
-* Exercise: [National Expressions](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/national_expressions)
-* Surprise: everything in Ruby is an object!
-  * All functions are actually methods on classes
-* (Break)
-* Early returns
-* Raising exceptions
-* Example: [Parental Test](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/parental_test) <!-- Don't use in future classes -->
-* Exercise: [OddArray](https://github.com/tiyd-rails-2015-01/odd_array)
+
 
 #### Notes
 

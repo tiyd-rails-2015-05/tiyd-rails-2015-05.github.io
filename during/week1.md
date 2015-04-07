@@ -82,7 +82,6 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Write code to sing the "5 little monkeys song."
 
-* Assignment Review
 * Terminal
   * Mac file system
 * Methods
@@ -120,9 +119,8 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** The first non-mathematical use of CS principles - monks writing concordances.
 
-* Assignment Review
-  * Control Flow: next, break, return, and exit (change the assignment to not lose a turn if you guess the same thing twice)
-  * Ranges and how they were used in the assignment
+* Control Flow: next, break, return, and exit (change the assignment to not lose a turn if you guess the same thing twice)
+* Ranges and how they were used in the assignment
 * Example: Keep track of all the names in class.  Then get rid of duplicates.
 * .each
 * Set
@@ -148,7 +146,9 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
-* Assignment Review
+* Run code often, ideally after every change
+* Quality READMEs
+* Mac spaces
 * Object Oriented Programming
   * What are objects?
     * State and behavior
