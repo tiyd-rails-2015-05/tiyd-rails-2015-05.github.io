@@ -49,7 +49,9 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * Enumerable
+* Blocks
 * Inheritance
+  * [Player class trying to avoid inheritance](w1-4/player.rb)
 * Exploration: Start with Float object.  Explore superclasses and classes.
 * Exercise: [National Expressions](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/national_expressions)
 * Surprise: everything in Ruby is an object!

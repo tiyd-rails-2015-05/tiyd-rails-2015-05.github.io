@@ -86,6 +86,7 @@ Students should be comfortable with the following at the end of this week:
   * Mac file system
 * Methods
   * Return values vs side effects (including puts)
+  * [Example of defining something twice](w1-4/double_def.rb)
 * Example: [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
 * Exercise: [Random Number in a Range (Fish Story)](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/random_in_range)
 * Data Structures
@@ -125,6 +126,8 @@ Students should be comfortable with the following at the end of this week:
 * .each
 * Set
 * Hashes
+  * [Super-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/super_simple_search)
+  * [Sorta-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/sorta_simple_search)
 * Example: Collect information like first name and last name for all students, then just display first name.
 * Using data structures inside data structures (e.g. an array of hashes)
 
