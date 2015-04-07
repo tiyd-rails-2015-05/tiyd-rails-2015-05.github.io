@@ -6,7 +6,11 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
-*
+* SQL and AREL
+* Mailers
+* ActiveJob
+* File Uploads
+* OAuth
 
 
 ## Important Links
@@ -15,13 +19,15 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - XXX
+## Monday - SQL and AREL
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* SQL
+* AREL
+* Indices
 
 #### Lecture Notes/Links
 
@@ -36,13 +42,15 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Tuesday - XXX
+## Tuesday - Mailer and Background Processing
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* DelayedJob
+* ActiveJob
+* Mailers
 
 #### Lecture Notes/Links
 
@@ -57,13 +65,15 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Wednesday - XXX
+## Wednesday - File Uploads
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* File Processing
+* Paperclip
+* S3
 
 #### Lecture Notes/Links
 
@@ -78,13 +88,14 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Thursday - XXX
+## Thursday - OAuth
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* API Security
+* OAuth
 
 #### Lecture Notes/Links
 

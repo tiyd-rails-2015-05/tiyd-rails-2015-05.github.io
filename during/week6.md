@@ -6,7 +6,11 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
-*
+* Asset Pipeline
+* Session
+* Authentication
+* Authorization
+* Nested Attributes
 
 
 ## Important Links
@@ -15,13 +19,14 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - XXX
+## Monday - The Asset Pipeline
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* Workflow Diagrams
+* The Asset Pipeline
 
 #### Lecture Notes/Links
 
@@ -36,13 +41,14 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Tuesday - XXX
+## Tuesday - Session and Authentication
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* Session
+* Authentication
 
 #### Lecture Notes/Links
 
@@ -57,13 +63,15 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Wednesday - XXX
+## Wednesday - Authorization and Scope
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* Authorization
+* Scope
+* Delegation
 
 #### Lecture Notes/Links
 
@@ -78,13 +86,13 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Thursday - XXX
+## Thursday - Nested Attributes
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* accepts_nested_attributes
 
 #### Lecture Notes/Links
 

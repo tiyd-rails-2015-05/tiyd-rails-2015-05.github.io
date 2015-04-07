@@ -6,7 +6,11 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
-*
+* Working with Legacy Code
+* Runtime Optimizations
+* Memory Optimizations
+* Refactoring for Skinny Models
+* Non-Rails Frameworks
 
 
 ## Important Links
@@ -15,7 +19,28 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - XXX
+## Monday - Runtime Optimizations
+
+#### Lecture
+
+**Problem of the Day:** XXX
+
+* Runtime
+
+#### Lecture Notes/Links
+
+*
+
+#### Evening Reading
+
+*
+
+#### Assignment
+
+
+
+
+## Tuesday - Memory Optimizations
 
 #### Lecture
 
@@ -36,7 +61,7 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Tuesday - XXX
+## Wednesday - Refactoring for Skinny Models
 
 #### Lecture
 
@@ -57,28 +82,7 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Wednesday - XXX
-
-#### Lecture
-
-**Problem of the Day:** XXX
-
-*
-
-#### Lecture Notes/Links
-
-*
-
-#### Evening Reading
-
-*
-
-#### Assignment
-
-
-
-
-## Thursday - XXX
+## Thursday - Non-Rails Frameworks
 
 #### Lecture
 

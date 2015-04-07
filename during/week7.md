@@ -6,7 +6,10 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
-*
+* JavaScript
+* jQuery
+* Unobtrusive JavaScript
+* AJAX
 
 
 ## Important Links
@@ -15,13 +18,13 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - XXX
+## Monday - JavaScript
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* JavaScript
 
 #### Lecture Notes/Links
 
@@ -36,13 +39,14 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Tuesday - XXX
+## Tuesday - jQuery
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* jQuery
+* Unobtrusive JavaScript
 
 #### Lecture Notes/Links
 
@@ -57,13 +61,13 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Wednesday - XXX
+## Wednesday - AJAX
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* AJAX
 
 #### Lecture Notes/Links
 
@@ -78,13 +82,13 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Thursday - XXX
+## Thursday - JavaScript in Depth
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* JavaScript
 
 #### Lecture Notes/Links
 

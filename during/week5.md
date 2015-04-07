@@ -6,7 +6,11 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
-*
+* HTML
+* CSS
+* HTML Forms
+* Views
+* REST
 
 
 ## Important Links
@@ -15,13 +19,14 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - XXX
+## Monday - HTML and CSS
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* HTML
+* CSS
 
 #### Lecture Notes/Links
 
@@ -36,13 +41,15 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Tuesday - XXX
+## Tuesday - Forms and Rails Views
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* Forms
+* Views
+* ERB
 
 #### Lecture Notes/Links
 
@@ -57,13 +64,14 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Wednesday - XXX
+## Wednesday - REST and Scaffold
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* Scaffold
+* REST
 
 #### Lecture Notes/Links
 
@@ -78,13 +86,16 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Thursday - XXX
+## Thursday - Helpers, Partials, and Styling
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* Helpers
+* Partials
+* SCSS
+* Bootstrap
 
 #### Lecture Notes/Links
 
