@@ -99,6 +99,9 @@ Students should be comfortable with the following at the end of this week:
   * git add
   * git commit
   * git push
+* Good commit messages
+* [Not entering your password into git for every push](https://help.github.com/articles/caching-your-github-password-in-git/)
+* Removing incorrectly forked git repos
 * Editors (and pros and cons of the default vim)
 
 #### Lecture Notes/Links
@@ -161,10 +164,12 @@ Students should be comfortable with the following at the end of this week:
     * Blueprints for objects
 * Example: Humans and cell phones.  See files in notes below.
 * Encapsulation
+* attr_reader, attr_accessor
 * Duck typing
 * require
 * Example: [Albums and Artists](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/albums_and_artists)
 * Default parameters
+* Overriding arithmetic operations (e.g. `def +(other) ... end`)
 
 #### Lecture Notes/Links
 
@@ -177,3 +182,6 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Weekend Assignment - As Pairs
+
+* [Currency](https://github.com/tiyd-rails-2015-01/currency)
+* [Currency Converter](https://github.com/tiyd-rails-2015-01/currency_converter)

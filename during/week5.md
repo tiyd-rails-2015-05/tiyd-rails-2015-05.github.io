@@ -26,11 +26,24 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * HTML
+* Exercise: Build an HTML page that says something about you.
 * CSS
 
 #### Lecture Notes/Links
 
-*
+* [Codepen](http://codepen.io)
+* [Is it Christmas](http://isitchristmas.com)
+* [How many people are in space right now](http://howmanypeopleareinspacerightnow.com)
+* [Find the Invisible Cow](http://findtheinvisiblecow.com/)
+* [Do Nothing for 2 Minutes](http://www.donothingfor2minutes.com/)
+* [Ship Your Enemies Glitter](http://shipyourenemiesglitter.com/)
+* [Akinator](http://en.akinator.com/)
+* [WeaveSilk](http://weavesilk.com/)
+* [Calming Websites](http://www.makeuseof.com/tag/take-a-break-10-websites-to-help-you-relax-for-two-minutes/)
+* [Palette Tool](http://paletton.com/#uid=13P0u0kllll70vXeaqEswg1G0aI)
+* [Google Trends](https://trends.google.com)
+* w3schools results are only okay.
+* [MDN](https://developer.mozilla.org/en-US/) results are awesome.
 
 #### Evening Reading
 
@@ -38,7 +51,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+[CSS Reverse Engineering](https://github.com/tiyd-rails-2015-01/css_reverse_engineering)
 
 
 ## Tuesday - Forms and Rails Views

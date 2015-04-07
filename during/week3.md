@@ -52,6 +52,7 @@ Students should be comfortable with the following at the end of this week:
 * ActiveRecord
 * Unit Testing
 * Fixtures
+* Mocking for tests
 * Efficiency
 
 
