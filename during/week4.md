@@ -6,7 +6,13 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
-*
+* Rails
+* HTML Verbs
+* Routing
+* Controllers
+* Params
+* ActiveModel Serializers
+* Heroku
 
 
 ## Important Links
@@ -15,13 +21,15 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - XXX
+## Tuesday - Rails and the Web
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* The Web
+* HTML Verbs
+* Rails Introduction
 
 #### Lecture Notes/Links
 
@@ -36,13 +44,15 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Tuesday - XXX
+## Wednesday - Controllers and the Router
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* The Router
+* Controllers
+* Params
 
 #### Lecture Notes/Links
 
@@ -57,13 +67,13 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Wednesday - XXX
+## Thursday - Creating APIs
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* ActiveModel Serializers
 
 #### Lecture Notes/Links
 
@@ -78,13 +88,15 @@ Students should be comfortable with the following at the end of this week:
 
 
 
-## Thursday - XXX
+## Friday - Production and Heroku
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
-*
+* Rails Servers
+* Dev vs. Production
+* Heroku
 
 #### Lecture Notes/Links
 

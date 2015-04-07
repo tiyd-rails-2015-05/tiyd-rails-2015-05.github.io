@@ -13,6 +13,7 @@ Students should be comfortable with the following at the end of this week:
 * Associations
 * Consuming APIs
 
+
 ## Important Links
 
 * [Challenge Submission Form](http://goo.gl/forms/OzzXZL6iEF)
@@ -98,6 +99,8 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * APIs
+* Regex
+* JSON
 
 #### Lecture Notes/Links
 
