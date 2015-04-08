@@ -61,12 +61,21 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * Forms
+  * form
+  * input
+  * select
+  * button
 * Views
 * ERB
+  * Rails helpers for making form elements
+* View Intro without models
+  * Motivating Example: A rails app that asks me for my time zone, then gives me the time. (and maybe go back to this in future classes?)
+  * [Code from example](https://github.com/tiyd-rails-2015-01/w3-2-example)
+  * `strftime()`
 
 #### Lecture Notes/Links
 
-*
+* [`strftime()`](http://strftime.net/)
 
 #### Evening Reading
 

@@ -48,6 +48,10 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* Human Learning: agile development practices
+  * Iterate (this gets back to feedback cycles).
+  * Pair programming (this gets back to feedback cycles)
+  * Diagram: Feedback cycles of escalating size
 * Enumerable
   * .each
   * .map
@@ -55,6 +59,13 @@ Students should be comfortable with the following at the end of this week:
   * .all? / .any?
   * .reduce
   * .each_with_index
+* Keyword arguments
+* ||=
+* `File.open`
+* Floating point arithmetic
+  * 129.95*10
+  * 129.95*100
+* Monkey Patching: Change a string to add a .to_pig_latin
 * Blocks
 * Inline blocks (e.g. `array.map {|a| a.class }`)
 * Inheritance
@@ -129,7 +140,11 @@ Students should be comfortable with the following at the end of this week:
   * Requiring external code
   * Gems
   * Bundler
+  * `bundle install`
   * Methods ending in !
+  * Semantic versioning (e.g. 4.1.5)
+* " vs '
+* Don't overdo it on instance variables
 * TDD
   * Exercise: [Celebrity Couple Names](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/celebrity_couple_names) <!-- Bombed spectacularly.  Not a good example for TDD.  Need a class to show how TDD works. -->
 * git branching
@@ -142,3 +157,5 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Weekend Assignment - As Pairs
+
+[Employee Reviews](https://github.com/tiyd-rails-2015-01/employee_reviews)

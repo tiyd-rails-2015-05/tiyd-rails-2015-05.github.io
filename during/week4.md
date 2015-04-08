@@ -28,8 +28,16 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * The Web
+  * IP addresses and ports
+* Components of a URL
+  * Params in URLs
 * HTML Verbs
+  * Params during POST, etc
 * Rails Introduction
+  * `rails new`
+  * `rails server`
+  * `rails console`
+  * `rails generate controller`
 
 #### Lecture Notes/Links
 

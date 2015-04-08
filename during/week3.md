@@ -100,12 +100,21 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * APIs
-* Regex
+* Regular expressions
+  * "Peter piper picked a peck of pickled peppers"
+  * +, *, ?
+  * \w, \d, \s, and their capital (opposite) versions
+  * Exercise: Build the simplest possible version of function that tells you whether an e-mail address is valid.  Then, if you have time, make it better.
+  * Capture groups
+  * Using regex in Ruby
+  * .match
+  * .scan, .sub, .gsub
 * JSON
 
 #### Lecture Notes/Links
 
-*
+* My favorite tutorial for learning Regular Expressions is [RegexOne](http://regexone.com/)
+* The best way to fiddle with Regex is [Rubular](http://rubular.com/)
 
 
 ## Weekend Assignment - As Pairs
