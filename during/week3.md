@@ -60,6 +60,12 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* Human Learning:
+  * Immerse yourself in the culture.
+  * Read some every day.
+  * Ruby Rogues and Ruby Weekly.
+  * Dissecting a book vs drinking from a fire hydrant
+  * Diagram: Developer spectrum.  Hammer-user all the way to shiny-object
 * ActiveRecord
 * Unit Testing
 * Fixtures

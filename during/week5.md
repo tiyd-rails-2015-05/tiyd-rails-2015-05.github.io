@@ -28,6 +28,8 @@ Students should be comfortable with the following at the end of this week:
 * HTML
 * Exercise: Build an HTML page that says something about you.
 * CSS
+* Meet the ipsums
+* durhamipsum.com
 
 #### Lecture Notes/Links
 
@@ -114,6 +116,8 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* [Why Learning Code is Hard](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
+  * Coding a new application is more about debugging and troubleshooting than we think at first
 * Helpers
 * Partials
 * SCSS
@@ -121,7 +125,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-*
+* [SCSS Guide](http://sass-lang.com/)
 
 
 ## Weekend Assignment - As Pairs

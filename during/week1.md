@@ -25,14 +25,15 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Peanut Butter and Jelly.
 
+* Class Logistics
+  * Daily schedule
+  * Exercises, Assignments, and Projects
+  * Pair-question-asking
 * Human Learning
   * Comfort, Learning, and Panic Zones
   * Feedback Cycles
   * The data collection we'll be doing in class
   * Diagram: Three Concentric Zones
-* Class Logistics
-  * Daily schedule
-  * Exercises, Assignments, and Projects
 * Programming Languages
   * What are they?
   * How many are there?

@@ -30,7 +30,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-*
+* [The Asset Pipeline on Heroku](https://devcenter.heroku.com/articles/rails-4-asset-pipeline)
 
 #### Evening Reading
 
@@ -38,7 +38,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+[Menu](https://github.com/tiyd-rails-2015-01/menu)
 
 
 ## Tuesday - Session and Authentication
@@ -60,7 +60,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+[Teacherbook](https://github.com/tiyd-rails-2015-01/simple_authentication)
 
 
 ## Wednesday - Authorization and Scope
@@ -83,7 +83,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+[Gradebook](https://github.com/tiyd-rails-2015-01/gradebook)
 
 
 ## Thursday - Nested Attributes

@@ -41,7 +41,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-*
+* [Rails Guides](http://guides.rubyonrails.org/index.html)
 
 #### Evening Reading
 
@@ -58,10 +58,17 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* Human Learning:
+  * Scarring with age/experience
+  * Good scarring example: Saving hardest things for last sucks
+  * Bad scarring example: Given one bad experience, some people assume that Millenials are all lazy.
+  * Bad scarring example: Taking risks on products costs too much money.
+  * Diagram: Topological map of scarring
 * The Router
   * `rake routes`
 * Controllers
 * Params
+* Fat Models, Skinny Controllers
 
 #### Lecture Notes/Links
 
