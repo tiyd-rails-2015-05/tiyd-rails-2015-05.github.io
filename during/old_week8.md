@@ -70,7 +70,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-* [Recreate Github Profile](https://github.com/tiyd-rails-2015-01/github_profile)
+* 
 
 ## Tuesday
 

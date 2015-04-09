@@ -73,7 +73,9 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+[Recreate Github Profile](https://github.com/tiyd-rails-2015-01/github_profile)
+  * This might not go here, as they don't know HTML yet
+  * The 10 minutes ago problem is fun and has lots of room for exploration.
 
 
 ## Thursday - Creating APIs
