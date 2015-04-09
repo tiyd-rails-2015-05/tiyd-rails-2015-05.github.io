@@ -83,7 +83,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+[Motivational Quotation Generator](https://github.com/tiyd-rails-2015-01/motivational_quotations)
 
 
 ## Wednesday - REST and Scaffold
@@ -105,7 +105,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+[Wallet](https://github.com/tiyd-rails-2015-01/wallet)
 
 
 ## Thursday - Helpers, Partials, and Styling
@@ -125,3 +125,5 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Weekend Assignment - As Pairs
+
+[Health Tracker](https://github.com/tiyd-rails-2015-01/health_tracker)

@@ -59,6 +59,7 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * The Router
+  * `rake routes`
 * Controllers
 * Params
 
@@ -105,10 +106,19 @@ Students should be comfortable with the following at the end of this week:
 * Rails Servers
 * Dev vs. Production
 * Heroku
+  * `git remote` review
+  * Set up account
+  * Create new Heroku project
+  * Move `sqlite3` gem
+  * Add `pg` and `rails_12factor gems`
+  * `bundle install --without production`
+  * heroku add remote command
+  * git push heroku master
+  * heroku run rake db:migrate
 
 #### Lecture Notes/Links
 
-*
+* [Heroku docs on installing Rails 4 apps](https://devcenter.heroku.com/articles/rails4)
 
 
 ## Weekend Assignment - As Pairs

@@ -29,6 +29,17 @@ Students should be comfortable with the following at the end of this week:
 * Databases
 * Entity-Relationship Diagrams (ERDs)
 * Migrations
+  * _on fields
+  * _at fields
+  * `t.timestamps`
+  * `rails generate model`
+  * Migrations
+  * `rake db:migrate`
+  * rails generate migration
+  * add_column, etc
+  * rake db:drop and db:create
+  * config.time_zone = 'Eastern Time (US & Canada)'
+  * t.decimal :amount, precision: 5, scale: 2
 
 #### Lecture Notes/Links
 
@@ -75,14 +86,25 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* More model work
+  * .all
+  * .first
+  * .order
+  * .where
+  * .count
 * Associations
 * Validations
+  * Write your own validations (perhaps on a datetime to validate uniqueness of date)
+  * Exercise: Add at least two validations to your Rails app from last night. <!-- This went surprisingly well -->
 * Seeds
 * Faker
+* Class methods
+
 
 #### Lecture Notes/Links
 
-*
+* [Funny Names for Ruby Operators](http://ruby-operators.herokuapp.com/)
+* [Rails validations](http://apidock.com/rails/ActiveModel/Validations/ClassMethods/validates)
 
 #### Evening Reading
 
