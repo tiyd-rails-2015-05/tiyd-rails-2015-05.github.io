@@ -2,26 +2,8 @@
 layout: default
 ---
 
-## Week 5 - Overview
-
-Students should be comfortable with the following at the end of this week:
-
-* Data Structure Design
-* ActiveRecord
-* AREL
-* Proper Model Design
-
-## Important Links
-
-* [Challenge Submission Form](http://goo.gl/forms/fpcxQCtEqs)
-* [Homework Submission Form](https://docs.google.com/forms/d/1lddv00AYx4z9ugJBYv1v2RG_JuMUpWEYPYjQGdCVdgQ/viewform?c=0&w=1)
 
 
-## Monday
-
-#### Lecture
-
-* [Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
 * Project Review
   * Clinton and private methods
   * Diagram of which parts are accessible to which parts
@@ -57,7 +39,6 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-* [Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_split_challenge.rb)
 * Assignment Review
 
 * `dependent: :destroy` and `dependent: :restrict`
@@ -78,7 +59,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-* [Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_palindrome_challenge.rb)
+*
 * Assignment Review
   * Michael's hard mode
 
@@ -108,12 +89,6 @@ Students should be comfortable with the following at the end of this week:
 ## Thursday
 
 #### Lecture
-
-* [Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb)
-  * `.send`
-
-* Assignment Review
-  * Associated question type table vs. text field
 
 * Workflow Diagrams
 

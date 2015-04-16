@@ -23,6 +23,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+[Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
+
 **Problem of the Day:** XXX
 
 * HTML
@@ -60,6 +62,9 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+[Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_split_challenge.rb)
+
+
 **Problem of the Day:** XXX
 
 * Forms
@@ -92,6 +97,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+[Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_palindrome_challenge.rb)
+
 **Problem of the Day:** XXX
 
 * Scaffold
@@ -113,6 +120,8 @@ Students should be comfortable with the following at the end of this week:
 ## Thursday - Helpers, Partials, and Styling
 
 #### Lecture
+
+[Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb)
 
 **Problem of the Day:** XXX
 
