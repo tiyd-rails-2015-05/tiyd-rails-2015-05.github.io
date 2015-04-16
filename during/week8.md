@@ -26,16 +26,23 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * SQL
+  * (From Survey Opossum)
+  * Find the names of all multiple choice questions (where)
+  * Find the answer which was given most recently (order, limit)
+  * Find the time at which of each type of question was last created (group)
+  * Find all answers accompanied by question texts (join)
+  * Find all authors and their survey names (left join)
+  * Find all authors who have never created a survey (left join, check for null)
 * AREL
 * Indices
 
 #### Lecture Notes/Links
 
-*
+* [SQL Zoo Tutorials](http://sqlzoo.net/wiki/Main_Page)
 
 #### Evening Reading
 
-*
+* [SQL to Rails Queries](http://guides.rubyonrails.org/v3.2.13/active_record_querying.html)
 
 #### Assignment
 
@@ -54,7 +61,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-*
+* [Rails Guides: ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html)
+* [SendGrid](https://addons.heroku.com/sendgrid?utm_campaign=category&utm_medium=dashboard&utm_source=addons)
 
 #### Evening Reading
 
@@ -99,7 +107,6 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-*
-
+* [Devise](https://github.com/plataformatec/devise)
 
 ## Weekend Assignment - As Pairs

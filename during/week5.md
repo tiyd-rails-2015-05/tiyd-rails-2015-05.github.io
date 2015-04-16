@@ -109,11 +109,14 @@ Students should be comfortable with the following at the end of this week:
 * Scaffold
 * REST
 * `rails-footnotes` gem
-
+* Integration Testing
 
 #### Lecture Notes/Links
 
 * [Rails footnotes](https://github.com/josevalim/rails-footnotes) - `rails generate rails_footnotes:install`
+* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
+* Files from class:
+  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/test_types.md)
 
 #### Evening Reading
 

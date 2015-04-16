@@ -52,7 +52,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Article on Pair Programming Styles](http://articles.coreyhaines.com/posts/thoughts-on-pair-programming/)
 
 #### Assignment
 
@@ -162,3 +162,6 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Weekend Assignment - As Pairs
+
+* [Ping-pong Pairing](https://github.com/tiyd-rails-2015-01/ping_pong_pairing)
+  * You will be getting a start on: [???]()

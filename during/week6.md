@@ -23,6 +23,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+* [Ruby Challenge]()
+
 **Problem of the Day:** XXX
 
 * Workflow Diagrams
@@ -45,6 +47,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+* [Ruby Challenge]()
+
 **Problem of the Day:** XXX
 
 * Session
@@ -66,6 +70,8 @@ Students should be comfortable with the following at the end of this week:
 ## Wednesday - Authorization and Scope
 
 #### Lecture
+
+* [Ruby Challenge]()
 
 **Problem of the Day:** XXX
 
@@ -95,6 +101,8 @@ Students should be comfortable with the following at the end of this week:
 ## Thursday - Nested Attributes
 
 #### Lecture
+
+* [Ruby Challenge]()
 
 **Problem of the Day:** XXX
 
