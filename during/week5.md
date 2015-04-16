@@ -67,11 +67,16 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* Human Learning
+  * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
+  * Diagrams: Data model vs workflow diagrams
 * Forms
   * form
   * input
   * select
   * button
+  * Quick checkboxes discussion
+  * [Completed example from class](https://github.com/tiyd-rails-2015-01/many_to_many)
 * Views
 * ERB
   * Rails helpers for making form elements
@@ -103,10 +108,12 @@ Students should be comfortable with the following at the end of this week:
 
 * Scaffold
 * REST
+* `rails-footnotes` gem
+
 
 #### Lecture Notes/Links
 
-*
+* [Rails footnotes](https://github.com/josevalim/rails-footnotes) - `rails generate rails_footnotes:install`
 
 #### Evening Reading
 
@@ -128,12 +135,14 @@ Students should be comfortable with the following at the end of this week:
 * [Why Learning Code is Hard](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
   * Coding a new application is more about debugging and troubleshooting than we think at first
 * Helpers
+  * XSS
 * Partials
 * SCSS
 * Bootstrap
 
 #### Lecture Notes/Links
 
+* [Rails helpers tutorial](http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers?utm_source=rubyweekly&utm_medium=email)
 * [SCSS Guide](http://sass-lang.com/)
 
 

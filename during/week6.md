@@ -71,7 +71,10 @@ Students should be comfortable with the following at the end of this week:
 
 * Authorization
 * Scope
+  * `default_scope`
 * Delegation
+  * `delegate :category, to: :phone_categories`
+
 
 #### Lecture Notes/Links
 
@@ -84,6 +87,9 @@ Students should be comfortable with the following at the end of this week:
 #### Assignment
 
 [Gradebook](https://github.com/tiyd-rails-2015-01/gradebook)
+* [Achievement Gradebook](https://github.com/tiyd-rails-2015-01/achievement_gradebook)
+  * [Repository to use as a Starting Point](https://github.com/tiyd-rails-2015-01/Gradebook-1)
+
 
 
 ## Thursday - Nested Attributes
@@ -98,5 +104,16 @@ Students should be comfortable with the following at the end of this week:
 
 *
 
+#### Assignment
+
+* Begin [Survey Opossum](https://github.com/tiyd-rails-2015-01/survey_opossum)
+
+  1. Create an ERD for the data structure needed to accomplish this.
+  2. Create a new Rails app with all models and migrations needed for this project.
+  3. Consider scaffolding the Survey class.  That's where most of your work will be done.
+  4. Deploy to Heroku.  Make sure that you can migrate and load a page (any page) in your browser without errors.
+
 
 ## Weekend Assignment - As Pairs
+
+[Survey Opossum](https://github.com/tiyd-rails-2015-01/survey_opossum)

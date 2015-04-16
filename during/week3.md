@@ -40,6 +40,11 @@ Students should be comfortable with the following at the end of this week:
   * rake db:drop and db:create
   * config.time_zone = 'Eastern Time (US & Canada)'
   * t.decimal :amount, precision: 5, scale: 2
+* Data Structure Design
+  * Lucidchart
+  * Example: Design a Data Structure for the weekend assignment.
+* [SQLite Browser](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.5.1)
+
 
 #### Lecture Notes/Links
 
@@ -51,7 +56,13 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
+[Address Book Data Structure](https://github.com/tiyd-rails-2015-01/address_book_data_structure)
 
+* Build a Data Structure - Time tracking?
+  * People, projects, time entries.
+  * Assigned projects
+  * Projects with Clients
+  * Subproject tree
 
 
 ## Tuesday - ActiveRecord and Efficiency
@@ -75,7 +86,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-*
+* [Most common jobs in america](http://www.npr.org/blogs/money/2015/02/05/382664837/map-the-most-common-job-in-every-state)
 
 #### Evening Reading
 
@@ -99,6 +110,11 @@ Students should be comfortable with the following at the end of this week:
   * .where
   * .count
 * Associations
+  * `dependent: :destroy` and `dependent: :restrict`
+  * Associations with non-standard foreign_keys
+  * has_many :through
+* Many-to-many joins
+  * [Many-to-many Excel Workbook](w5-1/many-to-many.xlsx)
 * Validations
   * Write your own validations (perhaps on a datetime to validate uniqueness of date)
   * Exercise: Add at least two validations to your Rails app from last night. <!-- This went surprisingly well -->
