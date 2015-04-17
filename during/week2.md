@@ -142,6 +142,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* you can return objects when true/false is expected (predicate methods - with ? at the end)
 * Gemfiles
   * Requiring external code
   * Gems
