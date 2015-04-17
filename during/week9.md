@@ -37,7 +37,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+[Reports on S3](https://github.com/tiyd-rails-2015-01/reports_on_s3)
 
 
 ## Tuesday - Memory Optimizations
@@ -50,7 +50,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-*
+* Swap space changes the efficiency equation
 
 #### Evening Reading
 

@@ -64,6 +64,7 @@ Students should be comfortable with the following at the end of this week:
   * Bad scarring example: Given one bad experience, some people assume that Millenials are all lazy.
   * Bad scarring example: Taking risks on products costs too much money.
   * Diagram: Topological map of scarring
+* Mocking API calls for tests
 * The Router
   * `rake routes`
 * Controllers
