@@ -88,7 +88,16 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
-*
+* CI (Mike)
+* vim (Michael)
+* Dvorak keyboards, ergonomic chairs, treadmill desks, etc.
+* [Which IDEs do Rubyists use?](http://www.sitepoint.com/ides-rubyists-use/?utm_source=rubyweekly&utm_medium=email)
+* [Which editors do Rubyists use?](http://www.sitepoint.com/editor-rubyists-use/)
+* [Other ruby frameworks](https://blog.engineyard.com/2015/life-beyond-rails-brief-look-alternate-web-frameworks-ruby).  Links in decreasing order of complexity:
+  * Rails
+  * [Sinatra](http://www.sinatrarb.com/)
+  * [Padrino](http://www.padrinorb.com/)
+  * [Camping](http://camping.io/)
 
 #### Lecture Notes/Links
 

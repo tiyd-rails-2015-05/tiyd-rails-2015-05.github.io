@@ -34,11 +34,17 @@ Students should be comfortable with the following at the end of this week:
   * Find all authors and their survey names (left join)
   * Find all authors who have never created a survey (left join, check for null)
 * AREL
+  * Intermediate AREL
+
+    to_dos = ToDo.arel_table
+    where(to_dos[:title].matches("%#{search}%").or(to_dos[:title].matches("ALWAYS")))
 * Indices
 
 #### Lecture Notes/Links
 
 * [SQL Zoo Tutorials](http://sqlzoo.net/wiki/Main_Page)
+* [The guy who loves AREL](http://www.youtube.com/watch?v=ShPAxNcLm3o)
+
 
 #### Evening Reading
 
@@ -55,6 +61,9 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* Human Learning: Technical Debt
+  * Rebuilding!  Software development is a "wicked" problem
+  * "Refactoring"
 * DelayedJob
 * ActiveJob
 * Mailers

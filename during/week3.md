@@ -143,7 +143,25 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
-* APIs
+* What is an API?
+  * The term is way more broad than we think it is.
+  * Each class in your application technically has an API.  It's the set of methods you can call on it and its instances.
+* On the web, what sort of data do we get back from APIs?
+  * http://placekitten.com
+  * http://version1.api.memegenerator.net/
+  * http://api.jquery.com/
+  * https://api.github.com/users/masonfmatthews/events (JSON)
+  * JSON
+  * http://whoismyrepresentative.com/getall_mems.php?zip=27701 (XML)
+  * XML
+  * https://developer.github.com/v3/
+  * https://api.stackexchange.com/
+* API Keys
+  * http://api.wunderground.com
+* Building a Rails app
+  * HTTParty
+* API Basic Auth for Github
+* Keeping keys and passwords out of committed code (using ENV)
 * Regular expressions
   * "Peter piper picked a peck of pickled peppers"
   * +, *, ?
@@ -157,8 +175,18 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Video Before Break](http://youtu.be/AjVlDABhhi8)
+* [Video After Break](http://youtu.be/ASLlaAZz-3I)
+* [Regular Lecture Example Repo](https://github.com/tiyd-rails-2015-01/weather_api)
+* [Video of Mini-lecture](http://youtu.be/1e9O2p2PZm8)
+* [Mini-lecture Example Repo](https://github.com/tiyd-rails-2015-01/github_token_example)
 * My favorite tutorial for learning Regular Expressions is [RegexOne](http://regexone.com/)
 * The best way to fiddle with Regex is [Rubular](http://rubular.com/)
+
+#### Reading
+
+* [What is an API?](http://skillcrush.com/2012/07/04/api-2/)
+* [Working with APIs](http://www.theodinproject.com/ruby-on-rails/working-with-external-apis?ref=lnav) - Read down to and including "Restrictions" section.
 
 
 ## Weekend Assignment - As Pairs

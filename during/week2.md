@@ -111,6 +111,9 @@ Students should be comfortable with the following at the end of this week:
 * OO: public vs private
   * Example: Jess is a Builder.  We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
   * Tell, don't ask
+  * Calling private methods with `.send()`
+  * `protected` keyword
+  * Class Variables - DON'T
 * Exercise: [OddArray](https://github.com/tiyd-rails-2015-01/odd_array)
 * Modules
   * Use of modules for namespacing
@@ -123,6 +126,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Three approaches to OddArray](w8-2/composition.rb)
+* [Two approaches to time_since](w8-2/time_math.rb)
 * [Modules for Including Behavior](w2-2/modules.rb)
 * [Private Methods](w2-2/modules2.rb)
 * [Modules for Namespacing](w2-2/modules3.rb)

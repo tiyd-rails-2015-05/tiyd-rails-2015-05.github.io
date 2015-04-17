@@ -70,22 +70,31 @@ Students should be comfortable with the following at the end of this week:
 * Params
 * Fat Models, Skinny Controllers
 * Controller Testing
+* API Version Numbers
+* Why we keep old API versions around, but don't keep old UI versions around
+* Nesting Routes - build a JSON-only controller from scratch
+* Postman
+* Submitting parameters to the create (etc) action of an API
+* `./bin/rails`
 
 #### Lecture Notes/Links
 
 * [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
 * Files from class:
   * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/test_types.md)
+* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
+* [Pre-break Video](https://www.youtube.com/watch?v=D7Rmj4jTCOc)
+* [Post-break Video](https://www.youtube.com/watch?v=a5fJ6-CMkmY)
+* [Mini-lecture Video](http://youtu.be/zZ1RB5UgVLE)
 
 #### Evening Reading
 
-*
+* [Building API Basics](http://www.theodinproject.com/ruby-on-rails/apis-and-building-your-own)
+* [Railscast on securing APIs](http://railscasts.com/episodes/352-securing-an-api)
 
 #### Assignment
 
-[Recreate Github Profile](https://github.com/tiyd-rails-2015-01/github_profile)
-  * This might not go here, as they don't know HTML yet
-  * The 10 minutes ago problem is fun and has lots of room for exploration.
+[Create a Voting API](https://github.com/tiyd-rails-2015-01/voting_api)
 
 
 ## Thursday - Creating APIs
@@ -115,7 +124,12 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* Security implications of API keys in the database
+* Security implications of API keys over http (headers vs parameters)
+* Action on your server trying to access the API on your server
+* Deadlock
 * Rails Servers
+  * WEBrick vs. Mongrel vs. Puma
 * Dev vs. Production
 * Heroku
   * `git remote` review
@@ -128,9 +142,17 @@ Students should be comfortable with the following at the end of this week:
   * git push heroku master
   * heroku run rake db:migrate
 
+* Database-backended APIs
+
 #### Lecture Notes/Links
 
 * [Heroku docs on installing Rails 4 apps](https://devcenter.heroku.com/articles/rails4)
-
+* [Example App From Class](https://github.com/tiyd-rails-2015-01/db_backed_api_example)
+* [Pre-break Video](http://youtu.be/MvX_XPAMpfI)
+* [Mini-lecture Video](http://youtu.be/PXCm6K4CVh4)
 
 ## Weekend Assignment - As Pairs
+
+[API Caching](https://github.com/tiyd-rails-2015-01/api_caching)
+  * [Starting Point](https://github.com/tiyd-rails-2015-01/database_api_starting_point)
+[Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_api)
