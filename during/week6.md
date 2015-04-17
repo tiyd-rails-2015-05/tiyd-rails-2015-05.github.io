@@ -53,6 +53,8 @@ Students should be comfortable with the following at the end of this week:
 
 * Session
 * Authentication
+  * `has_secure_password`
+  * `BCrypt::Password.create("password", cost: 4)`
 
 #### Lecture Notes/Links
 
@@ -80,6 +82,7 @@ Students should be comfortable with the following at the end of this week:
   * `default_scope`
 * Delegation
   * `delegate :category, to: :phone_categories`
+* Capybara?
 
 
 #### Lecture Notes/Links
