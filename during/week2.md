@@ -66,6 +66,8 @@ Students should be comfortable with the following at the end of this week:
   * .all? / .any?
   * .reduce
   * .each_with_index
+* Blocks
+  * Inline blocks (e.g. `array.map {|a| a.class }`)
 * Keyword arguments
 * ||=
 * `File.open`
@@ -73,8 +75,6 @@ Students should be comfortable with the following at the end of this week:
   * 129.95*10
   * 129.95*100
 * Monkey Patching: Change a string to add a .to_pig_latin
-* Blocks
-* Inline blocks (e.g. `array.map {|a| a.class }`)
 * Inheritance
   * [Player class trying to avoid inheritance](w1-4/player.rb)
 * Exploration: Start with Float object.  Explore superclasses and classes.

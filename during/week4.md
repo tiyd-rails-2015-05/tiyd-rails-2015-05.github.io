@@ -45,7 +45,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Why Learning Code is Hard](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
 
 #### Assignment
 

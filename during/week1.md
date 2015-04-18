@@ -59,7 +59,7 @@ Students should be comfortable with the following at the end of this week:
   * Dates
   * Datetimes
 * gets and puts
-* Markdown
+* Running Ruby code
 
 #### Lecture Notes/Links
 
@@ -68,20 +68,21 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-* [Why Learning Code is Hard](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
+*
 
 #### Assignment
 
-* Write code which adds up the numbers a user enters.
+* Write code which adds up the numbers a user enters.  If strings, concatenate.  If both, stop and give up.  Users stop with a blank line.
 * Hard: and an average.
 * Nightmare: and a standard deviation.
 * Give it to me in a gist.
+
 
 ## Tuesday - Methods and Arrays
 
 #### Lecture
 
-**Problem of the Day:** Write code to sing the "5 little monkeys song."
+**Problem of the Day:** Write code to sing the "5 little monkeys song" without writing any word twice.
 
 * Terminal
   * Mac file system
@@ -93,16 +94,15 @@ Students should be comfortable with the following at the end of this week:
 * Data Structures
   * Arrays
   * .each
-* Blocks
 * Git
   * Versions over time
   * git clone
   * git add
   * git commit
   * git push
-* Good commit messages
-* [Not entering your password into git for every push](https://help.github.com/articles/caching-your-github-password-in-git/)
-* Removing incorrectly forked git repos
+  * Good commit messages
+  * [Not entering your password into git for every push](https://help.github.com/articles/caching-your-github-password-in-git/)
+  * Removing incorrectly forked git repos
 * Editors (and pros and cons of the default vim)
 
 #### Lecture Notes/Links
@@ -124,8 +124,12 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** The first non-mathematical use of CS principles - monks writing concordances.
 
-* Control Flow: next, break, return, and exit (change the assignment to not lose a turn if you guess the same thing twice)
-* Ranges and how they were used in the assignment
+* Control Flow (in light of Number Guessing Game)
+  * next (not lose a turn if you guess the same thing twice)
+  * break (stop asking when the correct number is guessed)
+  * return
+  * exit
+* Ranges
 * Example: Keep track of all the names in class.  Then get rid of duplicates.
 * .each
 * Set
@@ -134,6 +138,8 @@ Students should be comfortable with the following at the end of this week:
   * [Sorta-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/sorta_simple_search)
 * Example: Collect information like first name and last name for all students, then just display first name.
 * Using data structures inside data structures (e.g. an array of hashes)
+* Markdown
+* READMEs
 
 #### Lecture Notes/Links
 
