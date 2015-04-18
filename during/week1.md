@@ -41,24 +41,26 @@ Students should be comfortable with the following at the end of this week:
   * Why Ruby is not the same thing as Ruby on Rails
 * Instructions - PB & J
 * Control Flow
-  * PB & J for the entire class.  Use a while, maybe an if.
-  * if/else
-  * while loop
-  * indentation
-* Logical Statements
-  * Concepts of and and or
-  * == vs =
+  * PB & J for the entire class.  Use a `while`, maybe an `if`.
+  * `if`, `else`, `elsif`, `end`
+  * `while` loop
+* Indentation
 * Variables
   * PB & J for the entire class, everyone wants a different jelly.
   * The two hardest problems in computer science
-* puts and gets
+* Logical Statements
+  * Concepts of `and` and `or`
+  * While someone still wants a sandwich
+  * While someone still wants a sandwich AND I still have bread
+  * If selection == "Strawberry" OR selection == "Raspberry"
+  * `==` vs `=`
 * Data Types
   * Strings
   * Integers
   * Floats
   * Dates
   * Datetimes
-* gets and puts
+* `puts` and `gets`
 * Running Ruby code
 
 #### Lecture Notes/Links
@@ -72,10 +74,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-* Write code which adds up the numbers a user enters.  If strings, concatenate.  If both, stop and give up.  Users stop with a blank line.
-* Hard: and an average.
-* Nightmare: and a standard deviation.
-* Give it to me in a gist.
+[User Input Statistics](https://github.com/tiyd-rails-2015-05/input_statistics)
 
 
 ## Tuesday - Methods and Arrays
@@ -84,8 +83,6 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Write code to sing the "5 little monkeys song" without writing any word twice.
 
-* Terminal
-  * Mac file system
 * Methods
   * Return values vs side effects (including puts)
   * [Example of defining something twice](w1-4/double_def.rb)
@@ -94,6 +91,8 @@ Students should be comfortable with the following at the end of this week:
 * Data Structures
   * Arrays
   * .each
+* Terminal
+  * Mac file system
 * Git
   * Versions over time
   * git clone
