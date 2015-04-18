@@ -139,8 +139,6 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
-* [Why Learning Code is Hard](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
-  * Coding a new application is more about debugging and troubleshooting than we think at first
 * Helpers
   * XSS
 * Partials

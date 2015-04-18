@@ -30,6 +30,7 @@ Students should be comfortable with the following at the end of this week:
   * Show how easy refactoring is with good tests.  Perhaps turn a loop into a .any? or .all?
 * Exceptions
 * Debugging
+  * Coding a new application is more about debugging and troubleshooting than we think at first
 
 #### Lecture Notes/Links
 
