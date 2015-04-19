@@ -1,9 +1,6 @@
 # Reflections for the next class
 
 * Consider trying to start each day with exercises rather than homework review?
-* Consider whether git should be taught so early?
-* All four assignments in week 1 should be code assignments.  Don't do instructions or make-objects.
-* Change all assignments (except the first one) to say that submissions should be done by pull requests. OR MAYBE DON'T.  They don't get github credit.
 * Beef up My First Git Repo example
 * Add Battleship tests to make it less possible to complete all the tests and have a working game.
 * Write up note at the end of week 2 as an exercise
@@ -17,8 +14,6 @@
 * Write an Address Book assignment to follow Address Book Data Structure (and beef up requirements of ABDS a bit)
 * Regret not having a completed full Rails app each weekend.
 * Review clinton's assignments again and make my versions as needed.
-* APIs at the beginning of Rails.
-* Add Eloquent Javascript to pre-class reading.
 * APIs - dig more into other gems: rails-api, jbuilder, ActiveModel Serializers, Restclient, Doorkeeper
 * Never did a take-a-ticket, build a feature project.
 * Beef up inheritance challenge.  Perhaps with grandparentage?
@@ -32,6 +27,8 @@
 
 Other assignment ideas:
 
+* Unbeatable Tic-tac-toe (https://xkcd.com/832/)
+* Minesweeper
 * Add devise and oAuth to, say, the auction site
 * Curriculum Management Tool
 * Volunteer Coordination
