@@ -139,7 +139,7 @@ Students should be comfortable with the following at the end of this week:
   * Keep track of a phone number for each person
 * Attempt 4: Hashes inside a Hash
   * Keep track of a phone number and an email address and a birthdate for each person
-* Attempt 5: Array of Hashes
+* Attempt 5: Arrays inside Hashes
   * Keep track of multiple email addresses for each person.
 * Markdown
 * READMEs
@@ -155,6 +155,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
+[Blackjack Advisor](https://github.com/tiyd-rails-2015-05/blackjack_advisor)
 
 
 ## Thursday - Classes
