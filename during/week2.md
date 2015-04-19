@@ -52,16 +52,14 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
-* Human Learning: agile development practices
-  * Iterate (this gets back to feedback cycles).
-  * Pair programming (this gets back to feedback cycles)
-  * Diagram: Feedback cycles of escalating size
+* Human Learning: Feedback Cycles and Agile Development
+  * Diagram: Feedback cycles of escalating size.
   * Build fully-functional apps during each iteration.
-  * Example: Build an ecommerce site for T-shirts.  You know you want it to:
-    * Accept credit card payments from customers
-    * Allow orders to be made for specific size and color of shirts
-    * Allow color/size combos to be marked as out-of-stock
-    * Send sale e-mails
+    * Example: Build an ecommerce site for T-shirts.
+    * Start with a simple subset of features, like a catalog with no interaction.
+  * Iterate.
+  * Run code often, ideally after every change
+  * Pair programming.
 * Enumerable
   * .each
   * .map

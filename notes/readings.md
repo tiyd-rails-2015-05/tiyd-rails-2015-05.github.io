@@ -4,7 +4,6 @@ layout: default
 
 * Pro Git
 * Ruby Katas
-* Eloquent JavaScript
 * Estimating Games PDF
 * [Build an app in Rails vs. Sinatra](https://www.airpair.com/ruby-on-rails/posts/rails-vs-sinatra?utm_source=rubyweekly&utm_medium=email)
 

@@ -88,6 +88,8 @@ Students should be comfortable with the following at the end of this week:
 * Methods
   * Return values vs side effects (including `puts`)
   * Define the same method twice
+  * Parameters
+  * Default parameters
 * Data Structures
   * Arrays
   * `.each`
@@ -125,6 +127,8 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** How can I keep track of and look up contact info for everyone in class?
 
+* Human Learning
+  *
 * Control Flow (in light of Number Guessing Game)
   * next (not lose a turn if you guess the same thing twice)
   * break (stop asking when the correct number is guessed)
@@ -142,7 +146,7 @@ Students should be comfortable with the following at the end of this week:
 * Attempt 5: Arrays inside Hashes
   * Keep track of multiple email addresses for each person.
 * Markdown
-* READMEs
+* Quality READMEs
 
 #### Lecture Notes/Links
 
@@ -162,38 +166,35 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** As a store, how do you keep track of your inventory of albums, their artists, and their prices?
 
-* Run code often, ideally after every change
-* Quality READMEs
-* Mac spaces
+* Human Learning
+  *
+* Mac/Development Tricks
+  * Mac spaces
+  * Vertical select
 * Object Oriented Programming
   * What are objects?
     * State and behavior
     * State = instance variables
     * Behavior = methods
+  * Everything in Ruby is messages being passed to objects!!!
+    * Example of how we've been using strings.
   * What are classes?
     * Blueprints for objects
-* Example: Humans and cell phones.  See files in notes below.
-* Encapsulation
-* attr_reader, attr_accessor
-* Duck typing
-* require
-* Example: [Albums and Artists](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/albums_and_artists)
-* Default parameters
-* Overriding arithmetic operations (e.g. `def +(other) ... end`)
+  * Encapsulation
+  * attr_reader, attr_accessor
+* Math is messages being passed to objects as well!!!
+  * `2 + 2.3`
+  * Overriding arithmetic operations (e.g. `def +(other) ... end`)
+* Ruby code in multiple files
+  * require
 
 #### Lecture Notes/Links
 
-* [Screenshot of three files at once](w1-3/screenshot.png)
-* Files from class:
-  * [Human class](w1-3/human.rb)
-  * [Phone class](w1-3/phone.rb)
-  * [Code that makes humans and phones](w1-3/w1wb.rb)
-  * [Artists and Albums](w1-3/artists_and_albums.rb)
+* [Problem of the Day Write-up](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/albums_and_artists)
 
 
 ## Weekend Assignment - As Pairs
 
-* [Currency](https://github.com/tiyd-rails-2015-01/currency)
-* [Currency Converter](https://github.com/tiyd-rails-2015-01/currency_converter)
+[Currency Converter](https://github.com/tiyd-rails-2015-05/currency_converter_project)
