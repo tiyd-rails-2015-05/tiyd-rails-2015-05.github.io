@@ -30,10 +30,12 @@ Students should be comfortable with the following at the end of this week:
   * Exercises, Assignments, and Projects
   * Pair-question-asking
 * Human Learning
+  * Definition: Acquiring knowledge and skills and having them readily available from memory so you can make sense of future problems and opportunities.
+  * New learning requires a foundation of prior knowledge.
   * Comfort, Learning, and Panic Zones
-  * Feedback Cycles
   * The data collection we'll be doing in class
   * Diagram: Three Concentric Zones
+
 * Programming Languages
   * What are they?
   * How many are there?
@@ -128,7 +130,7 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** How can I keep track of and look up contact info for everyone in class?
 
 * Human Learning
-  *
+  * Interleaving learning is better than single-track learning.
 * Control Flow (in light of Number Guessing Game)
   * next (not lose a turn if you guess the same thing twice)
   * break (stop asking when the correct number is guessed)
@@ -169,7 +171,7 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** As a store, how do you keep track of your inventory of albums, their artists, and their prices?
 
 * Human Learning
-  *
+  * Durable learning is effortful.
 * Mac/Development Tricks
   * Mac spaces
   * Vertical select

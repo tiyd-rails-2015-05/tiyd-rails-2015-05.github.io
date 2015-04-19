@@ -26,6 +26,9 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* Human Learning:
+  * Extract key ideas.
+  * About to dive into databases, and we're not going to dive into one implementation yet.
 * Databases
 * Entity-Relationship Diagrams (ERDs)
 * Migrations
