@@ -9,6 +9,7 @@ Students should be comfortable with the following at the end of this week:
 * Agile Development
 * Testing and TDD
 * Enumerables
+* Blocks
 * Exceptions
 * Inheritance
 * Composition
@@ -20,7 +21,7 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - Testing
+## Monday - Inheritance and Testing
 
 #### Lecture
 
@@ -28,9 +29,14 @@ Students should be comfortable with the following at the end of this week:
 
 * Human Learning
   * Coding a new application is more about debugging and troubleshooting than we think at first
+* Inheritance
+  * Exploration: Start with Float object.  Explore superclasses and classes.
+  * Exercise: [National Expressions](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/national_expressions)
+  * [Player class trying to avoid inheritance](w1-4/player.rb)
+* Exceptions
+  * Raising exceptions
 * Testing
   * Show how easy refactoring is with good tests.  Perhaps turn a loop into a .any? or .all?
-* Exceptions
 * Git
   * Reason: Sharing code with others
   * Forking
@@ -46,7 +52,7 @@ Students should be comfortable with the following at the end of this week:
 #### Assignment
 
 
-## Tuesday - Enumerable and Inheritance
+## Tuesday - Enumerable and Blocks
 
 #### Lecture
 
@@ -76,15 +82,7 @@ Students should be comfortable with the following at the end of this week:
   * 129.95*10
   * 129.95*100
 * Monkey Patching: Change a string to add a .to_pig_latin
-* Inheritance
-  * [Player class trying to avoid inheritance](w1-4/player.rb)
-* Exploration: Start with Float object.  Explore superclasses and classes.
-* Exercise: [National Expressions](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/national_expressions)
-* Surprise: everything in Ruby is an object!
-  * All functions are actually methods on classes
 * Early returns
-* Raising exceptions
-
 
 #### Lecture Notes/Links
 

@@ -196,6 +196,10 @@ Students should be comfortable with the following at the end of this week:
 
 * [Problem of the Day Write-up](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/albums_and_artists)
 
+#### Evening Reading
+
+* [A good blog post about creating your own error classes](http://www.skorks.com/2009/09/ruby-exceptions-and-exception-handling/)
+
 
 ## Weekend Assignment - As Pairs
 
