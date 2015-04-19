@@ -70,7 +70,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* None.
 
 #### Assignment
 
@@ -81,21 +81,19 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** Write code to sing the "5 little monkeys song" without writing any word twice.
+**Problem of the Day:** Write code to sing the "12 Days of Christmas."
 
 * Methods
   * Return values vs side effects (including puts)
-  * [Example of defining something twice](w1-4/double_def.rb)
-* Example: [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
-* Exercise: [Random Number in a Range (Fish Story)](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/random_in_range)
+  * Define the same method twice
 * Data Structures
   * Arrays
   * .each
 * Terminal
   * Mac file system
 * Git
-  * Versions over time
-  * git clone
+  * Reason: versions over time
+  * Reason: backups
   * git add
   * git commit
   * git push
@@ -103,10 +101,12 @@ Students should be comfortable with the following at the end of this week:
   * [Not entering your password into git for every push](https://help.github.com/articles/caching-your-github-password-in-git/)
   * Removing incorrectly forked git repos
 * Editors (and pros and cons of the default vim)
+* `rand`
 
 #### Lecture Notes/Links
 
-*
+* Method exercise: [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
+* Method exercise: [Random Number in a Range (Fish Story)](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/random_in_range)
 
 #### Evening Reading
 

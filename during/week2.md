@@ -31,6 +31,9 @@ Students should be comfortable with the following at the end of this week:
 * Exceptions
 * Debugging
   * Coding a new application is more about debugging and troubleshooting than we think at first
+* Git
+  * Reason: Sharing code with others
+  * Forking
 
 #### Lecture Notes/Links
 
@@ -160,8 +163,11 @@ Students should be comfortable with the following at the end of this week:
 * Don't overdo it on instance variables
 * TDD
   * Exercise: [Celebrity Couple Names](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/celebrity_couple_names) <!-- Bombed spectacularly.  Not a good example for TDD.  Need a class to show how TDD works. -->
-* git branching
-* git pull
+* Git
+  * Reason: working with other developers on code
+  * `git pull`
+  * `git branch`
+  * `git merge`
 * Pair Programming Details
 
 #### Lecture Notes/Links
