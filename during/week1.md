@@ -83,30 +83,32 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Write code to sing the "12 Days of Christmas."
 
+* Human Learning
+  * Try to solve a problem before being taught how to do it.
 * Methods
-  * Return values vs side effects (including puts)
+  * Return values vs side effects (including `puts`)
   * Define the same method twice
 * Data Structures
   * Arrays
-  * .each
+  * `.each`
 * Terminal
   * Mac file system
 * Git
   * Reason: versions over time
   * Reason: backups
-  * git add
-  * git commit
-  * git push
+  * `git add`
+  * `git commit`
+  * `git push`
   * Good commit messages
-  * [Not entering your password into git for every push](https://help.github.com/articles/caching-your-github-password-in-git/)
   * Removing incorrectly forked git repos
 * Editors (and pros and cons of the default vim)
 * `rand`
 
 #### Lecture Notes/Links
 
-* Method exercise: [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
-* Method exercise: [Random Number in a Range (Fish Story)](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/random_in_range)
+* [Not entering your GitHub password into git for every push](https://help.github.com/articles/caching-your-github-password-in-git/)
+* Extra method exercise: [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
+* Extra method exercise: [Random Number in a Range (Fish Story)](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/random_in_range)
 
 #### Evening Reading
 
@@ -121,28 +123,31 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** The first non-mathematical use of CS principles - monks writing concordances.
+**Problem of the Day:** How can I keep track of and look up contact info for everyone in class?
 
 * Control Flow (in light of Number Guessing Game)
   * next (not lose a turn if you guess the same thing twice)
   * break (stop asking when the correct number is guessed)
   * return
   * exit
-* Ranges
-* Example: Keep track of all the names in class.  Then get rid of duplicates.
-* .each
-* Set
-* Hashes
-  * [Super-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/super_simple_search)
-  * [Sorta-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/sorta_simple_search)
-* Example: Collect information like first name and last name for all students, then just display first name.
-* Using data structures inside data structures (e.g. an array of hashes)
+* Ranges (in light of Number Guessing Game)
+* Attempt 1: Array
+  * Just names first.  Ask for everyone's name and display them all at the end.
+  * How do I prevent duplicates when I enter a name more than once?
+* Attempt 2: Set
+* Attempt 3: Hash
+  * Keep track of a phone number for each person
+* Attempt 4: Hashes inside a Hash
+  * Keep track of a phone number and an email address and a birthdate for each person
+* Attempt 5: Array of Hashes
+  * Keep track of multiple email addresses for each person.
 * Markdown
 * READMEs
 
 #### Lecture Notes/Links
 
-*
+* Extra array-to-hash exercise: [Super-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/super_simple_search)
+* Extra hash exercise: [Sorta-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/sorta_simple_search)
 
 #### Evening Reading
 
