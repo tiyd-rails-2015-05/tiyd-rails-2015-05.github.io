@@ -25,7 +25,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** How do I write a class `Vehicle` which can give back number of tires, etc on multiple vehicle types (e.g. `Bike`, `Car`, `Electric Car`, `Plane`)?
+**Problem of the Day:** [Vehicle Inheritance](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/vehicle_inheritance)
 
 * Human Learning
   * Coding a new application is more about debugging and troubleshooting than we think at first
@@ -33,7 +33,7 @@ Students should be comfortable with the following at the end of this week:
   * Exploration: Start with Float object.  Explore superclasses and classes.
   * Explain how the exception problem was solved over the weekend.
 * Exceptions
-  * What happens if I ask for `number_of_wings` on a base vehicle?
+  * What happens if I ask for `number_of_wings` on a HybridCar?
   * Raising exceptions
   * Inventing exceptions
 * Testing
@@ -84,7 +84,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 * Keyword arguments
 * ||=
 * `File.open`
-* Floating point arithmetic
+* Floating point arithmetic - play with distance in Vehicle class from yesterday.
   * 129.95*10
   * 129.95*100
 * Monkey Patching: Change a string to add a .to_pig_latin
