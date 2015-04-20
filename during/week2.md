@@ -67,7 +67,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** XXX - READ UP ON BLOCKS FIRST.
 
 * Human Learning: Feedback Cycles and Agile Development
   * Diagram: Feedback cycles of escalating size.
@@ -86,11 +86,12 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
   * .each_with_index
 * Blocks
   * Inline blocks (e.g. `array.map {|a| a.class }`)
-* Keyword arguments
-* ||=
-* `File.open`
-* Monkey Patching: Change a string to add a .to_pig_latin
-* Early returns
+* Random topics
+  * Early returns
+  * Keyword arguments
+  * `||=`
+  * `File.open`
+  * Monkey Patching: Change a string to add a .to_pig_latin
 
 #### Lecture Notes/Links
 
@@ -102,7 +103,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 #### Assignment
 
-Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests XX-YY to pass.
+Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 19-31 to pass.
 
 
 ## Wednesday - Composition and Modules
@@ -111,6 +112,7 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 **Problem of the Day:** XXX
 
+* Regex?
 * Composition
   * Inheritance: is-a (players)
   * Composition: has-a (odd array)
