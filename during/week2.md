@@ -25,7 +25,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** How do I write a class `Vehicle` which can give back number of tires, etc on multiple vehicle types (e.g. Bike, Car, Electric Car, Plane)?
+**Problem of the Day:** How do I write a class `Vehicle` which can give back number of tires, etc on multiple vehicle types (e.g. `Bike`, `Car`, `Electric Car`, `Plane`)?
 
 * Human Learning
   * Coding a new application is more about debugging and troubleshooting than we think at first
@@ -39,7 +39,7 @@ Students should be comfortable with the following at the end of this week:
 * Testing
   * Show tests for the Vehicle class.
   * Show tests for old "12 days of Christmas" problem.
-  * Show how easy refactoring is with good tests.  Modify the way that things are output in the `verse` method.
+  * Show how easy refactoring is with good tests.  Move arrays out to methods.  Then modify the set of gifts which can be passed in.
   * Show battleship assignment and tests.
 * Git
   * Reason: Sharing code with others

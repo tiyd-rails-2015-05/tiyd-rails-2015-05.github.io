@@ -85,19 +85,18 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problems of the Day:**
-
-* [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
-* [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days)
+**Problem of the Day:** [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days)
 
 * Human Learning
   * Try to solve a problem before being taught how to do it.
 * Methods
-  * Return values vs side effects (including `puts`)
-  * Define the same method twice
+  * Start with [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
   * Parameters
   * Default parameters
+  * Return values vs side effects (including `puts`)
+  * Define the same method twice
 * Data Structures
+  * Switch back to [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days)
   * Arrays
   * `.each`
 * Terminal
