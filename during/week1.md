@@ -54,7 +54,7 @@ Students should be comfortable with the following at the end of this week:
   * Concepts of `and` and `or`
   * While someone still wants a sandwich
   * While someone still wants a sandwich AND I still have bread
-  * If selection == "Strawberry" OR selection == "Raspberry"
+  * If `selection == "Strawberry"` OR `selection == "Raspberry"`
   * Say I want to edit a comment on a forum.  I can do that if I'm logged in and it's my comment or if I'm an admin.
   * `==` vs `=`
   * `!`

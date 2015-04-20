@@ -18,7 +18,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Important Links
 
-* [Challenge Submission Form](http://goo.gl/forms/OzzXZL6iEF)
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
@@ -26,32 +25,37 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** How do I write a class `Vehicle` which can give back number of tires, etc on multiple vehicle types (e.g. Bike, Car, Electric Car, Plane)?
 
 * Human Learning
   * Coding a new application is more about debugging and troubleshooting than we think at first
 * Inheritance
   * Exploration: Start with Float object.  Explore superclasses and classes.
-  * Exercise: [National Expressions](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/national_expressions)
-  * [Player class trying to avoid inheritance](w1-4/player.rb)
+  * Explain how the exception problem was solved over the weekend.
 * Exceptions
+  * What happens if I ask for `number_of_wings` on a base vehicle?
   * Raising exceptions
+  * Inventing exceptions
 * Testing
-  * Show how easy refactoring is with good tests.  Perhaps turn a loop into a .any? or .all?
+  * Show tests for old "12 days of Christmas" problem.
+  * Show how easy refactoring is with good tests.  Modify the way that things are output in the `verse` method.
+  * Show tests for the Vehicle class.
 * Git
   * Reason: Sharing code with others
   * Forking
+  * `git clone`
 
 #### Lecture Notes/Links
 
-*
+* Extra inheritance exercise: [National Expressions](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/national_expressions)
 
 #### Evening Reading
 
-*
+* [Pro Git Ch. 2.5](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 
 #### Assignment
 
+Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests XX-YY to pass.
 
 ## Tuesday - Enumerable and Blocks
 
@@ -65,7 +69,7 @@ Students should be comfortable with the following at the end of this week:
     * Example: Build an ecommerce site for T-shirts.
     * Start with a simple subset of features, like a catalog with no interaction.
   * Iterate.
-  * Run code often, ideally after every change
+  * Run code often, ideally after every change.
   * Pair programming.
 * Enumerable
   * .each
@@ -95,7 +99,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests XX-YY to pass.
 
 
 ## Wednesday - Composition and Modules
@@ -139,7 +143,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get all tests to pass.
 
 
 ## Thursday - Test-Driven Development
