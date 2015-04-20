@@ -32,6 +32,10 @@ Students should be comfortable with the following at the end of this week:
 * Inheritance
   * Exploration: Start with Float object.  Explore superclasses and classes.
   * Explain how the exception problem was solved over the weekend.
+  * Vehicle exercise.
+* Floating point arithmetic - play with distance in Vehicle class from yesterday.
+  * 129.95*10
+  * 129.95*100
 * Exceptions
   * What happens if I ask for `number_of_wings` on a HybridCar?
   * Raising exceptions
@@ -56,7 +60,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests XX-YY to pass.
+Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 01-18 to pass.
+
 
 ## Tuesday - Enumerable and Blocks
 
@@ -84,9 +89,6 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 * Keyword arguments
 * ||=
 * `File.open`
-* Floating point arithmetic - play with distance in Vehicle class from yesterday.
-  * 129.95*10
-  * 129.95*100
 * Monkey Patching: Change a string to add a .to_pig_latin
 * Early returns
 
