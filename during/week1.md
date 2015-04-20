@@ -85,7 +85,10 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** Write code to sing the "12 Days of Christmas."
+**Problems of the Day:**
+
+* [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
+* [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days)
 
 * Human Learning
   * Try to solve a problem before being taught how to do it.
@@ -113,7 +116,6 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Not entering your GitHub password into git for every push](https://help.github.com/articles/caching-your-github-password-in-git/)
-* Extra method exercise: [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
 * Extra method exercise: [Random Number in a Range (Fish Story)](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/random_in_range)
 
 #### Evening Reading

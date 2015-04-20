@@ -37,9 +37,10 @@ Students should be comfortable with the following at the end of this week:
   * Raising exceptions
   * Inventing exceptions
 * Testing
+  * Show tests for the Vehicle class.
   * Show tests for old "12 days of Christmas" problem.
   * Show how easy refactoring is with good tests.  Modify the way that things are output in the `verse` method.
-  * Show tests for the Vehicle class.
+  * Show battleship assignment and tests.
 * Git
   * Reason: Sharing code with others
   * Forking
