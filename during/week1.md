@@ -74,7 +74,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-* None.
+* [How to ask for technical help](https://www.youtube.com/watch?v=hY14Er6JX2s)
 
 #### Assignment
 
