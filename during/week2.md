@@ -73,33 +73,34 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 #### Lecture
 
-**Problem of the Day:** XXX
-* Exercise: [OddArray](https://github.com/tiyd-rails-2015-01/odd_array)
+**Problem of the Day:** [OddArray](https://github.com/tiyd-rails-2015-01/odd_array)
 
-* You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
 * Human Learning
   * Coding a new application is more about debugging and troubleshooting than we think at first
 * Debugging
   * Basic gem installs
   * byebug
-* Composition
-  * Inheritance: is-a (players)
-  * Composition: has-a (odd array)
-  * Roles via modules: acts-like-a (enumerable)
-  * Example: Animals with Cat, Dog, Human subclasses.  Only cats and dogs can wag tails.  Modules are better than having Cat and Dog inherit from TailedAnimals because you might need to add FourLegged behavior later, and then what about kangaroos?
 * OO: public vs private
   * Example: Jess is a Builder.  We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
   * Tell, don't ask
   * Calling private methods with `.send()`
   * `protected` keyword
   * Class Variables - DON'T
-* Modules
+* Composition
+  * 1st way: Inheritance - is-a
+  * 2nd way: Composition - has-a
+* Modules: acts-like-a
+  * Example: Animals with Cat, Dog, Human subclasses.  Only cats and dogs can wag tails.  Modules are better than having Cat and Dog inherit from TailedAnimals because you might need to add FourLegged behavior later, and then what about kangaroos?
+* Namespacing
   * Use of modules for namespacing
   * Example: IronYard module with Instructor and Student classes.  Iron Yard students don't sleep, but a Student outside the module does.
-  * Exercise: Bass.
+  * Example: Bass.
     * Make two classes with the same name.  One for the fish and one for the orchestral instrument.
     * Each should have a maximum_length method, but they should return different things
     * You should also be able to call Fish::PHYLUM and get back "Chordata"
+* Random topics
+  * You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
+
 
 #### Lecture Notes/Links
 
@@ -129,7 +130,11 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
   * .reduce
   * .each_with_index
 * Blocks
-  * Inline blocks (e.g. `array.map {|a| a.class }`)
+  * Inline blocks (e.g. `array.map {|a| a.class}`)
+  * Methods which take blocks
+    * `yield` to a block
+    * `&code` param and `code.call` to use a Proc
+    *
 * Random topics
   * Early returns
   * Keyword arguments
@@ -149,7 +154,7 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 #### Evening Reading
 
-*
+* [Estimating Games](w2-3/estimating_games.pdf)
 
 #### Assignment
 
