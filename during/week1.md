@@ -145,6 +145,7 @@ Students should be comfortable with the following at the end of this week:
   * Just names first.  Ask for everyone's name and display them all at the end.
   * How do I prevent duplicates when I enter a name more than once?
 * Attempt 2: Set
+  * Basic `require` from standard library.
 * Attempt 3: Hash
   * Keep track of a phone number for each person
 * Attempt 4: Hashes inside a Hash

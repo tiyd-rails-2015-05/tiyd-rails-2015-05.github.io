@@ -27,8 +27,14 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** [Vehicle Inheritance](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/vehicle_inheritance)
 
-* Human Learning
-  * Coding a new application is more about debugging and troubleshooting than we think at first
+* Human Learning: Feedback Cycles and Agile Development
+  * Diagram: Feedback cycles of escalating size.
+  * Build fully-functional apps during each iteration.
+    * Example: Build an ecommerce site for T-shirts.
+    * Start with a simple subset of features, like a catalog with no interaction.
+  * Iterate.
+  * Run code often, ideally after every change.
+  * Pair programming.
 * Inheritance
   * Exploration: Start with Float object.  Explore superclasses and classes.
   * Explain how the exception problem was solved over the weekend.
@@ -63,20 +69,58 @@ Students should be comfortable with the following at the end of this week:
 Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 01-18 to pass.
 
 
-## Tuesday - Enumerable and Blocks
+## Tuesday - Composition and Modules
 
 #### Lecture
 
-**Problem of the Day:** XXX - READ UP ON BLOCKS FIRST.
+**Problem of the Day:** XXX
+* Exercise: [OddArray](https://github.com/tiyd-rails-2015-01/odd_array)
 
-* Human Learning: Feedback Cycles and Agile Development
-  * Diagram: Feedback cycles of escalating size.
-  * Build fully-functional apps during each iteration.
-    * Example: Build an ecommerce site for T-shirts.
-    * Start with a simple subset of features, like a catalog with no interaction.
-  * Iterate.
-  * Run code often, ideally after every change.
-  * Pair programming.
+* You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
+* Human Learning
+  * Coding a new application is more about debugging and troubleshooting than we think at first
+* Debugging
+  * Basic gem installs
+  * byebug
+* Composition
+  * Inheritance: is-a (players)
+  * Composition: has-a (odd array)
+  * Roles via modules: acts-like-a (enumerable)
+  * Example: Animals with Cat, Dog, Human subclasses.  Only cats and dogs can wag tails.  Modules are better than having Cat and Dog inherit from TailedAnimals because you might need to add FourLegged behavior later, and then what about kangaroos?
+* OO: public vs private
+  * Example: Jess is a Builder.  We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
+  * Tell, don't ask
+  * Calling private methods with `.send()`
+  * `protected` keyword
+  * Class Variables - DON'T
+* Modules
+  * Use of modules for namespacing
+  * Example: IronYard module with Instructor and Student classes.  Iron Yard students don't sleep, but a Student outside the module does.
+  * Exercise: Bass.
+    * Make two classes with the same name.  One for the fish and one for the orchestral instrument.
+    * Each should have a maximum_length method, but they should return different things
+    * You should also be able to call Fish::PHYLUM and get back "Chordata"
+
+#### Lecture Notes/Links
+
+*
+
+#### Evening Reading
+
+*
+
+#### Assignment
+
+Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 19-31 to pass.
+
+
+## Wednesday - Regex, Enumerable, and Blocks
+
+#### Lecture
+
+**Problem of the Day:** XXX
+
+* Regex
 * Enumerable
   * .each
   * .map
@@ -92,47 +136,8 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
   * `||=`
   * `File.open`
   * Monkey Patching: Change a string to add a .to_pig_latin
-
-#### Lecture Notes/Links
-
-*
-
-#### Evening Reading
-
-*
-
-#### Assignment
-
-Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 19-31 to pass.
-
-
-## Wednesday - Composition and Modules
-
-#### Lecture
-
-**Problem of the Day:** XXX
-
-* Regex?
-* Composition
-  * Inheritance: is-a (players)
-  * Composition: has-a (odd array)
-  * Roles via modules: acts-like-a (enumerable)
-  * Example: Animals with Cat, Dog, Human subclasses.  Only cats and dogs can wag tails.  Modules are better than having Cat and Dog inherit from TailedAnimals because you might need to add FourLegged behavior later, and then what about kangaroos?
-* OO: public vs private
-  * Example: Jess is a Builder.  We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
-  * Tell, don't ask
-  * Calling private methods with `.send()`
-  * `protected` keyword
-  * Class Variables - DON'T
-* Exercise: [OddArray](https://github.com/tiyd-rails-2015-01/odd_array)
-* Modules
-  * Use of modules for namespacing
-  * Example: IronYard module with Instructor and Student classes.  Iron Yard students don't sleep, but a Student outside the module does.
-  * Exercise: Bass.
-    * Make two classes with the same name.  One for the fish and one for the orchestral instrument.
-    * Each should have a maximum_length method, but they should return different things
-    * You should also be able to call Fish::PHYLUM and get back "Chordata"
-
+* Human Learning: Estimating is hard.
+  * Estimate how much time is left to complete Battleship.
 
 #### Lecture Notes/Links
 
@@ -157,7 +162,9 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 **Problem of the Day:** XXX
 
-* you can return objects when true/false is expected (predicate methods - with ? at the end)
+* Human Learning
+  * Review estimates from end of day Wednesday
+  * Retrieval practice is better than re-reading.
 * Gemfiles
   * Requiring external code
   * Gems
