@@ -39,9 +39,9 @@ Students should be comfortable with the following at the end of this week:
   * Exploration: Start with Float object.  Explore superclasses and classes.
   * Explain how the exception problem was solved over the weekend.
   * Vehicle exercise.
-* Floating point arithmetic - play with distance in Vehicle class from yesterday.
-  * 129.95*10
-  * 129.95*100
+* Floating point arithmetic - play with distance in Vehicle class.
+  * `129.95*10`
+  * `129.95*100`
 * Exceptions
   * What happens if I ask for `number_of_wings` on a HybridCar?
   * Raising exceptions
@@ -73,31 +73,29 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 #### Lecture
 
-**Problem of the Day:** [OddArray](https://github.com/tiyd-rails-2015-01/odd_array)
+**Problem of the Day:** Back to Vehicles. Set up inheritance so that some of the vehicles carry cargo (trucks and planes) and some fly (planes and helicopters).
 
 * Human Learning
   * Coding a new application is more about debugging and troubleshooting than we think at first
 * Debugging
   * Basic gem installs
   * byebug
-* OO: public vs private
+* OO: `public` vs `private`
   * Example: Jess is a Builder.  We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
   * Tell, don't ask
   * Calling private methods with `.send()`
   * `protected` keyword
-  * Class Variables - DON'T
-* Composition
-  * 1st way: Inheritance - is-a
-  * 2nd way: Composition - has-a
-* Modules: acts-like-a
-  * Example: Animals with Cat, Dog, Human subclasses.  Only cats and dogs can wag tails.  Modules are better than having Cat and Dog inherit from TailedAnimals because you might need to add FourLegged behavior later, and then what about kangaroos?
+  * Class variables - DON'T
+* Inheritance - is-a
+* Composition - has-a
+* Modules - acts-like-a/has-a-role
 * Namespacing
   * Use of modules for namespacing
   * Example: IronYard module with Instructor and Student classes.  Iron Yard students don't sleep, but a Student outside the module does.
   * Example: Bass.
-    * Make two classes with the same name.  One for the fish and one for the orchestral instrument.
-    * Each should have a maximum_length method, but they should return different things
-    * You should also be able to call Fish::PHYLUM and get back "Chordata"
+    * Make two classes with the same name.  One for the fish and one for the instrument.
+    * Each should have a `maximum_length` method, but they should return different things
+    * You should also be able to call `Fish::PHYLUM` and get back "Chordata"
 * Random topics
   * You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
 
@@ -108,7 +106,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 #### Evening Reading
 
-*
+* None
 
 #### Assignment
 
@@ -119,38 +117,34 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** I want to loop over an array of strings and return the first one that has a person's name in it.
 
 * Regex
 * Enumerable
-  * .each
-  * .map
-  * .select / .reject
-  * .all? / .any?
-  * .reduce
-  * .each_with_index
+  * `.each`
+  * `.map`
+  * `.select` / `.reject`
+  * `.all?` / `.any?`
+  * `.reduce`
+  * `.each_with_index`
 * Blocks
   * Inline blocks (e.g. `array.map {|a| a.class}`)
   * Methods which take blocks
     * `yield` to a block
     * `&code` param and `code.call` to use a Proc
-    *
+    * `Proc.new` stored in variable.
 * Random topics
   * Early returns
   * Keyword arguments
   * `||=`
   * `File.open`
-  * Monkey Patching: Change a string to add a .to_pig_latin
+  * Monkey Patching: Change a string to add `.to_pig_latin`
 * Human Learning: Estimating is hard.
   * Estimate how much time is left to complete Battleship.
 
 #### Lecture Notes/Links
 
-* [Three approaches to OddArray](w8-2/composition.rb)
-* [Two approaches to time_since](w8-2/time_math.rb)
-* [Modules for Including Behavior](w2-2/modules.rb)
-* [Private Methods](w2-2/modules2.rb)
-* [Modules for Namespacing](w2-2/modules3.rb)
+*
 
 #### Evening Reading
 
@@ -165,34 +159,29 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** OddArray with TDD.
 
 * Human Learning
   * Review estimates from end of day Wednesday
   * Retrieval practice is better than re-reading.
 * Gemfiles
-  * Requiring external code
-  * Gems
   * Bundler
   * `bundle install`
-  * Methods ending in !
+  * Methods ending in `!`
   * Semantic versioning (e.g. 4.1.5)
 * " vs '
 * Don't overdo it on instance variables
 * TDD
-  * Exercise: [Celebrity Couple Names](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/celebrity_couple_names) <!-- Bombed spectacularly.  Not a good example for TDD.  Need a class to show how TDD works. -->
-* Git
-  * Reason: working with other developers on code
-  * `git pull`
-  * `git branch`
-  * `git merge`
-* Pair Programming Details
+  * OddArray
 
 #### Lecture Notes/Links
 
-*
+* 
 
+### Evening Reading
+
+* [Blocks and Procs](http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/) - Only required down through "Procedures, AKA, Procs."  Read "Lambdas" and beyond if you dare.
 
 ## Weekend Assignment - As Pairs
 
-[Employee Reviews](https://github.com/tiyd-rails-2015-01/employee_reviews)
+[Employee Reviews](https://github.com/tiyd-rails-2015-05/employee_reviews_project)

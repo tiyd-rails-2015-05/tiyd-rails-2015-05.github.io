@@ -123,7 +123,11 @@ Students should be comfortable with the following at the end of this week:
   * Exercise: Add at least two validations to your Rails app from last night. <!-- This went surprisingly well -->
 * Seeds
 * Faker
-* Class methods
+* Git
+  * Reason: working with other developers on code
+  * `git pull`
+  * `git branch`
+  * `git merge`
 
 
 #### Lecture Notes/Links
