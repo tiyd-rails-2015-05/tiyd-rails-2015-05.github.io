@@ -176,7 +176,7 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 #### Lecture Notes/Links
 
-* 
+*
 
 ### Evening Reading
 
