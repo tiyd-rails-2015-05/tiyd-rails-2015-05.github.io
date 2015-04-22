@@ -41,7 +41,7 @@ Students should be comfortable with the following at the end of this week:
   * `t.decimal :amount, precision: 5, scale: 2`
   * `add_column`, etc
 
-**Challenge:**
+**Challenge:** [Methods](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
 
 #### Lecture Notes/Links
 
@@ -49,17 +49,11 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-
+*
 
 #### Assignment
 
 [Time Entry Data Structure](https://github.com/tiyd-rails-2015-05/time_entry_data_structure)
-
-* Build a Data Structure - Time tracking?
-  * People, projects, time entries.
-  * Assigned projects
-  * Projects with Clients
-  * Subproject tree
 
 
 ## Tuesday - ActiveRecord and Unit Testing
@@ -79,6 +73,7 @@ Students should be comfortable with the following at the end of this week:
 * Mocking for tests
 * Efficiency
 
+**Challenge:** [Arrays and Hashes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb)
 
 #### Lecture Notes/Links
 
@@ -86,7 +81,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Ruby Rogues: Impostor Syndrome](http://devchat.tv/ruby-rogues/107-rr-impostor-syndrome-with-tim-chevalier)
 
 #### Assignment
 
@@ -121,6 +116,7 @@ Students should be comfortable with the following at the end of this week:
   * `git branch`
   * `git merge`
 
+**Challenge:** [Classes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/classes_challenge.rb)
 
 #### Lecture Notes/Links
 
@@ -172,6 +168,8 @@ Students should be comfortable with the following at the end of this week:
   * .match
   * .scan, .sub, .gsub
 * JSON
+
+**Challenge:** [Inheritance](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/inheritance_challenge.rb)
 
 #### Lecture Notes/Links
 

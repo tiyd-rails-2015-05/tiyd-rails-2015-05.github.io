@@ -4,7 +4,6 @@ layout: default
 
 * Pro Git
 * Ruby Katas
-* Estimating Games PDF
 * [Build an app in Rails vs. Sinatra](https://www.airpair.com/ruby-on-rails/posts/rails-vs-sinatra?utm_source=rubyweekly&utm_medium=email)
 
 Ruby Rogues
@@ -20,7 +19,7 @@ Ruby Rogues
 039 - Programming Language Fundamentals (at the end of class)
 ...
 101 ??? - Diversity
-107 - Impostor Syndrome
+W3D2 - 107 - Impostor Syndrome
 ...
 159 - Hacking Education (about code schools)
 162 ??? - Scaling Rails
