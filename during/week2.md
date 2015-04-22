@@ -95,7 +95,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
   * Example: Bass.
     * Make two classes with the same name.  One for the fish and one for the instrument.
     * Each should have a `maximum_length` method, but they should return different things
-    * You should also be able to call `Fish::PHYLUM` and get back "Chordata"
+    * You should also be able to call `Fish::PHYLUM` and get back `"Chordata"`
 * Random topics
   * You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
 
@@ -169,7 +169,7 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
   * `bundle install`
   * Methods ending in `!`
   * Semantic versioning (e.g. 4.1.5)
-* " vs '
+* `"` vs `'`
 * Don't overdo it on instance variables
 * TDD
   * OddArray
