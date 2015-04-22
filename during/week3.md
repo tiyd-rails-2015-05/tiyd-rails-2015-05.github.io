@@ -24,42 +24,36 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** On Wed of Week 1, we put our class contact information in a complex data structure.  Put it in a Google Spreadsheet instead.
 
 * Human Learning:
   * Extract key ideas.
   * About to dive into databases, and we're not going to dive into one implementation yet.
 * Databases
 * Entity-Relationship Diagrams (ERDs)
-* Migrations
-  * _on fields
-  * _at fields
-  * `t.timestamps`
-  * `rails generate model`
-  * Migrations
-  * `rake db:migrate`
-  * rails generate migration
-  * add_column, etc
-  * rake db:drop and db:create
-  * config.time_zone = 'Eastern Time (US & Canada)'
-  * t.decimal :amount, precision: 5, scale: 2
 * Data Structure Design
-  * Lucidchart
-  * Example: Design a Data Structure for the weekend assignment.
-* [SQLite Browser](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.5.1)
+* Lucidchart
+* SQLite Browser
+* Migrations
+  * `_on` fields
+  * `_at` fields
+  * `t.timestamps`
+  * `t.decimal :amount, precision: 5, scale: 2`
+  * `add_column`, etc
 
+**Challenge:**
 
 #### Lecture Notes/Links
 
-*
+* [SQLite Browser](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.5.1)
 
 #### Evening Reading
 
-* [Article on Pair Programming Styles](http://articles.coreyhaines.com/posts/thoughts-on-pair-programming/)
+
 
 #### Assignment
 
-[Address Book Data Structure](https://github.com/tiyd-rails-2015-01/address_book_data_structure)
+[Time Entry Data Structure](https://github.com/tiyd-rails-2015-05/time_entry_data_structure)
 
 * Build a Data Structure - Time tracking?
   * People, projects, time entries.
@@ -68,7 +62,7 @@ Students should be comfortable with the following at the end of this week:
   * Subproject tree
 
 
-## Tuesday - ActiveRecord and Efficiency
+## Tuesday - ActiveRecord and Unit Testing
 
 #### Lecture
 
@@ -82,7 +76,6 @@ Students should be comfortable with the following at the end of this week:
   * Diagram: Developer spectrum.  Hammer-user all the way to shiny-object
 * ActiveRecord
 * Unit Testing
-* Fixtures
 * Mocking for tests
 * Efficiency
 
@@ -121,7 +114,6 @@ Students should be comfortable with the following at the end of this week:
 * Validations
   * Write your own validations (perhaps on a datetime to validate uniqueness of date)
   * Exercise: Add at least two validations to your Rails app from last night. <!-- This went surprisingly well -->
-* Seeds
 * Faker
 * Git
   * Reason: working with other developers on code

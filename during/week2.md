@@ -106,7 +106,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 #### Evening Reading
 
-* None
+* [Article on Pair Programming Styles](http://articles.coreyhaines.com/posts/thoughts-on-pair-programming/)
 
 #### Assignment
 

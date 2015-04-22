@@ -98,13 +98,21 @@ Students should be comfortable with the following at the end of this week:
 [Create a Voting API](https://github.com/tiyd-rails-2015-01/voting_api)
 
 
-## Thursday - Creating APIs
+## Thursday - Databases on Rails, Making APIs
 
 #### Lecture
 
 **Problem of the Day:** XXX
 
+* `rails generate model`
+* `rake db:migrate`
+* `rails generate migration`
+* `rake db:drop` and `rake db:create`
+* `config.time_zone = 'Eastern Time (US & Canada)'`
+* Seeds
+* Fixtures
 * ActiveModel Serializers
+
 
 #### Lecture Notes/Links
 
