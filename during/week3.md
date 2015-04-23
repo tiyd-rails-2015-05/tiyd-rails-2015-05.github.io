@@ -132,9 +132,9 @@ Students should be comfortable with the following at the end of this week:
 
 *
 
-#### Assignment
+#### Assignment - IN PAIRS
 
-
+[Legacy Associations and Validations](https://github.com/tiyd-rails-2015-05/legacy_associations_and_validations)
 
 
 ## Thursday - APIs
