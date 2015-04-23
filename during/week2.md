@@ -64,7 +64,7 @@ Students should be comfortable with the following at the end of this week:
 
 * [Pro Git Ch. 2.5](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 
-#### Assignment
+#### Assignment - IN PAIRS
 
 Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 01-18 to pass.
 
@@ -108,7 +108,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 * [Article on Pair Programming Styles](http://articles.coreyhaines.com/posts/thoughts-on-pair-programming/)
 
-#### Assignment
+#### Assignment - IN PAIRS
 
 Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 19-31 to pass.
 
@@ -150,7 +150,7 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 * [Estimating Games](w2-3/estimating_games.pdf)
 
-#### Assignment
+#### Assignment - IN PAIRS
 
 Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get all tests to pass.
 
@@ -164,6 +164,7 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 * Human Learning
   * Review estimates from end of day Wednesday
   * Retrieval practice is better than re-reading.
+  * Elaboration is better than repetition.
 * Gemfiles
   * Bundler
   * `bundle install`

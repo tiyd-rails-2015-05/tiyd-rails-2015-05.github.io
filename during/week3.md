@@ -60,7 +60,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** On Thursday of week 1, we built objects to keep track of artists and their albums.  How would you modify that code so that the information sticks around after we restart our program?
 
 * Human Learning:
   * Immerse yourself in the culture.
@@ -78,13 +78,13 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Most common jobs in america](http://www.npr.org/blogs/money/2015/02/05/382664837/map-the-most-common-job-in-every-state)
-* [Another campus' approach to the first Database assignment](https://github.com/TIY-DC-ROR-2015-Jan/model-skeleton)
+* [Another campus' approach to the first database assignment](https://github.com/TIY-DC-ROR-2015-Jan/model-skeleton)
 
 #### Evening Reading
 
 * [Ruby Rogues: Impostor Syndrome](http://devchat.tv/ruby-rogues/107-rr-impostor-syndrome-with-tim-chevalier)
 
-#### Assignment
+#### Assignment - IN PAIRS, PICK ONE AS STARTING POINT
 
 
 
