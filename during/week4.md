@@ -133,6 +133,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* GitFlow
 * Security implications of API keys in the database
 * Security implications of API keys over http (headers vs parameters)
 * Action on your server trying to access the API on your server

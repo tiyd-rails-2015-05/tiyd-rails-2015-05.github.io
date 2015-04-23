@@ -62,7 +62,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** On Thursday of week 1, we built objects to keep track of artists and their albums.  How would you modify that code so that the information sticks around after we restart our program?
 
-* Human Learning:
+* Human Learning
   * Immerse yourself in the culture.
   * Read some every day.
   * Ruby Rogues and Ruby Weekly.
@@ -86,30 +86,33 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment - IN PAIRS, PICK ONE AS STARTING POINT
 
-
+[Employee Reviews with DB](https://github.com/tiyd-rails-2015-05/employee_reviews_with_db)
 
 
 ## Wednesday - Associations and Validations
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Modify your employee and department schema so that an employee can belong to many departments.  Change your code to reflect this.
 
+* Human Learning
+  * Legacy code
+  * Arguably, worked on some last night.
+  * Definitely working on some tonight.
 * More model work
-  * .all
-  * .first
-  * .order
-  * .where
-  * .count
-* Associations
-  * `dependent: :destroy` and `dependent: :restrict`
-  * Associations with non-standard foreign_keys
-  * has_many :through
-* Many-to-many joins
-  * [Many-to-many Excel Workbook](w5-1/many-to-many.xlsx)
+  * `.all`
+  * `.first`
+  * `.order`
+  * `.where`
+  * `.count`
 * Validations
-  * Write your own validations (perhaps on a datetime to validate uniqueness of date)
-  * Exercise: Add at least two validations to your Rails app from last night. <!-- This went surprisingly well -->
+* Associations
+  * `dependent: :destroy` and `dependent: :restrict_with_exception`
+  * Associations with non-standard foreign_keys
+  * `has_many :through` (add `companies` table)
+* Many-to-many joins
+  * Employees can belong to many departments
+  * Example spreadsheet showing tables
 * Faker
 * Git
   * Reason: working with other developers on code
