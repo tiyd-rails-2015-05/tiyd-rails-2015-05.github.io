@@ -78,6 +78,7 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Most common jobs in america](http://www.npr.org/blogs/money/2015/02/05/382664837/map-the-most-common-job-in-every-state)
+* [Another campus' approach to the first Database assignment](https://github.com/TIY-DC-ROR-2015-Jan/model-skeleton)
 
 #### Evening Reading
 

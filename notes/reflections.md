@@ -20,10 +20,8 @@
 * Heavier logic once we're in Rails.  Makes it easier to motivate good testing practices.
 * Interviews: https://push.cx/2015/hiring-apprentices
 * Graphing sooner if possible
-* James' ActiveRecord-only assignment: https://github.com/TIY-DC-ROR-2015-Jan/model-skeleton
-  * Also, have an exercise where they close a Github issue from the command line.
 * Review "Work" photos on phone to see if diagrams or notes help.
-* I'd like some better real-world examples about code which takes up too much memory, leakes, invokes garbage collection, etc.  jeg2 said he can do it "easily."  Maybe a search will give a starting point.
+* I'd like some better real-world examples about code which takes up too much memory, leaks, invokes garbage collection, etc.  jeg2 said he can do it "easily."  Maybe a search will give a starting point.
 
 Other assignment ideas:
 
@@ -33,6 +31,7 @@ Other assignment ideas:
 * Curriculum Management Tool
 * Volunteer Coordination
 * Hotel Accessibility Review Site
+* an exercise where they close a Github issue from the command line.
 
 Potential Rails approach for next time (I HAVE A BETTER ONE NOW):
 
