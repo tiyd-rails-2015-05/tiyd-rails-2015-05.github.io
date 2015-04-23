@@ -141,7 +141,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** If you wanted to send data about departments and their computers to another computer program, how would you do it?
 
 * What is an API?
   * The term is way more broad than we think it is.
@@ -162,16 +162,9 @@ Students should be comfortable with the following at the end of this week:
   * HTTParty
 * API Basic Auth for Github
 * Keeping keys and passwords out of committed code (using ENV)
-* Regular expressions
-  * "Peter piper picked a peck of pickled peppers"
-  * +, *, ?
-  * \w, \d, \s, and their capital (opposite) versions
-  * Exercise: Build the simplest possible version of function that tells you whether an e-mail address is valid.  Then, if you have time, make it better.
-  * Capture groups
-  * Using regex in Ruby
-  * .match
-  * .scan, .sub, .gsub
 * JSON
+* Human Learning
+  * How to Google
 
 **Challenge:** [Inheritance](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/inheritance_challenge.rb)
 

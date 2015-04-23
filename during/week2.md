@@ -120,6 +120,14 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 **Problem of the Day:** I want to loop over an array of strings and return the first one that has a person's name in it.
 
 * Regex
+  * "Peter piper picked a peck of pickled peppers"
+  * `+`, `*`, `?`
+  * `\w`, `\d`, `\s`, and their capital (opposite) versions
+  * Exercise: Build the simplest possible version of function that tells you whether an e-mail address is valid.  Then, if you have time, make it better.
+  * Capture groups
+  * Using regex in Ruby
+  * `.match`
+  * `.scan`, `.sub`, `.gsub`
 * Enumerable
   * `.each`
   * `.map`
