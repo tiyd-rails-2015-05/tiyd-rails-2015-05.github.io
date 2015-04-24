@@ -89,11 +89,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Given what you now know about APIs and HTML/CSS, try to recreate your GitHub profile page.
 
-* Human Learning
-  * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
-  * Diagrams: Data model vs workflow diagrams
 * Views
 * ERB
 * Forms
@@ -106,6 +103,12 @@ Students should be comfortable with the following at the end of this week:
 * View Intro without models
   * Motivating Example: A rails app that asks me for my time zone, then gives me the time.
   * `strftime()`
+* Git
+  * `git stash`
+  * `git reset`
+  * `git filter-branch`
+
+**Challenge:** [Discuss Ruby](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_ruby_challenge.rb)
 
 #### Lecture Notes/Links
 
@@ -113,9 +116,10 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Pro Git Ch. 7.7](http://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) - This is maybe the best chapter in the book.
+* [Pro Git Ch. 7.6](http://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
-#### Assignment
+#### Assignment - IN PAIRS
 
 [Recreate Github Profile](https://github.com/tiyd-rails-2015-05/github_profile)
 
@@ -124,7 +128,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Assume that you want to add/edit/remove comments to each GitHub username, then see them all for a certain person.  What controllers and views would you set up?
 
 * Random Topics
   * The "10 minutes ago" problem
@@ -156,8 +160,11 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Look at your Wallet application and find two places where the code could be DRYed out.  Do so.
 
+* Human Learning
+  * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
+  * Diagrams: Data model vs workflow diagrams
 * Helpers
   * XSS
 * Partials
@@ -168,7 +175,6 @@ Students should be comfortable with the following at the end of this week:
 
 * [Rails helpers tutorial](http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers?utm_source=rubyweekly&utm_medium=email)
 * [SCSS Guide](http://sass-lang.com/)
-
 
 ## Weekend Assignment
 

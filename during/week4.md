@@ -49,6 +49,8 @@ Students should be comfortable with the following at the end of this week:
 * HTML Verbs
   * Params during POST, PATCH, etc
 
+**Challenge:** [Composition](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/composition_challenge.rb)
+
 #### Lecture Notes/Links
 
 * [Rails Guides](http://guides.rubyonrails.org/index.html)
@@ -84,6 +86,8 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * `as_json`
 * Controller Testing
 
+**Challenge:** [Enumerable](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/enumerable_challenge.rb)
+
 #### Lecture Notes/Links
 
 * [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
@@ -114,6 +118,8 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 * Fixtures
 * ActiveModel Serializers
 * Mocking API calls for tests
+
+**Challenge:** [Include](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/include_challenge.rb)
 
 
 #### Lecture Notes/Links
