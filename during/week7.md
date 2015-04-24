@@ -177,6 +177,6 @@ Students should be comfortable with the following at the end of this week:
 * [Video from Friday mini-lecture](https://www.youtube.com/watch?v=XB7W6oMZQOo)
 
 
-## Weekend Assignment - As Pairs
+## Weekend Assignment
 
 [Todo List](https://github.com/tiyd-rails-2015-01/todo_app)

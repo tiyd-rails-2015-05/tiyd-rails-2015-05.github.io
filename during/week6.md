@@ -125,6 +125,6 @@ Students should be comfortable with the following at the end of this week:
   4. Deploy to Heroku.  Make sure that you can migrate and load a page (any page) in your browser without errors.
 
 
-## Weekend Assignment - As Pairs
+## Weekend Assignment
 
 [Survey Opossum](https://github.com/tiyd-rails-2015-01/survey_opossum)

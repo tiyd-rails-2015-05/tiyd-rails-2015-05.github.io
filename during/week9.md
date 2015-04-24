@@ -104,4 +104,4 @@ Students should be comfortable with the following at the end of this week:
 *
 
 
-## Weekend Assignment - As Pairs
+## Weekend Assignment

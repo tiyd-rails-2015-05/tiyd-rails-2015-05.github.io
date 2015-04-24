@@ -191,6 +191,6 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 * [Blocks and Procs](http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/) - Only required down through "Procedures, AKA, Procs."  Read "Lambdas" and beyond if you dare.
 
-## Weekend Assignment - As Pairs
+## Weekend Assignment
 
 [Employee Reviews](https://github.com/tiyd-rails-2015-05/employee_reviews_project)

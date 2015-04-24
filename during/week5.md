@@ -151,6 +151,6 @@ Students should be comfortable with the following at the end of this week:
 * [SCSS Guide](http://sass-lang.com/)
 
 
-## Weekend Assignment - As Pairs
+## Weekend Assignment
 
 [Health Tracker](https://github.com/tiyd-rails-2015-01/health_tracker)

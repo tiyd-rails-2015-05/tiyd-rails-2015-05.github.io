@@ -192,6 +192,6 @@ Students should be comfortable with the following at the end of this week:
 * [Working with APIs](http://www.theodinproject.com/ruby-on-rails/working-with-external-apis?ref=lnav) - Read down to and including the "Restrictions" section.
 
 
-## Weekend Assignment - As Pairs
+## Weekend Assignment
 
 * [Weather Report](https://github.com/tiyd-rails-2015-05/weather_report)

@@ -147,4 +147,4 @@ Students should be comfortable with the following at the end of this week:
 
 * [Devise](https://github.com/plataformatec/devise)
 
-## Weekend Assignment - As Pairs
+## Weekend Assignment
