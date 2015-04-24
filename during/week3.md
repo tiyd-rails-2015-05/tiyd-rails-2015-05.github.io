@@ -147,44 +147,51 @@ Students should be comfortable with the following at the end of this week:
   * The term is way more broad than we think it is.
   * Each class in your application technically has an API.  It's the set of methods you can call on it and its instances.
 * On the web, what sort of data do we get back from APIs?
-  * http://placekitten.com
-  * http://version1.api.memegenerator.net/
-  * http://api.jquery.com/
-  * https://api.github.com/users/masonfmatthews/events (JSON)
+  * [Placekitten](http://placekitten.com)
+  * [Memegenerator](http://version1.api.memegenerator.net/)
+  * [JQuery](http://api.jquery.com/)
+  * [Me at GitHub](https://api.github.com/users/masonfmatthews/events)
   * JSON
-  * http://whoismyrepresentative.com/getall_mems.php?zip=27701 (XML)
+  * [Who is my Representative](http://whoismyrepresentative.com/getall_mems.php?zip=27701)
   * XML
-  * https://developer.github.com/v3/
-  * https://api.stackexchange.com/
+  * [Twitter](https://dev.twitter.com/rest/public)
+  * [Nutritionix](https://www.mashape.com/msilverman/nutritionix-nutrition-database)
+  * [TrailAPI](https://www.mashape.com/trailapi/trailapi)
+  * [Yoda Speak](https://www.mashape.com/ismaelc/yoda-speak)
+  * NPR
+  * Flickr
+  * Getty Images
+  * LinkedIn
+  * YouTube
+  * Twitch
+  * IGN
+  * ESPN
+  * ...and on and on...
+* Postman
+* HTTParty
+* API without logging in
+  *
 * API Keys
-  * http://api.wunderground.com
-* Building a Rails app
-  * HTTParty
-* API Basic Auth for Github
+  * http://www.wunderground.com/weather/api/
+* API More Complex Auth
+  * https://developer.github.com/v3/#authentication
 * Keeping keys and passwords out of committed code (using ENV)
-* JSON
 * Human Learning
-  * How to Google
+  * Reading Docs
 
 **Challenge:** [Inheritance](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/inheritance_challenge.rb)
 
 #### Lecture Notes/Links
 
-* [Video Before Break](http://youtu.be/AjVlDABhhi8)
-* [Video After Break](http://youtu.be/ASLlaAZz-3I)
 * [Regular Lecture Example Repo](https://github.com/tiyd-rails-2015-01/weather_api)
-* [Video of Mini-lecture](http://youtu.be/1e9O2p2PZm8)
 * [Mini-lecture Example Repo](https://github.com/tiyd-rails-2015-01/github_token_example)
-* My favorite tutorial for learning Regular Expressions is [RegexOne](http://regexone.com/)
-* The best way to fiddle with Regex is [Rubular](http://rubular.com/)
 
-#### Reading
+#### Evening Readings
 
 * [What is an API?](http://skillcrush.com/2012/07/04/api-2/)
-* [Working with APIs](http://www.theodinproject.com/ruby-on-rails/working-with-external-apis?ref=lnav) - Read down to and including "Restrictions" section.
+* [Working with APIs](http://www.theodinproject.com/ruby-on-rails/working-with-external-apis?ref=lnav) - Read down to and including the "Restrictions" section.
 
 
 ## Weekend Assignment - As Pairs
 
-* [Ping-pong Pairing](https://github.com/tiyd-rails-2015-01/ping_pong_pairing)
-  * You will be getting a start on: [???]()
+* [Weather Report](https://github.com/tiyd-rails-2015-05/weather_report)
