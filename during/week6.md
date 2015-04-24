@@ -118,7 +118,7 @@ Students should be comfortable with the following at the end of this week:
 * [Pro Git Ch. 3.5](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches)
 * [Pro Git Ch. 3.6](http://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
-#### Assignment
+#### Assignment - IN PAIRS
 
 * Begin [Survey Opossum](https://github.com/tiyd-rails-2015-05/survey_opossum)
 
@@ -133,6 +133,6 @@ Students should be comfortable with the following at the end of this week:
 
 * Group project kickoff with Chris.
 
-## Weekend Assignment
+## Weekend Assignment - IN GROUPS
 
 [Survey Opossum](https://github.com/tiyd-rails-2015-05/survey_opossum)

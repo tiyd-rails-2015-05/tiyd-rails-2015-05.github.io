@@ -26,6 +26,11 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** XXX
 
 * Runtime
+* Code Efficiency - Primes discussion
+  * `n` algorithms (single loops)
+  * `n^2` algorithms (nested loop)
+  * Terminating loops early
+  * Doing extra work once can save you time inside loops
 
 #### Lecture Notes/Links
 
@@ -36,8 +41,6 @@ Students should be comfortable with the following at the end of this week:
 *
 
 #### Assignment
-
-[Reports on S3](https://github.com/tiyd-rails-2015-01/reports_on_s3)
 
 
 ## Tuesday - Memory Optimizations
@@ -54,7 +57,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-* [Build an app in Rails vs. Sinatra](https://www.airpair.com/ruby-on-rails/posts/rails-vs-sinatra?utm_source=rubyweekly&utm_medium=email)
+* [Decompose Fat Models](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/)
 
 #### Assignment
 
@@ -75,7 +78,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-* [Decompose Fat Models](http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/)
+* [Build an app in Rails vs. Sinatra](https://www.airpair.com/ruby-on-rails/posts/rails-vs-sinatra?utm_source=rubyweekly&utm_medium=email)
 
 #### Assignment
 
@@ -102,6 +105,3 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 *
-
-
-## Weekend Assignment

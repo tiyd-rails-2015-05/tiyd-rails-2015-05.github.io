@@ -18,11 +18,15 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - JavaScript
+## Monday - Survey Opossum Lab Time
+
+* Ad hoc discussions and review with Mason and Chris.
+
+## Tuesday - JavaScript
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Write down: what was the hardest thing that the Front End students had to do this weekend?  What was the easiest?
 
 * Javascript
   * Surprisingly similar to ruby
@@ -74,20 +78,19 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-* Chapters 1 and 2 of [Eloquent JavaScript](http://eloquentjavascript.net/)
-* Optional: Chapters 3, 4, 5
+* Chapters 3 and 4 of [Eloquent JavaScript](http://eloquentjavascript.net/)
 
 #### Assignment
 
-* [Add Javascript](https://github.com/tiyd-rails-2015-01/add_javascript)
-  * [Starting Point](https://github.com/tiyd-rails-2015-01/coursyl)
+* [Add Javascript](https://github.com/tiyd-rails-2015-05/add_javascript)
+  * [Starting Point](https://github.com/tiyd-rails-2015-05/coursyl)
 
 
-## Tuesday - jQuery
+## Wednesday - jQuery
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Write down: which part of JavaScript seems to be the worst, given your one-day experience with it?
 
 * Human Learning
   * [Autonomy/Mastery/Purpose](https://www.youtube.com/watch?v=u6XAPnuFjJc)
@@ -109,27 +112,27 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-* Chapters 12, 13 of [Eloquent JavaScript](http://eloquentjavascript.net/)
-* Optional: Chapter 14
+* Chapters 5 and 12 of [Eloquent JavaScript](http://eloquentjavascript.net/)
 
 #### Assignment
 
-* [Add JQuery](https://github.com/tiyd-rails-2015-01/add_jquery)
-  * [Starting Point](https://github.com/tiyd-rails-2015-01/coursyl_with_some_jquery)
+* [Add JQuery](https://github.com/tiyd-rails-2015-05/add_jquery)
+  * [Starting Point](https://github.com/tiyd-rails-2015-05/coursyl_with_some_jquery)
 
 
-## Wednesday - AJAX
+## Thursday - AJAX
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Change your application from last night so that the modal save button actually saves the data but doesn't refresh the page.
 
-* JQuery UI
-* JQuery Plugins
-* The downsides of linking to external styles/javascript
-* Installing gems vs. copying assets
-* Ruby Toolbox
-* Dateselect vs Datetimeselect
+* Random topics
+  * JQuery UI
+  * JQuery Plugins
+  * The downsides of linking to external styles/javascript
+  * Installing gems vs. copying assets
+  * Ruby Toolbox
+  * `dateselect` vs `datetimeselect`
 
 * AJAX
   * The way to replace sections of a page without reloading the whole page!
@@ -148,35 +151,22 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-* Chapters 17, 18 of [Eloquent JavaScript](http://eloquentjavascript.net/)
+* Chapters 13 and 14 of [Eloquent JavaScript](http://eloquentjavascript.net/)
 * [The creator of Rails speaks on how Rails does AJAX](https://signalvnoise.com/posts/3697-server-generated-javascript-responses)
 
 #### Assignment
 
-* [Auction Site with AJAX](https://github.com/tiyd-rails-2015-01/auction_ajax)
+* [Auction Site with AJAX](https://github.com/tiyd-rails-2015-05/auction_ajax)
 
 
-## Thursday - JavaScript in Depth
+## Friday - Check In
 
-#### Lecture
+* Homework review and preparation for the weekend assignment.
 
-**Problem of the Day:** XXX
+#### Evening Reading
 
-* JavaScript
-* Code Efficiency - Primes discussion
-  * `n` algorithms (single loops)
-  * `n^2` algorithms (nested loop)
-  * Terminating loops early
-  * Doing extra work once can save you time inside loops
+* Chapters 17 and 18 of [Eloquent JavaScript](http://eloquentjavascript.net/)
 
-#### Lecture Notes/Links
+## Weekend Assignment - IN PAIRS
 
-** [Optional Parameters Challenge](w7-4/optional_parameters.rb)
-* [Primes Challenge](w7-4/primes.rb)
-* [Video from Today](https://www.youtube.com/watch?v=hrS5GUV8c4c)
-* [Video from Friday mini-lecture](https://www.youtube.com/watch?v=XB7W6oMZQOo)
-
-
-## Weekend Assignment
-
-[Todo List](https://github.com/tiyd-rails-2015-01/todo_app)
+[Todo List](https://github.com/tiyd-rails-2015-05/todo_app)
