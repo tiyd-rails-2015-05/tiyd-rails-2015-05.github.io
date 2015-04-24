@@ -23,8 +23,6 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-[Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
-
 **Problem of the Day:** Build a webpage that describes your current problem-of-the-day group.
 
 * HTML
@@ -87,31 +85,26 @@ Students should be comfortable with the following at the end of this week:
 [CSS Reverse Engineering](https://github.com/tiyd-rails-2015-05/css_reverse_engineering)
 
 
-## Tuesday - Forms and Rails Views
+## Tuesday - Rails Views and Forms
 
 #### Lecture
-
-[Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_split_challenge.rb)
-
 
 **Problem of the Day:** XXX
 
 * Human Learning
   * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
   * Diagrams: Data model vs workflow diagrams
-* Forms
-  * form
-  * input
-  * select
-  * button
-  * Quick checkboxes discussion
-  * [Completed example from class](https://github.com/tiyd-rails-2015-01/many_to_many)
 * Views
 * ERB
-  * Rails helpers for making form elements
+* Forms
+  * `form`
+  * `input` (all sorts)
+  * `select`
+  * `button`
+  * `checkbox`
+  * Rails helpers for making `form_tag` elements
 * View Intro without models
-  * Motivating Example: A rails app that asks me for my time zone, then gives me the time. (and maybe go back to this in future classes?)
-  * [Code from example](https://github.com/tiyd-rails-2015-01/w3-2-example)
+  * Motivating Example: A rails app that asks me for my time zone, then gives me the time.
   * `strftime()`
 
 #### Lecture Notes/Links
@@ -124,23 +117,23 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Recreate Github Profile](https://github.com/tiyd-rails-2015-01/github_profile)
+[Recreate Github Profile](https://github.com/tiyd-rails-2015-05/github_profile)
 
 
-## Wednesday - REST and Scaffold
+## Wednesday - REST, Scaffold, and Integration Testing
 
 #### Lecture
-
-[Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_palindrome_challenge.rb)
 
 **Problem of the Day:** XXX
 
 * Random Topics
-  * The "10 minutes ago" problem.
+  * The "10 minutes ago" problem
+  * Quick `checkbox` discussion
+  * `rails-footnotes` gem
 * Scaffold
-  * What scaffold actually does with JSON
+* Resources
 * REST
-* `rails-footnotes` gem
+* Controller Testing Redux
 * Integration Testing
 
 #### Lecture Notes/Links
@@ -156,14 +149,12 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Wallet](https://github.com/tiyd-rails-2015-01/wallet)
+[Wallet](https://github.com/tiyd-rails-2015-05/wallet)
 
 
 ## Thursday - Helpers, Partials, and Styling
 
 #### Lecture
-
-[Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb)
 
 **Problem of the Day:** XXX
 
@@ -181,4 +172,4 @@ Students should be comfortable with the following at the end of this week:
 
 ## Weekend Assignment
 
-[Health Tracker](https://github.com/tiyd-rails-2015-01/health_tracker)
+[Health Tracker](https://github.com/tiyd-rails-2015-05/health_tracker)

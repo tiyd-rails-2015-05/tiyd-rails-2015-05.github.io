@@ -115,6 +115,11 @@ Students should be comfortable with the following at the end of this week:
 
 *
 
+#### Evening Reading
+
+* [Pro Git Ch. 3.5](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches)
+* [Pro Git Ch. 3.6](http://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+
 #### Assignment
 
 * Begin [Survey Opossum](https://github.com/tiyd-rails-2015-01/survey_opossum)
