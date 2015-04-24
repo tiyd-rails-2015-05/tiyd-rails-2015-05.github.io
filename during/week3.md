@@ -170,7 +170,7 @@ Students should be comfortable with the following at the end of this week:
 * Postman
 * HTTParty
 * API without logging in
-  *
+  * https://api.github.com/users/masonfmatthews/events
 * API Keys
   * http://www.wunderground.com/weather/api/
 * API More Complex Auth
@@ -178,15 +178,15 @@ Students should be comfortable with the following at the end of this week:
 * Keeping keys and passwords out of committed code (using ENV)
 * Human Learning
   * Reading Docs
+  * Find out how to call Weather Underground's API with a zip code.
 
 **Challenge:** [Inheritance](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/inheritance_challenge.rb)
 
 #### Lecture Notes/Links
 
 * [Regular Lecture Example Repo](https://github.com/tiyd-rails-2015-01/weather_api)
-* [Mini-lecture Example Repo](https://github.com/tiyd-rails-2015-01/github_token_example)
 
-#### Evening Readings
+#### Evening Reading
 
 * [What is an API?](http://skillcrush.com/2012/07/04/api-2/)
 * [Working with APIs](http://www.theodinproject.com/ruby-on-rails/working-with-external-apis?ref=lnav) - Read down to and including the "Restrictions" section.
