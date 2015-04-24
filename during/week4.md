@@ -27,6 +27,12 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Create an API to display a congressperson's voting history.  A step above http://whoismyrepresentative.com/getall_mems.php?zip=27701 .  Yes, panic zone.  Push through it.
 
+* Human Learning:
+  * Scarring with age/experience
+  * Good scarring example: Saving hardest things for last sucks
+  * Bad scarring example: Given one bad experience, some people assume that Millenials are all lazy.
+  * Bad scarring example: Taking risks on products costs too much money.
+  * Diagram: Topological map of scarring
 * The Web
   * IP addresses and ports
 * Components of a URL
@@ -68,12 +74,8 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 **Problem of the Day:** Given what you know about the voting assignment and how controllers work, suggest a set of controllers and their methods for this assignment.
 
-* Human Learning:
-  * Scarring with age/experience
-  * Good scarring example: Saving hardest things for last sucks
-  * Bad scarring example: Given one bad experience, some people assume that Millenials are all lazy.
-  * Bad scarring example: Taking risks on products costs too much money.
-  * Diagram: Topological map of scarring
+* Human Learning
+  * How to Google
 * HTML Verbs Redux
 * The Router
   * `rake routes`
@@ -105,6 +107,8 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 **Problem of the Day:** How would you change your Rails application to return different JSON for the same candidate?  Show a candidate's hometown in the `show` view, but not in the `index` view.
 
+* Human Learning
+  * Ping-pong pairing
 * `config.time_zone = 'Eastern Time (US & Canada)'`
 * Seeds
 * Fixtures
@@ -118,7 +122,7 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 #### Evening Reading
 
-*
+* [Ruby Rogues: Pair Programming](http://devchat.tv/ruby-rogues/026-rr-pair-programming)
 
 #### Assignment - IN PAIRS
 
@@ -138,7 +142,7 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
 
 #### Lecture
 
-**Problem of the Day:** How 
+**Problem of the Day:** Since code your users access has to be more stable than the code on your development laptop (and may need patches), how would you organize your branches to make this doable?
 
 * Random Topics
   * Security implications of API keys in the database
@@ -167,6 +171,11 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
 * [Example App From Class](https://github.com/tiyd-rails-2015-01/db_backed_api_example)
 * [Pre-break Video](http://youtu.be/MvX_XPAMpfI)
 * [Mini-lecture Video](http://youtu.be/PXCm6K4CVh4)
+
+#### Evening Reading
+
+* [Pro Git Ch. 3.3](http://git-scm.com/book/en/v2/Git-Branching-Branch-Management)
+* [Pro Git Ch. 3.4](http://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
 
 ## Weekend Assignment - IN PAIRS
 

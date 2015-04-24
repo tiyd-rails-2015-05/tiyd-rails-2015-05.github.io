@@ -49,7 +49,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Pro Git Ch. 2.3](http://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
+* [Pro Git Ch. 2.4](http://git-scm.com/book/en/v2/Git-Basics-Undoing-Things)
 
 #### Assignment
 
@@ -130,7 +131,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Pro Git Ch. 3.1](http://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+* [Pro Git Ch. 3.2](http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
 #### Assignment - IN PAIRS
 
