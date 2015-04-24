@@ -119,7 +119,7 @@ Students should be comfortable with the following at the end of this week:
 * [Pro Git Ch. 7.7](http://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) - This is maybe the best chapter in the book.
 * [Pro Git Ch. 7.6](http://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
-#### Assignment - IN PAIRS
+#### Assignment
 
 [Recreate Github Profile](https://github.com/tiyd-rails-2015-05/github_profile)
 
@@ -176,6 +176,6 @@ Students should be comfortable with the following at the end of this week:
 * [Rails helpers tutorial](http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers?utm_source=rubyweekly&utm_medium=email)
 * [SCSS Guide](http://sass-lang.com/)
 
-## Weekend Assignment
+## Weekend Assignment - IN PAIRS
 
 [Health Tracker](https://github.com/tiyd-rails-2015-05/health_tracker)
