@@ -103,7 +103,7 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** How would you change your Rails application to return different JSON for the same candidate?  Show a candidate's hometown in the `show` view, but not in the `index` view.
 
 * `config.time_zone = 'Eastern Time (US & Canada)'`
 * Seeds
@@ -138,17 +138,18 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** How 
 
-* GitFlow
-* Security implications of API keys in the database
-* Security implications of API keys over http (headers vs parameters)
-* Action on your server trying to access the API on your server
-* Deadlock
+* Random Topics
+  * Security implications of API keys in the database
+  * Security implications of API keys over http (headers vs parameters)
+  * Action on your server trying to access the API on your server
+  * Deadlock
 * Rails Servers
   * WEBrick vs. Mongrel vs. Puma
   * `./bin/rails`
 * Dev vs. Production
+* GitFlow
 * Heroku
   * `git remote` review
   * Set up account
@@ -159,8 +160,6 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
   * heroku add remote command
   * git push heroku master
   * heroku run rake db:migrate
-
-* Database-backended APIs
 
 #### Lecture Notes/Links
 
