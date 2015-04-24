@@ -33,24 +33,6 @@ Other assignment ideas:
 * Hotel Accessibility Review Site
 * an exercise where they close a Github issue from the command line.
 
-Potential Rails approach for next time (I HAVE A BETTER ONE NOW):
-
-* W3D2: Rails new (structure on board), HTML forms, GET and POST, params, rails-footnotes gem.
-* Motivation
-* W3D3: Database, migrations, models. Make a database table for Quotations. Scaffold (comment out `jbuilder` gem).
-* Wallet
-* W3D4: Validations, Relations, .count, .sum, etc.  Heroku.  
-* WEEKEND: Health Tracker
-* W4D1: Scaffold deep-dive, has_many/belongs_to, .order, .where, etc.
-* Wallet Prime
-* W4D2: SCSS, Foundation, using console to set data, seeds
-* Menu
-* W4D3: Session, Access/Auth/Auth.  Give them a checklist of how to get the assignment done.
-* Teacherbook
-* W4D4: Review and rebuild it all together.
-* WEEKEND: Gradebook
-
-
 Never got to:
 
 * Multi-tenancy

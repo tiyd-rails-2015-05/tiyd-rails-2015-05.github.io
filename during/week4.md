@@ -103,7 +103,9 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 #### Assignment
 
 [Create a Voting API](https://github.com/tiyd-rails-2015-05/voting_api)
-
+  * Before you begin working on this tonight, create an estimate for the number of hours you'll need to work on it.
+  * In theory, your estimate should be better now that you've gotten part of the way through the project.
+  * Document your number of hours worked at the end, then reflect.
 
 ## Thursday - Serializers, More Database
 

@@ -156,7 +156,7 @@ Students should be comfortable with the following at the end of this week:
 [Wallet](https://github.com/tiyd-rails-2015-05/wallet)
 
 
-## Thursday - Helpers, Partials, and Styling
+## Thursday - Helpers, Partials
 
 #### Lecture
 
@@ -168,13 +168,10 @@ Students should be comfortable with the following at the end of this week:
 * Helpers
   * XSS
 * Partials
-* SCSS
-* Bootstrap
 
 #### Lecture Notes/Links
 
 * [Rails helpers tutorial](http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers?utm_source=rubyweekly&utm_medium=email)
-* [SCSS Guide](http://sass-lang.com/)
 
 ## Weekend Assignment - IN PAIRS
 

@@ -6,6 +6,7 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
+* SCSS
 * Asset Pipeline
 * Session
 * Authentication
@@ -19,37 +20,41 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - The Asset Pipeline
+## Monday - The Asset Pipeline and SCSS
 
 #### Lecture
 
-* [Ruby Challenge]()
+**Problem of the Day:** Modify your Health Tracker app to display a different photo on each of the four index pages.  Don't link to a photo, but have a photo stored in your app.
 
-**Problem of the Day:** XXX
-
+* Human Learning
+  * Networking
+  * Self Confidence vs. Arrogance
+  * Bragging vs. Marketing
+  * Entitlement of the Software Developer Community
 * Workflow Diagrams
 * The Asset Pipeline
+* SCSS
+* Bootstrap
 
 #### Lecture Notes/Links
 
 * [The Asset Pipeline on Heroku](https://devcenter.heroku.com/articles/rails-4-asset-pipeline)
+* [SCSS Guide](http://sass-lang.com/)
 
 #### Evening Reading
 
-*
+* [Ruby Rogues: Marketing Yourself](http://devchat.tv/ruby-rogues/187-marketing-yourself-as-a-software-developer-with-john-sonmez)
 
 #### Assignment
 
-[Menu](https://github.com/tiyd-rails-2015-01/menu)
+[Restaurant Menu](https://github.com/tiyd-rails-2015-05/restaurant_menu)
 
 
 ## Tuesday - Session and Authentication
 
 #### Lecture
 
-* [Ruby Challenge]()
-
-**Problem of the Day:** XXX
+**Problem of the Day:** Modify your menu application so that people can log in, and only allow those who have logged in to edit the items.
 
 * Session
 * Authentication
@@ -66,14 +71,12 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Teacherbook](https://github.com/tiyd-rails-2015-01/simple_authentication)
+[Teacherbook](https://github.com/tiyd-rails-2015-05/teacherbook)
 
 
 ## Wednesday - Authorization and Scope
 
 #### Lecture
-
-* [Ruby Challenge]()
 
 **Problem of the Day:** XXX
 
@@ -95,7 +98,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Gradebook](https://github.com/tiyd-rails-2015-01/gradebook)
+[Gradebook](https://github.com/tiyd-rails-2015-05/gradebook)
 * [Achievement Gradebook](https://github.com/tiyd-rails-2015-01/achievement_gradebook)
   * [Repository to use as a Starting Point](https://github.com/tiyd-rails-2015-01/Gradebook-1)
 
@@ -104,8 +107,6 @@ Students should be comfortable with the following at the end of this week:
 ## Thursday - Nested Attributes
 
 #### Lecture
-
-* [Ruby Challenge]()
 
 **Problem of the Day:** XXX
 
@@ -122,14 +123,19 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-* Begin [Survey Opossum](https://github.com/tiyd-rails-2015-01/survey_opossum)
+* Begin [Survey Opossum](https://github.com/tiyd-rails-2015-05/survey_opossum)
 
   1. Create an ERD for the data structure needed to accomplish this.
   2. Create a new Rails app with all models and migrations needed for this project.
-  3. Consider scaffolding the Survey class.  That's where most of your work will be done.
-  4. Deploy to Heroku.  Make sure that you can migrate and load a page (any page) in your browser without errors.
+  3. Scaffold the Survey class.  That's where most of your work will be done.
+  4. Make sure that your scaffolded test suite runs.
+  5. Deploy to Heroku.  Make sure that you can migrate and load a page (any page) in your browser without errors.
 
+
+## Friday
+
+* Group project kickoff with Chris.
 
 ## Weekend Assignment
 
-[Survey Opossum](https://github.com/tiyd-rails-2015-01/survey_opossum)
+[Survey Opossum](https://github.com/tiyd-rails-2015-05/survey_opossum)
