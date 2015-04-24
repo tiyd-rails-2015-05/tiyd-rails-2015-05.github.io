@@ -25,13 +25,40 @@ Students should be comfortable with the following at the end of this week:
 
 [Ruby Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Build a webpage that describes your current problem-of-the-day group.
 
 * HTML
+  * View source on `theironyard.com`
+  * Tags and Nesting
+  * Header vs. Body
+  * Common tags
+    * `h1` - `h6`
+    * `p`
+    * `a`
+    * `div`
+    * `span`
+    * `ul`, `li`, `ol`
+    * `table`, etc
+    * `images`
+    * `embedding`
+  * Possible conflicts/inconsistent HTML
+  * Attributes
 * Exercise: Build an HTML page that says something about you.
 * CSS
-* Meet the ipsums
-* durhamipsum.com
+  * Three places to add style to HTML
+    * Putting it in `style=` attributes - thumbs down.
+    * Inside `<style>` tags - thumbs mostly down.
+    * In separate files - thumbs up!
+  * Basic Selectors
+  * `id` and `class` attributes
+  * Properties and values
+    * `color:`
+    * `border:`
+    * `width:`
+  * Crazy stuff
+    * `box-shadow`
+    * `transform`
+  * Pseudo-selectors
 
 #### Lecture Notes/Links
 
@@ -48,6 +75,8 @@ Students should be comfortable with the following at the end of this week:
 * [Google Trends](https://trends.google.com)
 * w3schools results are only okay.
 * [MDN](https://developer.mozilla.org/en-US/) results are awesome.
+* [Meet the Ipsums](http://meettheipsums.com)
+* [Durham Ipsum](http://durhamipsum.com)
 
 #### Evening Reading
 
@@ -55,7 +84,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[CSS Reverse Engineering](https://github.com/tiyd-rails-2015-01/css_reverse_engineering)
+[CSS Reverse Engineering](https://github.com/tiyd-rails-2015-05/css_reverse_engineering)
 
 
 ## Tuesday - Forms and Rails Views
@@ -96,9 +125,6 @@ Students should be comfortable with the following at the end of this week:
 #### Assignment
 
 [Recreate Github Profile](https://github.com/tiyd-rails-2015-01/github_profile)
-  * This might not go here, as they don't know HTML yet
-  * The 10 minutes ago problem is fun and has lots of room for exploration.
-[Motivational Quotation Generator](https://github.com/tiyd-rails-2015-01/motivational_quotations)
 
 
 ## Wednesday - REST and Scaffold
@@ -109,6 +135,8 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** XXX
 
+* Random Topics
+  * The "10 minutes ago" problem.
 * Scaffold
   * What scaffold actually does with JSON
 * REST
