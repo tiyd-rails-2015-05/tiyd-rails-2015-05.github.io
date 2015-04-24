@@ -78,7 +78,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Add a new controller called "events" to Teacherbook.  This controller can say whatever you want, but it must be accessible to anyone, even if they haven't logged in.  The rest of the app should still require teacher login.
 
 * Authorization
 * Scope
@@ -99,16 +99,13 @@ Students should be comfortable with the following at the end of this week:
 #### Assignment
 
 [Gradebook](https://github.com/tiyd-rails-2015-05/gradebook)
-* [Achievement Gradebook](https://github.com/tiyd-rails-2015-01/achievement_gradebook)
-  * [Repository to use as a Starting Point](https://github.com/tiyd-rails-2015-01/Gradebook-1)
-
 
 
 ## Thursday - Nested Attributes
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Change Gradebook so that you can add many grades for a student at one time.
 
 * accepts_nested_attributes
 
