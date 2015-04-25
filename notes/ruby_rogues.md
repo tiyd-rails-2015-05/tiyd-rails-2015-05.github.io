@@ -1,6 +1,7 @@
 # Ruby Rogues
 
        007 - Debugging
+       009 - Beautiful Code
        013 - Technical Debt
        022 - When to Use Modules
 W4D3 - 026 - Pair Programming
@@ -9,7 +10,8 @@ W4D3 - 026 - Pair Programming
        034 - Benchmarking and Profiling
        035 - Estimation
        039 - Programming Language Fundamentals (at the end of class)
-       ...
+       049 - Agile Communication
+       051 - Open Source Contributions
        101 ??? - Diversity
 W3D2 - 107 - Impostor Syndrome
        ...
