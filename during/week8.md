@@ -23,7 +23,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Open your Gradebook app.  Change the code to make the list of all grades load twice as fast.
 
 * SQL
   * (From Survey Opossum)
@@ -38,6 +38,7 @@ Students should be comfortable with the following at the end of this week:
 
     to_dos = ToDo.arel_table
     where(to_dos[:title].matches("%#{search}%").or(to_dos[:title].matches("ALWAYS")))
+
 * Indices
   * Massive Seeds
   * Database Indices
@@ -63,14 +64,14 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+[Database Optimizations](https://github.com/tiyd-rails-2015-05/database_optimizations)
 
 
 ## Tuesday - Mailer and Background Processing
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Modify last night's application so that an e-mail is sent to mason@example.com whenever a new assembly is created.
 
 * Human Learning: Technical Debt
   * Rebuilding!  Software development is a "wicked" problem
@@ -98,14 +99,14 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Delayed Mailer](https://github.com/tiyd-rails-2015-01/delayed_mailer)
+[Delayed Mailer](https://github.com/tiyd-rails-2015-05/delayed_mailer)
 
 
 ## Wednesday - File Uploads
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Allow user to upload a 200 MB file when each new assembly is created.
 
 * Files as part of HTML forms
 * File reading and writing
@@ -129,18 +130,18 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Reports on S3](https://github.com/tiyd-rails-2015-01/reports_on_s3)
+[Reports on S3](https://github.com/tiyd-rails-2015-05/reports_on_s3)
 
 
 ## Thursday - OAuth
 
 #### Lecture
 
-**Problem of the Day:** XXX
+**Problem of the Day:** Modify Gradebook to allow you to log in with your Facebook credentials.
 
 * API Security
 * OAuth
-* Devise and Omniauth (Michael)
+* Devise and Omniauth (Owen)
 * [SimpleForm](https://github.com/plataformatec/simple_form)
 
 #### Lecture Notes/Links

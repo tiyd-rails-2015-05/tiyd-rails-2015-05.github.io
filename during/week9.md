@@ -42,6 +42,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
+Start [Ruby Koans](http://rubykoans.com/).  Work through `about_constants.rb`.
+
 
 ## Tuesday - Memory Optimizations
 
@@ -62,6 +64,7 @@ Students should be comfortable with the following at the end of this week:
 #### Assignment
 
 
+Work on [Ruby Koans](http://rubykoans.com/) through `about_open_classes.rb`.
 
 
 ## Wednesday - Refactoring for Skinny Models
@@ -82,7 +85,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-
+Complete [Ruby Koans](http://rubykoans.com/).
 
 
 ## Thursday - Non-Rails Frameworks
