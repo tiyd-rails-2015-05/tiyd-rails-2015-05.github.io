@@ -116,7 +116,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-* [Add JQuery](https://github.com/tiyd-rails-2015-05/add_jquery)
+* [Add jQuery](https://github.com/tiyd-rails-2015-05/add_jquery)
   * [Starting Point](https://github.com/tiyd-rails-2015-05/coursyl_with_some_jquery)
 
 
