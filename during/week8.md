@@ -25,6 +25,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Open your Gradebook app.  Change the code to make the list of all grades load twice as fast.
 
+* In Class: [Database Optimizations](https://github.com/tiyd-rails-2015-05/database_optimizations)
 * SQL
   * (From Survey Opossum)
   * Find the names of all multiple choice questions (where)
@@ -64,7 +65,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Database Optimizations](https://github.com/tiyd-rails-2015-05/database_optimizations)
+[Survey Opossum Plus SQL](https://github.com/tiyd-rails-2015-05/survey_opossum_plus_sql)
 
 
 ## Tuesday - Mailer and Background Processing
