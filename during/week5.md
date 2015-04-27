@@ -121,7 +121,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Recreate Github Profile](https://github.com/tiyd-rails-2015-05/github_profile)
+[Recreate GitHub Profile](https://github.com/tiyd-rails-2015-05/github_profile)
 
 
 ## Wednesday - REST, Scaffold, and Integration Testing
@@ -165,6 +165,7 @@ Students should be comfortable with the following at the end of this week:
 * Human Learning
   * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
   * Diagrams: Data model vs workflow diagrams
+* TODO: Find better motivating example.
 * Helpers
   * XSS
 * Partials
