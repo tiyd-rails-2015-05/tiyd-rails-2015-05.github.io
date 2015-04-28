@@ -28,6 +28,7 @@ Students should be comfortable with the following at the end of this week:
 * Class Logistics
   * Daily schedule
   * Exercises, Assignments, and Projects
+  * Readings
   * Pair-question-asking
 * Human Learning
   * Definition: Acquiring knowledge and skills and having them readily available from memory so you can make sense of future problems and opportunities.

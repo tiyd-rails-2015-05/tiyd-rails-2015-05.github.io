@@ -78,7 +78,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Ruby Rogues: Hacking Education](http://devchat.tv/ruby-rogues/159-rr-hacking-education-with-saron-yitbarek)
 
 #### Assignment
 
@@ -149,7 +149,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Ruby Rogues: Estimation](http://devchat.tv/ruby-rogues/035-rr-estimation)
 
 #### Assignment
 
@@ -173,6 +173,10 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Rails helpers tutorial](http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers?utm_source=rubyweekly&utm_medium=email)
+
+#### Evening Reading
+
+* [Ruby Rogues: When to Use Modules](http://devchat.tv/ruby-rogues/022-rr-when-to-use-modules)
 
 ## Weekend Assignment - IN PAIRS
 

@@ -38,7 +38,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Ruby Rogues: The Science of Software Development](http://devchat.tv/ruby-rogues/184-rr-what-we-actually-know-about-software-development-and-why-we-believe-it-s-true-with-greg-wilson-and-andreas-stefik)
 
 #### Assignment
 

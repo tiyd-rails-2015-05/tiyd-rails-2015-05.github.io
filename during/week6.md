@@ -67,7 +67,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Hiring Apprentices](https://push.cx/2015/hiring-apprentices)
 
 #### Assignment
 
@@ -94,7 +94,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Ruby Rogues: Agile Communication](http://devchat.tv/ruby-rogues/049-rr-agile-communication-with-angela-harms)
 
 #### Assignment
 

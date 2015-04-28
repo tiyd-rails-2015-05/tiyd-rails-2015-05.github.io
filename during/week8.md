@@ -96,7 +96,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Ruby Rogues: Technical Debt](http://devchat.tv/ruby-rogues/technical-debt)
 
 #### Assignment
 
@@ -127,7 +127,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Evening Reading
 
-*
+* [Ruby Rogues: Technology Radar](http://devchat.tv/ruby-rogues/195-rr-building-your-technology-radar-with-neal-ford)
 
 #### Assignment
 
@@ -148,5 +148,9 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Devise](https://github.com/plataformatec/devise)
+
+#### Evening Reading
+
+* [Ruby Rogues: Ruby Antipatterns](http://devchat.tv/ruby-rogues/032-rr-ruby-antipatterns)
 
 ## Weekend Assignment
