@@ -6,8 +6,6 @@
 * Write up note at the end of week 2 as an exercise
 * Clean up assignment formatting - **merge requirements and normal mode**.  **merge the two kinds of objectives**.  Get consistent about deliverables (maybe unbold) and notes/additional resources.
 * Give all assignments better (simpler) names.
-* The students have requested more days of build-a-whole-app.
-* Use Foundation instead of Bourbon
 * Readings at night were largely ignored.  Probably better to have smaller sets of reading.
 * Git immersion stunk.  Pro Git better?
 * Update assignment JSONs as we work through cohort 4.
@@ -35,6 +33,9 @@ Other assignment ideas:
 
 Never got to:
 
+* Singleton methods (`def dog1.hunt ... end`)
+  * there's no such thing as a Class method.
+* `define_method()`
 * Multi-tenancy
 * Simplecov
 * Versioning in a Database

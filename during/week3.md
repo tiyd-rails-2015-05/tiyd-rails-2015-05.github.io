@@ -108,6 +108,8 @@ Students should be comfortable with the following at the end of this week:
   * `.count`
 * Validations
 * Associations
+  * Calling methods inside a class definition
+  * Macros are just methods being called in definitions
   * `dependent: :destroy` and `dependent: :restrict_with_exception`
   * Associations with non-standard foreign_keys
   * `has_many :through` (add `companies` table)
