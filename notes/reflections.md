@@ -33,6 +33,10 @@ Other assignment ideas:
 
 Never got to:
 
+* Macros
+  * https://pragmaticstudio.com/blog/2015/4/14/ruby-macros
+* threads
+  * http://www.jstorimer.com/blogs/workingwithcode/8085491-nobody-understands-the-gil
 * Singleton methods (`def dog1.hunt ... end`)
   * there's no such thing as a Class method.
 * `define_method()`

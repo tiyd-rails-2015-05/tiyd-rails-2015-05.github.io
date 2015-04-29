@@ -144,7 +144,7 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 * Random topics
   * Early returns
   * Keyword arguments
-  * `||=`
+  * Memoization: `||=`
   * `File.open`
   * Monkey Patching: Change a string to add `.to_pig_latin`
 * Human Learning: Estimating is hard.
