@@ -154,3 +154,5 @@ Students should be comfortable with the following at the end of this week:
 * [Ruby Rogues: Ruby Antipatterns](http://devchat.tv/ruby-rogues/032-rr-ruby-antipatterns)
 
 ## Weekend Assignment
+
+[Gradebook Tickets](https://github.com/tiyd-rails-2015-05/gradebook_tickets)
