@@ -25,7 +25,7 @@ Other assignment ideas:
 * Here are some git messes.  Get out of them.
 * Unbeatable Tic-tac-toe (https://xkcd.com/832/)
 * Minesweeper
-* Add devise and oAuth to, say, the auction site
+* Add devise and OAuth to, say, the auction site
 * Curriculum Management Tool
 * Volunteer Coordination
 * Hotel Accessibility Review Site
