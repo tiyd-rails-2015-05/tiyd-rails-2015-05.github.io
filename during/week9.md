@@ -107,6 +107,10 @@ Complete [Ruby Koans](http://rubykoans.com/).
   * [Padrino](http://www.padrinorb.com/)
   * [Camping](http://camping.io/)
 
+#### Evening Reading
+
+* [Coding is Not the New Literacy](http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/)
+
 #### Lecture Notes/Links
 
 *
