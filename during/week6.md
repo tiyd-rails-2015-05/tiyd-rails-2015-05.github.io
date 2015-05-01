@@ -60,6 +60,7 @@ Students should be comfortable with the following at the end of this week:
 * Authentication
   * `has_secure_password`
   * `BCrypt::Password.create("password", cost: 4)`
+  * [XKCD on Passwords](https://xkcd.com/936/)
 
 #### Lecture Notes/Links
 

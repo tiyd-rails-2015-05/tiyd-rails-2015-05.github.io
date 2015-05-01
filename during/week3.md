@@ -106,6 +106,7 @@ Students should be comfortable with the following at the end of this week:
   * `.order`
   * `.where`
   * `.count`
+  * [XKCD on SQL Injection](https://xkcd.com/327/)
 * Validations
 * Associations
   * Calling methods inside a class definition

@@ -79,6 +79,7 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 * Human Learning
   * How to Google
+  * [XKCD on Old Forums](https://xkcd.com/979/)
 * HTML Verbs Redux
 * The Router
   * `rake routes`
@@ -158,6 +159,9 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
   * Security implications of API keys over http (headers vs parameters)
   * Action on your server trying to access the API on your server
   * Deadlock
+* Agile
+  * Baby Duck Syndrome
+  * [XKCD on Breaking Someone's Workflow](https://xkcd.com/1172/)
 * Rails Servers
   * WEBrick vs. Mongrel vs. Puma
   * `./bin/rails`

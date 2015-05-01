@@ -51,7 +51,8 @@ Start [Ruby Koans](http://rubykoans.com/).  Work through `about_constants.rb`.
 
 **Problem of the Day:** XXX
 
-*
+* Human Learning
+  * Life as a dev
 
 #### Lecture Notes/Links
 
@@ -99,6 +100,7 @@ Complete [Ruby Koans](http://rubykoans.com/).
 * Dvorak keyboards, ergonomic chairs, treadmill desks, etc.
 * [Which IDEs do Rubyists use?](http://www.sitepoint.com/ides-rubyists-use/?utm_source=rubyweekly&utm_medium=email)
 * [Which editors do Rubyists use?](http://www.sitepoint.com/editor-rubyists-use/)
+* [XKCD on editors](http://xkcd.com/378/)
 * [Other ruby frameworks](https://blog.engineyard.com/2015/life-beyond-rails-brief-look-alternate-web-frameworks-ruby).  Links in decreasing order of complexity:
   * Rails
   * [Sinatra](http://www.sinatrarb.com/)

@@ -40,6 +40,7 @@ Students should be comfortable with the following at the end of this week:
     * `images`
     * `embedding`
   * Possible conflicts/inconsistent HTML
+    * [XKCD on Tags](https://xkcd.com/1144/)
   * Attributes
 * Exercise: Build an HTML page that says something about you.
 * CSS

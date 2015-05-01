@@ -64,6 +64,7 @@ Students should be comfortable with the following at the end of this week:
   * Integers
   * Floats
   * Dates
+    * [XKCD on Dates](https://xkcd.com/1179/)
   * Datetimes
 * `puts` and `gets`
 * Running Ruby code
@@ -102,6 +103,7 @@ Students should be comfortable with the following at the end of this week:
   * `.each`
 * Terminal
   * Mac file system
+  * [XKCD on Sudo](https://xkcd.com/149/)
 * Git
   * Reason: versions over time
   * Reason: backups

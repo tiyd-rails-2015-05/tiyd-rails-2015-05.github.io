@@ -120,6 +120,7 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 **Problem of the Day:** I want to loop over an array of strings and return the first one that has a person's name in it.
 
 * Regex
+  * [XKCD on Regular Expressions](https://xkcd.com/1171/)
   * "Peter piper picked a peck of pickled peppers"
   * `+`, `*`, `?`
   * `\w`, `\d`, `\s`, and their capital (opposite) versions

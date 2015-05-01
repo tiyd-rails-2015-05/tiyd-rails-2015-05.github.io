@@ -15,6 +15,7 @@ These web sites are great learning resources and will help you out during the co
 * [Ruby Cheat Sheet](http://overapi.com/ruby/) - one page with a list of all the methods you might want to use
 * [RubyDoc.info](http://www.rubydoc.info/) - documentation for any Ruby gem you can think of
 * [Ruby Toolbox](https://www.ruby-toolbox.com/) - find gems that will meet your needs
+* [PLEAC-Ruby](http://pleac.sourceforge.net/pleac_ruby/index.html) - a collection of problem solutions
 
 #### Tutorials/Exercises/Games
 
