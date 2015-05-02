@@ -82,6 +82,7 @@ Students should be comfortable with the following at the end of this week:
 
 [User Input Statistics](https://github.com/tiyd-rails-2015-05/input_statistics)
 
+<!--
 
 ## Tuesday - Methods and Arrays
 
@@ -212,3 +213,5 @@ Students should be comfortable with the following at the end of this week:
 ## Weekend Assignment
 
 [Currency Converter](https://github.com/tiyd-rails-2015-05/currency_converter_project)
+
+-->
