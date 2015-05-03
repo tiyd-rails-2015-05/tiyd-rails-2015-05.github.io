@@ -1,35 +1,20 @@
 # Reflections for the next class
 
-* Consider trying to start each day with exercises rather than homework review?
-* Beef up My First Git Repo example
-* Add Battleship tests to make it less possible to complete all the tests and have a working game.
-* Write up note at the end of week 2 as an exercise
-* Clean up assignment formatting - **merge requirements and normal mode**.  **merge the two kinds of objectives**.  Get consistent about deliverables (maybe unbold) and notes/additional resources.
-* Give all assignments better (simpler) names.
-* Readings at night were largely ignored.  Probably better to have smaller sets of reading.
-* Git immersion stunk.  Pro Git better?
 * Update assignment JSONs as we work through cohort 4.
-* Regret not having a completed full Rails app each weekend.
-* Review clinton's assignments again and make my versions as needed.
 * APIs - dig more into other gems: rails-api, jbuilder, ActiveModel Serializers, Restclient, Doorkeeper
-* Never did a take-a-ticket, build a feature project.
 * Beef up inheritance challenge.  Perhaps with grandparentage?
-* Heavier logic once we're in Rails.  Makes it easier to motivate good testing practices.
-* Interviews: https://push.cx/2015/hiring-apprentices
 * Graphing sooner if possible
-* Review "Work" photos on phone to see if diagrams or notes help.
 * I'd like some better real-world examples about code which takes up too much memory, leaks, invokes garbage collection, etc.  jeg2 said he can do it "easily."  Maybe a search will give a starting point.
 
 Other assignment ideas:
 
-* Here are some git messes.  Get out of them.
 * Unbeatable Tic-tac-toe (https://xkcd.com/832/)
 * Minesweeper
 * Add devise and OAuth to, say, the auction site
 * Curriculum Management Tool
 * Volunteer Coordination
 * Hotel Accessibility Review Site
-* an exercise where they close a Github issue from the command line.
+* Close a Github issue from the command line.
 
 Never got to:
 
