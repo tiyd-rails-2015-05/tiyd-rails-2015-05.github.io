@@ -36,11 +36,11 @@ Students should be comfortable with the following at the end of this week:
   * Comfort, Learning, and Panic Zones
   * The data collection we'll be doing in class
   * Diagram: Three Concentric Zones
-
 * Programming Languages
   * What are they?
   * How many are there?
   * What makes Ruby special?
+  * MINASWAN
   * Why Ruby is not the same thing as Ruby on Rails
 * Instructions - PB & J
 * Control Flow
@@ -50,7 +50,6 @@ Students should be comfortable with the following at the end of this week:
 * Indentation
 * Variables
   * PB & J for the entire class, everyone wants a different jelly.
-  * The two hardest problems in computer science
 * Logical Statements
   * Concepts of `and` and `or`
   * While someone still wants a sandwich
@@ -66,14 +65,22 @@ Students should be comfortable with the following at the end of this week:
   * Dates
     * [XKCD on Dates](https://xkcd.com/1179/)
   * Datetimes
-* `puts` and `gets`
+* Print/Get
+  * `puts`
+  * `gets`
+  * `gets.chomp`
 * Terminal
   * Mac file system
+  * `pwd`
+  * `ls`
+  * `cd`
+  * `/` and `~`
   * [XKCD on Sudo](https://xkcd.com/149/)
-* Running Ruby code
+* Running Ruby code from the command line
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/NWhuBJAUMZg)
 * [Whitespace Language](http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29#Sample_code)
 * [Hodor-lang](http://www.hodor-lang.org/)
 
@@ -91,20 +98,41 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days)
+**Problem of the Day:** [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days_of_christmas)
 
 * Human Learning
   * Try to solve a problem before being taught how to do it.
+* More on Terminal/Running Ruby
+  * Hitting Up
+  * Ctrl-C
+* More on Data Types
+  * Type conversions (`to_i`, `to_f`, etc)
+  * Binary
+  * How to store integers
+  * How to store strings
+  * `1/3`, `2/3`
+  * `2.3+3.4` - Floating Point Errors
+  * Decimal (later)
+* Common Error Messages
+  * Line Numbers
+  * TypeError (`2+"1"`)
+  * NameError (`undefined local variable`)
+  * ArgumentError
 * Methods
   * Start with [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
+  * Return values vs side effects (including `puts`) vs setting variables outside (which they can't)
   * Parameters
   * Default parameters
-  * Return values vs side effects (including `puts`)
   * Define the same method twice
 * Data Structures
   * Switch back to [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days)
   * Arrays
+  * `+` vs `<<`
   * `.each`
+* More on Variables
+  * The two hardest problems in computer science
+  * How variables are stored in memory (NOT on HDD)
+  * Two names for the same variable
 * Git
   * Reason: versions over time
   * Reason: backups

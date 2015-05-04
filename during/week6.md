@@ -56,6 +56,9 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Modify your menu application so that people can log in, and only allow those who have logged in to edit the items.
 
+* Human Learning
+  * "Code Quality"
+  *[XKCD on Code Quality](http://xkcd.com/1513/)
 * Session
 * Authentication
   * `has_secure_password`
