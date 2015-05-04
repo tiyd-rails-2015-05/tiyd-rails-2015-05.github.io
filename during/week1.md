@@ -67,6 +67,9 @@ Students should be comfortable with the following at the end of this week:
     * [XKCD on Dates](https://xkcd.com/1179/)
   * Datetimes
 * `puts` and `gets`
+* Terminal
+  * Mac file system
+  * [XKCD on Sudo](https://xkcd.com/149/)
 * Running Ruby code
 
 #### Lecture Notes/Links
@@ -102,9 +105,6 @@ Students should be comfortable with the following at the end of this week:
   * Switch back to [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days)
   * Arrays
   * `.each`
-* Terminal
-  * Mac file system
-  * [XKCD on Sudo](https://xkcd.com/149/)
 * Git
   * Reason: versions over time
   * Reason: backups
