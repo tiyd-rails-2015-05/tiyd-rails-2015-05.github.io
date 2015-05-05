@@ -80,6 +80,7 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Class Video](http://youtu.be/NWhuBJAUMZg)
+* [Programming Language Family Tree](w1-1/languages.png)
 * [Whitespace Language](http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29#Sample_code)
 * [Hodor-lang](http://www.hodor-lang.org/)
 
@@ -100,10 +101,12 @@ Students should be comfortable with the following at the end of this week:
 
 * Human Learning
   * Try to solve a problem before being taught how to do it.
-* More on Terminal/Running Ruby
-  * Hitting Up
-  * Ctrl-C
-  * [XKCD on Sudo](https://xkcd.com/149/)
+* Methods
+  * Start with [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
+  * Return values vs side effects (including `puts`) vs setting variables outside (which they can't)
+  * Parameters
+  * Default parameters
+  * Define the same method twice
 * More on Data Types
   * Type conversions (`to_i`, `to_f`, etc)
   * Binary
@@ -116,13 +119,8 @@ Students should be comfortable with the following at the end of this week:
   * Line Numbers
   * TypeError (`2+"1"`)
   * NameError (`undefined local variable`)
+  * NoMethodError
   * ArgumentError
-* Methods
-  * Start with [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
-  * Return values vs side effects (including `puts`) vs setting variables outside (which they can't)
-  * Parameters
-  * Default parameters
-  * Define the same method twice
 * Data Structures
   * Switch back to [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days)
   * Arrays
@@ -142,9 +140,16 @@ Students should be comfortable with the following at the end of this week:
   * Removing incorrectly forked git repos
 * Editors (and pros and cons of the default vim)
 * `rand`
+* More on Terminal/Running Ruby
+  * Hitting Up
+  * Ctrl-C
+  * [XKCD on Sudo](https://xkcd.com/149/)
 
 #### Lecture Notes/Links
 
+* [Code: 5 Little Monkeys](w1-2/monkeys.rb)
+* [Code: 12 Days of Christmas](w1-2/christmas.rb)
+* [Code: 12 Days of Cruzmas](w1-2/cruzmas.rb)
 * [Not entering your GitHub password into git for every push](https://help.github.com/articles/caching-your-github-password-in-git/)
 * Extra method exercise: [Random Number in a Range (Fish Story)](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/random_in_range)
 
