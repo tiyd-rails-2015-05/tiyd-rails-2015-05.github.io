@@ -75,7 +75,6 @@ Students should be comfortable with the following at the end of this week:
   * `ls`
   * `cd`
   * `/` and `~`
-  * [XKCD on Sudo](https://xkcd.com/149/)
 * Running Ruby code from the command line
 
 #### Lecture Notes/Links
@@ -92,7 +91,6 @@ Students should be comfortable with the following at the end of this week:
 
 [User Input Statistics](https://github.com/tiyd-rails-2015-05/input_statistics)
 
-<!--
 
 ## Tuesday - Methods and Arrays
 
@@ -105,6 +103,7 @@ Students should be comfortable with the following at the end of this week:
 * More on Terminal/Running Ruby
   * Hitting Up
   * Ctrl-C
+  * [XKCD on Sudo](https://xkcd.com/149/)
 * More on Data Types
   * Type conversions (`to_i`, `to_f`, etc)
   * Binary
@@ -158,6 +157,8 @@ Students should be comfortable with the following at the end of this week:
 
 [Number Guessing Game](https://github.com/tiyd-rails-2015-05/number_guessing)
 
+
+<!--
 
 ## Wednesday - Hashes and Nested Data Structures
 
