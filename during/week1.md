@@ -99,8 +99,6 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days_of_christmas)
 
-* Human Learning
-  * Try to solve a problem before being taught how to do it.
 * Methods
   * Start with [Five Monkeys](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/monkeys_jumping_on_the_bed)
   * Return values vs side effects (including `puts`) vs setting variables outside (which they can't)
@@ -119,25 +117,23 @@ Students should be comfortable with the following at the end of this week:
   * Line Numbers
   * TypeError (`2+"1"`)
   * NameError (`undefined local variable`)
-  * NoMethodError
+  * NoMethodError (`nil.reverse`)
   * ArgumentError
 * Data Structures
-  * Switch back to [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days)
+  * Ranges
   * Arrays
   * `+` vs `<<`
   * `.each`
 * More on Variables
   * The two hardest problems in computer science
   * How variables are stored in memory (NOT on HDD)
-  * Two names for the same variable
+  * Two names for the same variable (call by reference)
 * Git
   * Reason: versions over time
   * Reason: backups
   * `git add`
   * `git commit`
   * `git push`
-  * Good commit messages
-  * Removing incorrectly forked git repos
 * Editors (and pros and cons of the default vim)
 * `rand`
 * More on Terminal/Running Ruby
@@ -147,6 +143,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/i7FkJtt3B9w)
 * [Code: 5 Little Monkeys](w1-2/monkeys.rb)
 * [Code: 12 Days of Christmas](w1-2/christmas.rb)
 * [Code: 12 Days of Cruzmas](w1-2/cruzmas.rb)
@@ -169,16 +166,19 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** How can I keep track of and look up contact info for everyone in class?
+**Problem of the Day:** How can I keep track of and look up contact info for everyone in class?  
 
+* Logistics
+  * Join Slack Channel
+  * Customizing your `PS1`
 * Human Learning
+  * Try to solve a problem before being taught how to do it.
   * Interleaving learning is better than single-track learning.
 * Control Flow (in light of Number Guessing Game)
   * next (not lose a turn if you guess the same thing twice)
   * break (stop asking when the correct number is guessed)
   * return
   * exit
-* Ranges (in light of Number Guessing Game)
 * Attempt 1: Array
   * Just names first.  Ask for everyone's name and display them all at the end.
   * How do I prevent duplicates when I enter a name more than once?
@@ -190,8 +190,10 @@ Students should be comfortable with the following at the end of this week:
   * Keep track of a phone number and an email address and a birthdate for each person
 * Attempt 5: Arrays inside Hashes
   * Keep track of multiple email addresses for each person.
+* Symbols
 * Markdown
 * Quality READMEs
+* Good commit messages
 
 #### Lecture Notes/Links
 
