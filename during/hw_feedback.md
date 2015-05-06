@@ -90,18 +90,18 @@ Sadly, `guess_array<<guess` is a problem.  It would be totally fine if `guess_ar
 
 Here's what the code should look like instead.  Note that we make the method RETURN a result that gets used on the outside.
 
-  def new_guess?(guess_array, guess)
-    if guess_array.include?(guess)
-      print "Steve Perry would appreciate that you don't stop believing, but that's still not correct. "
-      return false
-    else
-      return true
+    def new_guess?(guess_array, guess)
+      if guess_array.include?(guess)
+        print "Steve Perry would appreciate that you don't stop believing, but that's still not correct. "
+        return false
+      else
+        return true
+      end
     end
-  end
 
-  ...
-  guess_array << guess if new_guess?(guess_array, guess)
-  ...
+    ...
+    guess_array << guess if new_guess?(guess_array, guess)
+    ...
 
 #### Options for Commenting
 
