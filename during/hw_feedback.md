@@ -63,3 +63,26 @@ Since this method is called from three different places in the code for three di
 #### Variable Names
 
 This line of code showed up in the assignment: `guessed_num = []`.  This variable holds an array, but it could be named better for two reasons.  First, since it contains more than one number, it should be pluralized (e.g. `guessed_nums`).  Second, we generally prefer to use entire words for our variable names rather than abbreviations.  The best name would have been `guessed_numbers`, or just `guesses`.
+
+#### Spelling
+
+Sadly, spelling is a big deal in the developer world.  This is especially true in variable and method names, since other developers who try to call a `calculater` method will inevitably spell it correctly and not know why it isn't working.
+
+In addition, spelling matters in comments, READMEs, and any other written communication that we put out.  Even as a developer, you can be judged negatively by interviewers for not having good spelling and grammar.
+
+
+## Week 1 - Blackjack Advisor
+
+#### Many Possible Values
+
+Someone was working on this project (before turning it in) and had a line like this:
+
+    if card == ("jack" || "j" || "queen" || "q" || "king" || "k")
+
+The idea makes sense in English, but not in code.  It won't work because the `||` operators get evaluated BEFORE the `==`.  In the end, this code is saying `if card == "jack"`.
+
+The "Ruby Way"(TM) to code this is to think about it backwards and say:
+
+    if ["jack", "j", "queen", "q", "king", "k"].include?(card)
+
+There's another way, using Regular Expressions.  Tune in next week.
