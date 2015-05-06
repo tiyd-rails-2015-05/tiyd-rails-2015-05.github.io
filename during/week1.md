@@ -199,7 +199,7 @@ Students should be comfortable with the following at the end of this week:
 * [Class Video](http://youtu.be/nz8v4v7VT7k)
 * [Variable vs. Method HW Example](w1-3/hw.rb)
 * [Multi-method HW Example](w1-3/hw2.rb)
-* [A series of phone number programs](w1-3/phone_numbers)
+* [A series of phone number programs](w1-3/phone_numbers.rb)
 * Extra array-to-hash exercise: [Super-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/super_simple_search)
 * Extra hash exercise: [Sorta-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/sorta_simple_search)
 * [Markdown Reference](https://help.github.com/articles/markdown-basics/)
@@ -213,7 +213,6 @@ Students should be comfortable with the following at the end of this week:
 
 [Blackjack Advisor](https://github.com/tiyd-rails-2015-05/blackjack_advisor)
 
-
 <!--
 
 ## Thursday - Classes
@@ -225,8 +224,10 @@ Students should be comfortable with the following at the end of this week:
 * Human Learning
   * Try to solve a problem before being taught how to do it.
   * Interleaving learning is better than single-track learning.
-* Mac/Development Tricks
+* Check-in on Readings
+* Mac Usage
   * Mac spaces
+  * Previously visited sites
 * Random Topics
   * What does an `=` call return?
   * What does an `||` call return?
