@@ -239,11 +239,7 @@ code, pre {
   color: #333;
   font-size: 10px;
   overflow-x: auto;
-  border: 1px solid #bbb;
-  border-radius: 2px;
-  background-color: #d4d4d4;
   padding: 0px 4px;
-  white-space: nowrap;
 }
 
 pre {
