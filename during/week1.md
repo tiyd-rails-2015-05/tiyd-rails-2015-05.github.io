@@ -192,6 +192,7 @@ Students should be comfortable with the following at the end of this week:
 * Markdown
 * Quality READMEs
 * Good commit messages
+* Sublime-Style-Column-Selection package
 
 #### Lecture Notes/Links
 
@@ -201,6 +202,8 @@ Students should be comfortable with the following at the end of this week:
 * [A series of phone number programs](w1-3/phone_numbers)
 * Extra array-to-hash exercise: [Super-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/super_simple_search)
 * Extra hash exercise: [Sorta-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/sorta_simple_search)
+* [Markdown Reference](https://help.github.com/articles/markdown-basics/)
+* [PS1 Variables Reference](http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
 
 #### Evening Reading
 
