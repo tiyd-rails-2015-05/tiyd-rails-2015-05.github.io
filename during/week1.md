@@ -164,7 +164,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** How can I keep track of and look up contact info for everyone in class?  
+**Problem of the Day:** [Phone Number Tracker](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/phone_numbers)
 
 * Logistics
   * Join Slack Channel
