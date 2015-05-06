@@ -166,12 +166,11 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** [Phone Number Tracker](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/phone_numbers)
 
-* Logistics
-  * Join Slack Channel
+* Logistics/Tricks
+  * Join the `#dur_may2015_rails` Slack Channel
   * Customizing your `PS1`
-* Human Learning
-  * Try to solve a problem before being taught how to do it.
-  * Interleaving learning is better than single-track learning.
+  * Flycut for copy history
+  * Vertical select via Atom's Sublime-Style-Column-Selection package
 * Control Flow (in light of Number Guessing Game)
   * next (not lose a turn if you guess the same thing twice)
   * break (stop asking when the correct number is guessed)
@@ -181,7 +180,8 @@ Students should be comfortable with the following at the end of this week:
   * Just names first.  Ask for everyone's name and display them all at the end.
   * How do I prevent duplicates when I enter a name more than once?
 * Attempt 2: Set
-  * Basic `require` from standard library.
+  * Basic `require` from standard library
+  * Core library vs. Standard library
 * Attempt 3: Hash
   * Keep track of a phone number for each person
 * Attempt 4: Hashes inside a Hash
@@ -189,14 +189,14 @@ Students should be comfortable with the following at the end of this week:
 * Attempt 5: Arrays inside Hashes
   * Keep track of multiple email addresses for each person.
 * Symbols
-* Markdown
-* Quality READMEs
-* Good commit messages
-* Sublime-Style-Column-Selection package
+* Git/GitHub Conventions
+  * Markdown
+  * Quality READMEs
+  * Good commit messages
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video](http://youtu.be/nz8v4v7VT7k)
 * [Variable vs. Method HW Example](w1-3/hw.rb)
 * [Multi-method HW Example](w1-3/hw2.rb)
 * [A series of phone number programs](w1-3/phone_numbers)
@@ -220,13 +220,18 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Problem of the Day:** As a store, how do you keep track of your inventory of albums, their artists, and their prices?
+**Problem of the Day:** [Album Tracker](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/albums_and_artists)
 
 * Human Learning
-  * Durable learning is effortful.
+  * Try to solve a problem before being taught how to do it.
+  * Interleaving learning is better than single-track learning.
 * Mac/Development Tricks
   * Mac spaces
-  * Vertical select
+* Random Topics
+  * What does an `=` call return?
+  * What does an `||` call return?
+  * What does `if` or `while` actually expect?
+  * What is "truthy" and what is "falsey" in Ruby?
 * Object Oriented Programming
   * What are objects?
     * State and behavior
@@ -246,7 +251,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-* [Problem of the Day Write-up](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/albums_and_artists)
+*
 
 #### Evening Reading
 
