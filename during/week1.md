@@ -195,6 +195,10 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video]()
+* [Variable vs. Method HW Example](w1-3/hw.rb)
+* [Multi-method HW Example](w1-3/hw2.rb)
+* [A series of phone number programs](w1-3/phone_numbers)
 * Extra array-to-hash exercise: [Super-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/super_simple_search)
 * Extra hash exercise: [Sorta-simple Search](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/sorta_simple_search)
 
