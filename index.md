@@ -36,6 +36,8 @@ You'll need to complete all of these steps before April 27th.  If you have ANY q
 * Week 8
 * Week 9
 
+* [Homework Feedback](during/hw_feedback)
+
 ### After
 
 * My thoughts on next steps
