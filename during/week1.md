@@ -160,8 +160,6 @@ Students should be comfortable with the following at the end of this week:
 [Number Guessing Game](https://github.com/tiyd-rails-2015-05/number_guessing)
 
 
-<!--
-
 ## Wednesday - Hashes and Nested Data Structures
 
 #### Lecture
@@ -208,6 +206,8 @@ Students should be comfortable with the following at the end of this week:
 
 [Blackjack Advisor](https://github.com/tiyd-rails-2015-05/blackjack_advisor)
 
+
+<!--
 
 ## Thursday - Classes
 
