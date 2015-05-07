@@ -213,7 +213,6 @@ Students should be comfortable with the following at the end of this week:
 
 [Blackjack Advisor](https://github.com/tiyd-rails-2015-05/blackjack_advisor)
 
-<!--
 
 ## Thursday - Classes
 
@@ -262,5 +261,3 @@ Students should be comfortable with the following at the end of this week:
 ## Weekend Assignment
 
 [Currency Converter](https://github.com/tiyd-rails-2015-05/currency_converter_project)
-
--->
