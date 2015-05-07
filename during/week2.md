@@ -35,13 +35,12 @@ Students should be comfortable with the following at the end of this week:
   * Iterate.
   * Run code often, ideally after every change.
   * Pair programming.
+* Random Items
+  * `attr_reader`, `attr_accessor`
 * Inheritance
   * Exploration: Start with Float object.  Explore superclasses and classes.
   * Explain how the exception problem was solved over the weekend.
   * Vehicle exercise.
-* Floating point arithmetic - play with distance in Vehicle class.
-  * `129.95*10`
-  * `129.95*100`
 * Exceptions
   * What happens if I ask for `number_of_wings` on a HybridCar?
   * Raising exceptions
@@ -54,6 +53,7 @@ Students should be comfortable with the following at the end of this week:
 * Git
   * Reason: Sharing code with others
   * Forking
+  * `.gitignore`
   * `git clone`
 
 #### Lecture Notes/Links

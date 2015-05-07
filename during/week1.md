@@ -242,16 +242,20 @@ Students should be comfortable with the following at the end of this week:
   * What are classes?
     * Blueprints for objects
   * Encapsulation
-  * attr_reader, attr_accessor
 * Math is messages being passed to objects as well!!!
   * `2 + 2.3`
   * Overriding arithmetic operations (e.g. `def +(other) ... end`)
 * Ruby code in multiple files
-  * require
+  * `require`
 
 #### Lecture Notes/Links
 
-*
+* [Class Video](http://youtu.be/Vc9aeD3Muvc)
+* [album_program.rb](w1-4/album_program.rb)
+* [album.rb](w1-4/album.rb)
+* [artist.rb](w1-4/artist.rb)
+* [Screenshot of all 3](w1-4/album.png)
+* [Screenshot of simpler example from last cohort](w1-4/human.png)
 
 #### Evening Reading
 
