@@ -163,6 +163,7 @@ Students should be comfortable with the following at the end of this week:
   * [Nutritionix](https://www.mashape.com/msilverman/nutritionix-nutrition-database)
   * [TrailAPI](https://www.mashape.com/trailapi/trailapi)
   * [Yoda Speak](https://www.mashape.com/ismaelc/yoda-speak)
+  * [Marvel API](http://developer.marvel.com/docs)
   * NPR
   * Flickr
   * Getty Images

@@ -233,6 +233,7 @@ Students should be comfortable with the following at the end of this week:
   * What does `if` or `while` actually expect?
   * What is "truthy" and what is "falsey" in Ruby?
 * Object Oriented Programming
+  * Example: People have cell phones, people receive calls and cell phones ring.
   * What are objects?
     * State and behavior
     * State = instance variables
