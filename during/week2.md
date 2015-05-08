@@ -37,6 +37,7 @@ Students should be comfortable with the following at the end of this week:
   * Pair programming.
 * Random Items
   * `attr_reader`, `attr_accessor`
+  * Ternary operator
 * Inheritance
   * Exploration: Start with Float object.  Explore superclasses and classes.
   * Explain how the exception problem was solved over the weekend.

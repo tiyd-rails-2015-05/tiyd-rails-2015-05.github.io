@@ -43,3 +43,7 @@ Never got to:
     end
 
     Item.first.orders.for_user(current_user)
+
+Additional concepts to assess:
+
+* README
