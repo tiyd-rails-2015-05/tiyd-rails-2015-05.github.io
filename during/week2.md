@@ -41,7 +41,7 @@ Students should be comfortable with the following at the end of this week:
 * Inheritance
   * Exploration: Start with Float object.  Explore superclasses and classes.
   * Explain how the exception problem was solved over the weekend.
-  * Vehicle exercise.
+  * Begin in-class work on Vehicle exercise.
 * Exceptions
   * What happens if I ask for `number_of_wings` on a HybridCar?
   * Raising exceptions
