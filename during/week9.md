@@ -98,6 +98,7 @@ Complete [Ruby Koans](http://rubykoans.com/).
 * CI (Mike)
 * vim (Michael)
 * Dvorak keyboards, ergonomic chairs, treadmill desks, etc.
+* [Annual Developer Survey from StackOverflow](https://stackoverflow.com/research/developer-survey-2015)
 * [Which IDEs do Rubyists use?](http://www.sitepoint.com/ides-rubyists-use/?utm_source=rubyweekly&utm_medium=email)
 * [Which editors do Rubyists use?](http://www.sitepoint.com/editor-rubyists-use/)
 * [XKCD on editors](http://xkcd.com/378/)
