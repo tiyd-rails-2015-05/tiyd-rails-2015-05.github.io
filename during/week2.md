@@ -37,7 +37,6 @@ Students should be comfortable with the following at the end of this week:
   * Pair programming.
 * Random Items
   * `attr_reader`, `attr_accessor`
-  * Ternary operator
 * Inheritance
   * Exploration: Start with Float object.  Explore superclasses and classes.
   * Explain how the exception problem was solved over the weekend.
@@ -46,16 +45,20 @@ Students should be comfortable with the following at the end of this week:
   * What happens if I ask for `number_of_wings` on a HybridCar?
   * Raising exceptions
   * Inventing exceptions
+* Gems
+  * `gem list`
+  * `gem install`
 * Testing
-  * Show tests for the Vehicle class.
-  * Show tests for old "12 Days of Christmas" problem.
-  * Show how easy refactoring is with good tests.  Move arrays out to methods.  Then modify the set of gifts which can be passed in.
-  * Show battleship assignment and tests.
+  * Show tests for the Vehicle class.  Don't build to them, just show them.
+  * Build out "12 Days of Christmas" for its test suite.
+  * Sliming
 * Git
   * Reason: Sharing code with others
   * `git clone`
   * `.gitignore` files
   * Forking
+  * GitHub collaborators
+  * `git pull`
 
 #### Lecture Notes/Links
 
@@ -80,7 +83,6 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 * Human Learning
   * Coding a new application is more about debugging and troubleshooting than we think at first
 * Debugging
-  * Basic gem installs
   * byebug
 * OO: `public` vs `private`
   * Example: Jess is a Builder.  We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
@@ -100,6 +102,8 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
     * You should also be able to call `Fish::PHYLUM` and get back `"Chordata"`
 * Random topics
   * You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
+  * Show how easy refactoring is with good tests.  Move arrays out to methods.  Then modify the set of gifts which can be passed in.
+  * Ternary operator
 
 
 #### Lecture Notes/Links
