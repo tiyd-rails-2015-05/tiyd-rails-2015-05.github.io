@@ -69,6 +69,7 @@ Students should be comfortable with the following at the end of this week:
 
 Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 01-18 to pass.
 
+<!--
 
 ## Tuesday - Composition and Modules
 
@@ -196,3 +197,5 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 ## Weekend Assignment
 
 [Employee Reviews](https://github.com/tiyd-rails-2015-05/employee_reviews_project)
+
+-->
