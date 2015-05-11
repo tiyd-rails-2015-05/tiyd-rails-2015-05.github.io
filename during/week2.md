@@ -53,9 +53,9 @@ Students should be comfortable with the following at the end of this week:
   * Show battleship assignment and tests.
 * Git
   * Reason: Sharing code with others
-  * Forking
-  * `.gitignore` files
   * `git clone`
+  * `.gitignore` files
+  * Forking
 
 #### Lecture Notes/Links
 
@@ -75,7 +75,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 #### Lecture
 
-**Problem of the Day:** Back to Vehicles. Set up inheritance so that some of the vehicles carry cargo (trucks and planes) and some fly (planes and helicopters).
+**Problem of the Day:** [Vehicles Part II](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/vehicle_modules)
 
 * Human Learning
   * Coding a new application is more about debugging and troubleshooting than we think at first

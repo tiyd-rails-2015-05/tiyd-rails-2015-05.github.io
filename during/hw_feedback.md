@@ -362,3 +362,13 @@ You notice that I got an extra line: `{"users_hand"=>{"first_card"=>2, "second_c
 **Always remove all debugging statements before you commit the final version of your code.**
 
 This applies in this class, but especially applies out in the real world.
+
+## Currency Converter
+
+#### README Style
+
+I got a few READMEs where everything was either bold or all headers.  It's best to be a bit more judicious with your use of bold and headers.  The majority of your text should be standard paragraph text (No `##` or `**` around it.)
+
+# Week 2
+
+##
