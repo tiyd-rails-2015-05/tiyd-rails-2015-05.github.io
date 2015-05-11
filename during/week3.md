@@ -164,6 +164,7 @@ Students should be comfortable with the following at the end of this week:
   * [TrailAPI](https://www.mashape.com/trailapi/trailapi)
   * [Yoda Speak](https://www.mashape.com/ismaelc/yoda-speak)
   * [Marvel API](http://developer.marvel.com/docs)
+  * [Blackjack API](http://deckofcardsapi.com/)
   * NPR
   * Flickr
   * Getty Images
