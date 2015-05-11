@@ -109,6 +109,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
     * Each should have a `maximum_length` method, but they should return different things
     * You should also be able to call `Fish::PHYLUM` and get back `"Chordata"`
 * Random topics
+  * Class variables
   * You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
   * Show how easy refactoring is with good tests.  Move arrays out to methods.  Then modify the set of gifts which can be passed in.
   * Ternary operator
