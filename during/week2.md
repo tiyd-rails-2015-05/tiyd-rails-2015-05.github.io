@@ -29,27 +29,32 @@ Students should be comfortable with the following at the end of this week:
 
 * Human Learning: Feedback Cycles and Agile Development
   * Diagram: Feedback cycles of escalating size.
+  * Agile feedback loops:
+    * Project post-mordems
+    * Iteration retrospectives
+    * Daily standups
+    * Run code and tests often, ideally after every change.
+    * Pair programming
   * Build fully-functional apps during each iteration.
     * Example: Build an ecommerce site for T-shirts.
     * Start with a simple subset of features, like a catalog with no interaction.
-  * Iterate.
-  * Run code often, ideally after every change.
-  * Pair programming.
 * Random Items
   * `attr_reader`, `attr_accessor`
+  * Splat operator (`*`)
 * Inheritance
   * Exploration: Start with Float object.  Explore superclasses and classes.
   * Explain how the exception problem was solved over the weekend.
   * Begin in-class work on Vehicle exercise.
 * Exceptions
-  * What happens if I ask for `number_of_wings` on a HybridCar?
-  * Raising exceptions
-  * Inventing exceptions
+  * Example code: divide by zero in a method
+  * Catching exceptions (`begin ... rescue ... end`)
+  * Raising exceptions yourself
+  * Inventing exception classes
 * Gems
   * `gem list`
   * `gem install`
 * Testing
-  * Show tests for the Vehicle class.  Don't build to them, just show them.
+  * Show tests for the Vehicle class. Use code already built.
   * Build out "12 Days of Christmas" for its test suite.
   * Sliming
 * Git
@@ -62,6 +67,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/iU10DSFwhnw)
 * Extra inheritance exercise: [National Expressions](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/national_expressions)
 
 #### Evening Reading
@@ -81,9 +87,11 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 **Problem of the Day:** [Vehicles Part II](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/vehicle_modules)
 
 * Human Learning
+  * Pair Programming discussion
   * Coding a new application is more about debugging and troubleshooting than we think at first
 * Debugging
-  * byebug
+  * Read the error messages.
+  * `byebug`
 * OO: `public` vs `private`
   * Example: Jess is a Builder.  We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
   * Tell, don't ask

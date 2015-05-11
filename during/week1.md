@@ -232,6 +232,7 @@ Students should be comfortable with the following at the end of this week:
   * What does an `||` call return?
   * What does `if` or `while` actually expect?
   * What is "truthy" and what is "falsey" in Ruby?
+  * Exclusive OR (`^`)
 * Object Oriented Programming
   * Example: People have cell phones, people receive calls and cell phones ring.
   * What are objects?
