@@ -593,3 +593,18 @@ This stands out because there is no `else` clause.  Without the else, the method
     def sunk?
       @coverage != [] && @hits == @coverage
     end
+
+
+#### Location of `require`
+
+I saw a file today start the following way:
+
+    class Ship
+      require './hole.rb'
+
+      attr_reader :length
+
+      ...
+    end
+
+Although this works, it is common (and best) practice for the require to be OUTSIDE of any class definitions.
