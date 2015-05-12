@@ -111,6 +111,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
     * Each should have a `maximum_length` method, but they should return different things
     * You should also be able to call `Fish::PHYLUM` and get back `"Chordata"`
 * Composition - has-a
+  * Example: YellingString.  (Could use a better example for this)
 
 #### Lecture Notes/Links
 
