@@ -136,7 +136,7 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 #### Lecture
 
-**Problem of the Day:** I want to loop over an array of strings and return the first one that has a person's name in it.
+**Problem of the Day:** [Vehicles Part II](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/find_names)
 
 * Random topics
   * Calling private methods with `.send()`
