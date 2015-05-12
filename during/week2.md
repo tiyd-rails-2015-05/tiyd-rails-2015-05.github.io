@@ -95,7 +95,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 * Random topics
   * You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
   * Show how easy refactoring is with good tests.  Move arrays out to methods.  Then modify the set of gifts which can be passed in.
-  * Ternary operator
+  * Ternary operator (e.g. `object.is_true? ? "Yes" : "No" `)
 * OO: `public` vs `private`
   * Example: Daisy is a Builder.  She has many steps she takes to build a house.
   * We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
@@ -116,7 +116,11 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 #### Lecture Notes/Links
 
-*
+* [Class Video](http://youtu.be/fLbL-0ITzC0)
+* [Private Method Example](w2-2/builder.rb)
+* [Module (for Sharing Behavior) Example](w2-2/vehicle.rb)
+* [Module (for Namespacing) Example](w2-2/bass.rb)
+* [Composition Example](w2-2/yelling_string.rb)
 
 #### Evening Reading
 
