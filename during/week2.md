@@ -78,7 +78,6 @@ Students should be comfortable with the following at the end of this week:
 
 Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 01-18 to pass.
 
-<!--
 
 ## Tuesday - Composition and Modules
 
@@ -91,15 +90,20 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
   * Coding a new application is more about debugging and troubleshooting than we think at first
 * Debugging
   * Read the error messages.
+  * `puts` statements
   * `byebug`
+* Random topics
+  * You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
+  * Show how easy refactoring is with good tests.  Move arrays out to methods.  Then modify the set of gifts which can be passed in.
+  * Ternary operator
 * OO: `public` vs `private`
-  * Example: Jess is a Builder.  We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
+  * Example: Daisy is a Builder.  She has many steps she takes to build a house.
+  * We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
   * Tell, don't ask
   * Calling private methods with `.send()`
   * `protected` keyword
   * Class variables - DON'T
 * Inheritance - is-a
-* Composition - has-a
 * Modules - acts-like-a/has-a-role
 * Namespacing
   * Use of modules for namespacing
@@ -108,12 +112,7 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
     * Make two classes with the same name.  One for the fish and one for the instrument.
     * Each should have a `maximum_length` method, but they should return different things
     * You should also be able to call `Fish::PHYLUM` and get back `"Chordata"`
-* Random topics
-  * Class variables
-  * You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
-  * Show how easy refactoring is with good tests.  Move arrays out to methods.  Then modify the set of gifts which can be passed in.
-  * Ternary operator
-
+* Composition - has-a
 
 #### Lecture Notes/Links
 
@@ -127,6 +126,8 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 19-31 to pass.
 
+
+<!--
 
 ## Wednesday - Regex, Enumerable, and Blocks
 

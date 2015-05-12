@@ -565,3 +565,31 @@ Any variable that starts with `@@` (e.g. `@@count`) is called a "class variable.
 # Week 2
 
 ## Battleship, Day 1
+
+#### Doubly-defined Methods
+
+In one `Grid` class I saw, the method `has_ship_on?` was defined twice, and the first one I saw just said:
+
+    def has_ship_on?(x, y)
+      false
+    end
+
+I was totally confused that test 18 passed.  Then I scrolled down and saw that the method was defined AGAIN, but in a meaningful way.  All this to say, it's best to not define the same method twice, as it will confuse other developers.
+
+#### Leaving off the `else`
+
+Check out this method:
+
+    def sunk?
+      if @coverage == []
+        false
+      elsif @hits == @coverage
+        true
+      end
+    end
+
+This stands out because there is no `else` clause.  Without the else, the method just returns `nil`.  That's okay, but it is a bit strange that this one method can return one of three possible values.  Instead, it's probably better to simplify this into one logical check with an `&&`.
+
+    def sunk?
+      @coverage != [] && @hits == @coverage
+    end
