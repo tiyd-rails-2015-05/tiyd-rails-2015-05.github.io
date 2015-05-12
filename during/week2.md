@@ -86,22 +86,20 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 **Problem of the Day:** [Vehicles Part II](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/vehicle_modules)
 
 * Human Learning
-  * Pair Programming discussion
+  * Pair Programming pros and cons (now that we have experience)
   * Coding a new application is more about debugging and troubleshooting than we think at first
 * Debugging
-  * Read the error messages.
+  * Read the error messages
+  * Squint and think hard
   * `puts` statements
   * `byebug`
 * Random topics
   * You can return objects when true/false is expected (e.g. `ship.fire_at(x, y)`)
-  * Show how easy refactoring is with good tests.  Move arrays out to methods.  Then modify the set of gifts which can be passed in.
   * Ternary operator (e.g. `object.is_true? ? "Yes" : "No" `)
 * OO: `public` vs `private`
   * Example: Daisy is a Builder.  She has many steps she takes to build a house.
   * We don't want to micromanage her and tell her HOW to build the house; we just want to tell her to build it and let her figure out the details.
   * Tell, don't ask
-  * Calling private methods with `.send()`
-  * `protected` keyword
   * Class variables - DON'T
 * Inheritance - is-a
 * Modules - acts-like-a/has-a-role
@@ -139,6 +137,13 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 **Problem of the Day:** I want to loop over an array of strings and return the first one that has a person's name in it.
 
+* Random topics
+  * Calling private methods with `.send()`
+  * Show how easy refactoring is with good tests.  Move arrays out to methods.
+  * Keyword arguments
+  * Memoization: `||=`
+  * `File.open`
+  * Monkey Patching: Change a string to add `.to_pig_latin`
 * Regex
   * [XKCD on Regular Expressions](https://xkcd.com/1171/)
   * "Peter piper picked a peck of pickled peppers"
@@ -162,12 +167,6 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
     * `yield` to a block
     * `&code` param and `code.call` to use a Proc
     * `Proc.new` stored in variable.
-* Random topics
-  * Early returns
-  * Keyword arguments
-  * Memoization: `||=`
-  * `File.open`
-  * Monkey Patching: Change a string to add `.to_pig_latin`
 * Human Learning: Estimating is hard.
   * Estimate how much time is left to complete Battleship.
 
