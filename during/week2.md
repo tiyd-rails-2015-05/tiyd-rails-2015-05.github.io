@@ -166,7 +166,7 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 #### Lecture Notes/Links
 
-* Class Video
+* [Class Video](https://youtu.be/kF8NUjg6vYs)
 * [Regular Expression Testing Site](http://www.rubular.com)
 * [RegexOne - a great regex tutorial](http://regexone.com/)
 * [Enumerable Methods Example](w2-3/patterns.rb)
@@ -195,13 +195,14 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
   * Review estimates from end of day Wednesday
   * Retrieval practice is better than re-reading.
   * Elaboration is better than repetition.
+* Random Topics
+  * Battleship Image
+  * Party
 * Gemfiles
   * Bundler
   * `bundle install`
-  * Methods ending in `!`
   * Semantic versioning (e.g. 4.1.5)
   * How Semantic versioning fits in with `public`/`private`
-* `"` vs `'`
 * TDD
   * OddArray
 
