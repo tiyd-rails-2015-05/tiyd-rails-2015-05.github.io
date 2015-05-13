@@ -155,23 +155,18 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
   * `.scan`, `.sub`, `.gsub`
 * Enumerable
   * `.each`
+  * `.each_with_index`
   * `.map`
   * `.select` / `.reject`
   * `.all?` / `.any?`
   * `.reduce`
-  * `.each_with_index`
-* Blocks
-  * Inline blocks (e.g. `array.map {|a| a.class}`)
-  * Methods which take blocks
-    * `yield` to a block
-    * `&code` param and `code.call` to use a Proc
-    * `Proc.new` stored in variable.
-* Human Learning: Estimating is hard.
-  * Estimate how much time is left to complete Battleship.
+* Inline blocks (e.g. `array.map {|a| a.class}`)
 
 #### Lecture Notes/Links
 
-*
+* Class Video
+* [Enumerable Methods Example](w2-3/patterns.rb)
+* [Monkey Patching Example](w2-3/pig_latin.rb)
 
 #### Evening Reading
 
@@ -223,5 +218,12 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 * Memoization: `||=`
 * `File.open`
+* Blocks
+* Methods which take blocks
+  * `yield` to a block
+  * `&code` param and `code.call` to use a Proc
+  * `Proc.new` stored in variable.
+* Human Learning: Estimating is hard.
+* Estimate how much time is left to complete Battleship.
 
 -->
