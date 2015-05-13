@@ -137,16 +137,18 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 **Problem of the Day:** [Vehicles Part II](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/find_names)
 
 * Random topics
-  * Calling private methods with `.send()`
   * Show how easy refactoring is with good tests.  Move arrays out to methods.
   * Keyword arguments
   * Monkey Patching: Change a string to add `.to_pig_latin`
+  * Calling private methods with `.send()`
+  * Arrays as stacks and queues (`.push(thing)`, `.pop`, `.unshift(thing)`, `.shift`)
 * Regex
   * [XKCD on Regular Expressions](https://xkcd.com/1171/)
   * "Peter piper picked a peck of pickled peppers"
   * `+`, `*`, `?`
   * `\w`, `\d`, `\s`, and their capital (opposite) versions
-  * Exercise: Build the simplest possible version of function that tells you whether an e-mail address is valid.  Then, if you have time, make it better.
+  * Exercise: Build the simplest possible version of function that tells you whether a phone number is valid.
+  * How about email addresses?
   * Capture groups
   * Using regex in Ruby
   * `.match`
@@ -187,7 +189,8 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 #### Lecture
 
-**Problem of the Day:** OddArray with TDD.
+**Problem of the Day:** [OddArray](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/odd_array_with_tdd)
+
 
 * Human Learning
   * Review estimates from end of day Wednesday
