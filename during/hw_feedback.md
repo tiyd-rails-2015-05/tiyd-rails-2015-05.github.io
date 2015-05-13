@@ -608,3 +608,33 @@ I saw a file today start the following way:
     end
 
 Although this works, it is common (and best) practice for the require to be OUTSIDE of any class definitions.
+
+
+## Battleship, Day 2
+
+#### `%Q{}`
+
+Here's some code:
+
+      def display
+    puts %Q{    1   2   3   4   5   6   7   8   9   10
+      -----------------------------------------}
+
+
+        10.times do |i|
+          ...
+        end
+        ...
+      end
+
+As you've noticed from the tests, this is a quick way to create a string with multiple lines.  It's very helpful for tests, but it can cause problems when using it in your real code.  For instance, it makes indentation a MESS, as each space of indentation counts in the string, which is probably not what you want.  Here's a better way to do this:
+
+      def display
+        puts "    1   2   3   4   5   6   7   8   9   10"
+        puts "  -----------------------------------------"
+
+        10.times do |i|
+          ...
+        end
+        ...
+      end

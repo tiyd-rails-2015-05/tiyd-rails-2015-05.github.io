@@ -130,8 +130,6 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests 19-31 to pass.
 
 
-<!--
-
 ## Wednesday - Regex, Enumerable, and Blocks
 
 #### Lecture
@@ -142,8 +140,6 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
   * Calling private methods with `.send()`
   * Show how easy refactoring is with good tests.  Move arrays out to methods.
   * Keyword arguments
-  * Memoization: `||=`
-  * `File.open`
   * Monkey Patching: Change a string to add `.to_pig_latin`
 * Regex
   * [XKCD on Regular Expressions](https://xkcd.com/1171/)
@@ -179,10 +175,13 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 * [Estimating Games](w2-3/estimating_games.pdf)
 
+
 #### Assignment - IN PAIRS
 
 Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get all tests to pass.
 
+
+<!--
 
 ## Thursday - Test-Driven Development
 
@@ -215,5 +214,11 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 ## Weekend Assignment
 
 [Employee Reviews](https://github.com/tiyd-rails-2015-05/employee_reviews_project)
+
+
+# Didn't get to
+
+* Memoization: `||=`
+* `File.open`
 
 -->
