@@ -138,11 +138,13 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 * Random topics
   * Show how easy refactoring is with good tests.  Move arrays out to methods.
+  * Don't overdo it on instance variables
   * Keyword arguments
   * Monkey Patching: Change a string to add `.to_pig_latin`
   * Calling private methods with `.send()`
   * Arrays as stacks and queues (`.push(thing)`, `.pop`, `.unshift(thing)`, `.shift`)
 * Regex
+  * (NOTE: In future, need better motivating examples.)
   * [XKCD on Regular Expressions](https://xkcd.com/1171/)
   * "Peter piper picked a peck of pickled peppers"
   * `+`, `*`, `?`
@@ -160,17 +162,19 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
   * `.select` / `.reject`
   * `.all?` / `.any?`
   * `.reduce`
-* Inline blocks (e.g. `array.map {|a| a.class}`)
+* Inline blocks (e.g. `array.map {|a| a.class}` instead of `do ... end`)
 
 #### Lecture Notes/Links
 
 * Class Video
+* [Regular Expression Testing Site](http://www.rubular.com)
+* [RegexOne - a great regex tutorial](http://regexone.com/)
 * [Enumerable Methods Example](w2-3/patterns.rb)
 * [Monkey Patching Example](w2-3/pig_latin.rb)
 
 #### Evening Reading
 
-* [Estimating Games](w2-3/estimating_games.pdf)
+* [Blocks and Procs](http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/) - Only required down through "Procedures, AKA, Procs."  Read "Lambdas" and beyond if you dare.
 
 
 #### Assignment - IN PAIRS
@@ -196,8 +200,8 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
   * `bundle install`
   * Methods ending in `!`
   * Semantic versioning (e.g. 4.1.5)
+  * How Semantic versioning fits in with `public`/`private`
 * `"` vs `'`
-* Don't overdo it on instance variables
 * TDD
   * OddArray
 
@@ -207,7 +211,7 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 ### Evening Reading
 
-* [Blocks and Procs](http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/) - Only required down through "Procedures, AKA, Procs."  Read "Lambdas" and beyond if you dare.
+* [Estimating Games](w2-4/estimating_games.pdf)
 
 ## Weekend Assignment
 
