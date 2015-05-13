@@ -134,7 +134,7 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 #### Lecture
 
-**Problem of the Day:** [Vehicles Part II](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/find_names)
+**Problem of the Day:** [Find Names](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/find_names)
 
 * Random topics
   * Show how easy refactoring is with good tests.  Move arrays out to methods.
