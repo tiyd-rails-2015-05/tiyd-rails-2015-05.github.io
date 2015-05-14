@@ -24,28 +24,31 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+**Challenge:** [Methods](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
+
 **Problem of the Day:** On Wed of Week 1, we put our class contact information in a complex data structure.  Put it in a Google Spreadsheet instead.
 
-* Human Learning:
+* Human Learning
   * Extract key ideas.
   * About to dive into databases, and we're not going to dive into one implementation yet.
-* Random Topics:
-  * `assert_in_delta`
 * Files
   * `File.open`
 * Databases
-* Entity-Relationship Diagrams (ERDs)
-* Data Structure Design
-* Lucidchart
-* SQLite Browser
+  * Data Structure Design
+  * Entity-Relationship Diagrams (ERDs)
+  * Lucidchart
+  * SQLite Browser
+* Gemfiles
+  * Bundler
+  * `bundle install`
+  * Semantic versioning (e.g. 4.1.5)
+  * How Semantic versioning fits in with `public`/`private`
 * Migrations
   * `_on` fields
   * `_at` fields
   * `t.timestamps`
   * `t.decimal :amount, precision: 5, scale: 2`
   * `add_column`, etc
-
-**Challenge:** [Methods](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
 
 #### Lecture Notes/Links
 
@@ -60,6 +63,7 @@ Students should be comfortable with the following at the end of this week:
 
 [Time Entry Data Structure](https://github.com/tiyd-rails-2015-05/time_entry_data_structure)
 
+<!--
 
 ## Tuesday - ActiveRecord and Unit Testing
 
@@ -207,3 +211,5 @@ Students should be comfortable with the following at the end of this week:
 ## Weekend Assignment
 
 * [Weather Report](https://github.com/tiyd-rails-2015-05/weather_report)
+
+-->

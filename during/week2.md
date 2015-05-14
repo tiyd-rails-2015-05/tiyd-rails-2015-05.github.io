@@ -208,11 +208,6 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
   * Lambdas
     * Procs with their own scope on the call stack
     * `return` is limited to returning from just the lambda, not the method calling the lambda.
-* Gemfiles
-  * Bundler
-  * `bundle install`
-  * Semantic versioning (e.g. 4.1.5)
-  * How Semantic versioning fits in with `public`/`private`
 * TDD
   * Four steps:
     * Write a test which tests one (isolated) new behavior
@@ -220,13 +215,16 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
     * Write code to make your test pass
     * Refactor while keeping all tests passing
   * Run through example TDD with ye olde Albums and Artists example.
+  * `assert_in_delta`
 * Human Learning: Estimating is hard.
-  * Estimate how much time is left to complete Battleship.
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video](http://youtu.be/xFSj3QJOfYI)
 * [Blocks Example](w2-4/transform.rb)
+* [Album & Artist Tests](w2-4/albums_test.rb)
+* [Album Class](w2-4/album.rb)
+* [Artist Class](w2-4/artist.rb)
 
 ### Evening Reading
 
