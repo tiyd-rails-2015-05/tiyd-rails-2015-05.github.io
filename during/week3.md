@@ -29,6 +29,8 @@ Students should be comfortable with the following at the end of this week:
 * Human Learning:
   * Extract key ideas.
   * About to dive into databases, and we're not going to dive into one implementation yet.
+* Files
+  * `File.open`
 * Databases
 * Entity-Relationship Diagrams (ERDs)
 * Data Structure Design
@@ -73,6 +75,7 @@ Students should be comfortable with the following at the end of this week:
 * Unit Testing
 * Mocking for tests
 * Efficiency
+* Memoization (`||=`)
 
 **Challenge:** [Arrays and Hashes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb)
 

@@ -182,8 +182,6 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get all tests to pass.
 
 
-<!--
-
 ## Thursday - Test-Driven Development
 
 #### Lecture
@@ -192,12 +190,16 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 
 * Human Learning
-  * Review estimates from end of day Wednesday
   * Retrieval practice is better than re-reading.
   * Elaboration is better than repetition.
 * Random Topics
   * Battleship Image
   * Party
+* Blocks
+  * Methods which take blocks
+    * `yield` to a block
+    * `&code` param and `code.call` to use a Proc
+    * `Proc.new` stored in variable.
 * Gemfiles
   * Bundler
   * `bundle install`
@@ -205,6 +207,8 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
   * How Semantic versioning fits in with `public`/`private`
 * TDD
   * OddArray
+* Human Learning: Estimating is hard.
+  * Estimate how much time is left to complete Battleship.
 
 #### Lecture Notes/Links
 
@@ -217,18 +221,3 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 ## Weekend Assignment
 
 [Employee Reviews](https://github.com/tiyd-rails-2015-05/employee_reviews_project)
-
-
-# Didn't get to
-
-* Memoization: `||=`
-* `File.open`
-* Blocks
-* Methods which take blocks
-  * `yield` to a block
-  * `&code` param and `code.call` to use a Proc
-  * `Proc.new` stored in variable.
-* Human Learning: Estimating is hard.
-* Estimate how much time is left to complete Battleship.
-
--->
