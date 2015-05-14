@@ -225,7 +225,8 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 #### Lecture Notes/Links
 
-*
+* [Class Video]()
+* [Blocks Example](w2-4/transform.rb)
 
 ### Evening Reading
 
