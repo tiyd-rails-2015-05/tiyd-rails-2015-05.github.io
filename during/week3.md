@@ -29,6 +29,8 @@ Students should be comfortable with the following at the end of this week:
 * Human Learning:
   * Extract key ideas.
   * About to dive into databases, and we're not going to dive into one implementation yet.
+* Random Topics:
+  * `assert_in_delta`
 * Files
   * `File.open`
 * Databases

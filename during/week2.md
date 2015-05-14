@@ -167,10 +167,10 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 #### Lecture Notes/Links
 
 * [Class Video](https://youtu.be/kF8NUjg6vYs)
+* [Patterns Example (Enumerable Methods)](w2-3/patterns.rb)
+* [Monkey Patching Example](w2-3/pig_latin.rb)
 * [Regular Expression Testing Site](http://www.rubular.com)
 * [RegexOne - a great regex tutorial](http://regexone.com/)
-* [Enumerable Methods Example](w2-3/patterns.rb)
-* [Monkey Patching Example](w2-3/pig_latin.rb)
 
 #### Evening Reading
 
@@ -192,21 +192,34 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 * Human Learning
   * Retrieval practice is better than re-reading.
   * Elaboration is better than repetition.
-* Random Topics
-  * Battleship Image
-  * Party
-* Blocks
-  * Methods which take blocks
-    * `yield` to a block
-    * `&code` param and `code.call` to use a Proc
-    * `Proc.new` stored in variable.
+* Blocks/Procs/Lambdas/Methods
+  * Methods as objects
+    * `m = method(:my_method)`
+    * `m.call`
+  * Blocks
+    * Code snippets that we pass to things like `.each` or `.map`
+    * Passed in to a method using `{}` or `do ... end`
+    * `yield` to a block inside a method
+  * Procs
+    * Crystalized blocks
+    * `p = Proc.new {...block_stuff...}`
+    * Passed in to a method using `method(&p)`
+    * Called from within the method with `parameter.call`
+  * Lambdas
+    * Procs with their own scope on the call stack
+    * `return` is limited to returning from just the lambda, not the method calling the lambda.
 * Gemfiles
   * Bundler
   * `bundle install`
   * Semantic versioning (e.g. 4.1.5)
   * How Semantic versioning fits in with `public`/`private`
 * TDD
-  * OddArray
+  * Four steps:
+    * Write a test which tests one (isolated) new behavior
+    * Make sure your new test fails
+    * Write code to make your test pass
+    * Refactor while keeping all tests passing
+  * Run through example TDD with ye olde Albums and Artists example.
 * Human Learning: Estimating is hard.
   * Estimate how much time is left to complete Battleship.
 
