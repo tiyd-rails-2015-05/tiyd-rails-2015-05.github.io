@@ -53,6 +53,7 @@ Start [Ruby Koans](http://rubykoans.com/).  Work through `about_constants.rb`.
 
 * Human Learning
   * Life as a dev
+* http://www.sitepoint.com/ruby-uses-memory/
 
 #### Lecture Notes/Links
 

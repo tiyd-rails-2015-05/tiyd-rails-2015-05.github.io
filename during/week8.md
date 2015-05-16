@@ -63,6 +63,7 @@ Students should be comfortable with the following at the end of this week:
 
 * [Joins vs. Includes](http://blog.bigbinary.com/2013/07/01/preload-vs-eager-load-vs-joins-vs-includes.html)
 * [SQL to Rails Queries](http://guides.rubyonrails.org/v3.2.13/active_record_querying.html)
+* [How to Speed up ActiveRecord](http://blog.codeship.com/speed-up-activerecord/)
 
 #### Assignment
 
