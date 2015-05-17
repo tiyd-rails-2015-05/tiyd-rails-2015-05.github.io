@@ -37,18 +37,19 @@ Students should be comfortable with the following at the end of this week:
   * Data Structure Design
   * Entity-Relationship Diagrams (ERDs)
   * Lucidchart
-  * SQLite Browser
 * Gemfiles
   * Bundler
   * `bundle install`
   * Semantic versioning (e.g. 4.1.5)
   * How Semantic versioning fits in with `public`/`private`
 * Migrations
+  * Data types
   * `_on` fields
   * `_at` fields
   * `t.timestamps`
   * `t.decimal :amount, precision: 5, scale: 2`
   * `add_column`, etc
+* SQLite Browser
 
 #### Lecture Notes/Links
 
