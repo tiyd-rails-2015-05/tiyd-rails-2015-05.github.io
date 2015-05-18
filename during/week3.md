@@ -32,6 +32,8 @@ Students should be comfortable with the following at the end of this week:
   * The best time to review is when you first get stale. (Challenges)
   * Extract key ideas.
     * About to dive into databases, and we're not going to dive into one implementation yet.
+* Random Topics
+  * `%`
 * Databases
   * Data Structure Design
   * Entity-Relationship Diagrams (ERDs)
@@ -52,6 +54,11 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video]()
+* [Basic Data File Examples](w3-1/data_examples.txt)
+* [Compact Fizz Buzz Solution](w3-1/fizzbuzz.rb)
+* [Example Gemfile](w3-1/Gemfile)
+* [Example Migration File](w3-1/migration.rb)
 * [SQLite Browser](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.5.1)
 
 #### Evening Reading
