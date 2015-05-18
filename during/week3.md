@@ -54,7 +54,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video](http://youtu.be/CLC93UtpnGs)
 * [Basic Data File Examples](w3-1/data_examples.txt)
 * [Compact Fizz Buzz Solution](w3-1/fizzbuzz.rb)
 * [Example Gemfile](w3-1/Gemfile)
