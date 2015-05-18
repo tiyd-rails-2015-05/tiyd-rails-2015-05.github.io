@@ -24,15 +24,15 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Challenge:** [Methods](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
+**Challenge:** [Methods/If](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
 
 **Problem of the Day:** On Wed of Week 1, we put our class contact information in a complex data structure.  Put it in a Google Spreadsheet instead.
 
 * Human Learning
+  * The best time to review is when you first get stale.
+    * Challenges
   * Extract key ideas.
-  * About to dive into databases, and we're not going to dive into one implementation yet.
-* Files (taught by Anna)
-  * `File.open`
+    * About to dive into databases, and we're not going to dive into one implementation yet.
 * Databases
   * Data Structure Design
   * Entity-Relationship Diagrams (ERDs)
@@ -48,7 +48,7 @@ Students should be comfortable with the following at the end of this week:
   * `_at` fields
   * `t.timestamps`
   * `t.decimal :amount, precision: 5, scale: 2`
-  * `add_column`, etc
+  * Mention `add_column`, etc
 * SQLite Browser
 
 #### Lecture Notes/Links
@@ -213,4 +213,9 @@ Students should be comfortable with the following at the end of this week:
 
 * [Weather Report](https://github.com/tiyd-rails-2015-05/weather_report)
 
+
+## Not yet covered
+
+* Files (taught by Anna)
+  * `File.open`
 -->
