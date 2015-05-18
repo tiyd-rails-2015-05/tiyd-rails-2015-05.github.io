@@ -59,6 +59,7 @@ Students should be comfortable with the following at the end of this week:
 * [Compact Fizz Buzz Solution](w3-1/fizzbuzz.rb)
 * [Example Gemfile](w3-1/Gemfile)
 * [Example Migration File](w3-1/migration.rb)
+* [Many-to-Many Spreadsheet](https://docs.google.com/spreadsheets/d/1_FAA0isBFtrdLKobeDV0bTDk1bhAkJNd4fBuRYbPVtY/edit?usp=sharing)
 * [SQLite Browser](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.5.1)
 
 #### Evening Reading
@@ -76,6 +77,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+**Challenge:** [Arrays and Hashes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb)
+
 **Problem of the Day:** On Thursday of week 1, we built objects to keep track of artists and their albums.  How would you modify that code so that the information sticks around after we restart our program?
 
 * Human Learning
@@ -84,13 +87,24 @@ Students should be comfortable with the following at the end of this week:
   * Ruby Rogues and Ruby Weekly.
   * Dissecting a book vs drinking from a fire hydrant
   * Diagram: Developer spectrum.  Hammer-user all the way to shiny-object
-* ActiveRecord
+* More on Migrations
+  * Migrating up twice
+* ActiveRecord Models
+  * Using `irb` accesses the same database as `ruby ...`
+  * `.new`
+  * `.create`
+  * `.all`
+  * `.first`
+  * `.find` and `.find_by_id`
+  * `.find_by_name`
+  * `.where`
+  * Relations
+  * `.order`
+  * `.count`
+* Associations
+  * `has_many`
+  * `belongs_to`
 * Unit Testing
-* Mocking for tests
-* Efficiency
-* Memoization (`||=`)
-
-**Challenge:** [Arrays and Hashes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb)
 
 #### Lecture Notes/Links
 
@@ -110,18 +124,20 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
+**Challenge:** [Classes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/classes_challenge.rb)
+**Challenge:** [Palindrome](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_palindrome_challenge.rb)
+
 **Problem of the Day:** Modify your employee and department schema so that an employee can belong to many departments.  Change your code to reflect this.
 
 * Human Learning
   * Legacy code
   * Arguably, worked on some last night.
   * Definitely working on some tonight.
+
+* Mocking for tests
+* Efficiency
+* Memoization (`||=`)
 * More model work
-  * `.all`
-  * `.first`
-  * `.order`
-  * `.where`
-  * `.count`
   * [XKCD on SQL Injection](https://xkcd.com/327/)
 * Validations
 * Associations
@@ -139,8 +155,6 @@ Students should be comfortable with the following at the end of this week:
   * `git pull`
   * `git branch`
   * `git merge`
-
-**Challenge:** [Classes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/classes_challenge.rb)
 
 #### Lecture Notes/Links
 
