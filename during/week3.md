@@ -31,7 +31,7 @@ Students should be comfortable with the following at the end of this week:
 * Human Learning
   * Extract key ideas.
   * About to dive into databases, and we're not going to dive into one implementation yet.
-* Files
+* Files (taught by Anna)
   * `File.open`
 * Databases
   * Data Structure Design
