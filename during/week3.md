@@ -26,11 +26,10 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge:** [Methods/If](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
 
-**Problem of the Day:** On Wed of Week 1, we put our class contact information in a complex data structure.  Put it in a Google Spreadsheet instead.
+**Problem of the Day:** [Student Contact Info Redux](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/student_data_structure)
 
 * Human Learning
-  * The best time to review is when you first get stale.
-    * Challenges
+  * The best time to review is when you first get stale. (Challenges)
   * Extract key ideas.
     * About to dive into databases, and we're not going to dive into one implementation yet.
 * Databases
