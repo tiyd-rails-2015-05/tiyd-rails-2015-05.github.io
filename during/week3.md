@@ -78,7 +78,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge:** [Arrays and Hashes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb)
 
-**Problem of the Day:** On Thursday of week 1, we built objects to keep track of artists and their albums.  How would you modify that code so that the information sticks around after we restart our program?
+**Problem of the Day:** [Albums and Artists in a Database](https://github.com/tiyd-rails-2015-05/albums_and_artists_in_db)
 
 * Human Learning
   * Immerse yourself in the culture.
