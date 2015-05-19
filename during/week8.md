@@ -34,6 +34,7 @@ Students should be comfortable with the following at the end of this week:
   * Find all answers accompanied by question texts (join)
   * Find all authors and their survey names (left join)
   * Find all authors who have never created a survey (left join, check for null)
+  * [XKCD on SQL Injection](https://xkcd.com/327/)
 * AREL
   * Intermediate AREL
 

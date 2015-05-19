@@ -38,6 +38,8 @@ Students should be comfortable with the following at the end of this week:
   * Data Structure Design
   * Entity-Relationship Diagrams (ERDs)
   * Lucidchart
+  * Primary and Foreign Keys
+  * Join Tables
 * Gemfiles
   * Bundler
   * `bundle install`
@@ -146,12 +148,11 @@ Students should be comfortable with the following at the end of this week:
   * Legacy code
   * Arguably, worked on some last night.
   * Definitely working on some tonight.
-
-* Mocking for tests
-* Efficiency
-* Memoization (`||=`)
-* More model work
-  * [XKCD on SQL Injection](https://xkcd.com/327/)
+* Random Topics
+  * Two variables referring to the same record can get out of sync.
+  * Mocking for tests
+  * Efficiency
+  * Memoization (`||=`)
 * Validations
   * `.save!`
   * `.create!`
@@ -162,9 +163,6 @@ Students should be comfortable with the following at the end of this week:
   * `dependent: :destroy` and `dependent: :restrict_with_exception`
   * Associations with non-standard foreign_keys
   * `has_many :through` (add `companies` table)
-* Many-to-many joins
-  * Employees can belong to many departments
-  * Example spreadsheet showing tables
 * Faker
 * Git
   * Reason: working with other developers on code

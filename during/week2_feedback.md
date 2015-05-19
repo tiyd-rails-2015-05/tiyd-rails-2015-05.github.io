@@ -222,32 +222,47 @@ The last time is spot on.  But look at what's happening in the `select` block.  
 
 Now we're talking.  Note that `select` is going to return an array of items from `@department_staff` for which the last line of the block's code returns true.  This means that the result of the yield gets TOTALLY ignored (since it's not the last line in the block).  This code will work appropriately if you remove the `employee.verdict` line.
 
-####
+#### Quality Asserts
 
-def test_get_total_salary_for_department
-    don = Employee.new("Don", "don@don.com", 1231231234, 10000)
-    tom = Employee.new("Tom", "tom@don.com", 1231231234, 10000)
-    joan = Employee.new("Joan", "joan@don.com", 1231235555, 10000)
-    department = Department.new(name: "Advertising")
-    department.assign(don, tom, joan)
-    department.total_salary
-  end
+Check out this test:
 
-
-####
-
-attr_reader :employees, :name, :reviews, :salary
-  def initialize(name:)
-    @name = name
-    @employees = []
-    @salary = salary
-  end
-
-
-
-####
-
-  def test_13_add_raise_to_employee
-    steve = Employee.new(name: "Steve", email: "hello@gmail.com", phone: 404803666, salary: 1000)
-    assert steve.give_raise(1000)
+    def test_get_total_salary_for_department
+      don = Employee.new("Don", "don@don.com", 1231231234, 10000)
+      tom = Employee.new("Tom", "tom@don.com", 1231231234, 10000)
+      joan = Employee.new("Joan", "joan@don.com", 1231235555, 10000)
+      department = Department.new(name: "Advertising")
+      department.assign(don, tom, joan)
+      department.total_salary
     end
+
+This is a pitfall when writing tests; it certainly DOES something, but it doesn't have any asserts in it.  This test will pass all the time.  This could be caught by making sure that you always write FAILING tests first.
+
+Here's another one which looks better, but which has the same fault:
+
+    def test_13_add_raise_to_employee
+      steve = Employee.new(name: "Steve", email: "hello@gmail.com", phone: 404803666, salary: 1000)
+      assert steve.give_raise(1000)
+    end
+
+What this really tests is whether the `give_raise` function returns something truthy.  It makes no assertions that the raise was for the appropriate amount, or even that the salary changed at all.  This test needs the following additional assertion to be a quality test:
+
+    assert_equal 2000, steve.salary
+
+
+#### Phantom Attributes
+
+The following code will run successfully:
+
+    class Department
+      attr_reader :employees, :name, :reviews, :salary
+      def initialize(name:)
+        @name = name
+        @employees = []
+        @salary = salary
+      end
+      ...
+    end
+
+But let's look at the lines in `initialize` one at a time.  The first line makes sense.  `name` is a parameter, so we can save it in `@name`.  The second line also makes sense; we need an empty array in which we can accumulate employees later.  The third line, though... where is `salary` coming from?
+
+It turns out that that line calls the `salary` METHOD, which has been set up by the attr_reader.  It's reading a previously-nonexistant instance variable called `@salary`, and all previously non-existant instance variables evaluate to `nil`.  So it's basically setting a variable equal to itself... and that value is `nil`.  This line runs (even though it looks like it shouldn't), but it does nothing and can be removed.
