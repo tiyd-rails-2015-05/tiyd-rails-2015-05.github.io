@@ -76,7 +76,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture
 
-**Challenge:** [Arrays and Hashes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb)
+**Challenge:** [Arrays and Hashes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb) <!-- WAY TOO HARD - CUT OUT SOME TESTS -->
 
 **Problem of the Day:** [Albums and Artists in a Database](https://github.com/tiyd-rails-2015-05/albums_and_artists_in_db)
 
@@ -116,7 +116,7 @@ Students should be comfortable with the following at the end of this week:
 
 * [Class Video... mostly](http://youtu.be/d0jLwk-nO3w)
 * [A Solution to Today's Challenge](w3-2/challenge.rb)
-* [Albums and Artists in the Database](w3-2/albums_and_artists.zip)
+* [Albums and Artists v2](w3-2/albums_and_artists.zip)
 * [Ruby Weekly](http://rubyweekly.com/)
 * [Ruby Rogues](http://devchat.tv/ruby-rogues/)
 * [Most common jobs in america](http://www.npr.org/blogs/money/2015/02/05/382664837/map-the-most-common-job-in-every-state)

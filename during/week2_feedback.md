@@ -221,3 +221,33 @@ The last time is spot on.  But look at what's happening in the `select` block.  
     end
 
 Now we're talking.  Note that `select` is going to return an array of items from `@department_staff` for which the last line of the block's code returns true.  This means that the result of the yield gets TOTALLY ignored (since it's not the last line in the block).  This code will work appropriately if you remove the `employee.verdict` line.
+
+####
+
+def test_get_total_salary_for_department
+    don = Employee.new("Don", "don@don.com", 1231231234, 10000)
+    tom = Employee.new("Tom", "tom@don.com", 1231231234, 10000)
+    joan = Employee.new("Joan", "joan@don.com", 1231235555, 10000)
+    department = Department.new(name: "Advertising")
+    department.assign(don, tom, joan)
+    department.total_salary
+  end
+
+
+####
+
+attr_reader :employees, :name, :reviews, :salary
+  def initialize(name:)
+    @name = name
+    @employees = []
+    @salary = salary
+  end
+
+
+
+####
+
+  def test_13_add_raise_to_employee
+    steve = Employee.new(name: "Steve", email: "hello@gmail.com", phone: 404803666, salary: 1000)
+    assert steve.give_raise(1000)
+    end
