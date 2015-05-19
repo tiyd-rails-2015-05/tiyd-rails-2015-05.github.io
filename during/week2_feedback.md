@@ -189,4 +189,35 @@ What else can I say about this one?
 
 ## Employee Reviews
 
-#### 
+#### Placeholder Code
+
+Here's a (rather hilarious) method that I ran across:
+
+    def god_help_me (do_something_helpful)
+    end
+
+While the humor is appreciated, it is important to clean code like this up before turning it in.  The method was empty and probably just a placeholder for later work.
+
+A more common option is to write a `#TODO` comment.  That makes it easy to search for later.
+
+#### Yielding to Blocks... Then ignoring the result
+
+Here's some code for Part 2 of the homework:
+
+    def department_wide_raise(amount)
+      good_employees = @department_staff.select{|employee| yield(employee)
+          employee.verdict != "Good" && employee.salary > 2000}
+      good_employees.each {|employee| employee.salary += amount.to_f/good_employees.count}
+    end
+
+The last time is spot on.  But look at what's happening in the `select` block.  First off, if we have more than one line, it's best to use `do..end` instead of `{...}`.  Let's convert it:
+
+    def department_wide_raise(amount)
+      good_employees = @department_staff.select do |employee|
+        yield(employee)
+        employee.verdict != "Good" && employee.salary > 2000
+      end
+      good_employees.each {|employee| employee.salary += amount.to_f/good_employees.count}
+    end
+
+Now we're talking.  Note that `select` is going to return an array of items from `@department_staff` for which the last line of the block's code returns true.  This means that the result of the yield gets TOTALLY ignored (since it's not the last line in the block).  This code will work appropriately if you remove the `employee.verdict` line.

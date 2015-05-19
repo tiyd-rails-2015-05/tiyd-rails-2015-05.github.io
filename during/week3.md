@@ -89,10 +89,14 @@ Students should be comfortable with the following at the end of this week:
 * Random Topics
   * Migrating up twice
   * `.gitignore` and database files
+  * `t.timestamps`
+  * `t.references`
 * ActiveRecord Models
   * Using `irb` accesses the same database as `ruby ...`
   * `.new`
+  * `.save`
   * `.create`
+  * `.update`
   * `.all`
   * `.first`
   * `.find` and `.find_by_id`
@@ -105,9 +109,14 @@ Students should be comfortable with the following at the end of this week:
   * `has_many`
   * `belongs_to`
 * Unit Testing
+  * Test database vs development database
+  * `def setup` and `def teardown` (for migrations)
 
 #### Lecture Notes/Links
 
+* [Class Video... mostly](http://youtu.be/d0jLwk-nO3w)
+* [Ruby Weekly](http://rubyweekly.com/)
+* [Ruby Rogues](http://devchat.tv/ruby-rogues/)
 * [Most common jobs in america](http://www.npr.org/blogs/money/2015/02/05/382664837/map-the-most-common-job-in-every-state)
 * [Another campus' approach to the first database assignment](https://github.com/TIY-DC-ROR-2015-Jan/model-skeleton)
 
@@ -142,6 +151,9 @@ Students should be comfortable with the following at the end of this week:
 * More model work
   * [XKCD on SQL Injection](https://xkcd.com/327/)
 * Validations
+  * `.save!`
+  * `.create!`
+  * `.update!`
 * Associations
   * Calling methods inside a class definition
   * Macros are just methods being called in definitions
