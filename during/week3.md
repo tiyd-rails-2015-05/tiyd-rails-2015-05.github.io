@@ -71,7 +71,6 @@ Students should be comfortable with the following at the end of this week:
 
 [Time Entry Data Structure](https://github.com/tiyd-rails-2015-05/time_entry_data_structure)
 
-<!--
 
 ## Tuesday - ActiveRecord and Unit Testing
 
@@ -87,8 +86,9 @@ Students should be comfortable with the following at the end of this week:
   * Ruby Rogues and Ruby Weekly.
   * Dissecting a book vs drinking from a fire hydrant
   * Diagram: Developer spectrum.  Hammer-user all the way to shiny-object
-* More on Migrations
+* Random Topics
   * Migrating up twice
+  * `.gitignore` and database files
 * ActiveRecord Models
   * Using `irb` accesses the same database as `ruby ...`
   * `.new`
@@ -119,6 +119,8 @@ Students should be comfortable with the following at the end of this week:
 
 [Employee Reviews with DB](https://github.com/tiyd-rails-2015-05/employee_reviews_with_db)
 
+
+<!--
 
 ## Wednesday - Associations and Validations
 
