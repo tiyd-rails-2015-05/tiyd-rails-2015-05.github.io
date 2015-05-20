@@ -133,26 +133,24 @@ Students should be comfortable with the following at the end of this week:
 [Employee Reviews with DB](https://github.com/tiyd-rails-2015-05/employee_reviews_with_db)
 
 
-<!--
-
 ## Wednesday - Associations and Validations
 
 #### Lecture
 
 **Challenge:** [Classes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/classes_challenge.rb)
-**Challenge:** [Palindrome](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_palindrome_challenge.rb)
 
-**Problem of the Day:** Modify your employee and department schema so that an employee can belong to many departments.  Change your code to reflect this.
+**Optional Challenge:** [Palindrome](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_palindrome_challenge.rb)
+
+**Problem of the Day:** [Employee and Department Validations](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/employee_and_department_validations)
 
 * Human Learning
   * Legacy code
   * Arguably, worked on some last night.
   * Definitely working on some tonight.
 * Random Topics
+  * Definitely don't commit `.sqlite3` files.
   * Two variables referring to the same record can get out of sync.
-  * Mocking for tests
   * Efficiency
-  * Memoization (`||=`)
 * Validations
   * `.save!`
   * `.create!`
@@ -186,6 +184,8 @@ Students should be comfortable with the following at the end of this week:
 [Legacy Associations and Validations](https://github.com/tiyd-rails-2015-05/legacy_associations_and_validations)
 
 
+<!--
+
 ## Thursday - APIs
 
 #### Lecture
@@ -209,6 +209,7 @@ Students should be comfortable with the following at the end of this week:
   * [Yoda Speak](https://www.mashape.com/ismaelc/yoda-speak)
   * [Marvel API](http://developer.marvel.com/docs)
   * [Blackjack API](http://deckofcardsapi.com/)
+  * [Static Data Sets](http://vincentarelbundock.github.io/Rdatasets/datasets.html)
   * NPR
   * Flickr
   * Getty Images
@@ -252,4 +253,6 @@ Students should be comfortable with the following at the end of this week:
 
 * Files (taught by Anna)
   * `File.open`
+* Mocking for tests
+* Memoization (`||=`)
 -->
