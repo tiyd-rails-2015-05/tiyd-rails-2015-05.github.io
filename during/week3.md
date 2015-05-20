@@ -22,8 +22,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Monday - Databases and Migrations
 
-#### Lecture
-
 **Challenge:** [Methods/If](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/if_challenge.rb)
 
 **Problem of the Day:** [Student Contact Info Redux](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/student_data_structure)
@@ -75,8 +73,6 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Tuesday - ActiveRecord and Unit Testing
-
-#### Lecture
 
 **Challenge:** [Arrays and Hashes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/array_and_hash_challenge.rb) <!-- WAY TOO HARD - CUT OUT SOME TESTS -->
 
@@ -135,8 +131,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Wednesday - Associations and Validations
 
-#### Lecture
-
 **Challenge:** [Classes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/classes_challenge.rb)
 
 **Optional Challenge:** [Palindrome](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/string_palindrome_challenge.rb)
@@ -161,7 +155,6 @@ Students should be comfortable with the following at the end of this week:
   * `dependent: :destroy` and `dependent: :restrict_with_exception`
   * Associations with non-standard foreign_keys
   * `has_many :through` (add `companies` table)
-* Faker
 * Git
   * Reason: working with other developers on code
   * `git pull`
@@ -170,6 +163,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/y18tVhJgz-8)
+* Mini-lecture Video
 * [First Aid Git](http://ricardofilipe.com/projects/firstaidgit/#/)
 * [Funny Names for Ruby Operators](http://ruby-operators.herokuapp.com/)
 * [Rails validations](http://apidock.com/rails/ActiveModel/Validations/ClassMethods/validates)
@@ -187,8 +182,6 @@ Students should be comfortable with the following at the end of this week:
 <!--
 
 ## Thursday - APIs
-
-#### Lecture
 
 **Problem of the Day:** If you wanted to send data about departments and their computers to another computer program, how would you do it?
 
@@ -255,4 +248,5 @@ Students should be comfortable with the following at the end of this week:
   * `File.open`
 * Mocking for tests
 * Memoization (`||=`)
+* Faker
 -->
