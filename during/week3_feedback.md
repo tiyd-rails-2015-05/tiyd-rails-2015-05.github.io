@@ -78,3 +78,31 @@ This code finds the deparment with the most employees:
 As we discussed in class, it would be easier to loop over all departments rather than creating a `.times` loop, but let's put that aside for now.
 
 This code makes a bad assumption.  It assumes that NO IDS WERE SKIPPED.  If there are 100 departments, this code checks for departments with ids 1 through 100.  However, if any departments have been deleted over time, there might still be 100 departments whose ids range from 1 to 200.  If the biggest department has an id of 150, this code will never find it.
+
+#### Don't Assume Any Number is Infinite
+
+In this code, someone attempted to make a number which was close to infinity:
+
+    def paid_least
+      number = 100000000
+      person = nil
+      self.employees.each do |emp|
+        if number > emp.salary
+          number = emp.salary
+          person = emp
+        end
+      end
+      return person
+    end
+
+The idea is that no one could EVER make more than this...so the lowest paid employee will make less, and the massive number will go away during the first iteration of the loop.
+
+A better approach is to just seed `number` and `person` with the first employee.  Unless there are no employees, of course; in that case, just return nil.
+
+##### Phone Numbers
+
+Check out this employee creation line, and tell me what phone number the employee will have:
+
+    fred = Employee.create(name: "Freddy", email: "freddy@gmail.com", phone_number: 919-434-5612, salary: 55000)
+
+The answer: -5127.  See why?
