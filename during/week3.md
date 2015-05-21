@@ -179,12 +179,15 @@ Students should be comfortable with the following at the end of this week:
 [Legacy Associations and Validations](https://github.com/tiyd-rails-2015-05/legacy_associations_and_validations)
 
 
-## Thursday - APIs
+## Thursday - The Web and APIs
 
 **Challenge:** [Inheritance](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/inheritance_challenge.rb)
 
 **Problem of the Day:** [Employee and Department API](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/employee_and_department_api)
 
+* Web Basics
+  * Web Addresses
+  * Parameters
 * What is an API?
   * The term is way more broad than we think it is.
   * Each class in your application technically has an API.  It's the set of methods you can call on it and its instances.
@@ -212,22 +215,18 @@ Students should be comfortable with the following at the end of this week:
   * IGN
   * ESPN
   * ...and on and on...
-* Postman
 * HTTParty
 * API without logging in
   * https://api.github.com/users/masonfmatthews/events
 * API Keys
   * http://www.wunderground.com/weather/api/
-* API More Complex Auth
-  * https://developer.github.com/v3/#authentication
 * Keeping keys and passwords out of committed code (using ENV)
-* Human Learning
-  * Reading Docs
-  * Find out how to call Weather Underground's API with a zip code.
 
 #### Lecture Notes/Links
 
-* 
+* [Class Video](http://youtu.be/Lv7ydLSbpAs)
+* [Challenge Solution](w3-4/vehicle.rb)
+* [API Example](w3-4/api.rb)
 
 #### Evening Reading
 
@@ -235,16 +234,20 @@ Students should be comfortable with the following at the end of this week:
 * [Working with APIs](http://www.theodinproject.com/ruby-on-rails/working-with-external-apis?ref=lnav) - Read down to and including the "Restrictions" section.
 
 
+## Friday Mini-lecture
+
+* Mocking
+  * User Input
+  * API Calls
+  * Time-based Results
+* `File.open`
+* Faker
+* Postman
+* Human Learning
+  * Reading Docs
+  * Find out how to call Weather Underground's API with a zip code.
+
+
 ## Weekend Assignment
 
 * [Weather Report](https://github.com/tiyd-rails-2015-05/weather_report)
-
-<!--
-## Not yet covered
-
-* Files (taught by Anna)
-  * `File.open`
-* Mocking for tests
-* Memoization (`||=`)
-* Faker
--->

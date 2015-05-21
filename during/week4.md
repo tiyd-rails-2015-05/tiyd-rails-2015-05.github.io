@@ -27,6 +27,8 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Create an API to display a congressperson's voting history.  A step above http://whoismyrepresentative.com/getall_mems.php?zip=27701 .  Yes, panic zone.  Push through it.
 
+**Challenge:** [Composition](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/composition_challenge.rb)
+
 * Human Learning:
   * Scarring with age/experience
   * Good scarring example: Saving hardest things for last sucks
@@ -34,9 +36,9 @@ Students should be comfortable with the following at the end of this week:
   * Bad scarring example: Taking risks on products costs too much money.
   * Diagram: Topological map of scarring
 * The Web
-  * IP addresses and ports
-* Components of a URL
-  * Params in URLs
+  * File types returned
+  * IP addresses
+  * Ports
 * Rails Introduction
   * MVC
   * `rails new`
@@ -50,7 +52,6 @@ Students should be comfortable with the following at the end of this week:
 * HTML Verbs
   * Params during POST, PATCH, etc
 
-**Challenge:** [Composition](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/composition_challenge.rb)
 
 #### Lecture Notes/Links
 
@@ -70,6 +71,16 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 * Create at least two unit tests for each model
 * Push to GitHub
 
+
+<!--
+## Not yet covered
+
+* Memoization (`||=`)
+* API More Complex Auth
+  * https://developer.github.com/v3/#authentication
+-->
+
+<!--
 
 ## Wednesday - Controllers and the Router
 
@@ -108,6 +119,7 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * Before you begin working on this tonight, create an estimate for the number of hours you'll need to work on it.
   * In theory, your estimate should be better now that you've gotten part of the way through the project.
   * Document your number of hours worked at the end, then reflect.
+
 
 ## Thursday - Serializers, More Database
 
@@ -189,6 +201,7 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
 
 * [Pro Git Ch. 3.3](http://git-scm.com/book/en/v2/Git-Branching-Branch-Management)
 * [Pro Git Ch. 3.4](http://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
+
 
 ## Weekend Assignment - IN PAIRS
 
