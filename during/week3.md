@@ -249,4 +249,4 @@ Students should be comfortable with the following at the end of this week:
 
 ## Weekend Assignment
 
-* [Weather Report](https://github.com/tiyd-rails-2015-05/weather_report)
+* [Weather Report](https://github.com/tiyd-rails-2015-05/weather_report) <!-- TOO EASY -->
