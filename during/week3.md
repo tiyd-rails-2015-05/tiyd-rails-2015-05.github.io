@@ -179,11 +179,11 @@ Students should be comfortable with the following at the end of this week:
 [Legacy Associations and Validations](https://github.com/tiyd-rails-2015-05/legacy_associations_and_validations)
 
 
-<!--
-
 ## Thursday - APIs
 
-**Problem of the Day:** If you wanted to send data about departments and their computers to another computer program, how would you do it?
+**Challenge:** [Inheritance](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/inheritance_challenge.rb)
+
+**Problem of the Day:** [Employee and Department API](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/employee_and_department_api)
 
 * What is an API?
   * The term is way more broad than we think it is.
@@ -225,11 +225,9 @@ Students should be comfortable with the following at the end of this week:
   * Reading Docs
   * Find out how to call Weather Underground's API with a zip code.
 
-**Challenge:** [Inheritance](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/inheritance_challenge.rb)
-
 #### Lecture Notes/Links
 
-* [Regular Lecture Example Repo](https://github.com/tiyd-rails-2015-01/weather_api)
+* 
 
 #### Evening Reading
 
@@ -241,7 +239,7 @@ Students should be comfortable with the following at the end of this week:
 
 * [Weather Report](https://github.com/tiyd-rails-2015-05/weather_report)
 
-
+<!--
 ## Not yet covered
 
 * Files (taught by Anna)
