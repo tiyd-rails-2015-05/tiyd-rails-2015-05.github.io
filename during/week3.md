@@ -187,10 +187,9 @@ Students should be comfortable with the following at the end of this week:
 
 * Web Basics
   * Web Addresses
+  * The Parts of a URL
   * Parameters
 * What is an API?
-  * The term is way more broad than we think it is.
-  * Each class in your application technically has an API.  It's the set of methods you can call on it and its instances.
 * On the web, what sort of data do we get back from APIs?
   * [Placekitten](http://placekitten.com)
   * [Memegenerator](http://version1.api.memegenerator.net/)
