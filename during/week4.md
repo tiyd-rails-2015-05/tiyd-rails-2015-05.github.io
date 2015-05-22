@@ -52,7 +52,6 @@ Students should be comfortable with the following at the end of this week:
 * HTML Verbs
   * Params during POST, PATCH, etc
 
-
 #### Lecture Notes/Links
 
 * [Rails Guides](http://guides.rubyonrails.org/index.html)
@@ -91,9 +90,10 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 **Problem of the Day:** Given what you know about the voting assignment and how controllers work, suggest a set of controllers and their methods for this assignment.
 
-* Human Learning
-  * How to Google
+* Human Learning: How to Google
   * [XKCD on Old Forums](https://xkcd.com/979/)
+  * You can try questions (e.g. `How do I use ActiveRecord?`)
+  * Use Google to dig deeper into someone else's docs (e.g. `weather underground api sunrise`)
 * HTML Verbs Redux
 * The Router
   * `rake routes`

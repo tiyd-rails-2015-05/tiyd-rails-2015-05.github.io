@@ -246,6 +246,13 @@ Students should be comfortable with the following at the end of this week:
   * Reading Docs
   * Find out how to call Weather Underground's API with a zip code.
 
+#### Lecture Notes/Links
+
+* [Class Video](http://youtu.be/0Efac8mwih4)
+* [Example Mocking Test](w3-5/test.rb)
+* [Example Modified Class](w3-5/sun_rise_and_set.rb)
+* [Example Saved JSON File](w3-5/astronomy.json)
+
 
 ## Weekend Assignment
 
