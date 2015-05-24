@@ -39,6 +39,7 @@ Students should be comfortable with the following at the end of this week:
   * File types returned
   * IP addresses
   * Ports
+  * Responses
 * Rails Introduction
   * MVC
   * `rails new`
