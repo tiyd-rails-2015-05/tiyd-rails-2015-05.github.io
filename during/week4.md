@@ -23,9 +23,9 @@ Students should be comfortable with the following at the end of this week:
 
 ## Tuesday - Rails and the Web
 
-**Problem of the Day:** Create an API to display a congressperson's voting history.  A step above http://whoismyrepresentative.com/getall_mems.php?zip=27701 .  Yes, panic zone.  Push through it.
-
 **Challenge:** [Composition](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/composition_challenge.rb)
+
+**Problem of the Day:** [Folder Structure](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/folder_structure)
 
 * Human Learning:
   * Scarring with age/experience
@@ -66,7 +66,10 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 * Review the requirements and create an ERD
 * Create a new Rails app
 * Create migrations and models as needed
+* Add associations and validations
 * Create at least two unit tests for each model
+* Make sure that you can run `rake` successfully
+* Make sure that you can run `rails server` and see a page in your browser
 * Push to GitHub
 
 
@@ -85,10 +88,16 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 ## Wednesday - Controllers and the Router
 
-**Problem of the Day:** Given what you know about the voting assignment and how controllers work, suggest a set of controllers and their methods for this assignment.
+**Challenge:** [Enumerable](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/enumerable_challenge.rb)
+
+**Problem of the Day:** [Model to JSON](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/model_to_json)
 
 * Human Learning: How to Google
   * [XKCD on Old Forums](https://xkcd.com/979/)
+  * Two types of resources: tutorials and answers.
+    * Stackoverflow is great for answers.
+    * Blogs (and Rails Guides) are great for tutorials.
+  * Be as specific as you can about which technologies you're using.  `ActiveRecord::Base` is a better start to your search than `Rails`
   * You can try questions (e.g. `How do I use ActiveRecord?`)
   * Use Google to dig deeper into someone else's docs (e.g. `weather underground api sunrise`)
 * HTML Verbs Redux
@@ -99,7 +108,6 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * `as_json`
 * Controller Testing
 
-**Challenge:** [Enumerable](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/enumerable_challenge.rb)
 
 #### Lecture Notes/Links
 
