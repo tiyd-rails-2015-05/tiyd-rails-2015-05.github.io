@@ -23,8 +23,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Monday - Inheritance and Testing
 
-#### Lecture
-
 **Problem of the Day:** [Vehicle Inheritance](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/vehicle_inheritance)
 
 * Human Learning: Feedback Cycles and Agile Development
@@ -81,8 +79,6 @@ Begin [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get tests
 
 ## Tuesday - Composition and Modules
 
-#### Lecture
-
 **Problem of the Day:** [Vehicles Part II](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/vehicle_modules)
 
 * Human Learning
@@ -131,8 +127,6 @@ Continue [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get te
 
 
 ## Wednesday - Regex, Enumerable, and Blocks
-
-#### Lecture
 
 **Problem of the Day:** [Find Names](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/find_names)
 
@@ -185,10 +179,7 @@ Complete [Battleship](https://github.com/tiyd-rails-2015-05/battleship).  Get al
 
 ## Thursday - Test-Driven Development
 
-#### Lecture
-
 **Problem of the Day:** [OddArray](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/odd_array_with_tdd)
-
 
 * Human Learning
   * Retrieval practice is better than re-reading.

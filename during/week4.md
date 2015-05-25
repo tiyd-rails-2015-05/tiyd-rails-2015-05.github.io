@@ -23,8 +23,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Tuesday - Rails and the Web
 
-#### Lecture
-
 **Problem of the Day:** Create an API to display a congressperson's voting history.  A step above http://whoismyrepresentative.com/getall_mems.php?zip=27701 .  Yes, panic zone.  Push through it.
 
 **Challenge:** [Composition](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/composition_challenge.rb)
@@ -87,8 +85,6 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 ## Wednesday - Controllers and the Router
 
-#### Lecture
-
 **Problem of the Day:** Given what you know about the voting assignment and how controllers work, suggest a set of controllers and their methods for this assignment.
 
 * Human Learning: How to Google
@@ -127,8 +123,6 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 ## Thursday - Serializers, More Database
 
-#### Lecture
-
 **Problem of the Day:** How would you change your Rails application to return different JSON for the same candidate?  Show a candidate's hometown in the `show` view, but not in the `index` view.
 
 * Human Learning
@@ -165,8 +159,6 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
 
 
 ## Friday - Production and Heroku
-
-#### Lecture
 
 **Problem of the Day:** Since code your users access has to be more stable than the code on your development laptop (and may need patches), how would you organize your branches to make this doable?
 

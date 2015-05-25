@@ -21,8 +21,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Monday - Control Flow and Variables
 
-#### Lecture
-
 **Problem of the Day:** Peanut Butter and Jelly.
 
 * Class Logistics
@@ -95,8 +93,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Tuesday - Methods and Arrays
 
-#### Lecture
-
 **Problem of the Day:** [The 12 Days of Christmas](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/twelve_days_of_christmas)
 
 * Methods
@@ -162,8 +158,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Wednesday - Hashes and Nested Data Structures
 
-#### Lecture
-
 **Problem of the Day:** [Phone Number Tracker](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/phone_numbers)
 
 * Logistics/Tricks
@@ -215,8 +209,6 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Thursday - Classes
-
-#### Lecture
 
 **Problem of the Day:** [Album Tracker](https://github.com/masonfmatthews/rails_assignments/tree/master/exercises/albums_and_artists)
 
