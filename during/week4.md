@@ -53,6 +53,10 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/CYYcNxMNV1w)
+* [Example Odd Array Solution](w4-1/odd_array.rb)
+* [Example DayForecast Class](w4-1/ten_day_forecast.rb)
+* [Our First Rails Project!!](https://github.com/tiyd-rails-2015-05/langhorn_slim_and_the_law)
 * [Rails Guides](http://guides.rubyonrails.org/index.html)
 
 #### Evening Reading

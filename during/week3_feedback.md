@@ -279,3 +279,42 @@ Let's take that previous example a bit farther (further?).  The `assert` line is
     end
 
 It actually tests that the objects can be retrieved, which is more complicated than detecting whether the foreign key numbers match.
+
+
+## Weather Report
+
+#### Specific Tests Once You Have Mocking
+
+The mocking work that you all did was excellent.  Once you have it set up, though, you can be more specific with your tests.  Take this one, for instance:
+
+    def test_wind
+      wind = CurrentConditions.new(82009)
+      assert wind.display_wind.match(/\d*?\.\d MPH/)
+    end
+
+No need to use broad regular expressions on this one; now that you've got a data set in a JSON file, you can be very specific about which MPH you expect to get.  You'd hate to be matching a different field that happens to use MPH and not realize it.
+
+
+#### Testing Mocking
+
+Here's a mock I saw:
+
+    class SunRiseSet
+      private def get_data
+        JSON.parse(File.open("astronomy.json").read)
+      end
+    end
+
+Looks good... except the actual class in your application was `SunUpDown`.  This means that your mock wasn't a monkey-patch of an existing class, so the mock never ran.
+
+In order to test that you've mocked properly, you can always shut off your wifi and see if your tests will still run.
+
+#### No User Input on Tests
+
+Here's what I got when I ran a test suite:
+
+    [masonfmatthews weather_report]$ ruby test.rb
+    What zip code would you like to search for weather details? Press enter
+    to exit
+
+When you write tests, you want to make sure that no user input is needed.  If the user has to type something, the tests are (a) slower and (b) potentially brittle.
