@@ -29,7 +29,7 @@ You'll need to complete all of these steps before April 27th.  If you have ANY q
 * [Week 1](during/week1)
 * [Week 2](during/week2)
 * [Week 3](during/week3)
-* Week 4
+* [Week 4](during/week4)
 * Week 5
 * Week 6
 * Week 7

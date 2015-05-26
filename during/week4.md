@@ -108,7 +108,6 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * `as_json`
 * Controller Testing
 
-
 #### Lecture Notes/Links
 
 * [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
