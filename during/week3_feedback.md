@@ -402,3 +402,15 @@ This gives `repeat` a ton of power, including the ability to bring everything to
       forecast(zip)
       break unless repeat
     end
+
+#### `p` vs. `puts`
+
+As you know, `p` is great for putting arrays to the console.  However, it gets weird with strings:
+
+    What location would you like information for?
+    27278
+    "The temperature is now 88.7ºF."
+    "Sunrise was at 6:03am."
+    "The sun will set at 8:23pm today."
+
+This is the output that I got when running one program.  The extra quotes are because of using `p`.  For simple things like strings, just use `puts`.
