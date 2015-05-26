@@ -74,6 +74,7 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 
 <!--
+
 ## Not yet covered
 
 * Memoization (`||=`)
@@ -206,3 +207,6 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
 ## Weekend Assignment - IN PAIRS
 
 [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_api)
+
+
+-->
