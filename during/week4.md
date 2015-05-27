@@ -115,7 +115,8 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 #### Lecture Notes/Links
 
-*
+* [Class Video](http://youtu.be/4Zet5JP9nkc)
+* [Updated Example App](https://github.com/tiyd-rails-2015-05/langhorn_slim_and_the_law)
 
 #### Evening Reading
 
