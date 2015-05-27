@@ -79,10 +79,14 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 * Push to GitHub
 * Create an estimate for the number of hours you expect to need to complete this assignment tomorrow night
 
+If you anticipate getting to hard or nightmare modes, read those modes before beginning work tonight and take those requirements into account in your models and migrations.
 
 ## Wednesday - Controllers and the Router
 
 **Challenge:** [Enumerable](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/enumerable_challenge.rb)
+
+**Optional Challenge:**
+[Primes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/primes_challenge.rb)
 
 **Problem of the Day:** [Model to JSON](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/model_to_json)
 
@@ -99,7 +103,8 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * The term is way more broad than we think it is.
   * Each class in your application technically has an API.  It's the set of methods you can call on it and its instances.
 * Random Topics:
-  * `rake db:drop` and `rake db:create`
+  * `rake db:rollback`
+  * `rake db:drop`
 * HTML Verbs
   * GET (google.com)
   * POST (coursyl.com)
@@ -107,10 +112,8 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * DELETE
 * The Router
   * `config/routes.rb`
-  * `rake routes`
 * Controllers
 * Fat Models, Skinny Controllers
-  * Example: `as_json`
 * Controller Testing
 
 #### Lecture Notes/Links
@@ -129,35 +132,35 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * In theory, your estimate should be better now that you've gotten part of the way through the project.
   * Document your number of hours worked at the end.
 
+
 <!--
-
-## Not yet covered
-
-* Memoization (`||=`)
-* API More Complex Auth
-  * https://developer.github.com/v3/#authentication
-* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
-* Files from class:
-  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
-* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
 
 ## Thursday - Serializers, More Database
 
 **Challenge:** [Include](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/include_challenge.rb)
 
-**Problem of the Day:** How would you change your Rails application to return different JSON for the same candidate?  Show a candidate's hometown in the `show` view, but not in the `index` view.
+**Problem of the Day:** [Assorted JSON](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/assorted_json/)
 
 * Human Learning
   * Ping-pong pairing
-* `config.time_zone = 'Eastern Time (US & Canada)'`
-* Seeds
+* Random Topics
+  * Explore Rails' Gemfile
+  * Explore Rails' .gitignore
+  * `rake routes`
+  * `find` vs `find_by_id`
+  * Dev and Test databases are separate
 * Fixtures
-* ActiveModel Serializers (OR JBUILDER?)
-
+* Seeds
+* Views and Controller Instance Variables
+* JBuilder
+  * `json.name @candidate.name`
+  * `json.extract! @candidate, :id, :name, :party`
+  * `json.array! @candidates, :id, :name, :party`
 
 #### Lecture Notes/Links
 
-*
+* [JBuilder](https://github.com/rails/jbuilder)
+* [JBuilder Railscast](http://railscasts.com/episodes/320-jbuilder)
 
 #### Evening Reading
 
@@ -175,6 +178,21 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
 * Write one test which mocks an API call so that you don't have to hit the real third-party APIs during testing.
 * Get ahead on the assignment in any other ways which you can.
 * Submit a link to your repository via the homework submission form.
+
+
+<!--
+
+## Not yet covered
+
+* Memoization (`||=`)
+* API More Complex Auth
+  * https://developer.github.com/v3/#authentication
+* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
+* Files from class:
+  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
+* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
+* Example: `as_json`
+* `config.time_zone = 'Eastern Time (US & Canada)'`
 
 
 ## Friday - Production and Heroku
