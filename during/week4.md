@@ -75,20 +75,10 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 * Make sure that you can run `rails server` and see the default page in your browser
 * Create the `candidates` controller with an `index` action
 * Make sure that you can access it in your browser
+* Delete `README.rdoc` and make your own (filled in) `README.md`
 * Push to GitHub
-* Create an estimate for the number of hours you expect to work to complete this assignment tomorrow night
+* Create an estimate for the number of hours you expect to need to complete this assignment tomorrow night
 
-<!--
-
-## Not yet covered
-
-* `rake db:drop` and `rake db:create`
-* Memoization (`||=`)
-* API More Complex Auth
-  * https://developer.github.com/v3/#authentication
-* What is an API?
-  * The term is way more broad than we think it is.
-  * Each class in your application technically has an API.  It's the set of methods you can call on it and its instances.
 
 ## Wednesday - Controllers and the Router
 
@@ -104,6 +94,12 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * Be as specific as you can about which technologies you're using.  `ActiveRecord::Base` is a better start to your search than `Rails`
   * You can try questions (e.g. `How do I use ActiveRecord?`)
   * Use Google to dig deeper into someone else's docs (e.g. `weather underground api sunrise`)
+  * Search for a module's "API"
+* What is an API?
+  * The term is way more broad than we think it is.
+  * Each class in your application technically has an API.  It's the set of methods you can call on it and its instances.
+* Random Topics:
+  * `rake db:drop` and `rake db:create`
 * HTML Verbs
   * GET (google.com)
   * POST (coursyl.com)
@@ -114,15 +110,12 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * `rake routes`
 * Controllers
 * Fat Models, Skinny Controllers
-  * `as_json`
+  * Example: `as_json`
 * Controller Testing
 
 #### Lecture Notes/Links
 
-* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
-* Files from class:
-  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/test_types.md)
-* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
+*
 
 #### Evening Reading
 
@@ -135,8 +128,21 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * In theory, your estimate should be better now that you've gotten part of the way through the project.
   * Document your number of hours worked at the end.
 
+<!--
+
+## Not yet covered
+
+* Memoization (`||=`)
+* API More Complex Auth
+  * https://developer.github.com/v3/#authentication
+* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
+* Files from class:
+  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
+* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
 
 ## Thursday - Serializers, More Database
+
+**Challenge:** [Include](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/include_challenge.rb)
 
 **Problem of the Day:** How would you change your Rails application to return different JSON for the same candidate?  Show a candidate's hometown in the `show` view, but not in the `index` view.
 
@@ -146,9 +152,6 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 * Seeds
 * Fixtures
 * ActiveModel Serializers (OR JBUILDER?)
-* Mocking API calls for tests
-
-**Challenge:** [Include](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/include_challenge.rb)
 
 
 #### Lecture Notes/Links
