@@ -34,22 +34,21 @@ Students should be comfortable with the following at the end of this week:
   * Bad scarring example: Taking risks on products costs too much money.
   * Diagram: Topological map of scarring
 * The Web
-  * File types returned
   * IP addresses
   * Ports
-  * Responses
+  * Request/Response
+  * Servers
 * Rails Introduction
-  * MVC
   * `rails new`
-  * `rails generate model`
-  * `rake db:migrate`
-  * `rails generate migration`
-  * `rake db:drop` and `rake db:create`
-  * `rails server`
-  * `rails console`
-  * `rails generate controller`
-* HTML Verbs
-  * Params during POST, PATCH, etc
+  * `bin/rails server`
+  * Rails folder structure
+  * MVC
+  * `bin/rails generate model`
+  * `bin/rake db:migrate`
+  * `bin/rails generate migration`
+  * `bin/rails console`
+  * `bin/rails generate controller`
+* Unit Testing in Rails
 
 #### Lecture Notes/Links
 
@@ -72,15 +71,18 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 * Create migrations and models as needed
 * Add associations and validations
 * Create at least two unit tests for each model
-* Make sure that you can run `rake` successfully
-* Make sure that you can run `rails server` and see a page in your browser
+* Make sure that you can run `rake` successfully to run the tests
+* Make sure that you can run `rails server` and see the default page in your browser
+* Create the `candidates` controller with an `index` action
+* Make sure that you can access it in your browser
 * Push to GitHub
-
+* Create an estimate for the number of hours you expect to work to complete this assignment tomorrow night
 
 <!--
 
 ## Not yet covered
 
+* `rake db:drop` and `rake db:create`
 * Memoization (`||=`)
 * API More Complex Auth
   * https://developer.github.com/v3/#authentication
@@ -102,8 +104,13 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
   * Be as specific as you can about which technologies you're using.  `ActiveRecord::Base` is a better start to your search than `Rails`
   * You can try questions (e.g. `How do I use ActiveRecord?`)
   * Use Google to dig deeper into someone else's docs (e.g. `weather underground api sunrise`)
-* HTML Verbs Redux
+* HTML Verbs
+  * GET (google.com)
+  * POST (coursyl.com)
+  * PATCH
+  * DELETE
 * The Router
+  * `config/routes.rb`
   * `rake routes`
 * Controllers
 * Fat Models, Skinny Controllers
@@ -124,10 +131,9 @@ Get a start on [Create a Voting API](https://github.com/tiyd-rails-2015-05/votin
 
 #### Assignment
 
-[Create a Voting API](https://github.com/tiyd-rails-2015-05/voting_api)
-  * Before you begin working on this tonight, create an estimate for the number of hours you'll need to work on it.
+[Create a Voting API](https://github.com/tiyd-rails-2015-05/voting_api).  After you're done, reflect on your estimate from last night:
   * In theory, your estimate should be better now that you've gotten part of the way through the project.
-  * Document your number of hours worked at the end, then reflect.
+  * Document your number of hours worked at the end.
 
 
 ## Thursday - Serializers, More Database
