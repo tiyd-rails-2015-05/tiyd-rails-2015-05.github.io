@@ -133,8 +133,6 @@ If you anticipate getting to hard or nightmare modes, read those modes before be
   * Document your number of hours worked at the end.
 
 
-<!--
-
 ## Thursday - Serializers, More Database
 
 **Challenge:** [Include](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/include_challenge.rb)
