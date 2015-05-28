@@ -165,7 +165,7 @@ If you anticipate getting to hard or nightmare modes, read those modes before be
 
 #### Assignment - IN PAIRS
 
-Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_api)
+Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-05/novel_api)
 
 * Plan your API.
 * Investigate your options for existing API data sources.  Register accounts as necessary.
@@ -235,7 +235,7 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
 
 ## Weekend Assignment - IN PAIRS
 
-[Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_api)
+[Build Your Own API](https://github.com/tiyd-rails-2015-05/novel_api)
 
 
 -->
