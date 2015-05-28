@@ -110,6 +110,7 @@ If you anticipate getting to hard or nightmare modes, read those modes before be
   * POST (coursyl.com)
   * PATCH
   * DELETE
+  * Postman
 * The Router
   * `config/routes.rb`
 * Controllers
@@ -120,6 +121,7 @@ If you anticipate getting to hard or nightmare modes, read those modes before be
 
 * [Class Video](http://youtu.be/4Zet5JP9nkc)
 * [Updated Example App](https://github.com/tiyd-rails-2015-05/langhorn_slim_and_the_law)
+* [Postman](https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm?hl=en)
 
 #### Evening Reading
 
@@ -142,13 +144,14 @@ If you anticipate getting to hard or nightmare modes, read those modes before be
 
 * Random Topics
   * Explore Rails' Gemfile
-  * Explore Rails' `.gitignore`
-  * `rake routes`
-  * `find` vs `find_by_id`
   * Dev and Test databases are separate
+  * Memoization (`||=`)
+  * `as_json`
 * Fixtures
 * Seeds
 * Views and Controller Instance Variables
+* Callbacks
+  * `before_create`, etc.
 * JBuilder
   * `json.name @candidate.name`
   * `json.extract! @candidate, :id, :name, :party`
@@ -156,6 +159,8 @@ If you anticipate getting to hard or nightmare modes, read those modes before be
 
 #### Lecture Notes/Links
 
+* [Class Video](https://youtu.be/F3tBHnAXb-U)
+* [Rails Guide on Callbacks](http://guides.rubyonrails.org/v2.3.11/activerecord_validations_callbacks.html#callbacks-overview)
 * [JBuilder](https://github.com/rails/jbuilder)
 * [JBuilder Railscast](http://railscasts.com/episodes/320-jbuilder)
 
@@ -181,7 +186,9 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-05/novel_
 
 ## Not yet covered
 
-* Memoization (`||=`)
+* Explore Rails' `.gitignore`
+* `rake routes`
+* `find` vs `find_by_id`
 * API More Complex Auth
   * https://developer.github.com/v3/#authentication
 * [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
