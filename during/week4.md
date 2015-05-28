@@ -11,8 +11,7 @@ Students should be comfortable with the following at the end of this week:
 * Routing
 * Controllers
 * Params
-* ActiveModel Serializers
-* Heroku
+* JBuilder
 
 
 ## Important Links
@@ -179,61 +178,19 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-05/novel_
 * Write code in non-ActiveRecord models which successfully pulls from each of your target data sources.  You don't have to do anything with the data they give you back yet.
 * Create skeleton controllers with the actions you intend to use (you don't need code in those actions yet).
 * Write one test which mocks an API call so that you don't have to hit the real third-party APIs during testing.
-* Get ahead on the assignment in any other ways which you can.
-* Submit a link to your repository via the homework submission form.
 
 
-<!--
+## Friday Mini-lecture
 
-## Not yet covered
-
-* Explore Rails' `.gitignore`
-* `rake routes`
-* `find` vs `find_by_id`
-* API More Complex Auth
-  * https://developer.github.com/v3/#authentication
-* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
-* Files from class:
-  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
-* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
-* Example: `as_json`
-* `config.time_zone = 'Eastern Time (US & Canada)'`
-* Ping-pong pairing
-
-## Friday - Production and Heroku
-
-**Problem of the Day:** Since code your users access has to be more stable than the code on your development laptop (and may need patches), how would you organize your branches to make this doable?
-
-* Random Topics
-  * Security implications of API keys in the database
-  * Security implications of API keys over http (headers vs parameters)
-  * Action on your server trying to access the API on your server
-  * Deadlock
-* Agile
-  * Baby Duck Syndrome
-  * [XKCD on Breaking Someone's Workflow](https://xkcd.com/1172/)
-* Rails Servers
-  * WEBrick vs. Mongrel vs. Puma
-  * `./bin/rails`
-* Dev vs. Production
-* GitFlow
-* Heroku
-  * `git remote` review
-  * Set up account
-  * Create new Heroku project
-  * Move `sqlite3` gem
-  * Add `pg` and `rails_12factor gems`
-  * `bundle install --without production`
-  * heroku add remote command
-  * git push heroku master
-  * heroku run rake db:migrate
-
-#### Lecture Notes/Links
-
-* [Heroku docs on installing Rails 4 apps](https://devcenter.heroku.com/articles/rails4)
-* [Example App From Class](https://github.com/tiyd-rails-2015-01/db_backed_api_example)
-* [Pre-break Video](http://youtu.be/MvX_XPAMpfI)
-* [Mini-lecture Video](http://youtu.be/PXCm6K4CVh4)
+* Router
+  * Naming routes in a more complicated way
+  * Putting ids in paths
+* Different kinds of API auth
+  * Token Auth in params
+  * Token Auth in headers
+  * Basic Auth (not so good)
+  * OAuth
+* Non-ActiveRecord Models (don't `generate`!)
 
 #### Evening Reading
 
@@ -244,6 +201,3 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-05/novel_
 ## Weekend Assignment - IN PAIRS
 
 [Build Your Own API](https://github.com/tiyd-rails-2015-05/novel_api)
-
-
--->

@@ -11,6 +11,7 @@ Students should be comfortable with the following at the end of this week:
 * HTML Forms
 * Views
 * REST
+* Heroku
 
 
 ## Important Links
@@ -21,9 +22,9 @@ Students should be comfortable with the following at the end of this week:
 
 ## Monday - HTML and CSS
 
-#### Lecture
+**Challenge:** [Discuss Ruby](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_ruby_challenge.rb)
 
-**Problem of the Day:** Build a webpage that describes your current problem-of-the-day group.
+**Problem of the Day:** Build a webpage that describes yourself.
 
 * HTML
   * View source on `theironyard.com`
@@ -86,9 +87,22 @@ Students should be comfortable with the following at the end of this week:
 [CSS Reverse Engineering](https://github.com/tiyd-rails-2015-05/css_reverse_engineering)
 
 
-## Tuesday - Rails Views and Forms
+<!--
 
-#### Lecture
+## Not yet covered
+
+* Explore Rails' `.gitignore`
+* `rake routes`
+* `find` vs `find_by_id`
+* API More Complex Auth
+  * https://developer.github.com/v3/#authentication
+* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
+* Files from class:
+  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
+* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
+* Ping-pong pairing
+
+## Tuesday - Rails Views and Forms
 
 **Problem of the Day:** Given what you now know about APIs and HTML/CSS, try to recreate your GitHub profile page.
 
@@ -104,12 +118,11 @@ Students should be comfortable with the following at the end of this week:
 * View Intro without models
   * Motivating Example: A rails app that asks me for my time zone, then gives me the time.
   * `strftime()`
+  * `config.time_zone = 'Eastern Time (US & Canada)'`
 * Git
   * `git stash`
   * `git reset`
   * `git filter-branch`
-
-**Challenge:** [Discuss Ruby](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_ruby_challenge.rb)
 
 #### Lecture Notes/Links
 
@@ -126,8 +139,6 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Wednesday - REST, Scaffold, and Integration Testing
-
-#### Lecture
 
 **Problem of the Day:** Assume that you want to add/edit/remove comments to each GitHub username, then see them all for a certain person.  What controllers and views would you set up?
 
@@ -158,9 +169,7 @@ Students should be comfortable with the following at the end of this week:
 [Wallet](https://github.com/tiyd-rails-2015-05/wallet)
 
 
-## Thursday - Helpers, Partials
-
-#### Lecture
+## Thursday - Helpers, Partials / Heroku and Production
 
 **Problem of the Day:** Look at your Wallet application and find two places where the code could be DRYed out.  Do so.
 
@@ -172,9 +181,36 @@ Students should be comfortable with the following at the end of this week:
   * XSS
 * Partials
 
+**Problem of the Day:** Since code your users access has to be more stable than the code on your development laptop (and may need patches), how would you organize your branches to make this doable?
+
+* Random Topics
+  * Security implications of API keys in the database
+  * Security implications of API keys over http (headers vs parameters)
+  * Action on your server trying to access the API on your server
+  * Deadlock
+* Agile
+  * Baby Duck Syndrome
+  * [XKCD on Breaking Someone's Workflow](https://xkcd.com/1172/)
+* Rails Servers
+  * WEBrick vs. Mongrel vs. Puma
+  * `./bin/rails`
+* Dev vs. Production
+* GitFlow
+* Heroku
+  * `git remote` review
+  * Set up account
+  * Create new Heroku project
+  * Move `sqlite3` gem
+  * Add `pg` and `rails_12factor gems`
+  * `bundle install --without production`
+  * heroku add remote command
+  * git push heroku master
+  * heroku run rake db:migrate
+
 #### Lecture Notes/Links
 
 * [Rails helpers tutorial](http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers?utm_source=rubyweekly&utm_medium=email)
+* [Heroku docs on installing Rails 4 apps](https://devcenter.heroku.com/articles/rails4)
 
 #### Evening Reading
 
