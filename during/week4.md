@@ -129,6 +129,7 @@ If you anticipate getting to hard or nightmare modes, read those modes before be
 #### Assignment
 
 [Create a Voting API](https://github.com/tiyd-rails-2015-05/voting_api).  After you're done, reflect on your estimate from last night:
+
   * In theory, your estimate should be better now that you've gotten part of the way through the project.
   * Document your number of hours worked at the end.
 
@@ -139,11 +140,9 @@ If you anticipate getting to hard or nightmare modes, read those modes before be
 
 **Problem of the Day:** [Assorted JSON](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/assorted_json/)
 
-* Human Learning
-  * Ping-pong pairing
 * Random Topics
   * Explore Rails' Gemfile
-  * Explore Rails' .gitignore
+  * Explore Rails' `.gitignore`
   * `rake routes`
   * `find` vs `find_by_id`
   * Dev and Test databases are separate
@@ -191,7 +190,7 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-01/novel_
 * [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
 * Example: `as_json`
 * `config.time_zone = 'Eastern Time (US & Canada)'`
-
+* Ping-pong pairing
 
 ## Friday - Production and Heroku
 
