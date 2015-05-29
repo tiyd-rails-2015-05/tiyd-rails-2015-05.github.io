@@ -26,6 +26,8 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Build a webpage that describes yourself.
 
+* Random Topics
+  * `rails new .`
 * HTML
   * View source on `theironyard.com`
   * Tags and Nesting
