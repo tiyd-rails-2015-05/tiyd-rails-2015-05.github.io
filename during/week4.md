@@ -183,14 +183,23 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-05/novel_
 ## Friday Mini-lecture
 
 * Router
-  * Naming routes in a more complicated way
-  * Putting ids in paths
+  * `rake routes`
+  * Level 1 - we know this.
+  * Level 2 - Naming addresses in a more custom way
+  * Level 3 - Putting `id`s (or other `params`) in paths
 * Different kinds of API auth
   * Token Auth in params
   * Token Auth in headers
   * Basic Auth (not so good)
-  * OAuth
+  * OAuth - later
 * Non-ActiveRecord Models (don't `generate`!)
+* Testing Validations - not as important as I let on.
+
+#### Lecture Notes/Links
+
+* [Class Video](https://youtu.be/1LXn5fYWsXU)
+* [Example Routes from Class](w4-4/routes.rb)
+* [Example Test Mocking from Class](w4-4/game_review_test.rb)
 
 #### Evening Reading
 

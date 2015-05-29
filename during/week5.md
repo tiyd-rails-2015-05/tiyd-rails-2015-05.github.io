@@ -92,7 +92,6 @@ Students should be comfortable with the following at the end of this week:
 ## Not yet covered
 
 * Explore Rails' `.gitignore`
-* `rake routes`
 * `find` vs `find_by_id`
 * API More Complex Auth
   * https://developer.github.com/v3/#authentication
