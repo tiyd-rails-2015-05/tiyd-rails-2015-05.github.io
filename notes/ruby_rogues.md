@@ -12,8 +12,15 @@ W5D3 - 035 - Estimation
        039 - Programming Language Fundamentals (at the end of class)
 W6D3 - 049 - Agile Communication
        051 - Open Source Contributions
+       054 - Coding Exercises, Quizzes, etc
+       ...
        101 ??? - Diversity
 W3D2 - 107 - Impostor Syndrome
+       113 - DevOps
+       115 - Functional Programming vs OO
+       116 - Non-Rails Projects
+       119 - Accessibility
+       120 - Understanding Computation
        ...
 W5D1 - 159 - Hacking Education (about code schools)
        162 ??? - Scaling Rails
