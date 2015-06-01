@@ -22,7 +22,7 @@ Students should be comfortable with the following at the end of this week:
 
 ## Monday - HTML and CSS
 
-**Challenge:** [Discuss Ruby](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_ruby_challenge.rb)
+**Challenge:** [Discuss Ruby](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_ruby.md)
 
 **Problem of the Day:** Build a webpage that describes yourself.
 
@@ -40,8 +40,8 @@ Students should be comfortable with the following at the end of this week:
     * `span`
     * `ul`, `li`, `ol`
     * `table`, etc
-    * `images`
-    * `embedding`
+    * `image`
+    * Embedding content
   * Possible conflicts/inconsistent HTML
     * [XKCD on Tags](https://xkcd.com/1144/)
   * Attributes

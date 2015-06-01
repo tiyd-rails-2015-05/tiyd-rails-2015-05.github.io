@@ -21,6 +21,7 @@ W3D2 - 107 - Impostor Syndrome
        116 - Non-Rails Projects
        119 - Accessibility
        120 - Understanding Computation
+       121 - Consulting vs. Product Work
        ...
 W5D1 - 159 - Hacking Education (about code schools)
        162 ??? - Scaling Rails
