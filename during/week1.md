@@ -81,6 +81,7 @@ Students should be comfortable with the following at the end of this week:
 * [Programming Language Family Tree](w1-1/languages.png)
 * [Whitespace Language](http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29#Sample_code)
 * [Hodor-lang](http://www.hodor-lang.org/)
+* [Why Dates Get Weird](https://gist.github.com/pixeltrix/e2298822dd89d854444b)
 
 #### Evening Reading
 
