@@ -24,7 +24,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge:** [Discuss Ruby](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_ruby.md)
 
-**Problem of the Day:** Build a webpage that describes yourself.
+**Problem of the Day:** [Folder Structure](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/my_first_website)
 
 * Random Topics
   * `rails new .`
@@ -45,7 +45,6 @@ Students should be comfortable with the following at the end of this week:
   * Possible conflicts/inconsistent HTML
     * [XKCD on Tags](https://xkcd.com/1144/)
   * Attributes
-* Exercise: Build an HTML page that says something about you.
 * CSS
   * Three places to add style to HTML
     * Putting it in `style=` attributes - thumbs down.
@@ -65,18 +64,29 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Codepen](http://codepen.io)
+
+Websites that are only front-end:
+
+* [Headhunter Hair Styling](http://www.headhunterhairstyling.com/)
+* [Is it Christmas](http://isitchristmas.com)
+* [Find the Invisible Cow](http://findtheinvisiblecow.com/)
+* [WeaveSilk](http://weavesilk.com/)
+* [Do Nothing for 2 Minutes](http://www.donothingfor2minutes.com/)
+* [Calming Websites](http://www.makeuseof.com/tag/take-a-break-10-websites-to-help-you-relax-for-two-minutes/)
+
+Websites that do processing on the server (and/or have a database):
+
 * [Is it Christmas](http://isitchristmas.com)
 * [How many people are in space right now](http://howmanypeopleareinspacerightnow.com)
-* [Find the Invisible Cow](http://findtheinvisiblecow.com/)
-* [Do Nothing for 2 Minutes](http://www.donothingfor2minutes.com/)
 * [Ship Your Enemies Glitter](http://shipyourenemiesglitter.com/)
 * [Akinator](http://en.akinator.com/)
-* [WeaveSilk](http://weavesilk.com/)
-* [Calming Websites](http://www.makeuseof.com/tag/take-a-break-10-websites-to-help-you-relax-for-two-minutes/)
-* [Palette Tool](http://paletton.com/#uid=13P0u0kllll70vXeaqEswg1G0aI)
 * [Google Trends](https://trends.google.com)
+
+Helpful Links:
+
 * w3schools results are only okay.
 * [MDN](https://developer.mozilla.org/en-US/) results are awesome.
+* [Palette Tool](http://paletton.com/#uid=13P0u0kllll70vXeaqEswg1G0aI)
 * [Meet the Ipsums](http://meettheipsums.com)
 * [Durham Ipsum](http://durhamipsum.com)
 
