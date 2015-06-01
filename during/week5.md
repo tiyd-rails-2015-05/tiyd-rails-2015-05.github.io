@@ -24,14 +24,14 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge:** [Discuss Ruby](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_ruby.md)
 
-**Problem of the Day:** [Folder Structure](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/my_first_website)
+**Problem of the Day:** [My First Website](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/my_first_website)
 
 * Random Topics
   * `rails new .`
 * HTML
   * View source on `theironyard.com`
   * Tags and Nesting
-  * Header vs. Body
+  * Header and Body
   * Common tags
     * `h1` - `h6`
     * `p`
@@ -45,13 +45,21 @@ Students should be comfortable with the following at the end of this week:
   * Possible conflicts/inconsistent HTML
     * [XKCD on Tags](https://xkcd.com/1144/)
   * Attributes
+    * `href`
+    * `src`
 * CSS
   * Three places to add style to HTML
     * Putting it in `style=` attributes - thumbs down.
     * Inside `<style>` tags - thumbs mostly down.
     * In separate files - thumbs up!
   * Basic Selectors
-  * `id` and `class` attributes
+    * `id` and `class` attributes
+    * `li {}` to select everything in all `li`s
+    * `div li {}` to select every `li` inside a `div`
+    * `li, p {}` to select everything in all `li`s and `p`s
+    * `#id` to select the element with an `id` of "id"
+    * `.class` to select everything with a `class` of "class"
+    * `li.class` to select every `li` with a `class` of "class"
   * Properties and values
     * `color:`
     * `border:`
@@ -65,27 +73,27 @@ Students should be comfortable with the following at the end of this week:
 
 * [Codepen](http://codepen.io)
 
-Websites that are only front-end:
+Websites that are "static":
 
 * [Headhunter Hair Styling](http://www.headhunterhairstyling.com/)
-* [Is it Christmas](http://isitchristmas.com)
 * [Find the Invisible Cow](http://findtheinvisiblecow.com/)
 * [WeaveSilk](http://weavesilk.com/)
 * [Do Nothing for 2 Minutes](http://www.donothingfor2minutes.com/)
 * [Calming Websites](http://www.makeuseof.com/tag/take-a-break-10-websites-to-help-you-relax-for-two-minutes/)
 
-Websites that do processing on the server (and/or have a database):
+Webapps that do processing on the server (and/or have a database):
 
 * [Is it Christmas](http://isitchristmas.com)
 * [How many people are in space right now](http://howmanypeopleareinspacerightnow.com)
 * [Ship Your Enemies Glitter](http://shipyourenemiesglitter.com/)
 * [Akinator](http://en.akinator.com/)
-* [Google Trends](https://trends.google.com)
 
 Helpful Links:
 
+* [Class Video](http://youtu.be/NSzwNfx1G84)
 * w3schools results are only okay.
 * [MDN](https://developer.mozilla.org/en-US/) results are awesome.
+* [Google Trends](https://trends.google.com)
 * [Palette Tool](http://paletton.com/#uid=13P0u0kllll70vXeaqEswg1G0aI)
 * [Meet the Ipsums](http://meettheipsums.com)
 * [Durham Ipsum](http://durhamipsum.com)
@@ -100,18 +108,6 @@ Helpful Links:
 
 
 <!--
-
-## Not yet covered
-
-* Explore Rails' `.gitignore`
-* `find` vs `find_by_id`
-* API More Complex Auth
-  * https://developer.github.com/v3/#authentication
-* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
-* Files from class:
-  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
-* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
-* Ping-pong pairing
 
 ## Tuesday - Rails Views and Forms
 
@@ -148,6 +144,19 @@ Helpful Links:
 
 [Recreate GitHub Profile](https://github.com/tiyd-rails-2015-05/github_profile)
 
+
+<!--
+## Not yet covered
+
+* Explore Rails' `.gitignore`
+* `find` vs `find_by_id`
+* API More Complex Auth
+  * https://developer.github.com/v3/#authentication
+* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
+* Files from class:
+  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
+* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
+* Ping-pong pairing
 
 ## Wednesday - REST, Scaffold, and Integration Testing
 

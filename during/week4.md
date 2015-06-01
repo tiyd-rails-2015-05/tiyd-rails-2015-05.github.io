@@ -188,6 +188,7 @@ Get a start on [Build Your Own API](https://github.com/tiyd-rails-2015-05/novel_
   * Level 2 - Naming addresses in a more custom way
   * Level 3 - Putting `id`s (or other `params`) in paths
 * Different kinds of API auth
+  * Gems for accessing APIs
   * Token Auth in params
   * Token Auth in headers
   * Basic Auth (not so good)
