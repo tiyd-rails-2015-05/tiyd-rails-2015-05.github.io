@@ -107,11 +107,11 @@ Helpful Links:
 [CSS Reverse Engineering](https://github.com/tiyd-rails-2015-05/css_reverse_engineering)
 
 
-<!--
-
 ## Tuesday - Rails Views and Forms
 
-**Problem of the Day:** Given what you now know about APIs and HTML/CSS, try to recreate your GitHub profile page.
+**Challenge:** [Discuss Rails](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_http_and_html.md)
+
+**Problem of the Day:** ...
 
 * Views
 * ERB
@@ -160,6 +160,8 @@ Helpful Links:
 
 ## Wednesday - REST, Scaffold, and Integration Testing
 
+**Challenge:** [Discuss Ruby](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_ruby.md)
+
 **Problem of the Day:** Assume that you want to add/edit/remove comments to each GitHub username, then see them all for a certain person.  What controllers and views would you set up?
 
 * Random Topics
@@ -190,6 +192,8 @@ Helpful Links:
 
 
 ## Thursday - Helpers, Partials / Heroku and Production
+
+**Challenge:** [Discuss Rails](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_rails.md)
 
 **Problem of the Day:** Look at your Wallet application and find two places where the code could be DRYed out.  Do so.
 
