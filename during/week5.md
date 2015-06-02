@@ -135,6 +135,8 @@ Helpful Links:
 * [Class Video](http://youtu.be/e0cyyCuulTA)
 * [Raw (no Rails) HTML Form](w5-2/form.html)
 * [Time Zone Rails App](https://github.com/tiyd-rails-2015-05/time_zone_app)
+* [Mini-lecture Video](http://youtu.be/vH9obV2puME)
+* [Two examples of using GitHub tokens](w5-2/get_github.rb)
 * [`strftime()`](http://strftime.net/)
 
 #### Evening Reading
