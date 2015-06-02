@@ -109,9 +109,9 @@ Helpful Links:
 
 ## Tuesday - Rails Views and Forms
 
-**Challenge:** [Discuss Rails](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_http_and_html.md)
+**Challenge:** [Discuss HTTP and HTML](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_http_and_html.md)
 
-**Problem of the Day:** ...
+**Problem of the Day:** [Using ERB](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/my_first_erb)
 
 * Views
 * ERB
