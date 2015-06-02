@@ -129,13 +129,12 @@ Helpful Links:
   * Motivating Example: A rails app that asks me for my time zone, then gives me the time.
   * `strftime()`
   * `config.time_zone = 'Eastern Time (US & Canada)'`
-* Git
-  * `git stash`
-  * `git reset`
-  * `git filter-branch`
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/e0cyyCuulTA)
+* [Raw (no Rails) HTML Form](w5-2/form.html)
+* [Time Zone Rails App](https://github.com/tiyd-rails-2015-05/time_zone_app)
 * [`strftime()`](http://strftime.net/)
 
 #### Evening Reading
@@ -169,9 +168,10 @@ Helpful Links:
   * Quick `checkbox` discussion
   * `rails-footnotes` gem
 * Scaffold
+* `form_for` and related methods
 * Resources
 * REST
-* Controller Testing Redux
+* How do I testing?  Really.
 * Integration Testing
 
 #### Lecture Notes/Links
@@ -204,6 +204,10 @@ Helpful Links:
 * Helpers
   * XSS
 * Partials
+* Git
+  * `git stash`
+  * `git reset`
+  * `git filter-branch`
 
 **Problem of the Day:** Since code your users access has to be more stable than the code on your development laptop (and may need patches), how would you organize your branches to make this doable?
 
