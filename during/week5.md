@@ -26,8 +26,6 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** [My First Website](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/my_first_website)
 
-* Random Topics
-  * `rails new .`
 * HTML
   * View source on `theironyard.com`
   * Tags and Nesting
@@ -113,6 +111,11 @@ Helpful Links:
 
 **Problem of the Day:** [Using ERB](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/my_first_erb)
 
+
+* Random Topics
+  * `rails new .`
+  * Explore Rails' `.gitignore`
+  * `find` vs `find_by_id`
 * Views
 * ERB
 * Forms
@@ -147,9 +150,6 @@ Helpful Links:
 
 <!--
 ## Not yet covered
-
-* Explore Rails' `.gitignore`
-* `find` vs `find_by_id`
 * API More Complex Auth
   * https://developer.github.com/v3/#authentication
 * [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
