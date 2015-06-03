@@ -34,6 +34,7 @@ layout: default
 * `assert_redirected_to`
 * `assert_template`
 * `assigns(:instance_variable)` - actually gives you back what's stored in that instance variable
+* `response.body`
 
 #### Rails Controller Test Suggestions
 

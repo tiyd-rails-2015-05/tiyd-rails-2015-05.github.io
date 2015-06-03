@@ -128,6 +128,8 @@ Helpful Links:
   * Motivating Example: A rails app that asks me for my time zone, then gives me the time.
   * `strftime()`
   * `config.time_zone = 'Eastern Time (US & Canada)'`
+* Mini-lecture:
+  * OAuth Token auth with GitHub
 
 #### Lecture Notes/Links
 
@@ -158,27 +160,20 @@ Helpful Links:
 
 * Random Topics
   * The "10 minutes ago" problem
-  * Quick `checkbox` discussion
   * `rails-footnotes` gem
   * `find` vs `find_by_id`
 * Scaffold
 * `form_for` and related methods
 * Resources
 * REST
+* Partials
 * How do I testing?  Really, how?
-* Integration Testing
 
 #### Lecture Notes/Links
 
-* [Class Video]()
-
-<!--
+* [Class Video](http://youtu.be/QbYz42GKZz4)
 * [Why Minitest instead of Rspec](http://brandonhilkert.com/blog/7-reasons-why-im-sticking-with-minitest-and-fixtures-in-rails/)
 * [Rails footnotes](https://github.com/josevalim/rails-footnotes) - `rails generate rails_footnotes:install`
-* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
-* Files from class:
-  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/test_types.md)
--->
 
 #### Evening Reading
 
@@ -188,17 +183,10 @@ Helpful Links:
 
 [Wallet](https://github.com/tiyd-rails-2015-05/wallet)
 
-<!--
-## Not yet covered
-* API More Complex Auth
-  * https://developer.github.com/v3/#authentication
-* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
-* Files from class:
-  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
-* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
-* Ping-pong pairing
 
-## Thursday - Helpers, Partials / Heroku and Production
+<!--
+
+## Thursday - Heroku and Production
 
 **Challenge:** [Discuss Rails](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_rails.md)
 
@@ -207,22 +195,10 @@ Helpful Links:
 * Human Learning
   * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
   * Diagrams: Data model vs workflow diagrams
-* TODO: Find better motivating example.
-* Helpers
-  * XSS
-* Partials
-* Git
-  * `git stash`
-  * `git reset`
-  * `git filter-branch`
 
 **Problem of the Day:** Since code your users access has to be more stable than the code on your development laptop (and may need patches), how would you organize your branches to make this doable?
 
-* Random Topics
-  * Security implications of API keys in the database
-  * Security implications of API keys over http (headers vs parameters)
-  * Action on your server trying to access the API on your server
-  * Deadlock
+
 * Agile
   * Baby Duck Syndrome
   * [XKCD on Breaking Someone's Workflow](https://xkcd.com/1172/)
@@ -254,5 +230,25 @@ Helpful Links:
 ## Weekend Assignment - IN PAIRS
 
 [Health Tracker](https://github.com/tiyd-rails-2015-05/health_tracker)
+
+<!--
+
+## Not yet covered
+
+* Random Topics
+  * Security implications of API keys in the database
+  * Security implications of API keys over http (headers vs parameters)
+  * Action on your server trying to access the API on your server
+  * Deadlock
+* Integration Testing
+* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
+* Ping-pong pairing
+* Helpers
+  * TODO: Find better motivating example.
+  * XSS
+* Git
+  * `git stash`
+  * `git reset`
+  * `git filter-branch`
 
 -->
