@@ -107,7 +107,7 @@ Helpful Links:
 
 ## Tuesday - Rails Views and Forms
 
-**Challenge:** [Discuss HTTP and HTML](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_http_and_html.md)
+**Challenge:** [Discuss HTTP](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_http.md)
 
 **Problem of the Day:** [Using ERB](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/my_first_erb)
 
@@ -115,7 +115,6 @@ Helpful Links:
 * Random Topics
   * `rails new .`
   * Explore Rails' `.gitignore`
-  * `find` vs `find_by_id`
 * Views
 * ERB
 * Forms
@@ -149,40 +148,37 @@ Helpful Links:
 [Recreate GitHub Profile](https://github.com/tiyd-rails-2015-05/github_profile)
 
 
-<!--
-## Not yet covered
-* API More Complex Auth
-  * https://developer.github.com/v3/#authentication
-* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
-* Files from class:
-  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
-* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
-* Ping-pong pairing
-
 ## Wednesday - REST, Scaffold, and Integration Testing
 
-**Challenge:** [Discuss Ruby](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_ruby.md)
+**Challenge Starting Point:** [Tabula Railsa](https://github.com/tiyd-rails-2015-05/tabula_railsa)
 
-**Problem of the Day:** Assume that you want to add/edit/remove comments to each GitHub username, then see them all for a certain person.  What controllers and views would you set up?
+**Challenge:** [Router](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_router.md)
+
+**Problem of the Day:** [Albums Resource](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/albums_resource.md)
 
 * Random Topics
   * The "10 minutes ago" problem
   * Quick `checkbox` discussion
   * `rails-footnotes` gem
+  * `find` vs `find_by_id`
 * Scaffold
 * `form_for` and related methods
 * Resources
 * REST
-* How do I testing?  Really.
+* How do I testing?  Really, how?
 * Integration Testing
 
 #### Lecture Notes/Links
 
+* [Class Video]()
+
+<!--
 * [Why Minitest instead of Rspec](http://brandonhilkert.com/blog/7-reasons-why-im-sticking-with-minitest-and-fixtures-in-rails/)
 * [Rails footnotes](https://github.com/josevalim/rails-footnotes) - `rails generate rails_footnotes:install`
 * [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
 * Files from class:
   * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/test_types.md)
+-->
 
 #### Evening Reading
 
@@ -192,6 +188,15 @@ Helpful Links:
 
 [Wallet](https://github.com/tiyd-rails-2015-05/wallet)
 
+<!--
+## Not yet covered
+* API More Complex Auth
+  * https://developer.github.com/v3/#authentication
+* [Example Testing Repo from Class](https://github.com/tiyd-rails-2015-01/testing_example)
+* Files from class:
+  * [List of what we covered](https://github.com/tiyd-rails-2015-01/testing_example/blob/master/test_types.md)
+* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
+* Ping-pong pairing
 
 ## Thursday - Helpers, Partials / Heroku and Production
 
