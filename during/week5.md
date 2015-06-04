@@ -139,6 +139,7 @@ Helpful Links:
 * [Mini-lecture Video](http://youtu.be/vH9obV2puME)
 * [Two examples of using GitHub tokens](w5-2/get_github.rb)
 * [`strftime()`](http://strftime.net/)
+* [ALL the Rails View Helpers](http://api.rubyonrails.org/classes/ActionView/Helpers.html)
 
 #### Evening Reading
 

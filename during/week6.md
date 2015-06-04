@@ -24,7 +24,9 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge:** [ActiveRecord](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_active_record.md)
 
-**Problem of the Day:** Modify your Health Tracker app to display a different photo on each of the four index pages.  Don't link to a photo, but have a photo stored in your app.
+**Problem of the Day:** [Health Tracker Photos]()
+
+Modify your Health Tracker app to display a different photo on each of the four index pages.  Don't link to a photo, but have a photo stored in your app.
 
 * Human Learning
   * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
