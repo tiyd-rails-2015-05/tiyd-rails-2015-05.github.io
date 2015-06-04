@@ -176,8 +176,8 @@ Helpful Links:
 #### Lecture Notes/Links
 
 * [Class Video](http://youtu.be/QbYz42GKZz4)
-* [Why Minitest instead of Rspec](http://brandonhilkert.com/blog/7-reasons-why-im-sticking-with-minitest-and-fixtures-in-rails/)
 * [Rails footnotes](https://github.com/josevalim/rails-footnotes) - `rails generate rails_footnotes:install`
+* [Rails Guides for Form Helpers](http://guides.rubyonrails.org/form_helpers.html)
 
 #### Evening Reading
 
@@ -192,9 +192,7 @@ Helpful Links:
 
 **Challenge:** [Environments](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_environments.md)
 
-* Random Topics
-  * Baby Duck Syndrome
-  * Helpers
+* Helpers
   * `.html_safe`
   * XSS
 * Rails Servers (WEBrick vs. Mongrel vs. Puma)
@@ -203,17 +201,23 @@ Helpful Links:
   * `git remote` review
   * Set up account
   * Create new Heroku project
-  * Move `sqlite3` gem
+  * Move `sqlite3` gem to development and test
   * Add `pg` and `rails_12factor` gems to production
+  * Add `puma` gem to base of Gemfile
+  * Create Procfile which says `web: bundle exec puma -C config/puma.rb`
+  * Create `config/puma.rb` per [Heroku's instructions](https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server)
   * `bundle install --without production`
-  * `heroku add remote`
+  * `heroku git:remote -a damp-peak-9050`
   * `git push heroku master`
   * `heroku run rake db:migrate`
+  * `heroku run rake db:seed`
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/XsD0T9oe_88)
 * [Rails helpers tutorial](http://mixandgo.com/blog/the-beginner-s-guide-to-rails-helpers?utm_source=rubyweekly&utm_medium=email)
 * [Heroku docs on installing Rails 4 apps](https://devcenter.heroku.com/articles/rails4)
+* [Heroku docs on setting up Puma](https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server)
 
 #### Evening Reading
 
@@ -222,22 +226,3 @@ Helpful Links:
 ## Weekend Assignment - IN PAIRS
 
 [Health Tracker](https://github.com/tiyd-rails-2015-05/health_tracker)
-
-<!--
-
-## Not yet covered
-
-* Random Topics
-  * Security implications of API keys in the database
-  * Security implications of API keys over http (headers vs parameters)
-  * Action on your server trying to access the API on your server
-  * Deadlock
-* Integration Testing
-* [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
-* Ping-pong pairing
-* Git
-  * `git stash`
-  * `git reset`
-  * `git filter-branch`
-
--->
