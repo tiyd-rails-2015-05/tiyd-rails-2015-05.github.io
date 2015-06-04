@@ -158,6 +158,10 @@ Helpful Links:
 
 **Problem of the Day:** [Albums Resource](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/albums_resource)
 
+* Agile
+  * How did it feel to have to match GitHub's pages exactly?
+  * Baby Duck Syndrome
+  * [XKCD on Breaking Someone's Workflow](https://xkcd.com/1172/)
 * Random Topics
   * The "10 minutes ago" problem
   * `rails-footnotes` gem
@@ -184,39 +188,27 @@ Helpful Links:
 [Wallet](https://github.com/tiyd-rails-2015-05/wallet)
 
 
-<!--
-
 ## Thursday - Heroku and Production
 
-**Challenge:** [Discuss Rails](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_rails.md)
+**Challenge:** [Environments](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_environments.md)
 
-**Problem of the Day:** Look at your Wallet application and find two places where the code could be DRYed out.  Do so.
-
-* Human Learning
-  * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
-  * Diagrams: Data model vs workflow diagrams
-
-**Problem of the Day:** Since code your users access has to be more stable than the code on your development laptop (and may need patches), how would you organize your branches to make this doable?
-
-
-* Agile
+* Random Topics
   * Baby Duck Syndrome
-  * [XKCD on Breaking Someone's Workflow](https://xkcd.com/1172/)
-* Rails Servers
-  * WEBrick vs. Mongrel vs. Puma
-  * `./bin/rails`
-* Dev vs. Production
-* GitFlow
+  * Helpers
+  * `.html_safe`
+  * XSS
+* Rails Servers (WEBrick vs. Mongrel vs. Puma)
+* Dev vs. Test vs. Production
 * Heroku
   * `git remote` review
   * Set up account
   * Create new Heroku project
   * Move `sqlite3` gem
-  * Add `pg` and `rails_12factor gems`
+  * Add `pg` and `rails_12factor` gems to production
   * `bundle install --without production`
-  * heroku add remote command
-  * git push heroku master
-  * heroku run rake db:migrate
+  * `heroku add remote`
+  * `git push heroku master`
+  * `heroku run rake db:migrate`
 
 #### Lecture Notes/Links
 
@@ -243,9 +235,6 @@ Helpful Links:
 * Integration Testing
 * [Example Hybrid API app developed in class](https://github.com/tiyd-rails-2015-01/api_creation_example)
 * Ping-pong pairing
-* Helpers
-  * TODO: Find better motivating example.
-  * XSS
 * Git
   * `git stash`
   * `git reset`

@@ -27,10 +27,8 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** Modify your Health Tracker app to display a different photo on each of the four index pages.  Don't link to a photo, but have a photo stored in your app.
 
 * Human Learning
-  * Networking
-  * Self Confidence vs. Arrogance
-  * Bragging vs. Marketing
-  * Entitlement of the Software Developer Community
+  * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
+  * Diagrams: Data model vs workflow diagrams
 * Workflow Diagrams
 * The Asset Pipeline
 * SCSS
@@ -57,8 +55,10 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** Modify your menu application so that people can log in, and only allow those who have logged in to edit the items.
 
 * Human Learning
-  * "Code Quality"
-  *[XKCD on Code Quality](http://xkcd.com/1513/)
+  * Networking
+  * Self Confidence vs. Arrogance
+  * Bragging vs. Marketing
+  * Entitlement of the Software Developer Community
 * Session
 * Authentication
   * `has_secure_password`
@@ -84,6 +84,9 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Add a new controller called "events" to Teacherbook.  This controller can say whatever you want, but it must be accessible to anyone, even if they haven't logged in.  The rest of the app should still require teacher login.
 
+* Human Learning
+  * "Code Quality"
+  *[XKCD on Code Quality](http://xkcd.com/1513/)
 * Authorization
 * Scope
   * `default_scope`
