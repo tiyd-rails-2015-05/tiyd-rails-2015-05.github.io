@@ -24,9 +24,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge:** [ActiveRecord](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_active_record.md)
 
-**Problem of the Day:** [Health Tracker Photos]()
-
-Modify your Health Tracker app to display a different photo on each of the four index pages.  Don't link to a photo, but have a photo stored in your app.
+**Problem of the Day:** [Health Tracker Photos](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/health_tracker_photos)
 
 * Human Learning
   * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
@@ -70,7 +68,7 @@ Modify your Health Tracker app to display a different photo on each of the four 
 
 **Challenge:** [REST](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_rest.md)
 
-**Problem of the Day:** Modify your menu application so that people can log in, and only allow those who have logged in to edit the items.
+**Problem of the Day:** [Menu Authentication](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/menu_authentication)
 
 * Human Learning
   * Networking
