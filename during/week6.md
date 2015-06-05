@@ -26,6 +26,9 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** [Health Tracker Photos](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/health_tracker_photos)
 
+* Random Topics
+  * How to use modules on this assignment!
+  * `include` vs. `extend`
 * Human Learning
   * Data 1st vs. Behavior 1st (Thinking in Nouns vs. Verbs)
   * Diagrams: Data model vs workflow diagrams
@@ -52,6 +55,9 @@ Students should be comfortable with the following at the end of this week:
 
 ## Not yet covered
 
+* SQL (at all)
+* Nested routes
+* Member and collection routes
 * Random Topics
   * Action on your server trying to access the API on your server
   * Deadlock
@@ -98,7 +104,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge:** [HTML Forms](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/html_forms.md)
 
-**Problem of the Day:** Add a new controller called "events" to Teacherbook.  This controller can say whatever you want, but it must be accessible to anyone, even if they haven't logged in.  The rest of the app should still require teacher login.
+**Problem of the Day:** [Teacherbook Authorization](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/teacherbook_authorization)
 
 * Human Learning
   * "Code Quality"
@@ -128,9 +134,10 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge:** [Helpers and Partials](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_helpers_and_partials.md)
 
-**Problem of the Day:** Change Gradebook so that you can add many grades for a student at one time.
+**Problem of the Day:** [Mass Grade Assignment](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/mass_grade_assignment)
 
 * `accepts_nested_attributes`
+* Project kickoff with Front End Engineering
 
 #### Lecture Notes/Links
 
@@ -141,23 +148,16 @@ Students should be comfortable with the following at the end of this week:
 * [Pro Git Ch. 3.5](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches)
 * [Pro Git Ch. 3.6](http://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
-#### Assignment - IN PAIRS
+## Weekend Assignment - IN PAIRS
 
-* Begin [Survey Opossum](https://github.com/tiyd-rails-2015-05/survey_opossum)
+[Survey Opossum](https://github.com/tiyd-rails-2015-05/survey_opossum)
+
+Thursday afternoon to Friday morning:
 
   1. Create an ERD for the data structure needed to accomplish this.
   2. Create a new Rails app with all models and migrations needed for this project.
   3. Scaffold the Survey class.  That's where most of your work will be done.
   4. Make sure that your scaffolded test suite runs.
   5. Deploy to Heroku.  Make sure that you can migrate and load a page (any page) in your browser without errors.
-
-
-## Friday
-
-* Group project kickoff with Chris.
-
-## Weekend Assignment - IN GROUPS
-
-[Survey Opossum](https://github.com/tiyd-rails-2015-05/survey_opossum)
 
 -->
