@@ -96,6 +96,7 @@ Students should be comfortable with the following at the end of this week:
 
 ## Not yet covered
 
+* `.ruby-version`
 * SQL (at all)
 * Random Topics
   * Action on your server trying to access the API on your server
