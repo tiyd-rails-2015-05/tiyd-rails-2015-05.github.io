@@ -127,7 +127,6 @@ Helpful Links:
 * View Intro without models
   * Motivating Example: A rails app that asks me for my time zone, then gives me the time.
   * `strftime()`
-  * `config.time_zone = 'Eastern Time (US & Canada)'`
 * Mini-lecture:
   * OAuth Token auth with GitHub
 

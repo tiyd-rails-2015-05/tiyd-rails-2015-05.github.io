@@ -40,6 +40,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/NENKqv1M-Hs)
 * [The Asset Pipeline on Heroku](https://devcenter.heroku.com/articles/rails-4-asset-pipeline)
 * [SCSS Guide](http://sass-lang.com/)
 
@@ -54,23 +55,6 @@ Students should be comfortable with the following at the end of this week:
 
 <!--
 
-## Not yet covered
-
-* SQL (at all)
-* Nested routes
-* Member and collection routes
-* Random Topics
-  * Action on your server trying to access the API on your server
-  * Deadlock
-* Integration Testing
-  * [Why Minitest instead of Rspec](http://brandonhilkert.com/blog/7-reasons-why-im-sticking-with-minitest-and-fixtures-in-rails/)
-* Ping-pong pairing
-* Git
-  * `git stash`
-  * `git reset`
-  * `git filter-branch`
-
-
 ## Tuesday - Session and Authentication
 
 **Challenge:** [REST](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_rest.md)
@@ -82,15 +66,22 @@ Students should be comfortable with the following at the end of this week:
   * Self Confidence vs. Arrogance
   * Bragging vs. Marketing
   * Entitlement of the Software Developer Community
+* Random Topics
+  * Nested Routes
+  * Collection/Member Routes
+  * `Time.zone.now.today?`
+  * `config.time_zone = 'Eastern Time (US & Canada)'`
 * Session
 * Authentication
   * `has_secure_password`
   * `BCrypt::Password.create("password", cost: 4)`
   * [XKCD on Passwords](https://xkcd.com/936/)
+* Integration Tests
 
 #### Lecture Notes/Links
 
 *
+* [Why Minitest instead of Rspec](http://brandonhilkert.com/blog/7-reasons-why-im-sticking-with-minitest-and-fixtures-in-rails/)
 
 #### Evening Reading
 
@@ -100,6 +91,20 @@ Students should be comfortable with the following at the end of this week:
 
 [Teacherbook](https://github.com/tiyd-rails-2015-05/teacherbook)
 
+
+<!--
+
+## Not yet covered
+
+* SQL (at all)
+* Random Topics
+  * Action on your server trying to access the API on your server
+  * Deadlock
+* Ping-pong pairing
+* Git
+  * `git stash`
+  * `git reset`
+  * `git filter-branch`
 
 ## Wednesday - Authorization and Scope
 
