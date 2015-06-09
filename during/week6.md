@@ -53,34 +53,34 @@ Students should be comfortable with the following at the end of this week:
 [Restaurant Menu](https://github.com/tiyd-rails-2015-05/restaurant_menu)
 
 
-<!--
-
 ## Tuesday - Session and Authentication
 
 **Challenge:** [REST](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_rest.md)
 
 **Problem of the Day:** [Menu Authentication](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/menu_authentication)
 
+* Random Topics
+  * `.ruby-version`
+  * Nested Routes
+  * Collection/Member Routes
+  * `Time.zone.now.today?`
+  * `config.time_zone = 'Eastern Time (US & Canada)'`
 * Human Learning
   * Networking
   * Self Confidence vs. Arrogance
   * Bragging vs. Marketing
   * Entitlement of the Software Developer Community
-* Random Topics
-  * Nested Routes
-  * Collection/Member Routes
-  * `Time.zone.now.today?`
-  * `config.time_zone = 'Eastern Time (US & Canada)'`
+* Integration Tests
 * Session
 * Authentication
+  * Build our own
   * `has_secure_password`
   * `BCrypt::Password.create("password", cost: 4)`
   * [XKCD on Passwords](https://xkcd.com/936/)
-* Integration Tests
 
 #### Lecture Notes/Links
 
-*
+* [has_secure_password Documentation](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html)
 * [Why Minitest instead of Rspec](http://brandonhilkert.com/blog/7-reasons-why-im-sticking-with-minitest-and-fixtures-in-rails/)
 
 #### Evening Reading
@@ -96,7 +96,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Not yet covered
 
-* `.ruby-version`
 * SQL (at all)
 * Random Topics
   * Action on your server trying to access the API on your server
@@ -121,7 +120,7 @@ Students should be comfortable with the following at the end of this week:
   * `default_scope`
 * Delegation
   * `delegate :category, to: :phone_categories`
-* Capybara?
+* Capybara
 
 
 #### Lecture Notes/Links
