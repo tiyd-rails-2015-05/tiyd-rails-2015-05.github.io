@@ -70,8 +70,10 @@ Students should be comfortable with the following at the end of this week:
   * Self Confidence vs. Arrogance
   * Bragging vs. Marketing
   * Entitlement of the Software Developer Community
-* Integration Tests
 * Session
+* Flash
+  * `flash` vs. `flash.now`
+  * Render vs. Redirect
 * Authentication
   * Build our own
   * `has_secure_password`
@@ -98,6 +100,9 @@ Students should be comfortable with the following at the end of this week:
 
 ## Not yet covered
 
+
+* Integration Tests
+  * HTTP Response Types
 * SQL (at all)
 * Random Topics
   * Action on your server trying to access the API on your server
@@ -116,7 +121,7 @@ Students should be comfortable with the following at the end of this week:
 
 * Human Learning
   * "Code Quality"
-  *[XKCD on Code Quality](http://xkcd.com/1513/)
+  * [XKCD on Code Quality](http://xkcd.com/1513/)
 * Authorization
 * Scope
   * `default_scope`
