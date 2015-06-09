@@ -119,6 +119,9 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** [Teacherbook Authorization](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/teacherbook_authorization)
 
+* Random Topics
+  * Multi-tenancy
+  * Don't set your root to be your login page
 * Human Learning
   * "Code Quality"
   * [XKCD on Code Quality](http://xkcd.com/1513/)
