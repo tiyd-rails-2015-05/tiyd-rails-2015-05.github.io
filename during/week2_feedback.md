@@ -4,6 +4,205 @@ layout: default
 
 # Week 2 Homework Feedback
 
+## Currency Converter
+
+#### README Style
+
+I got a few READMEs where everything was either bold or all headers.  It's best to be a bit more judicious with your use of bold and headers.  The majority of your text should be standard paragraph text (No `##`s or `**`s around it.)
+
+#### Default parameter selection
+
+Here's some code from a Currency class:
+
+    def initialize(entry, optional_amount = "000.00")
+      @codes = {
+        '$' => 'USD' , '€' => 'EUR', '¥' => 'JPY', '£' => 'GBP', '₽' => 'RUB',
+        '₨' => 'INR', '₩' => 'KRW', '₦' => 'NGN', '₴' => 'UAH', '₭' => 'LAK',
+        '₱' => 'PHP', '₮' => 'MNT', '₺' => 'TRY', '฿' => 'THB', '﷼' => 'SAR',
+        '₹' => 'INR', '₲' => 'PYG', '₡' => 'CRC', '₸' => 'KZT', '₫' => 'VND' }
+      if optional_amount == "000.00"
+        ...
+      end
+    end
+
+`"000.00"` is definitely an unlikely amount for someone to send in, but it's probably better to use a tradition default value like `nil`.  You can then say `if optional_amount.nil?` or `unless optional_amount`.
+
+#### Methods for storing complex values
+
+Regarding the code above, it's also a bit extraneous to put that hash in initialize.  It never ever changes, so you don't have to put it in a variable.  You could instead do this:
+
+    def initialize(entry, optional_amount = "000.00")
+      if optional_amount == "000.00"
+        ...
+      end
+    end
+
+    def codes
+      { '$' => 'USD' , '€' => 'EUR', '¥' => 'JPY', '£' => 'GBP', '₽' => 'RUB',
+        '₨' => 'INR', '₩' => 'KRW', '₦' => 'NGN', '₴' => 'UAH', '₭' => 'LAK',
+        '₱' => 'PHP', '₮' => 'MNT', '₺' => 'TRY', '฿' => 'THB', '﷼' => 'SAR',
+        '₹' => 'INR', '₲' => 'PYG', '₡' => 'CRC', '₸' => 'KZT', '₫' => 'VND' }
+    end
+
+... and now whenever you call `codes`, it's there!  It also has a nice side benefit of making your `def initialize` easier to read.
+
+#### Comment Indentation
+
+A minor thing, but comments should be indented the same way as code.  For instance:
+
+    #checks that currency objects with same
+    # currency ammount and codes are equal
+      def == (currency)
+        code == currency.code && amount == currency.amount
+      end
+
+... should be ...
+
+      #checks that currency objects with same
+      #currency amount and codes are equal
+      def == (currency)
+        code == currency.code && amount == currency.amount
+      end
+
+#### A Classy Initialize
+
+Take a look at this initialize method:
+
+    def initialize(code, amount = nil)
+      code_hash = {"$" => :USD, "€"=> :EUR,"¥"=> :JPY, "£"=>  :GBP}
+      if amount
+        @code = code.to_sym
+        @amount = amount
+      else
+        @code = code_hash[code[0]]
+        @amount = code[1..-1].to_f
+      end
+    end
+
+It's very nice, and it allows you to either give it `"$1.20"` or `"USD", 1.2` as parameters.  Even better, it lets you enter `"USD"` the string OR `:USD` the symbol.  On the inside, it converts the field to a symbol, and if you call `to_sym` on a symbol, it just stays a symbol.  Very elegant.
+
+#### `p` when you should return
+
+Here's an `==` method from last night:
+
+    def ==(other)
+      if self.amount == other.amount && self.currency_code == other.currency_code
+        p true
+      else
+        p false
+      end
+    end
+
+Unfortunately, this method is a bit dangerous.  `p true` does also return true, but it's better to separate side effects like `p` from return values.  If, for instance, we had written `puts true`, it would NOT return true.  `puts` always returns nil.  This method would be better written as:
+
+    def ==(other)
+      if self.amount == other.amount && self.currency_code == other.currency_code
+        p true
+      else
+        p false
+      end
+    end
+
+or even better:
+
+    def ==(other)
+      self.amount == other.amount && self.currency_code == other.currency_code
+    end
+
+#### Methods inside methods
+
+So, it's confession time.  There's something that I've been keeping from you: you can put methods inside methods.  However, the reason that I've been keeping it from you is that you SHOULDN'T.  Here's an example:
+
+    def initialize(amount=0.0, code='$')
+      currency_symbols = {"€" => "EUR", "$" => "USD"}
+      def symbol_check(hash, string)
+        hash.each do |key, value|
+          if string.include?(key)
+            return true
+          end
+        end
+        return false
+      end
+
+      def symbol_get(hash, string)
+        hash.each do |key, value|
+          if string.include?(key)
+            return key, value
+          end
+        end
+      end
+
+      if symbol_check(currency_symbols, amount)
+        symbol, code = symbol_get(currency_symbols, amount)
+        @amount = amount.delete(symbol).to_f
+        @code = code
+      else
+        @amount = amount.to_f
+        @code = code
+      end
+    end
+
+That is ALL in `initialize`.  It works... but most would argue that it's hard to read.  There's no need to define that stuff all inside `initialize`, though, when you can do it immediately afterwards like this:
+
+    def initialize(amount=0.0, code='$')
+      currency_symbols = {"€" => "EUR", "$" => "USD"}
+
+      if symbol_check(currency_symbols, amount)
+        symbol, code = symbol_get(currency_symbols, amount)
+        @amount = amount.delete(symbol).to_f
+        @code = code
+      else
+        @amount = amount.to_f
+        @code = code
+      end
+    end
+
+
+    def symbol_check(hash, string)
+      hash.each do |key, value|
+        if string.include?(key)
+          return true
+        end
+      end
+      return false
+    end
+
+
+    def symbol_get(hash, string)
+      hash.each do |key, value|
+        if string.include?(key)
+          return key, value
+        end
+      end
+    end
+
+Easier to follow now?
+
+#### Simplifying `unless`
+
+We totally got rid of an `if` in class, but we can do the same thing with `unless`.  Look at this:
+
+    def != (other)
+      unless @amount == other.amount && @code == other.code
+        true
+      else
+        false
+      end
+    end
+
+You might say "Just return `@amount == other.amount && @code == other.code`!"  Unfortunately, the `unless` means that we're doing the opposite.  Still, though, we can use `!`:
+
+    def != (other)
+      !(@amount == other.amount && @code == other.code)
+    end
+
+Tada!
+
+#### Class Variables
+
+Any variable that starts with `@@` (e.g. `@@count`) is called a "class variable."  Don't use them.  Really.  They are not friendly.  We'll talk about them in class tomorrow.
+
+
 ## Battleship
 
 #### Doubly-defined Methods
@@ -185,84 +384,3 @@ This is on the Player class.  Without looking at the rest of the code, I'm guess
 #### Don't Forget the READMEs
 
 What else can I say about this one?
-
-
-## Employee Reviews
-
-#### Placeholder Code
-
-Here's a (rather hilarious) method that I ran across:
-
-    def god_help_me (do_something_helpful)
-    end
-
-While the humor is appreciated, it is important to clean code like this up before turning it in.  The method was empty and probably just a placeholder for later work.
-
-A more common option is to write a `#TODO` comment.  That makes it easy to search for later.
-
-#### Yielding to Blocks... Then ignoring the result
-
-Here's some code for Part 2 of the homework:
-
-    def department_wide_raise(amount)
-      good_employees = @department_staff.select{|employee| yield(employee)
-          employee.verdict != "Good" && employee.salary > 2000}
-      good_employees.each {|employee| employee.salary += amount.to_f/good_employees.count}
-    end
-
-The last time is spot on.  But look at what's happening in the `select` block.  First off, if we have more than one line, it's best to use `do..end` instead of `{...}`.  Let's convert it:
-
-    def department_wide_raise(amount)
-      good_employees = @department_staff.select do |employee|
-        yield(employee)
-        employee.verdict != "Good" && employee.salary > 2000
-      end
-      good_employees.each {|employee| employee.salary += amount.to_f/good_employees.count}
-    end
-
-Now we're talking.  Note that `select` is going to return an array of items from `@department_staff` for which the last line of the block's code returns true.  This means that the result of the yield gets TOTALLY ignored (since it's not the last line in the block).  This code will work appropriately if you remove the `employee.verdict` line.
-
-#### Quality Asserts
-
-Check out this test:
-
-    def test_get_total_salary_for_department
-      don = Employee.new("Don", "don@don.com", 1231231234, 10000)
-      tom = Employee.new("Tom", "tom@don.com", 1231231234, 10000)
-      joan = Employee.new("Joan", "joan@don.com", 1231235555, 10000)
-      department = Department.new(name: "Advertising")
-      department.assign(don, tom, joan)
-      department.total_salary
-    end
-
-This is a pitfall when writing tests; it certainly DOES something, but it doesn't have any asserts in it.  This test will pass all the time.  This could be caught by making sure that you always write FAILING tests first.
-
-Here's another one which looks better, but which has the same fault:
-
-    def test_13_add_raise_to_employee
-      steve = Employee.new(name: "Steve", email: "hello@gmail.com", phone: 404803666, salary: 1000)
-      assert steve.give_raise(1000)
-    end
-
-What this really tests is whether the `give_raise` function returns something truthy.  It makes no assertions that the raise was for the appropriate amount, or even that the salary changed at all.  This test needs the following additional assertion to be a quality test:
-
-    assert_equal 2000, steve.salary
-
-
-#### Phantom Attributes
-
-The following code will run successfully:
-
-    class Department
-      attr_reader :employees, :name, :reviews, :salary
-      def initialize(name:)
-        @name = name
-        @employees = []
-        @salary = salary
-      end
-      ...
-    end
-
-But let's look at the lines in `initialize` one at a time.  The first line makes sense.  `name` is a parameter, so we can save it in `@name`.  The second line also makes sense; we need an empty array in which we can accumulate employees later.  The third line, though... where is `salary` coming from?
-
-It turns out that that line calls the `salary` METHOD, which has been set up by the attr_reader.  It's reading a previously-nonexistant instance variable called `@salary`, and all previously non-existant instance variables evaluate to `nil`.  So it's basically setting a variable equal to itself... and that value is `nil`.  This line runs (even though it looks like it shouldn't), but it does nothing and can be removed.

@@ -4,6 +4,87 @@ layout: default
 
 # Week 3 Homework Feedback
 
+## Employee Reviews
+
+#### Placeholder Code
+
+Here's a (rather hilarious) method that I ran across:
+
+    def god_help_me (do_something_helpful)
+    end
+
+While the humor is appreciated, it is important to clean code like this up before turning it in.  The method was empty and probably just a placeholder for later work.
+
+A more common option is to write a `#TODO` comment.  That makes it easy to search for later.
+
+#### Yielding to Blocks... Then ignoring the result
+
+Here's some code for Part 2 of the homework:
+
+    def department_wide_raise(amount)
+      good_employees = @department_staff.select{|employee| yield(employee)
+          employee.verdict != "Good" && employee.salary > 2000}
+      good_employees.each {|employee| employee.salary += amount.to_f/good_employees.count}
+    end
+
+The last time is spot on.  But look at what's happening in the `select` block.  First off, if we have more than one line, it's best to use `do..end` instead of `{...}`.  Let's convert it:
+
+    def department_wide_raise(amount)
+      good_employees = @department_staff.select do |employee|
+        yield(employee)
+        employee.verdict != "Good" && employee.salary > 2000
+      end
+      good_employees.each {|employee| employee.salary += amount.to_f/good_employees.count}
+    end
+
+Now we're talking.  Note that `select` is going to return an array of items from `@department_staff` for which the last line of the block's code returns true.  This means that the result of the yield gets TOTALLY ignored (since it's not the last line in the block).  This code will work appropriately if you remove the `employee.verdict` line.
+
+#### Quality Asserts
+
+Check out this test:
+
+    def test_get_total_salary_for_department
+      don = Employee.new("Don", "don@don.com", 1231231234, 10000)
+      tom = Employee.new("Tom", "tom@don.com", 1231231234, 10000)
+      joan = Employee.new("Joan", "joan@don.com", 1231235555, 10000)
+      department = Department.new(name: "Advertising")
+      department.assign(don, tom, joan)
+      department.total_salary
+    end
+
+This is a pitfall when writing tests; it certainly DOES something, but it doesn't have any asserts in it.  This test will pass all the time.  This could be caught by making sure that you always write FAILING tests first.
+
+Here's another one which looks better, but which has the same fault:
+
+    def test_13_add_raise_to_employee
+      steve = Employee.new(name: "Steve", email: "hello@gmail.com", phone: 404803666, salary: 1000)
+      assert steve.give_raise(1000)
+    end
+
+What this really tests is whether the `give_raise` function returns something truthy.  It makes no assertions that the raise was for the appropriate amount, or even that the salary changed at all.  This test needs the following additional assertion to be a quality test:
+
+    assert_equal 2000, steve.salary
+
+
+#### Phantom Attributes
+
+The following code will run successfully:
+
+    class Department
+      attr_reader :employees, :name, :reviews, :salary
+      def initialize(name:)
+        @name = name
+        @employees = []
+        @salary = salary
+      end
+      ...
+    end
+
+But let's look at the lines in `initialize` one at a time.  The first line makes sense.  `name` is a parameter, so we can save it in `@name`.  The second line also makes sense; we need an empty array in which we can accumulate employees later.  The third line, though... where is `salary` coming from?
+
+It turns out that that line calls the `salary` METHOD, which has been set up by the attr_reader.  It's reading a previously-nonexistant instance variable called `@salary`, and all previously non-existant instance variables evaluate to `nil`.  So it's basically setting a variable equal to itself... and that value is `nil`.  This line runs (even though it looks like it shouldn't), but it does nothing and can be removed.
+
+
 ## Employees and Departments in the Database
 
 #### Map Can Be Overkill
@@ -279,138 +360,3 @@ Let's take that previous example a bit farther (further?).  The `assert` line is
     end
 
 It actually tests that the objects can be retrieved, which is more complicated than detecting whether the foreign key numbers match.
-
-
-## Weather Report
-
-#### Specific Tests Once You Have Mocking
-
-The mocking work that you all did was excellent.  Once you have it set up, though, you can be more specific with your tests.  Take this one, for instance:
-
-    def test_wind
-      wind = CurrentConditions.new(82009)
-      assert wind.display_wind.match(/\d*?\.\d MPH/)
-    end
-
-No need to use broad regular expressions on this one; now that you've got a data set in a JSON file, you can be very specific about which MPH you expect to get.  You'd hate to be matching a different field that happens to use MPH and not realize it.
-
-
-#### Testing Mocking
-
-Here's a mock I saw:
-
-    class SunRiseSet
-      private def get_data
-        JSON.parse(File.open("astronomy.json").read)
-      end
-    end
-
-Looks good... except the actual class in your application was `SunUpDown`.  This means that your mock wasn't a monkey-patch of an existing class, so the mock never ran.
-
-In order to test that you've mocked properly, you can always shut off your wifi and see if your tests will still run.
-
-#### No User Input on Tests
-
-Here's what I got when I ran a test suite:
-
-    [masonfmatthews weather_report]$ ruby test.rb
-    What zip code would you like to search for weather details? Press enter
-    to exit
-
-When you write tests, you want to make sure that no user input is needed.  If the user has to type something, the tests are (a) slower and (b) potentially brittle.
-
-#### Class Variables
-
-OH NOOOOOO!!!
-
-    class WeatherTest < Minitest::Test
-
-      @@summary = ConditionsSummary.new(27516)
-      @@tenday = TenDayForecast.new(27516)
-      @@alerts = Alerts.new(70032)
-      @@astronomy = Astronomy.new(27516)
-      @@hurricanes = Hurricanes.new
-
-      def test...
-      end
-
-      ...
-    end
-
-Please no!  Never instance variables!  This is somewhat better:
-
-    class WeatherTest < Minitest::Test
-
-      def setup
-        @summary = ConditionsSummary.new(27516)
-        @tenday = TenDayForecast.new(27516)
-        @alerts = Alerts.new(70032)
-        @astronomy = Astronomy.new(27516)
-        @hurricanes = Hurricanes.new
-      end
-
-      def test...
-      end
-
-      ...
-    end
-
-The best, though, is to create them as you need them rather than all the time.  Code duplication in tests is no big deal.
-
-#### Breaking out of Loops
-
-Someone added a feature that let users continue to enter zip codes until they chose to stop.  Here's a section of the code:
-
-    ...
-
-    def repeat
-      loop do
-        puts
-        print "Wanna go again?(Y/N): "
-        input = gets.chomp
-        puts
-        break if input == 'y' || input == 'Y'
-        exit if input == 'n' || input == 'N'
-      end
-    end
-
-    welcome
-    loop do
-      zip = input
-      forecast(zip)
-      repeat
-    end
-
-This gives `repeat` a ton of power, including the ability to bring everything to a screeching halt with `exit`.  It's not good to give methods that power, because they can trash everything that calls them.  Here's a better way to accomplish the same thing:
-
-    ...
-
-    def repeat
-      loop do
-        puts
-        print "Wanna go again?(Y/N): "
-        input = gets.chomp
-        puts
-        return true if input == 'y' || input == 'Y'
-        return false if input == 'n' || input == 'N'
-      end
-    end
-
-    welcome
-    loop do
-      zip = input
-      forecast(zip)
-      break unless repeat
-    end
-
-#### `p` vs. `puts`
-
-As you know, `p` is great for putting arrays to the console.  However, it gets weird with strings:
-
-    What location would you like information for?
-    27278
-    "The temperature is now 88.7ºF."
-    "Sunrise was at 6:03am."
-    "The sun will set at 8:23pm today."
-
-This is the output that I got when running one program.  The extra quotes are because of using `p`.  For simple things like strings, just use `puts`.
