@@ -21,13 +21,11 @@ layout: default
 #### Rails Testing
 
 * `def test_something` can become `test "something" do`
-
-#### Rails Unit Test Suggestions
-
-*
+* `def setup` can become `setup do` (same with `teardown`)
 
 #### Rails Controller Test Statements
 
+* `get`, `post`, etc.
 * `assert_response`
 * `assert_select(css_selector)`
 * `assert_select(css_selector, number_expected)`
@@ -35,18 +33,14 @@ layout: default
 * `assert_template`
 * `assigns(:instance_variable)` - actually gives you back what's stored in that instance variable
 * `response.body`
-
-#### Rails Controller Test Suggestions
-
 * `assert response.body =~ /something I expect/`
 
 #### Rails Integration Test Statements
 
-*
-
-#### Rails Integration Test Suggestions
-
-*
+* `follow_redirect!`
+* `assert_select "a[href=?]", logout_path, count: 0`
+* `assert flash[:error]`
+* `assert flash.empty?`
 
 #### One Overall Approach
 

@@ -80,6 +80,8 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/7Vaz1wa7N84)
+* [Our First Authentication Project](https://github.com/tiyd-rails-2015-05/our_first_authentication)
 * [has_secure_password Documentation](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html)
 * [Why Minitest instead of Rspec](http://brandonhilkert.com/blog/7-reasons-why-im-sticking-with-minitest-and-fixtures-in-rails/)
 
