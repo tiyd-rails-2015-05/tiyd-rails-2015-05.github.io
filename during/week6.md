@@ -77,7 +77,6 @@ Students should be comfortable with the following at the end of this week:
 * Authentication
   * Build our own
   * `has_secure_password`
-  * `BCrypt::Password.create("password", cost: 4)`
   * [XKCD on Passwords](https://xkcd.com/936/)
 
 #### Lecture Notes/Links
@@ -103,10 +102,11 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** [Teacherbook Authorization](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/teacherbook_authorization)
 
 * Random Topics
+  * `BCrypt::Password.create("password", cost: 4)`
   * Multi-tenancy
   * Don't set your root to be your login page
+* HTTP Response Types
 * Integration Tests
-  * HTTP Response Types
 * Human Learning
   * "Code Quality"
   * [XKCD on Code Quality](http://xkcd.com/1513/)
@@ -118,10 +118,9 @@ Students should be comfortable with the following at the end of this week:
 * Delegation
   * `delegate :category, to: :phone_categories`
 
-
 #### Lecture Notes/Links
 
-*
+* [Class Video]()
 
 #### Evening Reading
 
@@ -146,6 +145,8 @@ Students should be comfortable with the following at the end of this week:
   * `git filter-branch`
 
 ## Thursday - Nested Attributes
+
+**Challenge Starting Point:** [Tabula Railsa](https://github.com/tiyd-rails-2015-05/tabula_railsa)
 
 **Challenge:** [Helpers and Partials](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_helpers_and_partials.md)
 
