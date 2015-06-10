@@ -55,7 +55,7 @@ Students should be comfortable with the following at the end of this week:
 
 ## Tuesday - Session and Authentication
 
-**Challenge:** [REST](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_rest.md)
+**Challenge:** [form_for](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_form_for.md)
 
 **Problem of the Day:** [Menu Authentication](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/menu_authentication)
 
@@ -96,41 +96,27 @@ Students should be comfortable with the following at the end of this week:
 [Teacherbook](https://github.com/tiyd-rails-2015-05/teacherbook)
 
 
-<!--
-
-## Not yet covered
-
-
-* Integration Tests
-  * HTTP Response Types
-* SQL (at all)
-* Random Topics
-  * Action on your server trying to access the API on your server
-  * Deadlock
-* Ping-pong pairing
-* Git
-  * `git stash`
-  * `git reset`
-  * `git filter-branch`
-
 ## Wednesday - Authorization and Scope
 
-**Challenge:** [HTML Forms](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/html_forms.md)
+**Challenge:** [REST](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_rest.md)
 
 **Problem of the Day:** [Teacherbook Authorization](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/teacherbook_authorization)
 
 * Random Topics
   * Multi-tenancy
   * Don't set your root to be your login page
+* Integration Tests
+  * HTTP Response Types
 * Human Learning
   * "Code Quality"
   * [XKCD on Code Quality](http://xkcd.com/1513/)
-* Authorization
+* Authorization Approaches
 * Scope
   * `default_scope`
+  * `scope`
+  * Defining methods on associations
 * Delegation
   * `delegate :category, to: :phone_categories`
-* Capybara
 
 
 #### Lecture Notes/Links
@@ -145,6 +131,19 @@ Students should be comfortable with the following at the end of this week:
 
 [Gradebook](https://github.com/tiyd-rails-2015-05/gradebook)
 
+<!--
+
+## Not yet covered
+
+* SQL (at all)
+* Random Topics
+  * Action on your server trying to access the API on your server
+  * Deadlock
+* Ping-pong pairing
+* Git
+  * `git stash`
+  * `git reset`
+  * `git filter-branch`
 
 ## Thursday - Nested Attributes
 
@@ -153,6 +152,7 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** [Mass Grade Assignment](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/mass_grade_assignment)
 
 * `accepts_nested_attributes`
+* Capybara
 * Project kickoff with Front End Engineering
 
 #### Lecture Notes/Links
