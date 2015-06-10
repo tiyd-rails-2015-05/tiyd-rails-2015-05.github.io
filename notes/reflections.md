@@ -1,11 +1,21 @@
-# Reflections for the next class
+# Reflections for this class
 
-* Update assignment JSONs as we work through cohort 4.
-* APIs - dig more into other gems: rails-api, jbuilder, ActiveModel Serializers, Restclient, Doorkeeper
 * Graphing sooner if possible
 * I'd like some better real-world examples about code which takes up too much memory, leaks, invokes garbage collection, etc.  jeg2 said he can do it "easily."  Maybe a search will give a starting point.
 
-Other assignment ideas:
+# Reflections for the next class
+
+* Update assignment JSONs.
+* Write a markdown page with lots of links which details the entire curriculum.
+* Clear up the difference between mocking and stubbing.
+
+# Changes to app
+
+* Score challenges
+* Incorporate student feedback scores
+* Score assignment with one number and a comment field.
+
+# Other assignment ideas
 
 * Unbeatable Tic-tac-toe (https://xkcd.com/832/)
 * Minesweeper
@@ -15,7 +25,7 @@ Other assignment ideas:
 * Hotel Accessibility Review Site
 * Close a Github issue from the command line.
 
-Never got to:
+# Never got to
 
 * Macros
   * https://pragmaticstudio.com/blog/2015/4/14/ruby-macros
@@ -24,14 +34,11 @@ Never got to:
 * Singleton methods (`def dog1.hunt ... end`)
   * there's no such thing as a Class method.
 * `define_method()`
-* Multi-tenancy
 * Simplecov
 * Versioning in a Database
 * Disabled_at pattern (soft delete)
-* Mocking and stubbing
 * http://mislav.uniqpath.com/poignant-guide/
 * Single Table Inheritance
-* Call-by-reference surprises
 * scoped associations
 
     class Item < ActiveRecord::Base
@@ -44,6 +51,6 @@ Never got to:
 
     Item.first.orders.for_user(current_user)
 
-Additional concepts to assess:
+# Additional concepts to assess:
 
 * README
