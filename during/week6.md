@@ -107,20 +107,17 @@ Students should be comfortable with the following at the end of this week:
   * Don't set your root to be your login page
 * HTTP Response Types
 * Integration Tests
-* Human Learning
-  * "Code Quality"
-  * [XKCD on Code Quality](http://xkcd.com/1513/)
+* Access vs. Authentication vs. Authorization
 * Authorization Approaches
 * Scope
   * `default_scope`
   * `scope`
   * Defining methods on associations
-* Delegation
-  * `delegate :category, to: :phone_categories`
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video](http://youtu.be/JSqFD3Fh3V0)
+* [Example app with integration test and scopes](https://github.com/tiyd-rails-2015-05/integration_test_example)
 
 #### Evening Reading
 
@@ -134,6 +131,11 @@ Students should be comfortable with the following at the end of this week:
 
 ## Not yet covered
 
+* Human Learning
+  * "Code Quality"
+  * [XKCD on Code Quality](http://xkcd.com/1513/)
+* Delegation
+  * `delegate :category, to: :phone_categories`
 * SQL (at all)
 * Random Topics
   * Action on your server trying to access the API on your server
