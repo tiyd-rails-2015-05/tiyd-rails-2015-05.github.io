@@ -136,15 +136,12 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** [Mass Grade Assignment](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/mass_grade_assignment)
 
-* Human Learning
-  * "Code Quality"
-  * [XKCD on Code Quality](http://xkcd.com/1513/)
 * `accepts_nested_attributes`
 * Project kickoff with Front End Engineering
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video](http://youtu.be/Ou-9ii94Ofg)
 
 #### Evening Reading
 

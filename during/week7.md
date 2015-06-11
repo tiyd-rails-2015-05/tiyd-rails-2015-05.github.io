@@ -22,6 +22,9 @@ Students should be comfortable with the following at the end of this week:
 
 ## Not yet covered
 
+* Human Learning
+  * "Code Quality"
+  * [XKCD on Code Quality](http://xkcd.com/1513/)
 * Capybara
 * Delegation
   * `delegate :category, to: :phone_categories`
