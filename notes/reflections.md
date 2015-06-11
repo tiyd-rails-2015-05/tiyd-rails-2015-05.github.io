@@ -6,6 +6,7 @@
 # Reflections for the next class
 
 * Update assignment JSONs.
+* Incorporate Owen's
 * Write a markdown page with lots of links which details the entire curriculum.
 * Clear up the difference between mocking and stubbing.
 
@@ -13,7 +14,8 @@
 
 * Score challenges
 * Incorporate student feedback scores
-* Score assignment with one number and a comment field.
+* Score assignment with one number and a comment field
+* Multi-tenancy?
 
 # Other assignment ideas
 

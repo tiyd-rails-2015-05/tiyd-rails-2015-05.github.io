@@ -127,24 +127,6 @@ Students should be comfortable with the following at the end of this week:
 
 [Gradebook](https://github.com/tiyd-rails-2015-05/gradebook)
 
-<!--
-
-## Not yet covered
-
-* Human Learning
-  * "Code Quality"
-  * [XKCD on Code Quality](http://xkcd.com/1513/)
-* Delegation
-  * `delegate :category, to: :phone_categories`
-* SQL (at all)
-* Random Topics
-  * Action on your server trying to access the API on your server
-  * Deadlock
-* Ping-pong pairing
-* Git
-  * `git stash`
-  * `git reset`
-  * `git filter-branch`
 
 ## Thursday - Nested Attributes
 
@@ -154,13 +136,15 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** [Mass Grade Assignment](https://github.com/masonfmatthews/rails_assignments/blob/master/exercises/mass_grade_assignment)
 
+* Human Learning
+  * "Code Quality"
+  * [XKCD on Code Quality](http://xkcd.com/1513/)
 * `accepts_nested_attributes`
-* Capybara
 * Project kickoff with Front End Engineering
 
 #### Lecture Notes/Links
 
-*
+* [Class Video]()
 
 #### Evening Reading
 
@@ -178,5 +162,3 @@ Thursday afternoon to Friday morning:
   3. Scaffold the Survey class.  That's where most of your work will be done.
   4. Make sure that your scaffolded test suite runs.
   5. Deploy to Heroku.  Make sure that you can migrate and load a page (any page) in your browser without errors.
-
--->

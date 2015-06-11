@@ -18,6 +18,23 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
+<!--
+
+## Not yet covered
+
+* Capybara
+* Delegation
+  * `delegate :category, to: :phone_categories`
+* SQL (at all)
+* Random Topics
+  * Action on your server trying to access the API on your server
+  * Deadlock
+* Ping-pong pairing
+* Git
+  * `git stash`
+  * `git reset`
+  * `git filter-branch`
+
 ## Monday - Survey Opossum Lab Time
 
 * Ad hoc discussions and review with Mason and Chris.
@@ -170,3 +187,5 @@ Students should be comfortable with the following at the end of this week:
 ## Weekend Assignment - IN PAIRS
 
 [Todo List](https://github.com/tiyd-rails-2015-05/todo_app)
+
+-->
