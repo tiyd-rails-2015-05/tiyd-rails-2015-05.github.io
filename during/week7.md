@@ -18,6 +18,10 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
+## Monday - Survey Opossum Lab Time
+
+* Ad hoc discussions and review with Mason and Chris.
+
 <!--
 
 ## Not yet covered
@@ -37,14 +41,12 @@ Students should be comfortable with the following at the end of this week:
   * `git stash`
   * `git reset`
   * `git filter-branch`
-
-## Monday - Survey Opossum Lab Time
-
-* Ad hoc discussions and review with Mason and Chris.
-
+  
 ## Tuesday - JavaScript
 
-#### Lecture
+**Challenge Starting Point:** [Tabula Railsa](https://github.com/tiyd-rails-2015-05/tabula_railsa)
+
+**Challenge:** [Helpers and Partials](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_helpers_and_partials.md)
 
 **Problem of the Day:** Write down: what was the hardest thing that the Front End students had to do this weekend?  What was the easiest?
 
@@ -108,8 +110,6 @@ Students should be comfortable with the following at the end of this week:
 
 ## Wednesday - jQuery
 
-#### Lecture
-
 **Problem of the Day:** Write down: which part of JavaScript seems to be the worst, given your one-day experience with it?
 
 * Human Learning
@@ -141,8 +141,6 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Thursday - AJAX
-
-#### Lecture
 
 **Problem of the Day:** Change your application from last night so that the modal save button actually saves the data but doesn't refresh the page.
 
