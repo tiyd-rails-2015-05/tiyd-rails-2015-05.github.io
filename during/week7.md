@@ -41,7 +41,7 @@ Students should be comfortable with the following at the end of this week:
   * `git stash`
   * `git reset`
   * `git filter-branch`
-  
+
 ## Tuesday - JavaScript
 
 **Challenge Starting Point:** [Tabula Railsa](https://github.com/tiyd-rails-2015-05/tabula_railsa)
@@ -49,6 +49,9 @@ Students should be comfortable with the following at the end of this week:
 **Challenge:** [Helpers and Partials](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_helpers_and_partials.md)
 
 **Problem of the Day:** Write down: what was the hardest thing that the Front End students had to do this weekend?  What was the easiest?
+
+* Random Topics
+  * `config.action_controller.action_on_unpermitted_parameters = :raise`
 
 * Javascript
   * Surprisingly similar to ruby

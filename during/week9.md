@@ -19,9 +19,7 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - Runtime Optimizations
-
-#### Lecture
+## Monday - Runtime and Memory Optimizations
 
 **Problem of the Day:** XXX
 
@@ -45,9 +43,7 @@ Students should be comfortable with the following at the end of this week:
 Start [Ruby Koans](http://rubykoans.com/).  Work through `about_constants.rb`.
 
 
-## Tuesday - Memory Optimizations
-
-#### Lecture
+## Tuesday - D3.js
 
 **Problem of the Day:** XXX
 
@@ -69,33 +65,11 @@ Start [Ruby Koans](http://rubykoans.com/).  Work through `about_constants.rb`.
 Work on [Ruby Koans](http://rubykoans.com/) through `about_open_classes.rb`.
 
 
-## Wednesday - Refactoring for Skinny Models
-
-#### Lecture
+## Wednesday - Skinny Models, Non-Rails Frameworks
 
 **Problem of the Day:** XXX
 
-*
-
-#### Lecture Notes/Links
-
-*
-
-#### Evening Reading
-
-* [Build an app in Rails vs. Sinatra](https://www.airpair.com/ruby-on-rails/posts/rails-vs-sinatra?utm_source=rubyweekly&utm_medium=email)
-
-#### Assignment
-
-Complete [Ruby Koans](http://rubykoans.com/).
-
-
-## Thursday - Non-Rails Frameworks
-
-#### Lecture
-
-**Problem of the Day:** XXX
-
+* Decomposing Fat Models
 * CI (Mike)
 * vim (Michael)
 * Dvorak keyboards, ergonomic chairs, treadmill desks, etc.
@@ -109,10 +83,23 @@ Complete [Ruby Koans](http://rubykoans.com/).
   * [Padrino](http://www.padrinorb.com/)
   * [Camping](http://camping.io/)
 
-#### Evening Reading
-
-* [Coding is Not the New Literacy](http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/)
-
 #### Lecture Notes/Links
 
 *
+
+#### Evening Reading
+
+* [Build an app in Rails vs. Sinatra](https://www.airpair.com/ruby-on-rails/posts/rails-vs-sinatra?utm_source=rubyweekly&utm_medium=email)
+
+#### Assignment
+
+Complete [Ruby Koans](http://rubykoans.com/).
+
+## Thursday
+
+Pitch Day!
+
+#### Eventual Reading
+
+* [Coding is Not the New Literacy](http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/)
+* [What is Code?](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
