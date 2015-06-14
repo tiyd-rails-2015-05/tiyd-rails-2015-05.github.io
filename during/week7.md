@@ -113,6 +113,8 @@ Students should be comfortable with the following at the end of this week:
 
 ## Wednesday - jQuery
 
+**Challenge:** [Session](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_session.md)
+
 **Problem of the Day:** Write down: which part of JavaScript seems to be the worst, given your one-day experience with it?
 
 * Human Learning
@@ -144,6 +146,8 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Thursday - AJAX
+
+**Challenge:** [Discuss Git Messes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_git_messes.md)
 
 **Problem of the Day:** Change your application from last night so that the modal save button actually saves the data but doesn't refresh the page.
 
