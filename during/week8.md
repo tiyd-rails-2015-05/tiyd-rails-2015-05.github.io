@@ -140,6 +140,8 @@ Students should be comfortable with the following at the end of this week:
 
 ## Thursday - OAuth
 
+**Challenge:** [Double Loop Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/double_loop_challenge.md)
+
 **Problem of the Day:** Modify Gradebook to allow you to log in with your Facebook credentials.
 
 * API Security
