@@ -25,8 +25,8 @@ e-mail if things don't work as described below.
 * Install XCode Command Line Tools
   * Go to the [Apple Developer Downloads site](https://developer.apple.com/downloads/).
   * You will have to register.
-  * If you are running Mavericks, look for "Command Line Tools (OS X 10.9) for Xcode - Xcode 6.1.1" (Uploaded December 2014).
-  * If you are running Yosemite, look for "Command Line Tools (OS X 10.10) for Xcode - Xcode 6.1.1" (Uploaded December 2014).
+  * If you are running Mavericks, look for "Command Line Tools (OS X 10.9) for Xcode - Xcode ..."
+  * If you are running Yosemite, look for "Command Line Tools (OS X 10.10) for Xcode - Xcode ..."
   * Download it, run it, and follow all the prompts.
 
 * Install Homebrew
@@ -40,24 +40,31 @@ e-mail if things don't work as described below.
   * `echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.profile`
   * Run `ls -a ~`. If you see `.bash_profile` or `.bashrc`, get a TA or instructor to help you.
 
-* Install ruby 2.2.1
+* Install ruby 2.2.2
   * Close and reopen Terminal.
-  * `rbenv install 2.2.1`
+  * `rbenv install 2.2.2`
   * Go and get some coffee. That last one will take a while.
-  * `rbenv global 2.2.1`
+  * `rbenv global 2.2.2`
 
-* Install nodejs
+<!-- * Install nodejs
   * In Terminal
-  * `brew install nodejs`
+  * `brew install nodejs` -->
 
 * Install git
   * In Terminal
   * `brew install git`
+  * `git config --global push.default simple`
+  * `git config --global credential.helper osxkeychain`
 
-* Create an SSH key (__do not__ give it a password when it asks for one)
+* Install Heroku Toolbelt
+  * Download the Toolbelt from [this page](https://toolbelt.heroku.com/).
+  * Run it and follow the install steps.
+  * Open Terminal and run `heroku login`.  Enter your Heroku credentials when asked.
+
+<!-- * Create an SSH key (__do not__ give it a password when it asks for one)
   * `ssh-keygen`
   * Press enter at the first prompt to stick with the default file name.
-  * Press enter at the second prompt to give it no password.
+  * Press enter at the second prompt to give it no password. -->
 
 * Add the following applications to your Dock
   * Atom
