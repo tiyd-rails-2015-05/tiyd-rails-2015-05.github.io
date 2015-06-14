@@ -37,14 +37,15 @@ e-mail if things don't work as described below.
 * Install rbenv & ruby-build
   * Open up Terminal (or if you've still got it open, keep using it).
   * `brew install ruby-build rbenv`
-  * `echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.profile`
-  * Run `ls -a ~`. If you see `.bash_profile` or `.bashrc`, get a TA or instructor to help you.
+  * `echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile`
 
 * Install ruby 2.2.2
   * Close and reopen Terminal.
   * `rbenv install 2.2.2`
   * Go and get some coffee. That last one will take a while.
   * `rbenv global 2.2.2`
+  * Close and reopen Terminal.
+  * Run `which ruby`. If you see a path starting with `/usr/bin/`, get a TA or instructor to help you.
 
 <!-- * Install nodejs
   * In Terminal
