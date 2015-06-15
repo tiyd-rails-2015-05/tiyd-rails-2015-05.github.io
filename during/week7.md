@@ -65,9 +65,12 @@ Students should be comfortable with the following at the end of this week:
   * Alert
   * Log
   * `getElementById`
-  * `getElementByClassName`
-  * `lastElementChild`
-  * `cloneNode`
+  * `getElementsByClassName`
+  * '.value'
+  * '.style'
+  * `.lastElementChild`
+  * `.cloneNode(true)`
+  * `.appendChild(copy)`
 * JS in:
   * in HTML tags
   * in Rails files
