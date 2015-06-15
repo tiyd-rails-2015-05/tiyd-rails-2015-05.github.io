@@ -22,26 +22,6 @@ Students should be comfortable with the following at the end of this week:
 
 * Ad hoc discussions and review with Mason and Chris.
 
-<!--
-
-## Not yet covered
-
-* Human Learning
-  * "Code Quality"
-  * [XKCD on Code Quality](http://xkcd.com/1513/)
-* Capybara
-* Delegation
-  * `delegate :category, to: :phone_categories`
-* SQL (at all)
-* Random Topics
-  * Action on your server trying to access the API on your server
-  * Deadlock
-* Ping-pong pairing
-* Git
-  * `git stash`
-  * `git reset`
-  * `git filter-branch`
-
 ## Tuesday - JavaScript
 
 **Challenge Starting Point:** [Tabula Railsa](https://github.com/tiyd-rails-2015-05/tabula_railsa)
@@ -96,11 +76,12 @@ Students should be comfortable with the following at the end of this week:
   * Hiding or showing section based on a radio button
   * Copying something on the page
 
+
+
 #### Lecture Notes/Links
-
-* [Application from homework review](https://github.com/tiyd-rails-2015-01/online_voting_example)
+<!--
 * [Application from afternoon](https://github.com/tiyd-rails-2015-01/javascript_playground)
-
+-->
 #### Evening Reading
 
 * Chapters 3 and 4 of [Eloquent JavaScript](http://eloquentjavascript.net/)
@@ -110,6 +91,25 @@ Students should be comfortable with the following at the end of this week:
 * [Add Javascript](https://github.com/tiyd-rails-2015-05/add_javascript)
   * [Starting Point](https://github.com/tiyd-rails-2015-05/coursyl)
 
+<!--
+
+## Not yet covered
+
+* Human Learning
+  * "Code Quality"
+  * [XKCD on Code Quality](http://xkcd.com/1513/)
+* Capybara
+* Delegation
+  * `delegate :category, to: :phone_categories`
+* SQL (at all)
+* Random Topics
+  * Action on your server trying to access the API on your server
+  * Deadlock
+* Ping-pong pairing
+* Git
+  * `git stash`
+  * `git reset`
+  * `git filter-branch`
 
 ## Wednesday - jQuery
 

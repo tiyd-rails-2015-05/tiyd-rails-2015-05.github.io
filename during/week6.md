@@ -147,6 +147,7 @@ Students should be comfortable with the following at the end of this week:
 
 * [Pro Git Ch. 3.5](http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches)
 * [Pro Git Ch. 3.6](http://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+* [`inverse_of`](http://viget.com/extend/exploring-the-inverse-of-option-on-rails-model-associations)
 
 ## Weekend Assignment - IN PAIRS
 
