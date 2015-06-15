@@ -21,6 +21,8 @@ Students should be comfortable with the following at the end of this week:
 
 ## Monday - SQL and AREL
 
+**Challenge:** [Discuss Rails](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_rails.md)
+
 **Problem of the Day:** Open your Gradebook app.  Change the code to make the list of all grades load twice as fast.
 
 * In Class: [Database Optimizations](https://github.com/tiyd-rails-2015-05/database_optimizations)
@@ -71,6 +73,8 @@ Students should be comfortable with the following at the end of this week:
 
 ## Tuesday - Mailer and Background Processing
 
+**Challenge:** [Javascript (in Tabula Railsa)](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_javascript.md)
+
 **Problem of the Day:** Modify last night's application so that an e-mail is sent to mason@example.com whenever a new assembly is created.
 
 * Human Learning: Technical Debt
@@ -104,6 +108,8 @@ Students should be comfortable with the following at the end of this week:
 
 ## Wednesday - File Uploads
 
+**Challenge:** [JQuery (in Tabula Railsa)](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_jquery.md)
+
 **Problem of the Day:** Allow user to upload a 200 MB file when each new assembly is created.
 
 * Files as part of HTML forms
@@ -133,6 +139,8 @@ Students should be comfortable with the following at the end of this week:
 
 
 ## Thursday - OAuth
+
+**Challenge:** [Double Loop Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/double_loop_challenge.md)
 
 **Problem of the Day:** Modify Gradebook to allow you to log in with your Facebook credentials.
 

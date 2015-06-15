@@ -21,6 +21,10 @@ Students should be comfortable with the following at the end of this week:
 
 ## Monday - Runtime and Memory Optimizations
 
+**Challenge:** [Primes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/hard_primes_challenge.md)
+
+**Crazy Challenge:** [Permutations](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/hard_permutation_challenge.md)
+
 **Problem of the Day:** XXX
 
 * Runtime
@@ -66,6 +70,10 @@ Work on [Ruby Koans](http://rubykoans.com/) through `about_open_classes.rb`.
 
 
 ## Wednesday - Skinny Models, Non-Rails Frameworks
+
+**Challenge:** [Discuss Development](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_development.md)
+
+**Challenge:** [Discuss Supporting Tech](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_supporting_tech.md)
 
 **Problem of the Day:** XXX
 
