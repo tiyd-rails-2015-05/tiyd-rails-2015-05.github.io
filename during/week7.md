@@ -53,7 +53,7 @@ Students should be comfortable with the following at the end of this week:
   * Can be stored in variables
   * `[1, 2, 3].forEach(function (number) { console.log(number * number); });`
 
-    function greet(greeting) {
+    <!-- function greet(greeting) {
       return function() {
         return greeting + " world!";
       };
@@ -61,16 +61,16 @@ Students should be comfortable with the following at the end of this week:
     var hello = greet("Hello");
     var goodbye = greet("Goodbye");
     hello(); // Hello world!
-    goodbye(); // Goodbye world!
+    goodbye(); // Goodbye world! -->
 
 * JS in the Console
   * Alert
   * Log
-  * `getElementById`
-  * `getElementsByClassName`
+  * `document.getElementById()`
+  * `document.getElementsByClassName()`
   * '.value'
-  * '.style'
-  * `.lastElementChild`
+  * '.style....'
+  * `.lastElementChild` - it's sometimes tough to know what's a function and what's just a value!
   * `.cloneNode(true)`
   * `.appendChild(copy)`
 * JS in:
@@ -81,12 +81,12 @@ Students should be comfortable with the following at the end of this week:
   * Hiding or showing section based on a radio button
   * Copying something on the page
 
-
-
 #### Lecture Notes/Links
-<!--
-* [Application from afternoon](https://github.com/tiyd-rails-2015-01/javascript_playground)
--->
+
+* [Class Video](http://youtu.be/B7MaDahu3A4)
+* [Ruby-to-JavaScript Example](w7-2/javascript.txt)
+* [JavaScript Playground](https://github.com/tiyd-rails-2015-05/javascript_playground)
+
 #### Evening Reading
 
 * Chapters 3 and 4 of [Eloquent JavaScript](http://eloquentjavascript.net/)
