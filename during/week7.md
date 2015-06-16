@@ -38,9 +38,11 @@ Students should be comfortable with the following at the end of this week:
   * `var` keyword
   * `do..end` vs `{}`
   * `==` vs `===`
-  * `[1, 2, 3] === [1, 2, 3]`
+    * `1 == "1"`
+    * `[1, 2, 3] === [1, 2, 3]`... sigh
   * methods vs functions
   * implicit vs explicit return
+  * Weird returns (`a++`)
   * hashes vs "objects"
   * numbers
   * `else if`
