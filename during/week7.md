@@ -26,7 +26,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge Starting Point:** [Tabula Railsa](https://github.com/tiyd-rails-2015-05/tabula_railsa)
 
-**Challenge:** [Helpers and Partials](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_helpers_and_partials.md)
+**Challenge:** [Helpers and Partials](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_helpers_and_partials.md) <!-- Terrible.  Too vague.  -->
 
 **Problem of the Day:** Write down: what was the hardest thing that the Front End students had to do this weekend?  What was the easiest?
 
@@ -113,19 +113,22 @@ Students should be comfortable with the following at the end of this week:
   * `javascript:void(0)`
   * `addEventListener()`
   * `event.target`
+* Declarative Style of Programming
 * JQuery
-  * `$(selector)`
+  * `$("selector")`
+  * `$(event.target)`
   * `$(function())`
-  * `.on()`
   * `.attr()`
-  * `.style()`
+  * `.css()`
+  * `.prop()` - for disabled and checked
   * `.val()`
-  * `.closest()`
+  * Getters and setters are not different methods like Ruby.  You add one parameter to a getter method and it becomes a setter method.
+  * `.closest()` - closest ancestor
+  * `.filter()` - further refine a selection
+  * `.find()` - any descendants that match
   * `.submit()`
   * `.children().last().clone()`
-  * `.append(copy)`
-* Unobtrusive Javascript
-  * Using `data-` attributes to select
+  * `.append(copied_thing)`
 
 #### Lecture Notes/Links
 
@@ -142,26 +145,7 @@ Students should be comfortable with the following at the end of this week:
 * [Add jQuery](https://github.com/tiyd-rails-2015-05/add_jquery)
   * [Starting Point](https://github.com/tiyd-rails-2015-05/coursyl_with_some_jquery)
 
-
 <!--
-
-## Not yet covered
-
-* Human Learning
-  * "Code Quality"
-  * [XKCD on Code Quality](http://xkcd.com/1513/)
-* Capybara
-* Delegation
-  * `delegate :category, to: :phone_categories`
-* SQL (at all)
-* Random Topics
-  * Action on your server trying to access the API on your server
-  * Deadlock
-* Ping-pong pairing
-* Git
-  * `git stash`
-  * `git reset`
-  * `git filter-branch`
 
 ## Thursday - AJAX
 
@@ -176,7 +160,8 @@ Students should be comfortable with the following at the end of this week:
   * Installing gems vs. copying assets
   * Ruby Toolbox
   * `dateselect` vs `datetimeselect`
-
+* Unobtrusive Javascript
+  * Using `data-` attributes to select
 * AJAX
   * The way to replace sections of a page without reloading the whole page!
   * `remote: true` on links and forms

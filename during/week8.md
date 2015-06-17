@@ -18,6 +18,24 @@ Students should be comfortable with the following at the end of this week:
 * [Challenge Submission Form](http://goo.gl/forms/OzzXZL6iEF)
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
+<!--
+## Not yet covered
+
+* Human Learning
+  * "Code Quality"
+  * [XKCD on Code Quality](http://xkcd.com/1513/)
+* Capybara
+* Delegation
+  * `delegate :category, to: :phone_categories`
+* SQL (at all)
+* Random Topics
+  * Action on your server trying to access the API on your server
+  * Deadlock
+* Ping-pong pairing
+* Git
+  * `git stash`
+  * `git reset`
+  * `git filter-branch`
 
 ## Monday - SQL and AREL
 
@@ -160,3 +178,5 @@ Students should be comfortable with the following at the end of this week:
 ## Weekend Assignment
 
 [Gradebook Tickets](https://github.com/tiyd-rails-2015-05/gradebook_tickets)
+
+-->
