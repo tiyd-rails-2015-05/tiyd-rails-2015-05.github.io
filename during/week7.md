@@ -127,9 +127,9 @@ Students should be comfortable with the following at the end of this week:
   * [12 Questions](w7-1/12questions.pdf)
 * More JavaScript
   * Load order
+  * Javascript in script tags
   * Hide last row
   * `addEventListener()`
-  * Javascript in script tags
 * JQuery
 * Unobtrusive Javascript
   * Using `data-` attributes to select
@@ -138,7 +138,6 @@ Students should be comfortable with the following at the end of this week:
 
 * [Javascript playground with some JQuery](https://github.com/tiyd-rails-2015-01/javascript_playground)
 * [Last Night's homework with some JQuery](https://github.com/tiyd-rails-2015-01/coursyl_with_some_jquery)
-* [Video from Today](http://youtu.be/DeoxHlqCowc)
 
 #### Evening Reading
 
