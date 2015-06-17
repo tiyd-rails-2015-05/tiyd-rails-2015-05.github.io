@@ -132,7 +132,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video](http://youtu.be/xMElC5zLIpg)
 * [Javascript playground v2](https://github.com/tiyd-rails-2015-05/javascript_playground)
 * [Last night's homework with some JQuery](https://github.com/tiyd-rails-2015-05/coursyl_with_some_jquery)
 
