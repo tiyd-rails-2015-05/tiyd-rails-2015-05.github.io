@@ -96,6 +96,58 @@ Students should be comfortable with the following at the end of this week:
 * [Add Javascript](https://github.com/tiyd-rails-2015-05/add_javascript)
   * [Starting Point](https://github.com/tiyd-rails-2015-05/coursyl)
 
+
+## Wednesday - jQuery
+
+**Challenge:** [Session](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_session.md)
+
+**Problem of the Day:** Write down: which part of JavaScript seems to be the worst, given your one-day experience with it?
+
+* Human Learning
+  * [Autonomy/Mastery/Purpose](https://www.youtube.com/watch?v=u6XAPnuFjJc)
+  * [12 Questions](w7-3/12questions.pdf)
+* More JavaScript
+  * Load order
+  * Javascript in script tags
+<<<<<<< HEAD
+  * Hide last row
+  * `addEventListener()`
+=======
+  * Script tags at the bottom of the page
+  * `javascript:void(0)`
+  * `addEventListener()`
+  * `event.target`
+>>>>>>> 007efba65fb39ae04254e0a8edb0d3d79fe8d7f6
+* JQuery
+  * `$(selector)`
+  * `$(function())`
+  * `.on()`
+  * `.attr()`
+  * `.style()`
+  * `.val()`
+  * `.closest()`
+  * `.submit()`
+  * `.children().last().clone()`
+  * `.append(copy)`
+* Unobtrusive Javascript
+  * Using `data-` attributes to select
+
+#### Lecture Notes/Links
+
+* [Class Video]()
+* [Javascript playground v2](https://github.com/tiyd-rails-2015-05/javascript_playground)
+* [Last night's homework with some JQuery](https://github.com/tiyd-rails-2015-05/coursyl_with_some_jquery)
+
+#### Evening Reading
+
+* Chapters 5 and 12 of [Eloquent JavaScript](http://eloquentjavascript.net/)
+
+#### Assignment
+
+* [Add jQuery](https://github.com/tiyd-rails-2015-05/add_jquery)
+  * [Starting Point](https://github.com/tiyd-rails-2015-05/coursyl_with_some_jquery)
+
+
 <!--
 
 ## Not yet covered
@@ -115,39 +167,6 @@ Students should be comfortable with the following at the end of this week:
   * `git stash`
   * `git reset`
   * `git filter-branch`
-
-## Wednesday - jQuery
-
-**Challenge:** [Session](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_session.md)
-
-**Problem of the Day:** Write down: which part of JavaScript seems to be the worst, given your one-day experience with it?
-
-* Human Learning
-  * [Autonomy/Mastery/Purpose](https://www.youtube.com/watch?v=u6XAPnuFjJc)
-  * [12 Questions](w7-1/12questions.pdf)
-* More JavaScript
-  * Load order
-  * Javascript in script tags
-  * Hide last row
-  * `addEventListener()`
-* JQuery
-* Unobtrusive Javascript
-  * Using `data-` attributes to select
-
-#### Lecture Notes/Links
-
-* [Javascript playground with some JQuery](https://github.com/tiyd-rails-2015-01/javascript_playground)
-* [Last Night's homework with some JQuery](https://github.com/tiyd-rails-2015-01/coursyl_with_some_jquery)
-
-#### Evening Reading
-
-* Chapters 5 and 12 of [Eloquent JavaScript](http://eloquentjavascript.net/)
-
-#### Assignment
-
-* [Add jQuery](https://github.com/tiyd-rails-2015-05/add_jquery)
-  * [Starting Point](https://github.com/tiyd-rails-2015-05/coursyl_with_some_jquery)
-
 
 ## Thursday - AJAX
 
