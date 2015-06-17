@@ -109,15 +109,10 @@ Students should be comfortable with the following at the end of this week:
 * More JavaScript
   * Load order
   * Javascript in script tags
-<<<<<<< HEAD
-  * Hide last row
-  * `addEventListener()`
-=======
   * Script tags at the bottom of the page
   * `javascript:void(0)`
   * `addEventListener()`
   * `event.target`
->>>>>>> 007efba65fb39ae04254e0a8edb0d3d79fe8d7f6
 * JQuery
   * `$(selector)`
   * `$(function())`
