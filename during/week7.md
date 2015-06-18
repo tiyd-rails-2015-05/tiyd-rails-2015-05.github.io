@@ -174,7 +174,7 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Class Video]()
-* [AJAX Quote App]()
+* [AJAX Quote App](https://github.com/tiyd-rails-2015-05/quote_app)
 * [JQuery UI](http://jqueryui.com/)
 * [Ruby Toolbox](https://www.ruby-toolbox.com)
 
