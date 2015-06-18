@@ -174,6 +174,7 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Class Video](http://youtu.be/X9FQ4UF3Ou4)
+* [Undoing Git Messes](w7-4/git_messes)
 * [AJAX Quote App](https://github.com/tiyd-rails-2015-05/quote_app)
 * [JQuery UI](http://jqueryui.com/)
 * [Ruby Toolbox](https://www.ruby-toolbox.com)
