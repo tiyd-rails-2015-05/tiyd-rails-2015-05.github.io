@@ -145,7 +145,6 @@ Students should be comfortable with the following at the end of this week:
 * [Add jQuery](https://github.com/tiyd-rails-2015-05/add_jquery)
   * [Starting Point](https://github.com/tiyd-rails-2015-05/coursyl_with_some_jquery)
 
-<!--
 
 ## Thursday - AJAX
 
@@ -159,9 +158,8 @@ Students should be comfortable with the following at the end of this week:
   * The downsides of linking to external styles/javascript
   * Installing gems vs. copying assets
   * Ruby Toolbox
-  * `dateselect` vs `datetimeselect`
 * Unobtrusive Javascript
-  * Using `data-` attributes to select
+  * Using `data-` attributes
 * AJAX
   * The way to replace sections of a page without reloading the whole page!
   * `remote: true` on links and forms
@@ -171,9 +169,9 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video]()
+* [AJAX Quote App]()
 * [JQuery UI](http://jqueryui.com/)
-* [Video from Today](http://youtu.be/OLLb_ZVU_ow)
-* [AJAX Quote App](https://github.com/tiyd-rails-2015-01/example_ajax)
 * [Ruby Toolbox](https://www.ruby-toolbox.com)
 
 
@@ -182,21 +180,15 @@ Students should be comfortable with the following at the end of this week:
 * Chapters 13 and 14 of [Eloquent JavaScript](http://eloquentjavascript.net/)
 * [The creator of Rails speaks on how Rails does AJAX](https://signalvnoise.com/posts/3697-server-generated-javascript-responses)
 
-#### Assignment
-
-* [Auction Site with AJAX](https://github.com/tiyd-rails-2015-05/auction_ajax)
-
-
-## Friday - Check In
-
-* Homework review and preparation for the weekend assignment.
-
-#### Evening Reading
-
-* Chapters 17 and 18 of [Eloquent JavaScript](http://eloquentjavascript.net/)
 
 ## Weekend Assignment - IN PAIRS
 
+[Auction Site with AJAX](https://github.com/tiyd-rails-2015-05/auction_ajax)
+
+AND/OR
+
 [Todo List](https://github.com/tiyd-rails-2015-05/todo_app)
 
--->
+#### Weekend Reading
+
+* Chapters 17 and 18 of [Eloquent JavaScript](http://eloquentjavascript.net/)

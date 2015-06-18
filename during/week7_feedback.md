@@ -32,7 +32,21 @@ Here's an example of a file system that could use a lot of cleaning up:
     def thankyou
     end
 
+####
+
+    accepts_nested_attributes_for :questions, allow_destroy: true,
+        reject_if: proc { |attributes| attributes['question_text'].blank? },
+        reject_if: proc { |attributes| attributes['question_type'].blank? }
+
+
 ## Add JavaScript
+
+#### Set timeouts
+
+    function disabledButton(){
+      var button = document.getElementById("submit-button");
+      setTimeout(function(){ button.disabled = 'true'; }, 10);
+    }
 
 #### Load Order
 
@@ -43,3 +57,17 @@ Here's an example of a file system that could use a lot of cleaning up:
       console.log(lastRow);
     }
     window.onload = hideLast;
+
+####
+
+    function hideMyField() {
+      var sections = document.getElementsByClassName("association container");
+      var lastsections = sections[sections.length-1];
+        lastsections.color == green
+      if(lastsections.style.display === 'block') {
+        lastsections.style.display = 'none';
+      }
+      else{
+        lastsections.style.display = 'block';
+      }
+    }
