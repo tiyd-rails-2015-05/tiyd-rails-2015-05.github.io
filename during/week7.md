@@ -152,6 +152,10 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Change your application from last night so that the modal save button actually saves the data but doesn't refresh the page.
 
+* Git
+  * `git stash`
+  * `git reset`
+  * `git filter-branch`
 * Random topics
   * JQuery UI
   * JQuery Plugins
@@ -159,7 +163,7 @@ Students should be comfortable with the following at the end of this week:
   * Installing gems vs. copying assets
   * Ruby Toolbox
 * Unobtrusive Javascript
-  * Using `data-` attributes
+* Using `data-` attributes
 * AJAX
   * The way to replace sections of a page without reloading the whole page!
   * `remote: true` on links and forms
@@ -185,7 +189,7 @@ Students should be comfortable with the following at the end of this week:
 
 [Auction Site with AJAX](https://github.com/tiyd-rails-2015-05/auction_ajax)
 
-AND/OR
+THEN WORK ON:
 
 [Todo List](https://github.com/tiyd-rails-2015-05/todo_app)
 

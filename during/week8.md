@@ -32,10 +32,6 @@ Students should be comfortable with the following at the end of this week:
   * Action on your server trying to access the API on your server
   * Deadlock
 * Ping-pong pairing
-* Git
-  * `git stash`
-  * `git reset`
-  * `git filter-branch`
 
 ## Monday - SQL and AREL
 
