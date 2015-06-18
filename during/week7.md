@@ -189,7 +189,7 @@ Students should be comfortable with the following at the end of this week:
 
 [Auction Site with AJAX](https://github.com/tiyd-rails-2015-05/auction_ajax)
 
-THEN WORK ON:
+then start on:
 
 [Todo List](https://github.com/tiyd-rails-2015-05/todo_app)
 
