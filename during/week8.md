@@ -18,6 +18,59 @@ Students should be comfortable with the following at the end of this week:
 * [Challenge Submission Form](http://goo.gl/forms/OzzXZL6iEF)
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
+
+## Monday - SQL and AREL
+
+**Challenge:** [Discuss Rails](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_rails.md)
+
+**Problem of the Day:** [Survey Opossum Plus SQL](https://github.com/tiyd-rails-2015-05/survey_opossum_plus_sql)
+
+**Starting Point:** [Survey "Possum"](https://github.com/tiyd-rails-2015-05/survey_possum_example)
+
+* SQL
+  * (Alternate between these questions together and PotD questions as student groups)
+  * Find all questions
+  * Find all yes/no questions (where)
+  * Find the names of all yes/no questions (where, select)
+  * (First PotD question)
+  * Find the three answers which were given most recently (order, limit)
+  * (Second PotD question)
+  * Find the number of answers for each question_id (group)
+  * Find the last time at which a question of each type was created (group)
+  * (Third PotD question)
+  * Find the most common question type in a particular survey (given a survey_id) (group)
+  * (Fourth PotD question)
+  * Find all answers accompanied by question texts (join)
+  * (Fifth PotD question)
+  * Find all authors and their survey names (left join)
+  * Find all authors who have never created a survey (left join, check for null)
+  * (Sixth PotD question)
+  * [XKCD on SQL Injection](https://xkcd.com/327/)
+* AREL
+  * Intermediate AREL: `to_dos = ToDo.arel_table` followed by `where(to_dos[:title].matches("%#{search}%").or(to_dos[:title].matches("ALWAYS")))`
+* Indices
+  * Massive Seeds
+  * Database Indices
+  * Foreign Key Constraints
+  * Memory usage and find_each
+  * Polymorphic associations
+  * Double indices
+
+#### Lecture Notes/Links
+
+* [SQL Zoo Tutorials](http://sqlzoo.net/wiki/Main_Page)
+* [The guy who loves AREL](http://www.youtube.com/watch?v=ShPAxNcLm3o)
+
+#### Evening Reading
+
+* [Joins vs. Includes](http://blog.bigbinary.com/2013/07/01/preload-vs-eager-load-vs-joins-vs-includes.html)
+* [SQL to Rails Queries](http://guides.rubyonrails.org/v3.2.13/active_record_querying.html)
+* [How to Speed up ActiveRecord](http://blog.codeship.com/speed-up-activerecord/)
+
+#### Assignment
+
+[Database Optimizations](https://github.com/tiyd-rails-2015-05/database_optimizations)
+
 <!--
 ## Not yet covered
 
@@ -32,58 +85,6 @@ Students should be comfortable with the following at the end of this week:
   * Action on your server trying to access the API on your server
   * Deadlock
 * Ping-pong pairing
-
-## Monday - SQL and AREL
-
-**Challenge:** [Discuss Rails](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_rails.md)
-
-**Problem of the Day:** Open your Gradebook app.  Change the code to make the list of all grades load twice as fast.
-
-* In Class: [Database Optimizations](https://github.com/tiyd-rails-2015-05/database_optimizations)
-* SQL
-  * (From Survey Opossum)
-  * Find the names of all multiple choice questions (where)
-  * Find the answer which was given most recently (order, limit)
-  * Find the time at which of each type of question was last created (group)
-  * Find all answers accompanied by question texts (join)
-  * Find all authors and their survey names (left join)
-  * Find all authors who have never created a survey (left join, check for null)
-  * [XKCD on SQL Injection](https://xkcd.com/327/)
-* AREL
-  * Intermediate AREL
-
-    to_dos = ToDo.arel_table
-    where(to_dos[:title].matches("%#{search}%").or(to_dos[:title].matches("ALWAYS")))
-
-* Indices
-  * Massive Seeds
-  * Database Indices
-  * Foreign Key Constraints
-  * Memory usage and find_each
-  * Polymorphic associations
-  * Double indices
-
-#### Lecture Notes/Links
-
-* [SQL Zoo Tutorials](http://sqlzoo.net/wiki/Main_Page)
-* [The guy who loves AREL](http://www.youtube.com/watch?v=ShPAxNcLm3o)
-
-* [Database Optimizations](https://github.com/tiyd-rails-2015-01/database_optimizations)
-* [Video of Challenge Review](http://youtu.be/TWh8Ry4OQZc)
-* [Video of Homework Review](https://www.youtube.com/watch?v=jlJnz0haP-s)
-* [Video of Database Optimizations](http://youtu.be/MfY1mBw0OQU)
-* [Code Example Built in Class](https://github.com/tiyd-rails-2015-01/tons_of_students_example)
-
-#### Evening Reading
-
-* [Joins vs. Includes](http://blog.bigbinary.com/2013/07/01/preload-vs-eager-load-vs-joins-vs-includes.html)
-* [SQL to Rails Queries](http://guides.rubyonrails.org/v3.2.13/active_record_querying.html)
-* [How to Speed up ActiveRecord](http://blog.codeship.com/speed-up-activerecord/)
-
-#### Assignment
-
-[Survey Opossum Plus SQL](https://github.com/tiyd-rails-2015-05/survey_opossum_plus_sql)
-
 
 ## Tuesday - Mailer and Background Processing
 
