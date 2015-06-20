@@ -19,7 +19,7 @@ Students should be comfortable with the following at the end of this week:
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
 
 
-## Monday - SQL and AREL
+## Monday - SQL and DB Efficiency
 
 **Challenge:** [Discuss Rails](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_rails.md)
 
@@ -93,9 +93,10 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day:** Modify last night's application so that an e-mail is sent to mason@example.com whenever a new assembly is created.
 
 * Human Learning: Technical Debt
-  * Rebuilding!  Software development is a "wicked" problem
+  * Rebuilding
+  * Software development is a "wicked" problem
   * "Refactoring"
-* Stacks vs. Queues
+* Review stacks vs. queues
 * Queues in a Database Table
 * DelayedJob
 * ActiveJob
@@ -108,9 +109,6 @@ Students should be comfortable with the following at the end of this week:
 
 * [Rails Guides: ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html)
 * [SendGrid](https://addons.heroku.com/sendgrid?utm_campaign=category&utm_medium=dashboard&utm_source=addons)
-* [Video of Challenge and HW Review](https://www.youtube.com/watch?v=wla10CPMTUg)
-* [Video of Database Optimizations](https://www.youtube.com/watch?v=sPkraiw-IOI)
-* [Code Example Built in Class](https://github.com/tiyd-rails-2015-01/mailer_example)
 
 #### Evening Reading
 
@@ -175,5 +173,7 @@ Students should be comfortable with the following at the end of this week:
 ## Weekend Assignment
 
 [Gradebook Tickets](https://github.com/tiyd-rails-2015-05/gradebook_tickets)
+
+* [Starting Point](https://github.com/tiyd-rails-2015-05/gradebook_example)
 
 -->
