@@ -174,6 +174,4 @@ Students should be comfortable with the following at the end of this week:
 
 [Gradebook Tickets](https://github.com/tiyd-rails-2015-05/gradebook_tickets)
 
-* [Starting Point](https://github.com/tiyd-rails-2015-05/gradebook_example)
-
 -->
