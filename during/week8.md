@@ -58,6 +58,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
+* [Class Video](http://youtu.be/wugPSTYmNFs)
 * [SQL Zoo Tutorials](http://sqlzoo.net/wiki/Main_Page)
 * [The guy who loves AREL](http://www.youtube.com/watch?v=ShPAxNcLm3o)
 
