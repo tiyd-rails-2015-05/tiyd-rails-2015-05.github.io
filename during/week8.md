@@ -46,21 +46,15 @@ Students should be comfortable with the following at the end of this week:
   * Find all authors who have never created a survey (left join, check for null)
   * (Sixth PotD question)
   * [XKCD on SQL Injection](https://xkcd.com/327/)
-* AREL
-  * Intermediate AREL: `to_dos = ToDo.arel_table` followed by `where(to_dos[:title].matches("%#{search}%").or(to_dos[:title].matches("ALWAYS")))`
 * Indices
   * Massive Seeds
   * Database Indices
-  * Foreign Key Constraints
-  * Memory usage and find_each
-  * Polymorphic associations
   * Double indices
 
 #### Lecture Notes/Links
 
 * [Class Video](http://youtu.be/wugPSTYmNFs)
 * [SQL Zoo Tutorials](http://sqlzoo.net/wiki/Main_Page)
-* [The guy who loves AREL](http://www.youtube.com/watch?v=ShPAxNcLm3o)
 
 #### Evening Reading
 
@@ -72,20 +66,6 @@ Students should be comfortable with the following at the end of this week:
 
 [Database Optimizations](https://github.com/tiyd-rails-2015-05/database_optimizations)
 
-<!--
-## Not yet covered
-
-* Human Learning
-  * "Code Quality"
-  * [XKCD on Code Quality](http://xkcd.com/1513/)
-* Capybara
-* Delegation
-  * `delegate :category, to: :phone_categories`
-* SQL (at all)
-* Random Topics
-  * Action on your server trying to access the API on your server
-  * Deadlock
-* Ping-pong pairing
 
 ## Tuesday - Mailer and Background Processing
 
@@ -93,21 +73,32 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Modify last night's application so that an e-mail is sent to mason@example.com whenever a new assembly is created.
 
+* Random Topics
+  * `.joins`
+  * Polymorphic associations
+  * AREL: `to_dos = ToDo.arel_table` followed by `where(to_dos[:title].matches("%#{search}%").or(to_dos[:title].matches("ALWAYS")))`
 * Human Learning: Technical Debt
   * Rebuilding
   * Software development is a "wicked" problem
   * "Refactoring"
-* Review stacks vs. queues
-* Queues in a Database Table
-* DelayedJob
-* ActiveJob
+  * "Code Quality"
+  * [XKCD on Code Quality](http://xkcd.com/1513/)
+* Background Processing
+  * Review stacks vs. queues
+  * Queues in a Database Table
+  * DelayedJob
+  * ActiveJob
+  * Software threading
+  * Multi-core processors
 * Mailers
-* Mailer with a Delay
-* Software threading
-* Multi-core processors
+  * Mailer with a Delay
 
 #### Lecture Notes/Links
 
+* [Class Video]()
+* [The guy who loves AREL](http://www.youtube.com/watch?v=ShPAxNcLm3o)
+* [Rails Guides: ActiveJob](http://edgeguides.rubyonrails.org/active_job_basics.html)
+* [DelayedJob](https://github.com/collectiveidea/delayed_job)
 * [Rails Guides: ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html)
 * [SendGrid](https://addons.heroku.com/sendgrid?utm_campaign=category&utm_medium=dashboard&utm_source=addons)
 
@@ -120,6 +111,7 @@ Students should be comfortable with the following at the end of this week:
 [Delayed Mailer](https://github.com/tiyd-rails-2015-05/delayed_mailer)
 
 
+<!--
 ## Wednesday - File Uploads
 
 **Challenge:** [JQuery (in Tabula Railsa)](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_jquery.md)
@@ -162,6 +154,8 @@ Students should be comfortable with the following at the end of this week:
 * OAuth
 * Devise and Omniauth (Owen)
 * [SimpleForm](https://github.com/plataformatec/simple_form)
+* Ping-pong pairing
+* Capybara
 
 #### Lecture Notes/Links
 
@@ -175,4 +169,17 @@ Students should be comfortable with the following at the end of this week:
 
 [Gradebook Tickets](https://github.com/tiyd-rails-2015-05/gradebook_tickets)
 
+
+
+
+
+## Not yet covered
+
+* Foreign Key Constraints
+* Memory usage and find_each
+* Delegation
+  * `delegate :category, to: :phone_categories`
+* Random Topics
+  * Action on your server trying to access the API on your server
+  * Deadlock
 -->
