@@ -82,8 +82,6 @@ Students should be comfortable with the following at the end of this week:
   * Queues in a Database Table
   * DelayedJob
   * ActiveJob
-  * Software threading
-  * Multi-core processors
 * Mailers
   * Mailer with a Delay
 
@@ -183,4 +181,6 @@ Students should be comfortable with the following at the end of this week:
 * Random Topics
   * Action on your server trying to access the API on your server
   * Deadlock
+  * Software threading
+  * Multi-core processors
 -->
