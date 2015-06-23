@@ -96,6 +96,7 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Class Video](http://youtu.be/PykjUpp7Vpc)
+* [Example from Class](https://github.com/tiyd-rails-2015-05/mailer_example)
 * [The guy who loves AREL](http://www.youtube.com/watch?v=ShPAxNcLm3o)
 * [Rails Guides: ActiveJob](http://edgeguides.rubyonrails.org/active_job_basics.html)
 * [DelayedJob](https://github.com/collectiveidea/delayed_job)
