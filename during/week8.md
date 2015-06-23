@@ -82,13 +82,31 @@ Students should be comfortable with the following at the end of this week:
   * Queues in a Database Table
   * DelayedJob
   * ActiveJob
+* Background Processing Steps  
+  * Add gems `delayed_job_active_record` & `daemons`
+  * `bundle install`
+  * In config/application.rb:
+    * `config.active_job.queue_adapter = :delayed_job`
+    * `config.autoload_paths << Rails.root.join('app/jobs')`
+  * `rails generate delayed_job:active_record`
+  * `rake db:migrate`
+  * `bin/delayed_job start`
+  * `rails generate job JobName`
+  * Somewhere in our code: `JobName.perform_later(params[:something_important])`
+  * When you are done coding: `bin/delayed_job stop`
 * Mailers
   * Mailer with a Delay
+* Mailer Steps
+  * `rails g mailer MailerNameMailer action_name other_action_name`
+  * Modify views and mailers as you see fit
+  * Add gmail style config to `environments/development.rb` per http://guides.rubyonrails.org/action_mailer_basics.html#action-mailer-configuration-for-gmail
+  * Somewhere in our code: `MailerNameMailer.other_action_name.deliver_now`
 
 #### Lecture Notes/Links
 
 * [Class Video](http://youtu.be/PykjUpp7Vpc)
-* [Example from Class](https://github.com/tiyd-rails-2015-05/mailer_example)
+* [Mini-lecture Video](http://youtu.be/IdrIQMmD4_o)
+* [Example from Class and Mini-lecture](https://github.com/tiyd-rails-2015-05/mailer_example)
 * [The guy who loves AREL](http://www.youtube.com/watch?v=ShPAxNcLm3o)
 * [Rails Guides: ActiveJob](http://edgeguides.rubyonrails.org/active_job_basics.html)
 * [DelayedJob](https://github.com/collectiveidea/delayed_job)
