@@ -77,12 +77,6 @@ Students should be comfortable with the following at the end of this week:
   * `.joins`
   * Polymorphic associations
   * AREL: `to_dos = ToDo.arel_table` followed by `where(to_dos[:title].matches("%#{search}%").or(to_dos[:title].matches("ALWAYS")))`
-* Human Learning: Technical Debt
-  * Rebuilding
-  * Software development is a "wicked" problem
-  * "Refactoring"
-  * "Code Quality"
-  * [XKCD on Code Quality](http://xkcd.com/1513/)
 * Background Processing
   * Review stacks vs. queues
   * Queues in a Database Table
@@ -119,11 +113,18 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Allow user to upload a 200 MB file when each new assembly is created.
 
-* Files as part of HTML forms
-* File reading and writing
-* Paperclip
-* S3
-* `render_as_string`
+* Human Learning: Technical Debt
+  * Rebuilding
+  * Software development is a "wicked" problem
+  * "Refactoring"
+  * "Code Quality"
+  * [XKCD on Code Quality](http://xkcd.com/1513/)
+* Files
+  * Files as part of HTML forms
+  * File reading and writing
+  * Paperclip
+  * S3
+  * `render_as_string`
 
 #### Lecture Notes/Links
 
@@ -151,8 +152,7 @@ Students should be comfortable with the following at the end of this week:
 
 **Problem of the Day:** Modify Gradebook to allow you to log in with your Facebook credentials.
 
-* API Security
-* OAuth
+* OAuth (Owen)
 * Devise and Omniauth (Owen)
 * [SimpleForm](https://github.com/plataformatec/simple_form)
 * Ping-pong pairing
