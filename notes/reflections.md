@@ -9,6 +9,7 @@
 * Incorporate Owen's
 * Write a markdown page with lots of links which details the entire curriculum.
 * Clear up the difference between mocking and stubbing.
+* http://blog.skylight.io/4-easy-ways-to-speed-up-your-rails-app/
 
 # Changes to app
 

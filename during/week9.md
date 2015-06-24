@@ -21,22 +21,53 @@ Students should be comfortable with the following at the end of this week:
 
 ## Monday - Runtime and Memory Optimizations
 
-**Challenge:** [Primes](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/hard_primes_challenge.md)
+**Challenge:** [Permutations](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/hard_permutation_challenge.md)
 
-**Crazy Challenge:** [Permutations](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/hard_permutation_challenge.md)
+**Problem of the Day:** Allow user to upload a file when each new assembly is created.
 
-**Problem of the Day:** XXX
+* Human Learning: Technical Debt
+  * Rebuilding
+  * Software development is a "wicked" problem
+  * "Refactoring"
+  * "Code Quality"
+  * [XKCD on Code Quality](http://xkcd.com/1513/)
+* Local Files
+  * Files as part of HTML forms
+  * File reading and writing
+  * Paperclip
+* Bundler
+  * `~>` operator
+* Steps to Make Local Files Work
+  * `form_tag html: { multipart: true } do |f|`
+  * `file_field_tag :uploaded_file`
+  * `gem "paperclip", "~> 4.2"`
+  * In Migration: `add_attachment :table, :uploaded_file`
+  * In model: `has_attached_file :uploaded_file`
+  * In model: `validates_attachment_content_type :uploaded_file, :content_type => /\Atext\/.*\Z/`
+  * `form_for @object, html: { multipart: true } do |f|`
+  * `f.file_field :uploaded_file`
+  * Strong Params
+* Cloud Files
+  * Amazon S3
+  * `render_to_string(action: :index, layout: "report")`
+* Steps to Make Cloud Files Work
+  * `gem 'aws-sdk', '~> 1.6'`
 
-* Runtime
-* Code Efficiency - Primes discussion
-  * `n` algorithms (single loops)
-  * `n^2` algorithms (nested loop)
-  * Terminating loops early
-  * Doing extra work once can save you time inside loops
+    config.paperclip_defaults = {
+      :storage => :s3,
+      :s3_credentials => {
+        :bucket => ENV['S3_BUCKET_NAME'],
+        :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+        :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
+      }
+    }
 
 #### Lecture Notes/Links
 
-*
+* [Class Video]()
+* [Paperclip](https://github.com/thoughtbot/paperclip)
+* [Paperclip and S3 on Heroku](https://devcenter.heroku.com/articles/paperclip-s3)
+* [List of common media types](http://en.wikipedia.org/wiki/Internet_media_type#List_of_common_media_types)
 
 #### Evening Reading
 
@@ -44,7 +75,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-Start [Ruby Koans](http://rubykoans.com/).  Work through `about_constants.rb`.
+[Reports on S3](https://github.com/tiyd-rails-2015-05/reports_on_s3)
 
 
 ## Tuesday - D3.js
@@ -57,7 +88,6 @@ Start [Ruby Koans](http://rubykoans.com/).  Work through `about_constants.rb`.
 
 #### Lecture Notes/Links
 
-* Swap space changes the efficiency equation
 
 #### Evening Reading
 
@@ -65,8 +95,7 @@ Start [Ruby Koans](http://rubykoans.com/).  Work through `about_constants.rb`.
 
 #### Assignment
 
-
-Work on [Ruby Koans](http://rubykoans.com/) through `about_open_classes.rb`.
+Work on [Ruby Koans](http://rubykoans.com/).
 
 
 ## Wednesday - Skinny Models, Non-Rails Frameworks

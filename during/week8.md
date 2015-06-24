@@ -77,6 +77,7 @@ Students should be comfortable with the following at the end of this week:
   * `.joins`
   * Polymorphic associations
   * AREL: `to_dos = ToDo.arel_table` followed by `where(to_dos[:title].matches("%#{search}%").or(to_dos[:title].matches("ALWAYS")))`
+  * Swap space
 * Background Processing
   * Review stacks vs. queues
   * Queues in a Database Table
@@ -122,46 +123,26 @@ Students should be comfortable with the following at the end of this week:
 [Delayed Mailer](https://github.com/tiyd-rails-2015-05/delayed_mailer)
 
 
-## Wednesday - File Uploads
+## Wednesday - Review
 
 **Challenge:** [JQuery (in Tabula Railsa)](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_jquery.md)
 
-**Problem of the Day:** Allow user to upload a 200 MB file when each new assembly is created.
-
-* Human Learning: Technical Debt
-  * Rebuilding
-  * Software development is a "wicked" problem
-  * "Refactoring"
-  * "Code Quality"
-  * [XKCD on Code Quality](http://xkcd.com/1513/)
-* Local Files
-  * Files as part of HTML forms
-  * File reading and writing
-  * Paperclip
-* Bundler
-  * `~>` operator
-* Steps to Make Local Files Work
-  * `form_tag html: { multipart: true } do |f|`
-  * `file_field_tag :uploaded_file`
-  * `gem "paperclip", "~> 4.2"`
-  * In Migration: `add_attachment :table, :uploaded_file`
-  * In model: `has_attached_file :uploaded_file`
-  * In model: `validates_attachment_content_type :uploaded_file, :content_type => /\Atext\/.*\Z/`
-  * `form_for @object, html: { multipart: true } do |f|`
-  * `f.file_field :uploaded_file`
-  * Strong Params
-* Cloud Files
-  * Amazon S3
-  * `render_to_string(action: :index, layout: "report")`
-* Steps to Make Could Files Work
-  * `gem 'aws-sdk', '~> 1.6'`
+* Review topics:
+  * jQuery
+  * `has_many :through`
+  * SQL Joins
+  * Polymorphic associations
+* Transactions
+* Runtimes and Primes
+* Computational Complexity (`O(n)`, `O(lg n)`, `O(n^2)`, etc)
 
 #### Lecture Notes/Links
 
 * [Class Video]()
-* [Paperclip](https://github.com/thoughtbot/paperclip)
-* [Paperclip and S3 on Heroku](https://devcenter.heroku.com/articles/paperclip-s3)
-* [List of common media types](http://en.wikipedia.org/wiki/Internet_media_type#List_of_common_media_types)
+* [JavaScript from Challenge](w8-3/application.js)
+* [Mailer code from Homework Review](w8-3/report_mailer.rb)
+* [Model code from Homework Review](w8-3/assembly.rb)
+* [Ugly (but very fast) Primes Code](w8-3/primes.rb)
 
 #### Evening Reading
 
@@ -170,8 +151,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Reports on S3](https://github.com/tiyd-rails-2015-05/reports_on_s3)
-
+Start [Ruby Koans](http://rubykoans.com/).
 
 <!--
 ## Thursday - OAuth
@@ -182,13 +162,14 @@ Students should be comfortable with the following at the end of this week:
 
 * OAuth (Owen)
 * Devise and Omniauth (Owen)
-* [SimpleForm](https://github.com/plataformatec/simple_form)
+* SimpleForm
 * Ping-pong pairing
 * Capybara
 
 #### Lecture Notes/Links
 
 * [Devise](https://github.com/plataformatec/devise)
+* [SimpleForm](https://github.com/plataformatec/simple_form)
 
 #### Evening Reading
 
@@ -197,7 +178,6 @@ Students should be comfortable with the following at the end of this week:
 ## Weekend Assignment
 
 [Gradebook Tickets](https://github.com/tiyd-rails-2015-05/gradebook_tickets)
-
 
 
 
