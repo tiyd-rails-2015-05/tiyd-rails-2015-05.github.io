@@ -138,7 +138,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video](https://www.youtube.com/watch?v=_IQVSPCQUkU)
 * [JavaScript from Challenge](w8-3/application.js)
 * [Mailer code from Homework Review](w8-3/report_mailer.rb)
 * [Model code from Homework Review](w8-3/assembly.rb)
