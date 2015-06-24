@@ -122,7 +122,6 @@ Students should be comfortable with the following at the end of this week:
 [Delayed Mailer](https://github.com/tiyd-rails-2015-05/delayed_mailer)
 
 
-<!--
 ## Wednesday - File Uploads
 
 **Challenge:** [JQuery (in Tabula Railsa)](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/rails_jquery.md)
@@ -135,19 +134,31 @@ Students should be comfortable with the following at the end of this week:
   * "Refactoring"
   * "Code Quality"
   * [XKCD on Code Quality](http://xkcd.com/1513/)
-* Files
+* Local Files
   * Files as part of HTML forms
   * File reading and writing
   * Paperclip
-  * S3
-  * `render_as_string`
+* Bundler
+  * `~>` operator
+* Steps to Make Local Files Work
+  * `form_tag html: { multipart: true } do |f|`
+  * `file_field_tag :uploaded_file`
+  * `gem "paperclip", "~> 4.2"`
+  * In Migration: `add_attachment :table, :uploaded_file`
+  * In model: `has_attached_file :uploaded_file`
+  * In model: `validates_attachment_content_type :uploaded_file, :content_type => /\Atext\/.*\Z/`
+  * `form_for @object, html: { multipart: true } do |f|`
+  * `f.file_field :uploaded_file`
+  * Strong Params
+* Cloud Files
+  * Amazon S3
+  * `render_to_string(action: :index, layout: "report")`
+* Steps to Make Could Files Work
+  * `gem 'aws-sdk', '~> 1.6'`
 
 #### Lecture Notes/Links
 
-* [Video of Challenge and HW Review](http://youtu.be/X-mKXOMm2hU)
-* [Video of Local File Uploading](http://youtu.be/zQNPnmsRxGM)
-* [Video of S3 Uploading](http://youtu.be/bAeGKJ-Wl4g)
-* [Code Example Built in Class](https://github.com/tiyd-rails-2015-01/s3_example)
+* [Class Video]()
 * [Paperclip](https://github.com/thoughtbot/paperclip)
 * [Paperclip and S3 on Heroku](https://devcenter.heroku.com/articles/paperclip-s3)
 * [List of common media types](http://en.wikipedia.org/wiki/Internet_media_type#List_of_common_media_types)
@@ -162,6 +173,7 @@ Students should be comfortable with the following at the end of this week:
 [Reports on S3](https://github.com/tiyd-rails-2015-05/reports_on_s3)
 
 
+<!--
 ## Thursday - OAuth
 
 **Challenge:** [Double Loop Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/double_loop_challenge.md)
