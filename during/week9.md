@@ -23,51 +23,17 @@ Students should be comfortable with the following at the end of this week:
 
 **Challenge:** [Permutations](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/hard_permutation_challenge.md)
 
-**Problem of the Day:** Allow user to upload a file when each new assembly is created.
+**Problem of the Day:** Modify Gradebook to allow you to log in with your Facebook credentials.
 
-* Human Learning: Technical Debt
-  * Rebuilding
-  * Software development is a "wicked" problem
-  * "Refactoring"
-  * "Code Quality"
-  * [XKCD on Code Quality](http://xkcd.com/1513/)
-* Local Files
-  * Files as part of HTML forms
-  * File reading and writing
-  * Paperclip
-* Bundler
-  * `~>` operator
-* Steps to Make Local Files Work
-  * `form_tag html: { multipart: true } do |f|`
-  * `file_field_tag :uploaded_file`
-  * `gem "paperclip", "~> 4.2"`
-  * In Migration: `add_attachment :table, :uploaded_file`
-  * In model: `has_attached_file :uploaded_file`
-  * In model: `validates_attachment_content_type :uploaded_file, :content_type => /\Atext\/.*\Z/`
-  * `form_for @object, html: { multipart: true } do |f|`
-  * `f.file_field :uploaded_file`
-  * Strong Params
-* Cloud Files
-  * Amazon S3
-  * `render_to_string(action: :index, layout: "report")`
-* Steps to Make Cloud Files Work
-  * `gem 'aws-sdk', '~> 1.6'`
-
-    config.paperclip_defaults = {
-      :storage => :s3,
-      :s3_credentials => {
-        :bucket => ENV['S3_BUCKET_NAME'],
-        :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
-        :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
-      }
-    }
+* OAuth (Owen)
+* Devise and Omniauth (Owen)
+* SimpleForm
+* Ping-pong pairing
 
 #### Lecture Notes/Links
 
-* [Class Video]()
-* [Paperclip](https://github.com/thoughtbot/paperclip)
-* [Paperclip and S3 on Heroku](https://devcenter.heroku.com/articles/paperclip-s3)
-* [List of common media types](http://en.wikipedia.org/wiki/Internet_media_type#List_of_common_media_types)
+* [Devise](https://github.com/plataformatec/devise)
+* [SimpleForm](https://github.com/plataformatec/simple_form)
 
 #### Evening Reading
 
