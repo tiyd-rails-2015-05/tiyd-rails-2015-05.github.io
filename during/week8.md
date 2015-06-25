@@ -156,7 +156,7 @@ Start [Ruby Koans](http://rubykoans.com/).
 
 ## Thursday - OAuth
 
-**Challenge:** [Double Loop Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/double_loop_challenge.md)
+**Challenge:** [Double Loop Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/double_loop_challenge.rb)
 
 **Problem of the Day:** Modify Gradebook to allow you to log in with your Facebook credentials.
 
