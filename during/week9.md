@@ -78,6 +78,21 @@ Students should be comfortable with the following at the end of this week:
 [Reports on S3](https://github.com/tiyd-rails-2015-05/reports_on_s3)
 
 
+<!--
+## Not yet covered
+
+* Capybara
+* Foreign Key Constraints
+* Memory usage and find_each
+* Delegation
+  * `delegate :category, to: :phone_categories`
+* Random Topics
+  * Action on your server trying to access the API on your server
+  * Deadlock
+  * Software threading
+  * Multi-core processors
+
+
 ## Tuesday - D3.js
 
 **Problem of the Day:** XXX
@@ -139,4 +154,5 @@ Pitch Day!
 #### Eventual Reading
 
 * [Coding is Not the New Literacy](http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/)
-* [What is Code?](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
+
+-->

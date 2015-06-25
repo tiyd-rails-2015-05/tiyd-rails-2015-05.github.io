@@ -153,7 +153,7 @@ Students should be comfortable with the following at the end of this week:
 
 Start [Ruby Koans](http://rubykoans.com/).
 
-<!--
+
 ## Thursday - OAuth
 
 **Challenge:** [Double Loop Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/double_loop_challenge.md)
@@ -164,7 +164,6 @@ Start [Ruby Koans](http://rubykoans.com/).
 * Devise and Omniauth (Owen)
 * SimpleForm
 * Ping-pong pairing
-* Capybara
 
 #### Lecture Notes/Links
 
@@ -178,19 +177,3 @@ Start [Ruby Koans](http://rubykoans.com/).
 ## Weekend Assignment
 
 [Gradebook Tickets](https://github.com/tiyd-rails-2015-05/gradebook_tickets)
-
-
-
-
-## Not yet covered
-
-* Foreign Key Constraints
-* Memory usage and find_each
-* Delegation
-  * `delegate :category, to: :phone_categories`
-* Random Topics
-  * Action on your server trying to access the API on your server
-  * Deadlock
-  * Software threading
-  * Multi-core processors
--->
