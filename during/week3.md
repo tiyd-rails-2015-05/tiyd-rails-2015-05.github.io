@@ -168,6 +168,7 @@ Students should be comfortable with the following at the end of this week:
 * [First Aid Git](http://ricardofilipe.com/projects/firstaidgit/#/)
 * [Funny Names for Ruby Operators](http://ruby-operators.herokuapp.com/)
 * [Rails validations](http://apidock.com/rails/ActiveModel/Validations/ClassMethods/validates)
+* [Getting git branch in your PS1](https://github.com/jimeh/git-aware-prompt)
 
 #### Evening Reading
 
