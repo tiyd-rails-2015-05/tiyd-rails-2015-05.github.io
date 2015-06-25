@@ -154,7 +154,7 @@ Students should be comfortable with the following at the end of this week:
 Start [Ruby Koans](http://rubykoans.com/).
 
 
-## Thursday - OAuth
+## Thursday - Devise and OAuth
 
 **Challenge:** [Double Loop Challenge](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/double_loop_challenge.rb)
 
