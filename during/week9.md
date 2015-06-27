@@ -12,12 +12,10 @@ Students should be comfortable with the following at the end of this week:
 * Refactoring for Skinny Models
 * Non-Rails Frameworks
 
-
 ## Important Links
 
 * [Challenge Submission Form](http://goo.gl/forms/OzzXZL6iEF)
 * [Homework Submission Form](http://goo.gl/forms/o9so3mi9Sd)
-
 
 ## Monday - Runtime and Memory Optimizations
 
@@ -27,13 +25,16 @@ Students should be comfortable with the following at the end of this week:
 
 * OAuth (Owen)
 * Devise and Omniauth (Owen)
+* Capybara (Nate)
 * SimpleForm
-* Ping-pong pairing
+* Memory Usage
 
 #### Lecture Notes/Links
 
+* [Class Video]()
 * [Devise](https://github.com/plataformatec/devise)
 * [SimpleForm](https://github.com/plataformatec/simple_form)
+* [An Exploration of Memory Usage](http://www.sitepoint.com/ruby-uses-memory/)
 
 #### Evening Reading
 
@@ -45,30 +46,15 @@ Students should be comfortable with the following at the end of this week:
 
 
 <!--
-## Not yet covered
-
-* Capybara
-* Foreign Key Constraints
-* Memory usage and find_each
-* Delegation
-  * `delegate :category, to: :phone_categories`
-* Random Topics
-  * Action on your server trying to access the API on your server
-  * Deadlock
-  * Software threading
-  * Multi-core processors
-
 
 ## Tuesday - D3.js
 
 **Problem of the Day:** XXX
 
-* Human Learning
-  * Life as a dev
-* http://www.sitepoint.com/ruby-uses-memory/
 
 #### Lecture Notes/Links
 
+* [Class Video]()
 
 #### Evening Reading
 
@@ -88,8 +74,8 @@ Work on [Ruby Koans](http://rubykoans.com/).
 **Problem of the Day:** XXX
 
 * Decomposing Fat Models
-* CI (Mike)
-* vim (Michael)
+* CI
+* vim
 * Dvorak keyboards, ergonomic chairs, treadmill desks, etc.
 * [Annual Developer Survey from StackOverflow](https://stackoverflow.com/research/developer-survey-2015)
 * [Which IDEs do Rubyists use?](http://www.sitepoint.com/ides-rubyists-use/?utm_source=rubyweekly&utm_medium=email)
@@ -103,7 +89,7 @@ Work on [Ruby Koans](http://rubykoans.com/).
 
 #### Lecture Notes/Links
 
-*
+* [Class Video]()
 
 #### Evening Reading
 
@@ -120,5 +106,19 @@ Pitch Day!
 #### Eventual Reading
 
 * [Coding is Not the New Literacy](http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/)
+
+
+## Not yet covered
+
+* Ping-pong pairing
+* Foreign Key Constraints
+* Memory usage and find_each
+* Delegation
+  * `delegate :category, to: :phone_categories`
+* Random Topics
+  * Action on your server trying to access the API on your server
+  * Deadlock
+  * Software threading
+  * Multi-core processors
 
 -->
