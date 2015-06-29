@@ -71,12 +71,13 @@ Students should be comfortable with the following at the end of this week:
   * `my_selection.style("color", "red")`
   * `my_selection.classed("house")`
   * `my_selection.classed("house", true/false)`
-  * `my_selection.append("svg")`
+  * `my_selection.append("circle")`
+  * `my_selection.remove()`
 * SVG
   * `line`
   * `circle`
   * `rect`
-  * `g`
+  * `g` (and `transform="translate(100,100) rotate(0)"`)
 * Axes
   * `d3.svg.axis().scale(scale_var).orient(dir_var).ticks(count)`
   * `selection.call(my_axis)`
