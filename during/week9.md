@@ -32,7 +32,9 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video of Mason - HW & Challenge]()
+* [Class Video of Owen - Devise & oAuth]()
+* [Class Video of Nate - Capybara]()
 * [Owen's Instructions for Devise and Omniauth](w9-1/devise_and_omniauth)
 * [Nate's Instructions for Capybara](w9-1/devise_and_omniauth)
 * [Devise](https://github.com/plataformatec/devise)
@@ -41,7 +43,7 @@ Students should be comfortable with the following at the end of this week:
 
 * [SimpleForm](https://github.com/plataformatec/simple_form)
 * [An Exploration of Memory Usage](http://www.sitepoint.com/ruby-uses-memory/)
-* [Ruby Rogues: The Science of Software Development](http://devchat.tv/ruby-rogues/184-rr-what-we-actually-know-about-software-development-and-why-we-believe-it-s-true-with-greg-wilson-and-andreas-stefik)
+* [Ruby Rogues: The Science of Software Development](http://devchat.tv/ruby-rogues/184-rr-what-we-actually-know-about-software-development-and-why-we-believe-it-s-true-with-greg-wilson-and-andreas-stefik)
 
 #### Assignment
 
@@ -81,9 +83,15 @@ Work on [Ruby Koans](http://rubykoans.com/).
   * `circle`
   * `rect`
   * `g` (and `transform="translate(100,100) rotate(0)"`)
+* Linear Scales
+  * `d3.scale.linear()`
+  * `my_scale.domain([lowest_input, highest_input])`
+  * `my_scale.range([output_for_lowest, output_for_highest])`
+  * `my_scale.interpolate(d3.interpolateHcl)`
 * Axes
-  * `d3.svg.axis().scale(scale_var).orient(dir_var).ticks(count)`
+  * `d3.svg.axis().scale(my_scale).orient("left").ticks(count)` (or `"top"`, `"bottom"`, or `"right"`)
   * `selection.call(my_axis)`
+  * `.tickFormat(d3.format("d"))`
 * Serving up a folder via a web server:
   * `ruby -run -ehttpd . -p8000`
   * `python -m SimpleHTTPServer 8000` (Python 2) or `python -m http.server 8000` (Python 3)
@@ -98,18 +106,15 @@ Work on [Ruby Koans](http://rubykoans.com/).
   * `selection.data(data)`
   * `data_join.attr("r", function(data_point) {})`
   * `data_join.attr("r", function(data_point, index) {})`
+* Behavior
+  * `data_join.on("click", function(data_point, index) {…})`
 * Enter/Exit
   * `data_join.enter()`
   * `data_join.exit()`
 
 **Problem of the Day 3:** Add a dropdown to the page which will let you change the Y value of each year to a different column of `data.csv`
 
-* Behavior
-  * `data_join.on("click", function(data_point, index) {…})`
-* Linear Scales
-  * `d3.scale.linear()`
-  * `my_scale.domain([lowest_input, highest_input])`
-  * `my_scale.range([output_for_lowest, output_for_highest])`
+* Color Scales
   * `my_scale.interpolate(d3.interpolateHcl)`
 * Transitions
   * `selection.transition()`
