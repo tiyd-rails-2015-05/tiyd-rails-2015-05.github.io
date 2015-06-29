@@ -52,11 +52,15 @@ Students should be comfortable with the following at the end of this week:
 **Problem of the Day 1:** Graph `deaths.csv` on an HTML page.  Use CSS as you see fit, but don't use any graphing libraries which you may have learned like c3.
 
 * Two ways to learn d3.  Way 1: work from examples:
-  * [Layouts: Collapsible Tree](http://bl.ocks.org/mbostock/4339083)
+  * [Layouts: Chord](http://bl.ocks.org/mbostock/1046712)
+  * [Layouts: Tree](http://bl.ocks.org/mbostock/4339083)
+  * [Layouts: Pack](http://bl.ocks.org/mbostock/7607535)
+  * [Layouts: Sunburst](http://bl.ocks.org/kerryrodden/7090426)
+  * [Layouts: Calendar](http://bl.ocks.org/mbostock/4063318)
   * [Physics: Collision Detection](http://bl.ocks.org/mbostock/3231298)
   * [Physics: Force Directed Graph](http://bl.ocks.org/mbostock/4062045)
   * [Visualizations: Paths to the White House](http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html?_r=0)
-  * [Visualizations: Strikouts](http://www.nytimes.com/interactive/2013/03/29/sports/baseball/Strikeouts-Are-Still-Soaring.html?ref=baseball)
+  * [Visualizations: Strikeouts](http://www.nytimes.com/interactive/2013/03/29/sports/baseball/Strikeouts-Are-Still-Soaring.html?ref=baseball)
 * Selectors
   * `d3.select()`
   * `d3.selectAll()`
@@ -105,10 +109,8 @@ Students should be comfortable with the following at the end of this week:
   * `my_scale.interpolate(d3.interpolateHcl)`
 * Transitions
   * `selection.transition()`
-  *
-
-
-
+  * `my_transition.duration(zoomTime)`
+* My examples in Coursyl and Exomemex
 
 #### Lecture Notes/Links
 
