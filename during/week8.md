@@ -6,12 +6,12 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
+* Working with Legacy Code
 * SQL and AREL
 * Mailers
 * ActiveJob
 * File Uploads
-* OAuth
-
+* Runtime Optimizations
 
 ## Important Links
 

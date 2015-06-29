@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Heroku Link https://time-tracker-skill-improvement.herokuapp.com
 
 ## Minitest with Capybara

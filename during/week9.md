@@ -6,9 +6,10 @@ layout: default
 
 Students should be comfortable with the following at the end of this week:
 
-* Working with Legacy Code
-* Runtime Optimizations
+* OAuth
+* Capybara
 * Memory Optimizations
+* Visualizations with D3
 * Refactoring for Skinny Models
 * Non-Rails Frameworks
 
@@ -32,12 +33,14 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Class Video]()
+* [Owen's Instructions for Devise and Omniauth](w9-1/devise_and_omniauth)
+* [Nate's Instructions for Capybara](w9-1/devise_and_omniauth)
 * [Devise](https://github.com/plataformatec/devise)
-* [SimpleForm](https://github.com/plataformatec/simple_form)
-* [An Exploration of Memory Usage](http://www.sitepoint.com/ruby-uses-memory/)
 
 #### Evening Reading
 
+* [SimpleForm](https://github.com/plataformatec/simple_form)
+* [An Exploration of Memory Usage](http://www.sitepoint.com/ruby-uses-memory/)
 * [Ruby Rogues: The Science of Software Development](http://devchat.tv/ruby-rogues/184-rr-what-we-actually-know-about-software-development-and-why-we-believe-it-s-true-with-greg-wilson-and-andreas-stefik)
 
 #### Assignment
