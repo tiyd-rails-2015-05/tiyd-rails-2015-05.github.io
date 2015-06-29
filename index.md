@@ -34,7 +34,7 @@ You'll need to complete all of these steps before April 27th.  If you have ANY q
 * [Week 6](during/week6)
 * [Week 7](during/week7)
 * [Week 8](during/week8)
-* Week 9
+* [Week 9](during/week9)
 
 * [Homework Feedback](during/hw_feedback)
 

@@ -42,7 +42,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-[Reports on S3](https://github.com/tiyd-rails-2015-05/reports_on_s3)
+Work on [Ruby Koans](http://rubykoans.com/).
 
 
 <!--
@@ -123,7 +123,6 @@ Students should be comfortable with the following at the end of this week:
 
 #### Assignment
 
-Work on [Ruby Koans](http://rubykoans.com/).
 
 
 ## Wednesday - Skinny Models, Non-Rails Frameworks
