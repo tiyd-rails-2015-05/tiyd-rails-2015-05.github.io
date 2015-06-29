@@ -19,7 +19,7 @@ Students should be comfortable with the following at the end of this week:
 
 ## Monday - Runtime and Memory Optimizations
 
-**Challenge:** [Permutations](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/hard_permutation_challenge.md)
+**Challenge:** [Permutations](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/hard_permutation_challenge.rb)
 
 **Problem of the Day:** Modify Gradebook to allow you to log in with your Facebook credentials.
 
