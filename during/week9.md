@@ -33,8 +33,8 @@ Students should be comfortable with the following at the end of this week:
 #### Lecture Notes/Links
 
 * [Class Video of Mason - HW & Challenge](http://youtu.be/fcr2mbxwcOM)
-* [Class Video of Owen - Devise & oAuth]()
-* [Class Video of Nate - Capybara]()
+* [Class Video of Owen - Devise & oAuth](https://youtu.be/vkU7luAvjLI)
+* [Class Video of Nate - Capybara](https://youtu.be/MmY5YIAX67Q)
 * [Owen's Instructions for Devise and Omniauth](w9-1/devise_and_omniauth)
 * [Nate's Instructions for Capybara](w9-1/devise_and_omniauth)
 * [Devise](https://github.com/plataformatec/devise)
