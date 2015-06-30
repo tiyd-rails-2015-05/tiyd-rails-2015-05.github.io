@@ -132,6 +132,10 @@ Work on [Ruby Koans](http://rubykoans.com/).
 
 [Add D3 to Novel API](https://github.com/tiyd-rails-2015-05/add_d3)
 
+OR
+
+[Reports on S3](https://github.com/tiyd-rails-2015-05/reports_on_s3)
+
 <!--
 
 ## Wednesday - Skinny Models, Non-Rails Frameworks
