@@ -130,7 +130,7 @@ Work on [Ruby Koans](http://rubykoans.com/).
 
 #### Assignment
 
-[Add D3 to Novel API](https://github.com/tiyd-rails-2015-05/add_javascript)
+[Add D3 to Novel API](https://github.com/tiyd-rails-2015-05/add_d3)
 
 <!--
 
