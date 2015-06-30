@@ -122,7 +122,7 @@ Work on [Ruby Koans](http://rubykoans.com/).
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video](http://youtu.be/TlCbMCEzwqU)
 
 #### Evening Reading
 
