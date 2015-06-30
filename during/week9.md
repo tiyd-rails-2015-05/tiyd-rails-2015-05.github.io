@@ -32,7 +32,7 @@ Students should be comfortable with the following at the end of this week:
 
 #### Lecture Notes/Links
 
-* [Class Video of Mason - HW & Challenge]()
+* [Class Video of Mason - HW & Challenge](http://youtu.be/fcr2mbxwcOM)
 * [Class Video of Owen - Devise & oAuth]()
 * [Class Video of Nate - Capybara]()
 * [Owen's Instructions for Devise and Omniauth](w9-1/devise_and_omniauth)
@@ -50,22 +50,11 @@ Students should be comfortable with the following at the end of this week:
 Work on [Ruby Koans](http://rubykoans.com/).
 
 
-<!--
-
 ## Tuesday - D3.js
 
 **Problem of the Day 1:** Graph `deaths.csv` on an HTML page.  Use CSS as you see fit, but don't use any graphing libraries which you may have learned like c3.
 
-* Two ways to learn d3.  Way 1: work from examples:
-  * [Layouts: Chord](http://bl.ocks.org/mbostock/1046712)
-  * [Layouts: Tree](http://bl.ocks.org/mbostock/4339083)
-  * [Layouts: Pack](http://bl.ocks.org/mbostock/7607535)
-  * [Layouts: Sunburst](http://bl.ocks.org/kerryrodden/7090426)
-  * [Layouts: Calendar](http://bl.ocks.org/mbostock/4063318)
-  * [Physics: Collision Detection](http://bl.ocks.org/mbostock/3231298)
-  * [Physics: Force Directed Graph](http://bl.ocks.org/mbostock/4062045)
-  * [Visualizations: Paths to the White House](http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html?_r=0)
-  * [Visualizations: Strikeouts](http://www.nytimes.com/interactive/2013/03/29/sports/baseball/Strikeouts-Are-Still-Soaring.html?ref=baseball)
+* Way 1 to learn D3: understand the fundamentals.
 * Selectors
   * `d3.select()`
   * `d3.selectAll()`
@@ -97,7 +86,7 @@ Work on [Ruby Koans](http://rubykoans.com/).
   * `python -m SimpleHTTPServer 8000` (Python 2) or `python -m http.server 8000` (Python 3)
   * `npm install -g node-static` then `static -p 8000`
 
-**Problem of the Day 2:** Graph points on an x/y plane.  Open `data.csv` and use its "average temperature" column as X and its "number of sunspots" as Y.
+**Problem of the Day 2:** Graph points on an x/y plane.  Open `data.csv` and use its "average temperature" column as X and its "number of sunspots" as Y. ([Starting Point](https://github.com/tiyd-rails-2015-05/d3_lesson))
 
 * Reading from Files
   * `d3.json/csv/xml/html/tsv/text`
@@ -119,7 +108,17 @@ Work on [Ruby Koans](http://rubykoans.com/).
 * Transitions
   * `selection.transition()`
   * `my_transition.duration(zoomTime)`
-* My examples in Coursyl and Exomemex
+* Way 2 to learn D3: work from examples:
+  * [Layouts: Chord](http://bl.ocks.org/mbostock/1046712)
+  * [Layouts: Tree](http://bl.ocks.org/mbostock/4339083)
+  * [Layouts: Pack](http://bl.ocks.org/mbostock/7607535)
+  * [Layouts: Sunburst](http://bl.ocks.org/kerryrodden/7090426)
+  * [Layouts: Calendar](http://bl.ocks.org/mbostock/4063318)
+  * [Physics: Collision Detection](http://bl.ocks.org/mbostock/3231298)
+  * [Physics: Force Directed Graph](http://bl.ocks.org/mbostock/4062045)
+  * [Visualizations: Paths to the White House](http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html?_r=0)
+  * [Visualizations: Strikeouts](http://www.nytimes.com/interactive/2013/03/29/sports/baseball/Strikeouts-Are-Still-Soaring.html?ref=baseball)
+  * My examples in Coursyl and Exomemex
 
 #### Lecture Notes/Links
 
@@ -131,7 +130,9 @@ Work on [Ruby Koans](http://rubykoans.com/).
 
 #### Assignment
 
+[Add D3 to Novel API](https://github.com/tiyd-rails-2015-05/add_javascript)
 
+<!--
 
 ## Wednesday - Skinny Models, Non-Rails Frameworks
 
