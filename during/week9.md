@@ -54,7 +54,11 @@ Work on [Ruby Koans](http://rubykoans.com/).
 
 **Problem of the Day 1:** Graph `deaths.csv` on an HTML page.  Use CSS as you see fit, but don't use any graphing libraries which you may have learned like c3.
 
-* Way 1 to learn D3: understand the fundamentals.
+* SVG
+  * `line`
+  * `circle`
+  * `rect`
+  * `g` (and `transform="translate(100,100) rotate(0)"`)
 * Selectors
   * `d3.select()`
   * `d3.selectAll()`
@@ -67,11 +71,6 @@ Work on [Ruby Koans](http://rubykoans.com/).
   * `my_selection.classed("house", true/false)`
   * `my_selection.append("circle")`
   * `my_selection.remove()`
-* SVG
-  * `line`
-  * `circle`
-  * `rect`
-  * `g` (and `transform="translate(100,100) rotate(0)"`)
 * Linear Scales
   * `d3.scale.linear()`
   * `my_scale.domain([lowest_input, highest_input])`
@@ -81,16 +80,16 @@ Work on [Ruby Koans](http://rubykoans.com/).
   * `d3.svg.axis().scale(my_scale).orient("left").ticks(count)` (or `"top"`, `"bottom"`, or `"right"`)
   * `selection.call(my_axis)`
   * `.tickFormat(d3.format("d"))`
-* Serving up a folder via a web server:
-  * `ruby -run -ehttpd . -p8000`
-  * `python -m SimpleHTTPServer 8000` (Python 2) or `python -m http.server 8000` (Python 3)
-  * `npm install -g node-static` then `static -p 8000`
 
-**Problem of the Day 2:** Graph points on an x/y plane.  Open `data.csv` and use its "average temperature" column as X and its "number of sunspots" as Y. ([Starting Point](https://github.com/tiyd-rails-2015-05/d3_lesson))
+**Problem of the Day 2:** Graph points on an x/y plane.  Open `data.csv` and use its "average temperature" column as X and its "number of sunspots" as Y. ([Starting Point](https://github.com/tiyd-rails-2015-05/d3_lesson) - `master` branch)
 
 * Reading from Files
   * `d3.json/csv/xml/html/tsv/text`
   * `d3.json("file.json", function(data) {...})`
+* Serving up a folder via a web server:
+  * `ruby -run -ehttpd . -p8000`
+  * `python -m SimpleHTTPServer 8000` (Python 2) or `python -m http.server 8000` (Python 3)
+  * `npm install -g node-static` then `static -p 8000`
 * Data Joins
   * `selection.data(data)`
   * `data_join.attr("r", function(data_point) {})`
@@ -101,7 +100,7 @@ Work on [Ruby Koans](http://rubykoans.com/).
   * `data_join.enter()`
   * `data_join.exit()`
 
-**Problem of the Day 3:** Add a dropdown to the page which will let you change the Y value of each year to a different column of `data.csv`
+**Problem of the Day 3:** Add a dropdown to the page which will let you change the Y value of each year to a different column of `data.csv`. ([Starting Point](https://github.com/tiyd-rails-2015-05/d3_lesson) - `lecture2` branch)
 
 * Color Scales
   * `my_scale.interpolate(d3.interpolateHcl)`
