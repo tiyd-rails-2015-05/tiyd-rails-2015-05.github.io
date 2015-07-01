@@ -136,24 +136,18 @@ OR
 
 [Reports on S3](https://github.com/tiyd-rails-2015-05/reports_on_s3)
 
-<!--
-
 ## Wednesday - Skinny Models, Non-Rails Frameworks
 
 **Challenge:** [Discuss Development](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_development.md)
 
 **Challenge:** [Discuss Supporting Tech](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_supporting_tech.md)
 
-**Problem of the Day:** XXX
-
-* Decomposing Fat Models
-* CI
-* vim
-* Dvorak keyboards, ergonomic chairs, treadmill desks, etc.
 * [Annual Developer Survey from StackOverflow](https://stackoverflow.com/research/developer-survey-2015)
 * [Which IDEs do Rubyists use?](http://www.sitepoint.com/ides-rubyists-use/?utm_source=rubyweekly&utm_medium=email)
 * [Which editors do Rubyists use?](http://www.sitepoint.com/editor-rubyists-use/)
 * [XKCD on editors](http://xkcd.com/378/)
+* CI
+* Dvorak keyboards, ergonomic chairs, treadmill desks, etc.
 * [Other ruby frameworks](https://blog.engineyard.com/2015/life-beyond-rails-brief-look-alternate-web-frameworks-ruby).  Links in decreasing order of complexity:
   * Rails
   * [Sinatra](http://www.sinatrarb.com/)
@@ -170,7 +164,7 @@ OR
 
 #### Assignment
 
-Complete [Ruby Koans](http://rubykoans.com/).
+If you haven't done it already, complete [Ruby Koans](http://rubykoans.com/).  Then practice any of the concepts from class that you think will be helpful during your final projects.
 
 ## Thursday
 
@@ -181,8 +175,11 @@ Pitch Day!
 * [Coding is Not the New Literacy](http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/)
 
 
+<!--
+
 ## Not yet covered
 
+* Decomposing Fat Models
 * Ping-pong pairing
 * Foreign Key Constraints
 * Memory usage and find_each
