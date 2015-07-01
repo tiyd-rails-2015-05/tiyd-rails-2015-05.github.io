@@ -136,7 +136,7 @@ OR
 
 [Reports on S3](https://github.com/tiyd-rails-2015-05/reports_on_s3)
 
-## Wednesday - Skinny Models, Non-Rails Frameworks
+## Wednesday - Development Environments, Non-Rails Frameworks
 
 **Challenge:** [Discuss Development](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_development.md)
 
