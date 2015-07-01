@@ -156,7 +156,7 @@ OR
 
 #### Lecture Notes/Links
 
-* [Class Video]()
+* [Class Video](http://youtu.be/Q_RFvImuEY4)
 
 #### Evening Reading
 
