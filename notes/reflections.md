@@ -3,6 +3,21 @@
 * Graphing sooner if possible
 * I'd like some better real-world examples about code which takes up too much memory, leaks, invokes garbage collection, etc.  jeg2 said he can do it "easily."  Maybe a search will give a starting point.
 
+## Not covered
+
+* CI
+* Decomposing Fat Models
+* Ping-pong pairing
+* Foreign Key Constraints
+* Memory usage and find_each
+* Delegation
+  * `delegate :category, to: :phone_categories`
+* Random Topics
+  * Action on your server trying to access the API on your server
+  * Deadlock
+  * Software threading
+  * Multi-core processors
+
 # Reflections for the next class
 
 * Update assignment JSONs.

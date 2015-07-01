@@ -142,11 +142,13 @@ OR
 
 **Challenge:** [Discuss Supporting Tech](https://github.com/masonfmatthews/rails_assignments/blob/master/challenges/discuss_supporting_technologies.md)
 
+* Random Topics
+  * File generation and opening
+  * `method_missing`
 * [Annual Developer Survey from StackOverflow](https://stackoverflow.com/research/developer-survey-2015)
 * [Which IDEs do Rubyists use?](http://www.sitepoint.com/ides-rubyists-use/?utm_source=rubyweekly&utm_medium=email)
 * [Which editors do Rubyists use?](http://www.sitepoint.com/editor-rubyists-use/)
 * [XKCD on editors](http://xkcd.com/378/)
-* CI
 * Dvorak keyboards, ergonomic chairs, treadmill desks, etc.
 * [Other ruby frameworks](https://blog.engineyard.com/2015/life-beyond-rails-brief-look-alternate-web-frameworks-ruby).  Links in decreasing order of complexity:
   * Rails
@@ -173,22 +175,3 @@ Pitch Day!
 #### Eventual Reading
 
 * [Coding is Not the New Literacy](http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/)
-
-
-<!--
-
-## Not yet covered
-
-* Decomposing Fat Models
-* Ping-pong pairing
-* Foreign Key Constraints
-* Memory usage and find_each
-* Delegation
-  * `delegate :category, to: :phone_categories`
-* Random Topics
-  * Action on your server trying to access the API on your server
-  * Deadlock
-  * Software threading
-  * Multi-core processors
-
--->
